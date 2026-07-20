@@ -233,7 +233,8 @@ h1, h2, h3 { font-family: var(--font-display); }
 .footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 18px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-family: var(--font-body); font-size: 12px; }
 
 /* ===== Mobile CTA ===== */
-.mobile-cta { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 90; display: none; align-items: center; gap: 8px; background: var(--cta-bg); color: var(--cta-text); padding: 14px 28px; border-radius: 999px; font-family: var(--font-ui); font-weight: 700; font-size: 14px; letter-spacing: 0.03em; box-shadow: 0 8px 28px -6px rgba(229,57,53,0.65); white-space: nowrap; }
+.mobile-cta { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 90; display: flex; align-items: center; justify-content: center; gap: 8px; background: var(--cta-bg); color: var(--cta-text); padding: 14px 40px; border-radius: 8px; font-family: var(--font-ui); font-weight: 700; font-size: 16px; box-shadow: 0 8px 28px -6px rgba(229,57,53,0.65); white-space: nowrap; text-decoration: none; transition: transform var(--transition); }
+.mobile-cta:hover { transform: translateX(-50%) translateY(-2px); }
 
 /* ===================================================
    RESPONSIVE — Tablet (≤ 1024px)
@@ -253,7 +254,7 @@ h1, h2, h3 { font-family: var(--font-display); }
 @media (max-width: 768px) {
   .main-nav, .header-actions { display: none; }
   .burger { display: flex; }
-  .mobile-cta { display: flex; }
+  .mobile-cta { padding: 14px 32px; font-size: 15px; }
   .hero { padding-top: 72px; min-height: 100svh; }
   .hero-title { font-size: clamp(2.6rem, 11vw, 3.5rem); }
   .hero-sub { font-size: 0.95rem; }
