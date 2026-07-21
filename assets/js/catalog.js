@@ -169,7 +169,9 @@ function productCardHtml(p, showCategory) {
       '<p class="product-desc">'+p.desc.substring(0,75)+'\u2026</p>'+
       '<div class="product-footer">'+
         '<div class="product-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>'+
-        '<button class="btn btn-cta btn-sm btn-add-cart" data-id="'+p.id+'">\u0412 \u043a\u043e\u0448\u0438\u043a</button>'+
+        '<button class="btn btn-cta btn-sm btn-add-cart" aria-label="В кошик" data-id="'+p.id+'">'+
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
+        '<span class="add-cart-text" style="margin-left:6px;">\u0412 \u043a\u043e\u0448\u0438\u043a</span></button>'+
       '</div>'+
     '</div>'+
   '</div>';
