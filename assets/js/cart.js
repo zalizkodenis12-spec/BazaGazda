@@ -110,13 +110,13 @@ function gcInjectHTML() {
         '<form id="gcCoForm" class="gc-co-form booking-form">' +
           '<div class="field-wrap">' +
             '<label for="gcName">Ваше ім\'я *</label>' +
-            '<input type="text" id="gcName" name="gcName" required placeholder="Олександр">' +
-            '<span class="field-error"></span>' +
+            '<input type="text" id="gcName" name="gcName" placeholder="Олександр">' +
+            '<span id="gcNameErr" class="field-error-msg"></span>' +
           '</div>' +
           '<div class="field-wrap">' +
             '<label for="gcPhone">Телефон *</label>' +
-            '<input type="tel" id="gcPhone" name="gcPhone" required placeholder="+380 97 000 0000">' +
-            '<span class="field-error"></span>' +
+            '<input type="tel" id="gcPhone" name="gcPhone" placeholder="+380 97 000 0000">' +
+            '<span id="gcPhoneErr" class="field-error-msg"></span>' +
           '</div>' +
           '<div class="field-wrap">' +
             '<label for="gcComment">Побажання (необов\'язково)</label>' +
@@ -254,15 +254,44 @@ function gcRenderCoSummary() {
 // ---- Submit ----
 function gcSubmit(e) {
   e.preventDefault();
-  var name    = document.getElementById('gcName').value.trim();
-  var phone   = document.getElementById('gcPhone').value.trim();
+  var nameEl = document.getElementById('gcName');
+  var phoneEl = document.getElementById('gcPhone');
+  var name    = nameEl.value.trim();
+  var phone   = phoneEl.value.trim();
   var comment = document.getElementById('gcComment').value.trim();
-  var cart    = gcGetCart();
-  if (!name || !phone || !cart.length) return;
+  
+  var nameErr = document.getElementById('gcNameErr');
+  var phoneErr = document.getElementById('gcPhoneErr');
+  
+  var isValid = true;
+  if (!name) {
+    nameEl.classList.add('error');
+    nameErr.textContent = 'Введіть ваше ім\'я';
+    nameErr.classList.add('visible');
+    isValid = false;
+  } else {
+    nameEl.classList.remove('error');
+    nameErr.classList.remove('visible');
+  }
+
+  var phoneDigits = phone.replace(/\D/g, '');
+  if (!phone || phoneDigits.length < 9) {
+    phoneEl.classList.add('error');
+    phoneErr.textContent = 'Введіть коректний номер телефону';
+    phoneErr.classList.add('visible');
+    isValid = false;
+  } else {
+    phoneEl.classList.remove('error');
+    phoneErr.classList.remove('visible');
+  }
+
+  var cart = gcGetCart();
+  if (!isValid || !cart.length) return;
 
   var btn = e.target.querySelector('.gc-submit-btn');
   var status = document.getElementById('gcCoStatus');
   btn.disabled = true;
+  btn.classList.add('loading');
   btn.textContent = 'Надсилаємо…';
   status.textContent = '';
   status.className = 'booking-status';
@@ -304,23 +333,24 @@ function gcSubmit(e) {
     status.innerHTML = 'Помилка. Зателефонуйте: <a href="tel:'+(cfg2.phone||'+380978973207')+'">'+(cfg2.phoneDisplay||'097 897 3207')+'</a>';
     status.className = 'booking-status error';
     btn.disabled = false;
+    btn.classList.remove('loading');
     btn.textContent = 'Відправити замовлення';
   });
 }
 
 function gcHandleSuccess(btn, status, cart) {
-  status.textContent = 'Замовлення прийнято! Зателефонуємо найближчим часом.';
-  status.className = 'booking-status success';
+  var box = document.querySelector('.gc-checkout-box');
+  if (box) {
+    box.innerHTML = 
+      '<div class="gc-co-success fade-in">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="72" height="72"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>' +
+        '<h3>Дякуємо!</h3>' +
+        '<p>Заявку успішно прийнято.<br>Ми зв\'яжемось з вами найближчим часом.</p>' +
+        '<a href="catalog.html" class="btn btn-cta btn-lg" style="width:auto;padding:14px 32px">Повернутись до каталогу</a>' +
+      '</div>';
+  }
   gcSaveCart([]);
   gcRefreshBadge();
-  btn.disabled = false;
-  btn.textContent = 'Відправити замовлення';
-  setTimeout(function(){
-    gcCloseCheckout();
-    document.getElementById('gcCoForm').reset();
-    status.textContent = '';
-    status.className = 'booking-status';
-  }, 3500);
 }
 
 // ---- Inject icon into header ----

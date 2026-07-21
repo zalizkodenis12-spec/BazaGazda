@@ -466,8 +466,27 @@ a.product-card:hover .product-card-arrow { text-decoration: underline; }
 .gc-co-iprice { font-weight:600; white-space:nowrap; margin-left:16px; }
 .gc-co-total { display:flex; justify-content:space-between; align-items:center; padding-top:14px; margin-top:6px; font-size:16px; font-weight:600; color:var(--text-primary); border-top:1px solid var(--border-strong); }
 .gc-co-total strong { font-size:1.4rem; color:var(--accent); }
-.gc-co-form { display:flex; flex-direction:column; gap:16px; }
-.gc-submit-btn { margin-top:8px; }
+.gc-co-form { display:flex; flex-direction:column; gap:20px; }
+.gc-co-form .field-wrap { display:flex; flex-direction:column; gap:8px; }
+.gc-co-form label { font-size:14px; font-weight:600; color:var(--text-primary); }
+.gc-co-form input, .gc-co-form textarea { width:100%; background:var(--surface); border:1px solid var(--border-strong); border-radius:12px; padding:14px 16px; color:var(--text-primary); font-size:15px; outline:none; transition:all 0.2s; font-family:inherit; }
+.gc-co-form input:focus, .gc-co-form textarea:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(229,57,53,0.15); }
+.gc-co-form input.error, .gc-co-form textarea.error { border-color:#d32f2f; background:rgba(211,47,47,0.05); }
+.gc-co-form input::placeholder, .gc-co-form textarea::placeholder { color:var(--text-muted); }
+.field-error-msg { font-size:12px; color:#d32f2f; margin-top:-4px; display:none; }
+.field-error-msg.visible { display:block; }
+.gc-submit-btn { margin-top:8px; padding:16px; font-size:16px; border-radius:12px; transition:opacity 0.2s; }
+.gc-submit-btn.loading { opacity:0.6; cursor:not-allowed; pointer-events:none; }
+
+.gc-co-success { text-align:center; padding:60px 20px; display:flex; flex-direction:column; align-items:center; }
+.gc-co-success svg { color:#2e7d32; margin-bottom:20px; }
+.gc-co-success h3 { font-size:1.8rem; margin-bottom:12px; color:var(--text-primary); font-family:'Cormorant Garamond',serif; }
+.gc-co-success p { color:var(--text-secondary); margin-bottom:28px; line-height:1.5; font-size:15px; }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 /* ===================================================
    PRODUCT GALLERY
@@ -524,6 +543,7 @@ a.product-card:hover .product-card-arrow { text-decoration: underline; }
 .avail-badge { position:absolute; top:12px; left:12px; font-size:11px; font-weight:700; text-transform:uppercase; padding:4px 10px; border-radius:4px; z-index:2; box-shadow:0 2px 4px rgba(0,0,0,0.2); }
 .avail-badge--yes { background:#2e7d32; color:#fff; }
 .avail-badge--no { background:var(--surface-2); color:var(--text-secondary); border:1px solid var(--border); }
+.product-card .avail-badge { display:none; }
 .product-detail-info .avail-badge { position:relative; top:auto; left:auto; display:inline-block; margin-bottom:16px; box-shadow:none; }
 
 /* ===================================================
