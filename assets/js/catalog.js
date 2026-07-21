@@ -273,4 +273,4 @@ if (orderForm) {
 }
 
 // Initialize
-document.addEventListener('DOMContentLoaded', initCatalog);
+initCatalog();
