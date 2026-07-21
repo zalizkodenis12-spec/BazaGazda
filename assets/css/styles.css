@@ -452,28 +452,59 @@ a.product-card:hover .product-card-arrow { text-decoration: underline; }
    =================================================== */
 .gc-checkout { position:fixed; inset:0; z-index:1500; display:flex; opacity:0; pointer-events:none; transition:opacity 0.35s; overflow:hidden; }
 .gc-checkout.active { opacity:1; pointer-events:auto; }
-.gc-checkout-bg { position:absolute; inset:0; background-image:url('assets/images/\u0434\u043b\u044f \u043f\u0435\u0440\u0448\u043e\u0433\u043e \u0435\u043a\u0440\u0430\u043d\u0443.png'); background-size:cover; background-position:center; filter:blur(6px) brightness(0.4); transform:scale(1.05); }
+.gc-checkout-bg { position:absolute; inset:0; background:var(--bg); }
 .gc-checkout-scroll { position:relative; z-index:1; width:100%; overflow-y:auto; display:flex; justify-content:center; align-items:flex-start; padding:40px 24px 60px; }
 .gc-checkout-box { width:100%; max-width:560px; }
-.gc-back-btn { display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.2); color:#fff; padding:10px 18px; border-radius:30px; cursor:pointer; font-size:14px; font-weight:500; margin-bottom:32px; transition:background 0.2s; }
-.gc-back-btn:hover { background:rgba(255,255,255,0.2); }
-.gc-checkout-title { font-size:2rem; font-weight:700; color:#fff; margin-bottom:28px; font-family:'Cormorant Garamond',serif; }
-.gc-co-summary { background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:var(--radius-md); padding:20px 24px; margin-bottom:28px; backdrop-filter:blur(8px); }
-.gc-co-summary-label { font-size:13px; color:rgba(255,255,255,0.6); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:14px; }
-.gc-co-item { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.1); font-size:14px; color:#fff; }
+.gc-back-btn { display:inline-flex; align-items:center; gap:8px; background:var(--surface); border:1px solid var(--border-strong); color:var(--text-primary); padding:10px 18px; border-radius:30px; cursor:pointer; font-size:14px; font-weight:500; margin-bottom:32px; transition:all 0.2s; }
+.gc-back-btn:hover { border-color:var(--accent); color:var(--accent); }
+.gc-checkout-title { font-size:2rem; font-weight:700; color:var(--text-primary); margin-bottom:28px; font-family:'Cormorant Garamond',serif; }
+.gc-co-summary { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-md); padding:20px 24px; margin-bottom:28px; }
+.gc-co-summary-label { font-size:13px; color:var(--text-secondary); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:14px; }
+.gc-co-item { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid var(--border); font-size:14px; color:var(--text-primary); }
 .gc-co-item:last-child { border-bottom:none; }
-.gc-co-iname em { opacity:0.7; font-style:normal; }
+.gc-co-iname em { opacity:0.6; font-style:normal; }
 .gc-co-iprice { font-weight:600; white-space:nowrap; margin-left:16px; }
-.gc-co-total { display:flex; justify-content:space-between; align-items:center; padding-top:14px; margin-top:6px; font-size:16px; font-weight:600; color:#fff; border-top:1px solid rgba(255,255,255,0.2); }
+.gc-co-total { display:flex; justify-content:space-between; align-items:center; padding-top:14px; margin-top:6px; font-size:16px; font-weight:600; color:var(--text-primary); border-top:1px solid var(--border-strong); }
 .gc-co-total strong { font-size:1.4rem; color:var(--accent); }
 .gc-co-form { display:flex; flex-direction:column; gap:16px; }
-.gc-co-form .field-wrap label { color:rgba(255,255,255,0.85); }
-.gc-co-form .field-wrap input, .gc-co-form .field-wrap textarea { background:rgba(255,255,255,0.1); border-color:rgba(255,255,255,0.25); color:#fff; }
-.gc-co-form .field-wrap input::placeholder, .gc-co-form .field-wrap textarea::placeholder { color:rgba(255,255,255,0.4); }
-.gc-co-form .field-wrap input:focus, .gc-co-form .field-wrap textarea:focus { border-color:var(--accent); background:rgba(255,255,255,0.15); }
 .gc-submit-btn { margin-top:8px; }
+
+/* ===================================================
+   PRODUCT GALLERY
+   =================================================== */
+.gallery-main-wrap { position:relative; border-radius:var(--radius-md); overflow:hidden; background:var(--surface); cursor:zoom-in; }
+.gallery-main-img { width:100%; height:420px; object-fit:cover; display:block; transition:opacity 0.25s; }
+.gallery-arrow { position:absolute; top:50%; transform:translateY(-50%); width:44px; height:44px; background:rgba(0,0,0,0.72); border:1.5px solid rgba(255,255,255,0.18); border-radius:50%; color:#fff; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:3; transition:background 0.2s, border-color 0.2s; flex-shrink:0; }
+.gallery-arrow:hover { background:var(--accent); border-color:var(--accent); }
+.gallery-arrow--prev { left:14px; }
+.gallery-arrow--next { right:14px; }
+.gallery-counter { position:absolute; bottom:12px; right:14px; background:rgba(0,0,0,0.6); color:#fff; font-size:12px; font-weight:600; padding:4px 10px; border-radius:20px; z-index:3; }
+.gallery-thumbs { display:flex; gap:8px; margin-top:10px; }
+.gallery-thumb { width:70px; height:55px; object-fit:cover; border-radius:6px; cursor:pointer; border:2px solid transparent; opacity:0.6; transition:all 0.2s; flex-shrink:0; background:var(--surface-2); display:flex; align-items:center; justify-content:center; color:var(--text-muted); }
+.gallery-thumb.active { border-color:var(--accent); opacity:1; }
+.gallery-thumb img { width:100%; height:100%; object-fit:cover; border-radius:4px; }
+.no-img-gallery { width:100%; height:420px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; background:var(--surface-2); color:var(--text-muted); font-size:13px; }
+
+/* ===================================================
+   LIGHTBOX
+   =================================================== */
+.lightbox { position:fixed; inset:0; z-index:9000; background:rgba(0,0,0,0.95); display:flex; align-items:center; justify-content:center; opacity:0; pointer-events:none; transition:opacity 0.25s; }
+.lightbox.active { opacity:1; pointer-events:auto; }
+.lightbox-close { position:fixed; top:18px; right:22px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.2); color:#fff; width:40px; height:40px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:20px; z-index:9001; transition:background 0.2s; }
+.lightbox-close:hover { background:var(--accent); }
+.lightbox-img-wrap { position:relative; max-width:92vw; max-height:88vh; }
+.lightbox-img { max-width:92vw; max-height:88vh; object-fit:contain; display:block; border-radius:6px; }
+.lightbox-no-img { width:60vw; height:60vh; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; color:rgba(255,255,255,0.4); font-size:14px; }
+.lightbox-arrow { position:fixed; top:50%; transform:translateY(-50%); width:48px; height:48px; background:rgba(255,255,255,0.1); border:1.5px solid rgba(255,255,255,0.2); border-radius:50%; color:#fff; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:9001; transition:background 0.2s; }
+.lightbox-arrow:hover { background:var(--accent); }
+.lightbox-arrow--prev { left:16px; }
+.lightbox-arrow--next { right:16px; }
+.lightbox-counter { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); color:rgba(255,255,255,0.7); font-size:14px; z-index:9001; }
 @media (max-width: 600px) {
   .gc-drawer { width:100vw; }
   .gc-checkout-box { max-width:100%; }
   .gc-checkout-title { font-size:1.5rem; }
+  .gallery-main-img, .no-img-gallery { height:260px; }
+  .lightbox-arrow--prev { left:6px; }
+  .lightbox-arrow--next { right:6px; }
 }
