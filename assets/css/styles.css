@@ -500,6 +500,41 @@ a.product-card:hover .product-card-arrow { text-decoration: underline; }
 .lightbox-arrow--prev { left:16px; }
 .lightbox-arrow--next { right:16px; }
 .lightbox-counter { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); color:rgba(255,255,255,0.7); font-size:14px; z-index:9001; }
+
+/* ===================================================
+   SEARCH BAR
+   =================================================== */
+.catalog-search-wrap { margin-bottom: 24px; }
+.catalog-search-inner { position:relative; max-width:600px; }
+.search-icon { position:absolute; left:16px; top:50%; transform:translateY(-50%); color:var(--text-muted); pointer-events:none; }
+.catalog-search-input { width:100%; background:var(--surface); border:1px solid var(--border-strong); border-radius:30px; padding:12px 48px; color:var(--text-primary); font-size:15px; transition:all 0.2s; outline:none; }
+.catalog-search-input:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(229,57,53,0.15); }
+.catalog-search-input::placeholder { color:var(--text-muted); }
+.search-clear-btn { position:absolute; right:12px; top:50%; transform:translateY(-50%); background:var(--surface-2); border:none; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--text-secondary); cursor:pointer; transition:all 0.2s; }
+.search-clear-btn:hover { background:var(--bg-elevated); color:var(--accent); }
+.search-empty { text-align:center; padding:60px 20px; color:var(--text-secondary); display:flex; flex-direction:column; align-items:center; gap:16px; width:100%; grid-column:1/-1; }
+.search-empty svg { color:var(--text-muted); opacity:0.5; }
+.search-empty p { font-size:18px; font-weight:600; color:var(--text-primary); margin:0; }
+.search-empty span { font-size:14px; }
+.product-search-cat { font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:var(--accent); margin-bottom:6px; }
+
+/* ===================================================
+   AVAILABILITY BADGES
+   =================================================== */
+.avail-badge { position:absolute; top:12px; left:12px; font-size:11px; font-weight:700; text-transform:uppercase; padding:4px 10px; border-radius:4px; z-index:2; box-shadow:0 2px 4px rgba(0,0,0,0.2); }
+.avail-badge--yes { background:#2e7d32; color:#fff; }
+.avail-badge--no { background:var(--surface-2); color:var(--text-secondary); border:1px solid var(--border); }
+.product-detail-info .avail-badge { position:relative; top:auto; left:auto; display:inline-block; margin-bottom:16px; box-shadow:none; }
+
+/* ===================================================
+   ANIMATIONS
+   =================================================== */
+.fade-in { animation: fadeIn 0.4s ease-out forwards; }
+@keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
 @media (max-width: 600px) {
   .gc-drawer { width:100vw; }
   .gc-checkout-box { max-width:100%; }
@@ -508,3 +543,4 @@ a.product-card:hover .product-card-arrow { text-decoration: underline; }
   .lightbox-arrow--prev { left:6px; }
   .lightbox-arrow--next { right:6px; }
 }
+
