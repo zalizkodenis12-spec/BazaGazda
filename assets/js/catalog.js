@@ -330,26 +330,21 @@ function initCatalog() {
 function renderMainCatalog() {
   var html = '<div class="container">';
   html += '<div class="catalog-header"><h1 class="section-title">\u041a\u0430\u0442\u0430\u043b\u043e\u0433 \u0442\u043e\u0432\u0430\u0440\u0456\u0432</h1></div>';
-  html += searchBarHtml(state.search);
   html += '<div id="searchGrid" class="category-grid">';
-  if (!state.search) {
-    for (var i=0;i<CATEGORIES.length;i++) {
-      var c = CATEGORIES[i];
-      html += '<a href="catalog.html?category='+c.id+'" class="category-card">';
-      if (c.img) {
-        html += '<img src="'+c.img+'" alt="'+c.name+'" loading="lazy" class="fade-in" onerror="this.style.display=\'none\';this.nextSibling.style.display=\'flex\'">';
-        html += '<div style="display:none" class="no-img no-img--lg">'+NO_IMG_SVG+'</div>';
-      } else {
-        html += noImgBox('no-img--lg');
-      }
-      html += '<div class="category-card-title"><span class="category-card-name">'+c.name+'</span><span class="category-card-sub">'+c.desc+'</span></div></a>';
+  for (var i=0;i<CATEGORIES.length;i++) {
+    var c = CATEGORIES[i];
+    html += '<a href="catalog.html?category='+c.id+'" class="category-card">';
+    if (c.img) {
+      html += '<img src="'+c.img+'" alt="'+c.name+'" loading="lazy" class="fade-in" onerror="this.style.display=\'none\';this.nextSibling.style.display=\'flex\'">';
+      html += '<div style="display:none" class="no-img no-img--lg">'+NO_IMG_SVG+'</div>';
+    } else {
+      html += noImgBox('no-img--lg');
     }
+    html += '<div class="category-card-title"><span class="category-card-name">'+c.name+'</span><span class="category-card-sub">'+c.desc+'</span></div></a>';
   }
   html += '</div>';
   html += '</div>';
   root.innerHTML = html;
-  bindSearchEvents();
-  if (state.search) doSearch(state.search);
 }
 
 // ============================================
