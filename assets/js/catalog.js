@@ -362,13 +362,17 @@ function renderCategoryPage() {
   var html = '<div class="container">';
   html += '<a href="catalog.html" class="back-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> \u0423\u0441\u0456 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0456\u0457</a>';
   html += '<div class="catalog-header"><h1 class="section-title">'+catInfo.name+'</h1></div>';
-  html += searchBarHtml(state.search);
   html += '<div class="catalog-controls">';
+  
+  html += '<div class="catalog-filters-wrap" style="display:flex; flex-wrap:wrap; align-items:center; gap:16px; flex:1;">';
   if (subs && subs.length>0) {
-    html += '<div class="catalog-filters">';
+    html += '<div class="catalog-filters" style="margin:0;">';
     for (var s=0;s<subs.length;s++) html += '<button class="chip'+(state.subcategory===subs[s].id?' active':'')+'" data-sub="'+subs[s].id+'">'+subs[s].name+'</button>';
     html += '</div>';
-  } else { html += '<div></div>'; }
+  }
+  html += '<div style="flex-grow:1; max-width:300px; margin-bottom:0;" class="catalog-search-wrap-inline">' + searchBarHtml(state.search).replace('class="catalog-search-wrap"','class="catalog-search-wrap" style="margin-bottom:0;"') + '</div>';
+  html += '</div>';
+
   html += '<select class="sort-select" id="sortSelect">'+
     '<option value="default"'+(state.sort==='default'?' selected':'')+'>За замовчуванням</option>'+
     '<option value="price-asc"'+(state.sort==='price-asc'?' selected':'')+'>Від найдешевших</option>'+

@@ -310,21 +310,12 @@ function gcSubmit(e) {
   if (comment) lines.push('💬 Побажання: ' + comment);
   var text = lines.join('\n');
 
-  var cfg = window.SITE_CONFIG || {};
-  var token = cfg.telegramBotToken || '';
-  var chatId = cfg.telegramChatId || '';
-
   console.log('=== ЗАМОВЛЕННЯ ===\n' + text);
 
-  if (!token || token.indexOf('PASTE_') !== -1) {
-    gcHandleSuccess(btn, status, cart);
-    return;
-  }
-
-  fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
+  fetch('/api/telegram', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ chat_id: chatId, text: text })
+    body: JSON.stringify({ text: text })
   }).then(function(res){
     if (!res.ok) throw new Error('bad');
     gcHandleSuccess(btn, status, cart);
