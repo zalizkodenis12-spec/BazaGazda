@@ -253,6 +253,7 @@ h1, h2, h3 { font-family: var(--font-display); }
 @media (max-width: 768px) {
   .main-nav { display: none; }
   .header-actions .header-phone, .header-actions .btn-cta { display: none; }
+  .header-actions { margin-left: auto; margin-right: 8px; gap: 8px; }
   .burger { display: flex; }
   .mobile-cta { display: flex; }
   .hero { padding-top: 72px; min-height: 100svh; }
@@ -277,7 +278,7 @@ h1, h2, h3 { font-family: var(--font-display); }
   .about-content p { font-size: 15px; }
   .reviews-row { display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; padding-bottom: 12px; }
   .reviews-row::-webkit-scrollbar { display: none; }
-  .review-card { flex: 0 0 85%; scroll-snap-align: center; }
+  .review-col { flex: 0 0 85%; scroll-snap-align: center; }
   .contacts-section { padding: 64px 0; }
   .contacts-grid { grid-template-columns: 1fr; }
   .map-wrap { min-height: 280px; }
@@ -770,8 +771,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   /* Category Grid - Horizontal Scroll */
   .category-grid { display: flex; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; -webkit-overflow-scrolling: touch; }
   .category-grid::-webkit-scrollbar { display: none; }
-  .category-card { flex: 0 0 75%; scroll-snap-align: center; height: 180px; }
-  .category-card img { height: 180px; }
+  .category-card { flex: 0 0 75%; scroll-snap-align: center; }
+  .category-card img { height: 250px; }
   .category-card-title { padding: 12px 10px 10px; }
   .category-card-name { font-size: 1.1rem; }
   .category-card-sub { font-size: 11px; }
