@@ -556,11 +556,46 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 
 @media (max-width: 600px) {
+  /* Cart & Checkout */
   .gc-drawer { width:100vw; }
-  .gc-checkout-box { max-width:100%; }
-  .gc-checkout-title { font-size:1.5rem; }
-  .gallery-main-img, .no-img-gallery { height:260px; }
+  .gc-checkout-box { max-width:100%; padding:24px 16px; min-height: 100vh; border-radius: 0; }
+  .gc-checkout-title { font-size:1.6rem; margin-bottom: 20px; }
+  
+  /* Catalog Header & Controls */
+  .catalog-page { padding: 90px 0 40px; }
+  .catalog-controls { flex-direction: column; align-items: stretch; gap: 12px; margin-bottom: 24px; }
+  .catalog-filters-wrap { flex-direction: column; align-items: stretch; gap: 12px; }
+  .catalog-filters { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
+  .catalog-filters::-webkit-scrollbar { display: none; }
+  .chip { white-space: nowrap; font-size: 13px; padding: 8px 16px; }
+  
+  /* Grids - 2 columns on mobile */
+  .category-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .category-card img { height: 160px; }
+  .category-card-title { padding: 12px 10px 10px; }
+  .category-card-name { font-size: 1rem; }
+  .category-card-sub { font-size: 11px; }
+
+  .products-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .product-img { height: 150px; }
+  .product-content { padding: 12px; }
+  .product-title { font-size: 0.95rem; margin-bottom: 6px; }
+  .product-desc { display: none; }
+  .product-specs { display: none; }
+  .product-price { font-size: 1.15rem; }
+  .product-card-arrow { display: none; }
+  .btn-add-cart { padding: 10px; font-size: 13px; justify-content: center; width: 100%; }
+
+  /* Product Detail */
+  .product-detail-img-wrap { border-radius: 0; margin: 0 -16px; }
+  .gallery-main-img, .no-img-gallery { height: 320px; border-radius: 0; }
+  .product-detail-title { font-size: 1.6rem; margin-bottom: 12px; }
+  .product-detail-price { font-size: 1.8rem; margin-bottom: 16px; }
+  .product-detail-actions { flex-direction: column; }
+  .product-detail-actions .btn { width: 100%; }
+  
+  /* Lightbox */
   .lightbox-arrow--prev { left:6px; }
   .lightbox-arrow--next { right:6px; }
+  .lightbox-arrow { width: 40px; height: 40px; }
 }
-
