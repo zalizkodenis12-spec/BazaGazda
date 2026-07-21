@@ -524,7 +524,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
    SEARCH BAR
    =================================================== */
 .catalog-search-wrap { margin-bottom: 24px; }
-.catalog-search-inner { position:relative; max-width:600px; }
+.catalog-search-inner { position:relative; width:100%; }
 .search-icon { position:absolute; left:16px; top:50%; transform:translateY(-50%); color:var(--text-muted); pointer-events:none; }
 .catalog-search-input { width:100%; background:var(--surface); border:1px solid var(--border-strong); border-radius:30px; padding:12px 48px; color:var(--text-primary); font-size:15px; transition:all 0.2s; outline:none; }
 .catalog-search-input:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(229,57,53,0.15); }
