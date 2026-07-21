@@ -55,33 +55,6 @@
   <!-- Content will be injected here by JS -->
 </main>
 
-<!-- ORDER MODAL -->
-<div id="orderModal" class="modal-overlay" aria-hidden="true">
-  <div class="modal">
-    <button class="modal-close" aria-label="Закрити модальне вікно">&times;</button>
-    <h3 class="modal-title">Залишити заявку</h3>
-    <p class="modal-desc" id="modalProductName">Назва товару</p>
-    <form id="orderForm" class="booking-form" style="margin-top:20px;">
-      <input type="hidden" id="orderProductId" name="productId">
-      <div class="field-wrap">
-        <label for="orderName">Ваше ім'я *</label>
-        <input type="text" id="orderName" name="name" required placeholder="Олександр">
-        <span class="field-error"></span>
-      </div>
-      <div class="field-wrap">
-        <label for="orderPhone">Номер телефону *</label>
-        <input type="tel" id="orderPhone" name="phone" required placeholder="+380 97 000 0000">
-        <span class="field-error"></span>
-      </div>
-      <div class="field-wrap">
-        <label for="orderComment">Коментар (необов'язково)</label>
-        <textarea id="orderComment" name="comment" rows="3" placeholder="Ваші побажання..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-cta btn-block">Надіслати заявку</button>
-      <div id="orderStatus" class="booking-status"></div>
-    </form>
-  </div>
-</div>
 
 <footer class="site-footer">
   <div class="container footer-inner">
@@ -114,6 +87,7 @@
 
 <script src="assets/js/config.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/cart.js"></script>
 <script src="assets/js/catalog.js"></script>
 </body>
 </html>
