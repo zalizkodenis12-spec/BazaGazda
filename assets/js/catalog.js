@@ -370,7 +370,7 @@ function renderCategoryPage() {
     for (var s=0;s<subs.length;s++) html += '<button class="chip'+(state.subcategory===subs[s].id?' active':'')+'" data-sub="'+subs[s].id+'">'+subs[s].name+'</button>';
     html += '</div>';
   }
-  html += '<div style="flex-grow:1; max-width:300px; margin-bottom:0;" class="catalog-search-wrap-inline">' + searchBarHtml(state.search).replace('class="catalog-search-wrap"','class="catalog-search-wrap" style="margin-bottom:0;"') + '</div>';
+  html += '<div style="flex-grow:1; margin-bottom:0;" class="catalog-search-wrap-inline">' + searchBarHtml(state.search).replace('class="catalog-search-wrap"','class="catalog-search-wrap" style="margin-bottom:0; max-width:none;"') + '</div>';
   html += '</div>';
 
   html += '<select class="sort-select" id="sortSelect">'+
