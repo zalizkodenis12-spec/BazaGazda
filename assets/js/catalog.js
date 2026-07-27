@@ -9,10 +9,10 @@ var CATEGORIES = [
 ];
 
 var SUBCATEGORIES = {
-  technika:     [{ id:'all', name:'\u0412\u0441\u0456' }, { id:'dribna', name:'\u0414\u0440\u0456\u0431\u043d\u0430' }, { id:'velyka', name:'\u0412\u0435\u043b\u0438\u043a\u0430' }],
-  instrument:   [{ id:'all', name:'\u0412\u0441\u0456' }, { id:'elektro', name:'\u0415\u043b\u0435\u043a\u0442\u0440\u043e' }, { id:'nabory', name:'\u041d\u0430\u0431\u043e\u0440\u0438' }],
-  dlyadomu:     [{ id:'all', name:'\u0412\u0441\u0456' }, { id:'posud', name:'\u041f\u043e\u0441\u0443\u0434' }, { id:'himiya', name:'\u0425\u0456\u043c\u0456\u044f' }],
-  budmaterialy: []
+  technika:     [{ id:'all', name:'Всі' }, { id:'dribna', name:'Дрібна' }, { id:'velyka', name:'Велика' }, { id:'klimat', name:'Кліматична' }],
+  instrument:   [{ id:'all', name:'Всі' }, { id:'elektro', name:'Електро' }, { id:'nabory', name:'Набори' }, { id:'ruchnyy', name:'Ручний' }, { id:'sadovyy', name:'Садовий' }, { id:'vytratni', name:'Витратні' }],
+  dlyadomu:     [{ id:'all', name:'Всі' }, { id:'posud', name:'Посуд' }, { id:'himiya', name:'Побутова хімія' }, { id:'gosp', name:'Госптовари' }],
+  budmaterialy: [{ id:'all', name:'Всі' }, { id:'farby', name:'Фарби та лаки' }, { id:'sumishi', name:'Суміші' }, { id:'kriplennya', name:'Кріплення' }, { id:'santehnika', name:'Сантехніка' }, { id:'inshe', name:'Інше' }]
 };
 
 // available: true = В наявності, false = Під замовлення
@@ -20,7 +20,7 @@ var PRODUCTS = [
   {
     "id": "127333",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Корсо 26х4,8см PEPPER",
     "price": 825.0,
@@ -33,7 +33,7 @@ var PRODUCTS = [
   {
     "id": "127329",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Loft 26х5,5см PEPPER",
     "price": 1308.0,
@@ -46,7 +46,7 @@ var PRODUCTS = [
   {
     "id": "124150",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Арабеска\" 20х4см PEPPER",
     "price": 1027.0,
@@ -59,7 +59,7 @@ var PRODUCTS = [
   {
     "id": "135941",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Корсо 28х5см PEPPER",
     "price": 940.0,
@@ -72,7 +72,7 @@ var PRODUCTS = [
   {
     "id": "127331",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Корсо 20х4см PEPPER",
     "price": 647.0,
@@ -85,7 +85,7 @@ var PRODUCTS = [
   {
     "id": "127327",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Loft 20х5см PEPPER",
     "price": 967.0,
@@ -98,7 +98,7 @@ var PRODUCTS = [
   {
     "id": "127332",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Корсо 24х4,5с, PEPPER",
     "price": 739.0,
@@ -111,7 +111,7 @@ var PRODUCTS = [
   {
     "id": "127328",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Loft 24х5,5см PEPPER",
     "price": 1177.0,
@@ -124,7 +124,7 @@ var PRODUCTS = [
   {
     "id": "124152",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Арабеска\" 24х4,5см PEPPER",
     "price": 1244.0,
@@ -137,7 +137,7 @@ var PRODUCTS = [
   {
     "id": "127330",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Loft 28х6см PEPPER",
     "price": 1427.0,
@@ -150,7 +150,7 @@ var PRODUCTS = [
   {
     "id": "113286",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' 22x4,5cм TITANIUM PRO, PEPPER",
     "price": 1415.0,
@@ -163,7 +163,7 @@ var PRODUCTS = [
   {
     "id": "113292",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' 28x5cм TITANIUM PRO, PEPPER",
     "price": 1606.0,
@@ -175,8 +175,8 @@ var PRODUCTS = [
   },
   {
     "id": "113294",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' WOK 26x8cм TITANIUM PRO, PEPPER",
     "price": 1624.0,
@@ -188,8 +188,8 @@ var PRODUCTS = [
   },
   {
     "id": "113296",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' WOK 28x8cм TITANIUM PRO, PEPPER",
     "price": 2074.0,
@@ -202,7 +202,7 @@ var PRODUCTS = [
   {
     "id": "113288",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' 24x4,8cм TITANIUM PRO, PEPPER",
     "price": 1449.0,
@@ -215,7 +215,7 @@ var PRODUCTS = [
   {
     "id": "124154",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Арабеска\" 26х4,8см PEPPER",
     "price": 1398.0,
@@ -227,8 +227,8 @@ var PRODUCTS = [
   },
   {
     "id": "113298",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' WOK 30x9cм TITANIUM PRO, PEPPER",
     "price": 2378.0,
@@ -241,7 +241,7 @@ var PRODUCTS = [
   {
     "id": "113284",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' 20x4,5cм TITANIUM PRO, PEPPER",
     "price": 1101.0,
@@ -254,7 +254,7 @@ var PRODUCTS = [
   {
     "id": "113300",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'CHERRY' LAVA-STONE 20x4,5cм PEPPER",
     "price": 813.0,
@@ -267,7 +267,7 @@ var PRODUCTS = [
   {
     "id": "113290",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'EMERALD' 26x5см TITANIUM PRO, PEPPER",
     "price": 1470.0,
@@ -280,7 +280,7 @@ var PRODUCTS = [
   {
     "id": "113302",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'CHERRY' LAVA-STONE 24x5,0cм PEPPER",
     "price": 1072.0,
@@ -293,7 +293,7 @@ var PRODUCTS = [
   {
     "id": "113306",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'CHERRY' LAVA-STONE 28x5,4cм PEPPER",
     "price": 1314.0,
@@ -332,7 +332,7 @@ var PRODUCTS = [
   {
     "id": "113304",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'CHERRY' LAVA-STONE 26x5,2cм PEPPER",
     "price": 1193.0,
@@ -933,7 +933,7 @@ var PRODUCTS = [
   {
     "id": "146307",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш, покриття MARBLE, 16x8,0cм, 1,3л GUSTO",
     "price": 1018.0,
@@ -1036,8 +1036,8 @@ var PRODUCTS = [
   },
   {
     "id": "136588",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Сковорода гриль 3в1 Multi-F 31x2,5см PEPPER",
     "price": 2016.0,
@@ -1061,7 +1061,7 @@ var PRODUCTS = [
   {
     "id": "146308",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш, покриття CERAMIC SNOW, 16x8,0cм, 1,3л GUSTO",
     "price": 1018.0,
@@ -1282,7 +1282,7 @@ var PRODUCTS = [
   {
     "id": "124146",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Маренго\" 24х4,5см PEPPER",
     "price": 990.0,
@@ -1308,7 +1308,7 @@ var PRODUCTS = [
   {
     "id": "124148",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Маренго\" 26х4,8см PEPPER",
     "price": 1153.0,
@@ -1334,7 +1334,7 @@ var PRODUCTS = [
   {
     "id": "136990",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Маренго\" 28х5см PEPPER",
     "price": 1234.0,
@@ -1384,7 +1384,7 @@ var PRODUCTS = [
   {
     "id": "124144",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка \"Маренго\" 20х4,3см PEPPER",
     "price": 818.0,
@@ -1448,8 +1448,8 @@ var PRODUCTS = [
   },
   {
     "id": "127326",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Viva 26х4,8см, PEPPER",
     "price": 1111.0,
@@ -1461,8 +1461,8 @@ var PRODUCTS = [
   },
   {
     "id": "127325",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Viva 24х4,5см, PEPPER",
     "price": 957.0,
@@ -1474,8 +1474,8 @@ var PRODUCTS = [
   },
   {
     "id": "127323",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш Viva 16х7,5см, 1.2л, PEPPER",
     "price": 795.0,
@@ -1500,8 +1500,8 @@ var PRODUCTS = [
   },
   {
     "id": "127324",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Viva 20х4,1см, PEPPER",
     "price": 768.0,
@@ -1552,8 +1552,8 @@ var PRODUCTS = [
   },
   {
     "id": "124156",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Сковорода Графен 20х4 см, PEPPER",
     "price": 1170.0,
@@ -1565,8 +1565,8 @@ var PRODUCTS = [
   },
   {
     "id": "124158",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Сковорода Графен 24х4,3 см, PEPPER",
     "price": 1431.0,
@@ -1578,8 +1578,8 @@ var PRODUCTS = [
   },
   {
     "id": "124160",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Сковорода Графен 26х4,8 см, PEPPER",
     "price": 1591.0,
@@ -1591,8 +1591,8 @@ var PRODUCTS = [
   },
   {
     "id": "136982",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Сковорода Графен 28х4,8 см, PEPPER",
     "price": 1776.0,
@@ -1604,8 +1604,8 @@ var PRODUCTS = [
   },
   {
     "id": "124186",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Каструля \"Графен\" 20х9 см 2,1 л., PEPPER",
     "price": 1793.0,
@@ -1617,8 +1617,8 @@ var PRODUCTS = [
   },
   {
     "id": "124188",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Каструля \"Графен\" 24х10 см 3,5 л., PEPPER",
     "price": 2228.0,
@@ -1630,8 +1630,8 @@ var PRODUCTS = [
   },
   {
     "id": "124190",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Каструля \"Графен\" 28х12 см 5,5 л., PEPPER",
     "price": 2807.0,
@@ -1656,8 +1656,8 @@ var PRODUCTS = [
   },
   {
     "id": "127450",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш Wood 16x8см, 1,2л PEPPER",
     "price": 1125.0,
@@ -1774,7 +1774,7 @@ var PRODUCTS = [
   {
     "id": "127444",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш Arma 16х8см, 1,3л PEPPER",
     "price": 1728.0,
@@ -1852,7 +1852,7 @@ var PRODUCTS = [
   {
     "id": "127464",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш Smart 18х9см, 1,9л PEPPER",
     "price": 2133.0,
@@ -1930,7 +1930,7 @@ var PRODUCTS = [
   {
     "id": "127458",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш Panna 18х8,5см, 1,9л PEPPER",
     "price": 2158.0,
@@ -1982,7 +1982,7 @@ var PRODUCTS = [
   {
     "id": "136581",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш DOMA 18х8,5см, 1,8л PEPPER",
     "price": 2419.0,
@@ -2021,7 +2021,7 @@ var PRODUCTS = [
   {
     "id": "124132",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка з з'ємною ручкою \"Агат\" 20х4 см, PEPPER",
     "price": 1098.0,
@@ -2047,7 +2047,7 @@ var PRODUCTS = [
   {
     "id": "124136",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка з з'ємною ручкою \"Агат\" 26х5 см, PEPPER",
     "price": 1396.0,
@@ -2060,7 +2060,7 @@ var PRODUCTS = [
   {
     "id": "124134",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка з з'ємною ручкою \"Агат\" 24х4,3 см, PEPPER",
     "price": 1320.0,
@@ -2073,7 +2073,7 @@ var PRODUCTS = [
   {
     "id": "124170",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш зі з'ємною ручкою \"Агат\" 16х7,5 см 1,2 л., PEPPER",
     "price": 1462.0,
@@ -2111,8 +2111,8 @@ var PRODUCTS = [
   },
   {
     "id": "136578",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Сковорода гриль Arma 28х5см, PEPPER",
     "price": 2035.0,
@@ -2151,7 +2151,7 @@ var PRODUCTS = [
   {
     "id": "124142",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка з з'ємною ручкою і кришкою \"Агат\" 28х8 см, PEPPER",
     "price": 2100.0,
@@ -2203,7 +2203,7 @@ var PRODUCTS = [
   {
     "id": "110807",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Жаровня 'BLACK ICE' (GREBLON C2) 4,2л. 28x8,5 см PEPPER",
     "price": 3748.0,
@@ -2216,7 +2216,7 @@ var PRODUCTS = [
   {
     "id": "110809",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка 'BLACK ICE' (GREBLON C2) 28x5 см PEPPER",
     "price": 3280.0,
@@ -2229,7 +2229,7 @@ var PRODUCTS = [
   {
     "id": "127316",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сковорідка Біла перлина 24х4,7см, PEPPER",
     "price": 1639.0,
@@ -2255,7 +2255,7 @@ var PRODUCTS = [
   {
     "id": "110808",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш 'BLACK ICE' (GREBLON C2) 1,4л. 16x8 см PEPPER",
     "price": 2141.0,
@@ -2294,7 +2294,7 @@ var PRODUCTS = [
   {
     "id": "127315",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш Біла перлина 16,5х9,2см, 1,8л PEPPER",
     "price": 2270.0,
@@ -2320,7 +2320,7 @@ var PRODUCTS = [
   {
     "id": "136991",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Жаровня  Біла перлина 22х6,8см, 2л PEPPER",
     "price": 2944.0,
@@ -2346,7 +2346,7 @@ var PRODUCTS = [
   {
     "id": "124162",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш з кришкою Чорна Перлина 16х9 см 1,8 л., PEPPER",
     "price": 2224.0,
@@ -2398,7 +2398,7 @@ var PRODUCTS = [
   {
     "id": "110810",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Гусятниця 'BLACK ICE' 2в1 (GREBLON C2) 32x21x11 см PEPPER",
     "price": 4978.0,
@@ -2411,7 +2411,7 @@ var PRODUCTS = [
   {
     "id": "136966",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Жаровня Чорна перлина 24х7 см, 2.5л., PEPPER",
     "price": 3291.0,
@@ -2424,7 +2424,7 @@ var PRODUCTS = [
   {
     "id": "136949",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Молочник Чорна Перлина 10х13,6 см, 1.1л PEPPER",
     "price": 1273.0,
@@ -2437,7 +2437,7 @@ var PRODUCTS = [
   {
     "id": "79296",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 16 см Gusto",
     "price": 120.0,
@@ -2476,7 +2476,7 @@ var PRODUCTS = [
   {
     "id": "136587",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Жаровня DOMA 26х8см, 3,5л PEPPER",
     "price": 3054.0,
@@ -2489,7 +2489,7 @@ var PRODUCTS = [
   {
     "id": "79300",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 18 см Gusto",
     "price": 142.0,
@@ -2515,7 +2515,7 @@ var PRODUCTS = [
   {
     "id": "79302",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 22 см Gusto",
     "price": 157.0,
@@ -2528,7 +2528,7 @@ var PRODUCTS = [
   {
     "id": "79301",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 20 см Gusto",
     "price": 148.0,
@@ -2541,7 +2541,7 @@ var PRODUCTS = [
   {
     "id": "79303",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 24 см Gusto",
     "price": 179.0,
@@ -2554,7 +2554,7 @@ var PRODUCTS = [
   {
     "id": "79304",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 26 см Gusto",
     "price": 192.0,
@@ -2567,7 +2567,7 @@ var PRODUCTS = [
   {
     "id": "79305",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 28 cм Gusto",
     "price": 224.0,
@@ -2578,7 +2578,7 @@ var PRODUCTS = [
   {
     "id": "79306",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ручка для кришки Gusto GT-4100",
     "price": 47.0,
@@ -2589,7 +2589,7 @@ var PRODUCTS = [
   {
     "id": "119761",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна 30 cм Gusto",
     "price": 254.0,
@@ -2615,7 +2615,7 @@ var PRODUCTS = [
   {
     "id": "118851",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ручка для кришки-022 Gusto",
     "price": 47.0,
@@ -2641,7 +2641,7 @@ var PRODUCTS = [
   {
     "id": "118846",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ручка для кришки -016 Gusto",
     "price": 47.0,
@@ -2706,7 +2706,7 @@ var PRODUCTS = [
   {
     "id": "136590",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Жаровня Scala 32х16,5см, 5,6х2,5л PEPPER",
     "price": 3679.0,
@@ -2732,7 +2732,7 @@ var PRODUCTS = [
   {
     "id": "136393",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна з силіконовим обідком (з ручкою) Gusto 24 см",
     "price": 426.0,
@@ -2745,7 +2745,7 @@ var PRODUCTS = [
   {
     "id": "136402",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна з силіконовим обідком (з ручкою) Gusto 28 см",
     "price": 529.0,
@@ -2758,7 +2758,7 @@ var PRODUCTS = [
   {
     "id": "136397",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка універсальна з силіконовим обідком (з ручкою) Gusto 26 см",
     "price": 453.0,
@@ -2861,8 +2861,8 @@ var PRODUCTS = [
   },
   {
     "id": "127808",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір форм для випікання 3 шт (серце 23см/круг 26см/квадрат 28 см) GUSTO",
     "price": 1133.0,
@@ -2887,8 +2887,8 @@ var PRODUCTS = [
   },
   {
     "id": "100064",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір круглих форм для випікання 3 шт (22/24/26 см)GUSTO",
     "price": 801.0,
@@ -3054,8 +3054,8 @@ var PRODUCTS = [
   },
   {
     "id": "112879",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "ГОРЩИК ДЛЯ ВИПІКАННЯ з кришкою 10 см, 0,3 л, PEPPER",
     "price": 271.0,
@@ -3068,7 +3068,7 @@ var PRODUCTS = [
   {
     "id": "136589",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Жаровня Scala 42х7,5см, 4,8л PEPPER",
     "price": 2787.0,
@@ -3080,8 +3080,8 @@ var PRODUCTS = [
   },
   {
     "id": "102863",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "ГОРЩИК ДЛЯ ВИПІКАННЯ з кришкою 10 см, 0,2 л, PEPPER",
     "price": 230.0,
@@ -3471,7 +3471,7 @@ var PRODUCTS = [
   {
     "id": "136073",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 40х50см (зелений)",
     "price": 155.0,
@@ -3497,7 +3497,7 @@ var PRODUCTS = [
   {
     "id": "136074",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 40х50см (кобальт зелений)",
     "price": 155.0,
@@ -3523,7 +3523,7 @@ var PRODUCTS = [
   {
     "id": "136196",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 40х50см (рожевий)",
     "price": 155.0,
@@ -3536,7 +3536,7 @@ var PRODUCTS = [
   {
     "id": "136075",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 40х50см (синій)",
     "price": 155.0,
@@ -3549,7 +3549,7 @@ var PRODUCTS = [
   {
     "id": "136026",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (кобальт зелений)",
     "price": 233.0,
@@ -3562,7 +3562,7 @@ var PRODUCTS = [
   {
     "id": "136027",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (зелений)",
     "price": 233.0,
@@ -3575,7 +3575,7 @@ var PRODUCTS = [
   {
     "id": "136028",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (рожевий)",
     "price": 233.0,
@@ -3588,7 +3588,7 @@ var PRODUCTS = [
   {
     "id": "136195",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (синій)",
     "price": 233.0,
@@ -3627,7 +3627,7 @@ var PRODUCTS = [
   {
     "id": "136077",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (бордо) зміцнений",
     "price": 250.0,
@@ -3653,7 +3653,7 @@ var PRODUCTS = [
   {
     "id": "136078",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (кобальт) зміцнений",
     "price": 250.0,
@@ -3679,7 +3679,7 @@ var PRODUCTS = [
   {
     "id": "136076",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок силіконовий для формування та випікання тіста GUSTO, 45х65см (бузок) зміцнений",
     "price": 250.0,
@@ -3951,8 +3951,8 @@ var PRODUCTS = [
   },
   {
     "id": "136213",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Гейзерна кавоварка Como GUSTO, 3 чашки (150 мл) (алюм)",
     "price": 614.0,
@@ -3990,8 +3990,8 @@ var PRODUCTS = [
   },
   {
     "id": "136219",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Гейзерна кавоварка Lugano GUSTO, 3 чашки (150 мл) (алюм)",
     "price": 681.0,
@@ -4016,8 +4016,8 @@ var PRODUCTS = [
   },
   {
     "id": "136216",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Гейзерна кавоварка Garda GUSTO, 3 чашки (150 мл) (алюм)",
     "price": 663.0,
@@ -4068,8 +4068,8 @@ var PRODUCTS = [
   },
   {
     "id": "136222",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Гейзерна кавоварка Vico GUSTO, 4 чашки (200 мл) (сталь)",
     "price": 771.0,
@@ -4107,8 +4107,8 @@ var PRODUCTS = [
   },
   {
     "id": "147810",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Гейзерна кавоварка Garda (індукція) GUSTO, 3 чашки",
     "price": 589.0,
@@ -4167,7 +4167,7 @@ var PRODUCTS = [
   {
     "id": "111661",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш SOLO 12x6см, 0,5 л GUSTO",
     "price": 622.0,
@@ -4193,7 +4193,7 @@ var PRODUCTS = [
   {
     "id": "111662",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш SOLO 14x7см, 0,9 л GUSTO",
     "price": 723.0,
@@ -4232,7 +4232,7 @@ var PRODUCTS = [
   {
     "id": "111663",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ківш SOLO 16x6см, 1,4 л GUSTO",
     "price": 778.0,
@@ -4361,8 +4361,8 @@ var PRODUCTS = [
   },
   {
     "id": "147816",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Гейзерна кавоварка Delio GUSTO, 3 чашки",
     "price": 576.0,
@@ -5766,7 +5766,7 @@ var PRODUCTS = [
   {
     "id": "127263",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз алюмінієвий 50×15см 22л GUSTO",
     "price": 1248.0,
@@ -5779,7 +5779,7 @@ var PRODUCTS = [
   {
     "id": "127261",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз алюмінієвий 45×14см 18л GUSTO",
     "price": 1028.0,
@@ -5792,7 +5792,7 @@ var PRODUCTS = [
   {
     "id": "127259",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз алюмінієвий 40×13см 13л GUSTO",
     "price": 867.0,
@@ -5818,7 +5818,7 @@ var PRODUCTS = [
   {
     "id": "127257",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз алюмінієвий 32×10см 6л GUSTO",
     "price": 516.0,
@@ -6051,8 +6051,8 @@ var PRODUCTS = [
   },
   {
     "id": "128565",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів СІРА перлина GUSTO 5 пр",
     "price": 1336.0,
@@ -6116,8 +6116,8 @@ var PRODUCTS = [
   },
   {
     "id": "121985",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів Classic 6 пр GUSTO",
     "price": 2752.0,
@@ -6155,8 +6155,8 @@ var PRODUCTS = [
   },
   {
     "id": "100143",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів Classic 8 пр GUSTO",
     "price": 1898.0,
@@ -6298,8 +6298,8 @@ var PRODUCTS = [
   },
   {
     "id": "121995",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів METAL BLOCK PEPPER 6 пр",
     "price": 2747.0,
@@ -6363,8 +6363,8 @@ var PRODUCTS = [
   },
   {
     "id": "100177",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів METAL 6 пр PEPPER",
     "price": 2453.0,
@@ -6506,8 +6506,8 @@ var PRODUCTS = [
   },
   {
     "id": "128564",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів БІЛА перлина GUSTO 8 пр",
     "price": 2148.0,
@@ -6689,7 +6689,7 @@ var PRODUCTS = [
   {
     "id": "135991",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Підставка для ножів Бета та кухонного приладдя GUSTO, 11.1×11.1×22.5см",
     "price": 599.0,
@@ -6702,7 +6702,7 @@ var PRODUCTS = [
   {
     "id": "135992",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Підставка для ножів Гамма GUSTO, 14×14×23см",
     "price": 683.0,
@@ -6714,8 +6714,8 @@ var PRODUCTS = [
   },
   {
     "id": "128563",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножів ЧОРНА перлина GUSTO 6 пр",
     "price": 2478.0,
@@ -6728,7 +6728,7 @@ var PRODUCTS = [
   {
     "id": "135990",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Підставка для ножів Альфа та кухонних аксесуарів GUSTO, 20.2×12.2×22см",
     "price": 1090.0,
@@ -6793,7 +6793,7 @@ var PRODUCTS = [
   {
     "id": "109714",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Штопор-метелик GUSTO",
     "price": 309.0,
@@ -6806,7 +6806,7 @@ var PRODUCTS = [
   {
     "id": "110212",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Відкривачка 3в1 чорна GUSTO",
     "price": 108.0,
@@ -6819,7 +6819,7 @@ var PRODUCTS = [
   {
     "id": "149289",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Яйцерізка овальна GUSTO",
     "price": 146.0,
@@ -6832,7 +6832,7 @@ var PRODUCTS = [
   {
     "id": "110213",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Штопор сомельє бордо GUSTO",
     "price": 106.0,
@@ -6845,7 +6845,7 @@ var PRODUCTS = [
   {
     "id": "144560",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Штопор металевий GUSTO",
     "price": 113.0,
@@ -6884,7 +6884,7 @@ var PRODUCTS = [
   {
     "id": "109719",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прес для часнику GUSTO",
     "price": 137.0,
@@ -6897,7 +6897,7 @@ var PRODUCTS = [
   {
     "id": "144561",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Відкривачка для консервних банок, металева GUSTO",
     "price": 178.0,
@@ -6910,7 +6910,7 @@ var PRODUCTS = [
   {
     "id": "109718",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Планка магнітна для ножів 33 см GUSTO",
     "price": 224.0,
@@ -6923,7 +6923,7 @@ var PRODUCTS = [
   {
     "id": "144562",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Відкривачка для консервних банок, чорна GUSTO",
     "price": 150.0,
@@ -6936,7 +6936,7 @@ var PRODUCTS = [
   {
     "id": "149439",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Маслянка з кришкою GUSTO",
     "price": 134.0,
@@ -6949,7 +6949,7 @@ var PRODUCTS = [
   {
     "id": "149288",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Яйцерізка прямокутна GUSTO",
     "price": 68.0,
@@ -6962,7 +6962,7 @@ var PRODUCTS = [
   {
     "id": "110214",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кухонні ножиці 23 см сір./чорн. GUSTO",
     "price": 372.0,
@@ -6975,7 +6975,7 @@ var PRODUCTS = [
   {
     "id": "109715",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кухонні ножиці 20 см GUSTO",
     "price": 140.0,
@@ -6988,7 +6988,7 @@ var PRODUCTS = [
   {
     "id": "110215",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кухонні ножиці 21 см блак./оран GUSTO",
     "price": 223.0,
@@ -7001,7 +7001,7 @@ var PRODUCTS = [
   {
     "id": "118632",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прес для часнику з цинкового сплаву GUSTO",
     "price": 464.0,
@@ -7014,7 +7014,7 @@ var PRODUCTS = [
   {
     "id": "144564",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прес для часнику з нержавіючої сталі GUSTO",
     "price": 299.0,
@@ -7026,8 +7026,8 @@ var PRODUCTS = [
   },
   {
     "id": "110216",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ножиць 3 шт GUSTO",
     "price": 142.0,
@@ -7040,7 +7040,7 @@ var PRODUCTS = [
   {
     "id": "110209",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Точило для ножів 194 г GUSTO",
     "price": 454.0,
@@ -7053,7 +7053,7 @@ var PRODUCTS = [
   {
     "id": "110208",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Точило для ножів 236 г GUSTO",
     "price": 471.0,
@@ -7066,7 +7066,7 @@ var PRODUCTS = [
   {
     "id": "135989",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Підставка для ножів Дельта дерев'яна з магнітом GUSTO, 22×22×1.8см",
     "price": 1019.0,
@@ -7079,7 +7079,7 @@ var PRODUCTS = [
   {
     "id": "110210",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Точило для ножів 68 г GUSTO",
     "price": 227.0,
@@ -7092,7 +7092,7 @@ var PRODUCTS = [
   {
     "id": "144563",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прес для часнику з ручкою GUSTO",
     "price": 200.0,
@@ -7105,7 +7105,7 @@ var PRODUCTS = [
   {
     "id": "144558",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Точило для ножів 148 г GUSTO",
     "price": 193.0,
@@ -7131,7 +7131,7 @@ var PRODUCTS = [
   {
     "id": "144559",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Точило для ножів 24 г GUSTO",
     "price": 76.0,
@@ -7144,7 +7144,7 @@ var PRODUCTS = [
   {
     "id": "110205",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млин для солі та перцю 12,5 см GUSTO",
     "price": 430.0,
@@ -7156,8 +7156,8 @@ var PRODUCTS = [
   },
   {
     "id": "136096",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млинок для спецій з дерев'яною кришкою Vittora, 170мл",
     "price": 343.0,
@@ -7169,8 +7169,8 @@ var PRODUCTS = [
   },
   {
     "id": "136095",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млинок для спецій з дерев'яною кришкою Vittora, 200мл",
     "price": 356.0,
@@ -7183,7 +7183,7 @@ var PRODUCTS = [
   {
     "id": "110206",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млин для солі та перцю 20 см GUSTO",
     "price": 547.0,
@@ -7196,7 +7196,7 @@ var PRODUCTS = [
   {
     "id": "110207",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млин для солі та перцю 25 см GUSTO",
     "price": 642.0,
@@ -7209,7 +7209,7 @@ var PRODUCTS = [
   {
     "id": "126975",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка METAL плоска одностороння GUSTO",
     "price": 220.0,
@@ -7222,7 +7222,7 @@ var PRODUCTS = [
   {
     "id": "126977",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка METAL чотиристороння з округлою ручкою 20см GUSTO",
     "price": 313.0,
@@ -7235,7 +7235,7 @@ var PRODUCTS = [
   {
     "id": "126976",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка METAL чотиристороння 20см GUSTO",
     "price": 162.0,
@@ -7248,7 +7248,7 @@ var PRODUCTS = [
   {
     "id": "126979",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка METAL чотиристороння з дерев'яною ручкою 23см GUSTO",
     "price": 410.0,
@@ -7261,7 +7261,7 @@ var PRODUCTS = [
   {
     "id": "126978",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка METAL шестистороння 23см GUSTO",
     "price": 338.0,
@@ -7273,8 +7273,8 @@ var PRODUCTS = [
   },
   {
     "id": "136100",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млинок для спецій з нержавіючою кришкою Vittora, 170мл",
     "price": 217.0,
@@ -7286,8 +7286,8 @@ var PRODUCTS = [
   },
   {
     "id": "136098",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млинок для спецій з пластиковою кришкою Vittora, 170мл",
     "price": 126.0,
@@ -7300,7 +7300,7 @@ var PRODUCTS = [
   {
     "id": "126989",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка METAL чотиристороння з опорою з металевою антиковзаючою ручкою 20см GUSTO",
     "price": 381.0,
@@ -7312,8 +7312,8 @@ var PRODUCTS = [
   },
   {
     "id": "136097",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млинок для спецій з пластиковою кришкою Vittora, 170мл",
     "price": 117.0,
@@ -7326,7 +7326,7 @@ var PRODUCTS = [
   {
     "id": "126981",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка ART-DECO чотиристороння 20см GUSTO",
     "price": 162.0,
@@ -7339,7 +7339,7 @@ var PRODUCTS = [
   {
     "id": "126982",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка ART-DECO чотиристороння з опорою з округлою ручкою 20см GUSTO",
     "price": 182.0,
@@ -7352,7 +7352,7 @@ var PRODUCTS = [
   {
     "id": "126983",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка ART-DECO чотиристороння з округлою ручкою 20см GUSTO",
     "price": 188.0,
@@ -7364,8 +7364,8 @@ var PRODUCTS = [
   },
   {
     "id": "136099",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Млинок для спецій з нержавіючою кришкою Vittora, 170мл",
     "price": 206.0,
@@ -7378,7 +7378,7 @@ var PRODUCTS = [
   {
     "id": "126984",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка ART-DECO чотиристороння з опорою з округлою ручкою Soft Touch 20см GUSTO",
     "price": 229.0,
@@ -7391,7 +7391,7 @@ var PRODUCTS = [
   {
     "id": "126987",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка SUPER SHARP чотиристороння з опорою з округлою ручкою 20см GUSTO",
     "price": 571.0,
@@ -7404,7 +7404,7 @@ var PRODUCTS = [
   {
     "id": "126985",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка ART-DECO шестистороння з опорою 23см GUSTO",
     "price": 254.0,
@@ -7417,7 +7417,7 @@ var PRODUCTS = [
   {
     "id": "125062",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Терка з контейнером 19,5х10х5,5см GUSTO",
     "price": 175.0,
@@ -7430,7 +7430,7 @@ var PRODUCTS = [
   {
     "id": "126986",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка SUPER SHARP чотиристороння 20см GUSTO",
     "price": 491.0,
@@ -7443,7 +7443,7 @@ var PRODUCTS = [
   {
     "id": "100737",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка чорна, нейлон GUSTO",
     "price": 82.0,
@@ -7455,8 +7455,8 @@ var PRODUCTS = [
   },
   {
     "id": "100738",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами чорна, нейлон GUSTO",
     "price": 71.0,
@@ -7469,7 +7469,7 @@ var PRODUCTS = [
   {
     "id": "126988",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка SUPER SHARP шестистороння з опорою 23см GUSTO",
     "price": 685.0,
@@ -7482,7 +7482,7 @@ var PRODUCTS = [
   {
     "id": "100740",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник чорний, нейлон GUSTO",
     "price": 102.0,
@@ -7495,7 +7495,7 @@ var PRODUCTS = [
   {
     "id": "100754",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Щипці кухонні чорні, нейлон GUSTO",
     "price": 126.0,
@@ -7508,7 +7508,7 @@ var PRODUCTS = [
   {
     "id": "147517",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник Ментол, нейлон GUSTO",
     "price": 75.0,
@@ -7586,7 +7586,7 @@ var PRODUCTS = [
   {
     "id": "126980",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка ART-DECO плоска одностороння GUSTO",
     "price": 130.0,
@@ -7598,8 +7598,8 @@ var PRODUCTS = [
   },
   {
     "id": "147529",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка Ментол, нейлон GUSTO",
     "price": 75.0,
@@ -7611,8 +7611,8 @@ var PRODUCTS = [
   },
   {
     "id": "147515",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами Ментол, нейлон GUSTO",
     "price": 75.0,
@@ -7625,7 +7625,7 @@ var PRODUCTS = [
   {
     "id": "147513",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка Ментол, нейлон GUSTO",
     "price": 75.0,
@@ -7638,7 +7638,7 @@ var PRODUCTS = [
   {
     "id": "149330",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Тертка для корейської моркви 26.5x10 GUSTO",
     "price": 47.0,
@@ -7650,8 +7650,8 @@ var PRODUCTS = [
   },
   {
     "id": "118622",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник WOOD, нейлон GUSTO",
     "price": 148.0,
@@ -7703,7 +7703,7 @@ var PRODUCTS = [
   {
     "id": "118564",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка бузок, нейлон GUSTO",
     "price": 146.0,
@@ -7728,8 +7728,8 @@ var PRODUCTS = [
   },
   {
     "id": "118582",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами бузок, нейлон GUSTO",
     "price": 146.0,
@@ -7742,7 +7742,7 @@ var PRODUCTS = [
   {
     "id": "147520",
     "category": "instrument",
-    "subcategory": "elektro",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка WOOD, нейлон GUSTO",
     "price": 136.0,
@@ -7755,7 +7755,7 @@ var PRODUCTS = [
   {
     "id": "118618",
     "category": "instrument",
-    "subcategory": "elektro",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами WOOD, нейлон GUSTO",
     "price": 136.0,
@@ -7768,7 +7768,7 @@ var PRODUCTS = [
   {
     "id": "118612",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник Горіх, нейлон GUSTO",
     "price": 198.0,
@@ -7780,8 +7780,8 @@ var PRODUCTS = [
   },
   {
     "id": "118614",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка WOOD, нейлон GUSTO",
     "price": 136.0,
@@ -7807,7 +7807,7 @@ var PRODUCTS = [
   {
     "id": "118603",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка Горіх, нейлон GUSTO",
     "price": 190.0,
@@ -7819,8 +7819,8 @@ var PRODUCTS = [
   },
   {
     "id": "118604",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами Горіх, нейлон GUSTO",
     "price": 190.0,
@@ -7859,7 +7859,7 @@ var PRODUCTS = [
   {
     "id": "100763",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка блак./оран., нейлон GUSTO",
     "price": 171.0,
@@ -7885,7 +7885,7 @@ var PRODUCTS = [
   {
     "id": "100767",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник блак./оран., нейлон GUSTO",
     "price": 172.0,
@@ -7910,8 +7910,8 @@ var PRODUCTS = [
   },
   {
     "id": "100765",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами блак./оран., нейлон GUSTO",
     "price": 164.0,
@@ -7924,7 +7924,7 @@ var PRODUCTS = [
   {
     "id": "110215",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кухонні ножиці 21 см блак./оран GUSTO",
     "price": 223.0,
@@ -7937,7 +7937,7 @@ var PRODUCTS = [
   {
     "id": "100771",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Картоплем'ялка блак./оран., нейлон GUSTO",
     "price": 173.0,
@@ -7962,8 +7962,8 @@ var PRODUCTS = [
   },
   {
     "id": "136665",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами граніт, силікон GUSTO",
     "price": 158.0,
@@ -7976,7 +7976,7 @@ var PRODUCTS = [
   {
     "id": "100773",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вінчик блак./оран.GUSTO",
     "price": 218.0,
@@ -7988,8 +7988,8 @@ var PRODUCTS = [
   },
   {
     "id": "136666",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка граніт, силікон GUSTO",
     "price": 158.0,
@@ -8015,7 +8015,7 @@ var PRODUCTS = [
   {
     "id": "136737",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник граніт, силікон GUSTO",
     "price": 186.0,
@@ -8041,7 +8041,7 @@ var PRODUCTS = [
   {
     "id": "136738",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка граніт, силікон GUSTO",
     "price": 186.0,
@@ -8067,7 +8067,7 @@ var PRODUCTS = [
   {
     "id": "138637",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пензлик  бузок, силікон GUSTO",
     "price": 42.0,
@@ -8080,7 +8080,7 @@ var PRODUCTS = [
   {
     "id": "138639",
     "category": "instrument",
-    "subcategory": "nabory",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Набір лопатка+пензлик  блакитний, силікон GUSTO",
     "price": 78.0,
@@ -8092,8 +8092,8 @@ var PRODUCTS = [
   },
   {
     "id": "138641",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка жовта, силікон GUSTO",
     "price": 40.0,
@@ -8106,7 +8106,7 @@ var PRODUCTS = [
   {
     "id": "147589",
     "category": "instrument",
-    "subcategory": "nabory",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Набір лопатка+пензлик бірюза, силікон GUSTO",
     "price": 78.0,
@@ -8119,7 +8119,7 @@ var PRODUCTS = [
   {
     "id": "138638",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вінчик бузок, силікон GUSTO",
     "price": 82.0,
@@ -8131,8 +8131,8 @@ var PRODUCTS = [
   },
   {
     "id": "138636",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка бузок, силікон GUSTO",
     "price": 44.0,
@@ -8145,7 +8145,7 @@ var PRODUCTS = [
   {
     "id": "147590",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вінчик бірюза, силікон GUSTO",
     "price": 72.0,
@@ -8158,7 +8158,7 @@ var PRODUCTS = [
   {
     "id": "138642",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пензлик рожевий, силікон GUSTO",
     "price": 71.0,
@@ -8170,8 +8170,8 @@ var PRODUCTS = [
   },
   {
     "id": "138643",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка рожева, силікон GUSTO",
     "price": 71.0,
@@ -8184,7 +8184,7 @@ var PRODUCTS = [
   {
     "id": "138634",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Качалка для тіста силіконова з дерев'яними ручками м'ята 30см GUSTO",
     "price": 183.0,
@@ -8197,7 +8197,7 @@ var PRODUCTS = [
   {
     "id": "138640",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пензлик жовтий, силікон GUSTO",
     "price": 40.0,
@@ -8210,7 +8210,7 @@ var PRODUCTS = [
   {
     "id": "149284",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Щипці GUSTO граніт, силікон",
     "price": 172.0,
@@ -8248,8 +8248,8 @@ var PRODUCTS = [
   },
   {
     "id": "147012",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір силіконових прихваток 2 шт GUSTO",
     "price": 115.0,
@@ -8274,8 +8274,8 @@ var PRODUCTS = [
   },
   {
     "id": "147011",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір мірних ложок 12шт, пластик GUSTO",
     "price": 153.0,
@@ -8287,8 +8287,8 @@ var PRODUCTS = [
   },
   {
     "id": "138633",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір кухонного приладдя м'ята 5пред., силікон GUSTO",
     "price": 442.0,
@@ -8339,8 +8339,8 @@ var PRODUCTS = [
   },
   {
     "id": "138635",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір щипців м'ята 3шт 15*20*25см GUSTO",
     "price": 113.0,
@@ -8366,7 +8366,7 @@ var PRODUCTS = [
   {
     "id": "103638",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дуршлаг з ручкою 20 см  нерж.",
     "price": 156.0,
@@ -8378,8 +8378,8 @@ var PRODUCTS = [
   },
   {
     "id": "147010",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір мірних ложок 8шт, пластик+нержавіюча сталь GUSTO",
     "price": 174.0,
@@ -8418,7 +8418,7 @@ var PRODUCTS = [
   {
     "id": "103641",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дуршлаг з двома ручками 24 см  нерж.",
     "price": 185.0,
@@ -8431,7 +8431,7 @@ var PRODUCTS = [
   {
     "id": "127944",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кружка 8CM - 350ML",
     "price": 72.0,
@@ -8444,7 +8444,7 @@ var PRODUCTS = [
   {
     "id": "103640",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дуршлаг з двома ручками 22 см  нерж.",
     "price": 169.0,
@@ -8457,7 +8457,7 @@ var PRODUCTS = [
   {
     "id": "103622",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ополоник  нерж.",
     "price": 90.0,
@@ -8470,7 +8470,7 @@ var PRODUCTS = [
   {
     "id": "103639",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дуршлаг з ручкою 22 см  нерж.",
     "price": 187.0,
@@ -8483,7 +8483,7 @@ var PRODUCTS = [
   {
     "id": "103621",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Щипці кухонні 25 см  нерж.",
     "price": 97.0,
@@ -8496,7 +8496,7 @@ var PRODUCTS = [
   {
     "id": "103623",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шумівка  нерж.",
     "price": 90.0,
@@ -8522,7 +8522,7 @@ var PRODUCTS = [
   {
     "id": "136846",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Турка 9х9см 450мл, нерж.GUSTO",
     "price": 221.0,
@@ -8548,7 +8548,7 @@ var PRODUCTS = [
   {
     "id": "136845",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Турка 8,5х8см 350мл, нерж.GUSTO",
     "price": 171.0,
@@ -8560,8 +8560,8 @@ var PRODUCTS = [
   },
   {
     "id": "103626",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка  нерж.",
     "price": 76.0,
@@ -8574,7 +8574,7 @@ var PRODUCTS = [
   {
     "id": "127945",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кружка 9CM - 500ML",
     "price": 101.0,
@@ -8586,8 +8586,8 @@ var PRODUCTS = [
   },
   {
     "id": "103627",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovyy",
     "available": true,
     "name": "Лопатка з отворами  нерж.",
     "price": 76.0,
@@ -8600,7 +8600,7 @@ var PRODUCTS = [
   {
     "id": "103628",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Виделка кухарська  нерж.",
     "price": 61.0,
@@ -8613,7 +8613,7 @@ var PRODUCTS = [
   {
     "id": "103630",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Картоплем'ялка 23,3 см  нерж.",
     "price": 146.0,
@@ -8626,7 +8626,7 @@ var PRODUCTS = [
   {
     "id": "103629",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вінчик 25 см  нерж.",
     "price": 102.0,
@@ -8678,7 +8678,7 @@ var PRODUCTS = [
   {
     "id": "125096",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Просіювач з ручкою 1л GUSTO",
     "price": 248.0,
@@ -8691,7 +8691,7 @@ var PRODUCTS = [
   {
     "id": "103631",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Картоплем'ялка 26 см  пластик і нерж.",
     "price": 97.0,
@@ -8704,7 +8704,7 @@ var PRODUCTS = [
   {
     "id": "125092",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Просіювач з ручкою 0,35л GUSTO",
     "price": 161.0,
@@ -8857,8 +8857,8 @@ var PRODUCTS = [
   },
   {
     "id": "112349",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок LILLE 480 мл,  6 шт",
     "price": 509.0,
@@ -8870,8 +8870,8 @@ var PRODUCTS = [
   },
   {
     "id": "103143",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ADORA 390 мл,  6 шт",
     "price": 387.0,
@@ -8883,8 +8883,8 @@ var PRODUCTS = [
   },
   {
     "id": "112352",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок LILLE 95 мл,  6 шт",
     "price": 272.0,
@@ -8896,8 +8896,8 @@ var PRODUCTS = [
   },
   {
     "id": "103149",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ARAS 300 мл,  6 шт",
     "price": 444.0,
@@ -8909,8 +8909,8 @@ var PRODUCTS = [
   },
   {
     "id": "103147",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ARAS 360 мл,  6 шт",
     "price": 525.0,
@@ -8922,8 +8922,8 @@ var PRODUCTS = [
   },
   {
     "id": "103148",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ARAS 360 мл,  6 шт",
     "price": 460.0,
@@ -8935,8 +8935,8 @@ var PRODUCTS = [
   },
   {
     "id": "103144",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ADORA 290 мл,  6 шт",
     "price": 393.0,
@@ -8948,8 +8948,8 @@ var PRODUCTS = [
   },
   {
     "id": "130482",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір високих склянок VALERIA 460 мл, 6 шт",
     "price": 515.0,
@@ -8961,8 +8961,8 @@ var PRODUCTS = [
   },
   {
     "id": "130480",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок VALERIA 400 мл, 6 шт",
     "price": 501.0,
@@ -8974,8 +8974,8 @@ var PRODUCTS = [
   },
   {
     "id": "112351",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок LILLE 345 мл,  6 шт",
     "price": 460.0,
@@ -8987,8 +8987,8 @@ var PRODUCTS = [
   },
   {
     "id": "127484",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Кварц зелений 350мл, 1 шт VERSAILLES",
     "price": 128.0,
@@ -9026,8 +9026,8 @@ var PRODUCTS = [
   },
   {
     "id": "127480",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Кварц синій 350мл, 1 шт VERSAILLES",
     "price": 128.0,
@@ -9039,8 +9039,8 @@ var PRODUCTS = [
   },
   {
     "id": "127500",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Кварц зелений 240мл, 1 шт VERSAILLES",
     "price": 103.0,
@@ -9078,8 +9078,8 @@ var PRODUCTS = [
   },
   {
     "id": "132592",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка Кварц зелений 350мл, 1 шт VERSAILLES",
     "price": 142.0,
@@ -9091,8 +9091,8 @@ var PRODUCTS = [
   },
   {
     "id": "127496",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Кварц синій 240мл, 1 шт VERSAILLES",
     "price": 103.0,
@@ -9117,8 +9117,8 @@ var PRODUCTS = [
   },
   {
     "id": "132555",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка Кварц синій 350мл, 1 шт VERSAILLES",
     "price": 142.0,
@@ -9156,8 +9156,8 @@ var PRODUCTS = [
   },
   {
     "id": "127486",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Кварц рожевий 350мл, 1 шт VERSAILLES",
     "price": 128.0,
@@ -9182,8 +9182,8 @@ var PRODUCTS = [
   },
   {
     "id": "127502",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Кварц рожевий 240мл, 1 шт VERSAILLES",
     "price": 103.0,
@@ -9208,8 +9208,8 @@ var PRODUCTS = [
   },
   {
     "id": "132596",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка Кварц рожевий 350мл, 1 шт VERSAILLES",
     "price": 142.0,
@@ -9245,8 +9245,8 @@ var PRODUCTS = [
   },
   {
     "id": "136769",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Кварц райдужний 350мл, 1 шт VERSAILLES",
     "price": 145.0,
@@ -9256,8 +9256,8 @@ var PRODUCTS = [
   },
   {
     "id": "127498",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Кварц димчастий 240мл, 1 шт VERSAILLES",
     "price": 103.0,
@@ -9280,8 +9280,8 @@ var PRODUCTS = [
   },
   {
     "id": "127482",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Кварц димчастий 350мл, 1 шт VERSAILLES",
     "price": 128.0,
@@ -9293,8 +9293,8 @@ var PRODUCTS = [
   },
   {
     "id": "136771",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Кварц райдужний 240мл, 1 шт VERSAILLES",
     "price": 125.0,
@@ -9304,8 +9304,8 @@ var PRODUCTS = [
   },
   {
     "id": "132594",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка Кварц димчастий 350мл, 1 шт VERSAILLES",
     "price": 142.0,
@@ -9369,8 +9369,8 @@ var PRODUCTS = [
   },
   {
     "id": "127494",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Турмалін рожевий 410мл, 1 шт VERSAILLES",
     "price": 165.0,
@@ -9408,8 +9408,8 @@ var PRODUCTS = [
   },
   {
     "id": "127506",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Турмалін рожевий 260мл, 1 шт VERSAILLES",
     "price": 135.0,
@@ -9434,8 +9434,8 @@ var PRODUCTS = [
   },
   {
     "id": "127492",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Турмалін димчастий 410мл, 1 шт VERSAILLES",
     "price": 165.0,
@@ -9447,8 +9447,8 @@ var PRODUCTS = [
   },
   {
     "id": "132600",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка Турмалін димчастий 350мл, 1 шт VERSAILLES",
     "price": 149.0,
@@ -9473,8 +9473,8 @@ var PRODUCTS = [
   },
   {
     "id": "127504",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Турмалін димчастий 260мл, 1 шт VERSAILLES",
     "price": 135.0,
@@ -9499,8 +9499,8 @@ var PRODUCTS = [
   },
   {
     "id": "127488",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Топаз рожевий 380мл, 1 шт VERSAILLES",
     "price": 137.0,
@@ -9551,8 +9551,8 @@ var PRODUCTS = [
   },
   {
     "id": "132578",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Опал зелений 350мл, 1 шт VERSAILLES",
     "price": 128.0,
@@ -9564,8 +9564,8 @@ var PRODUCTS = [
   },
   {
     "id": "132586",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Опал зелений 240мл, 1 шт VERSAILLES",
     "price": 103.0,
@@ -9577,8 +9577,8 @@ var PRODUCTS = [
   },
   {
     "id": "127508",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Топаз рожевий 300мл, 1 шт VERSAILLES",
     "price": 110.0,
@@ -9603,8 +9603,8 @@ var PRODUCTS = [
   },
   {
     "id": "132580",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Опал рожевий 410мл, VERSAILLES, 1 шт",
     "price": 128.0,
@@ -9629,8 +9629,8 @@ var PRODUCTS = [
   },
   {
     "id": "132602",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Опал рожевий 260мл, VERSAILLES, 1 шт",
     "price": 103.0,
@@ -9655,8 +9655,8 @@ var PRODUCTS = [
   },
   {
     "id": "148063",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Набір келихів для вина MISKET 220 мл, VERSAILLES 6 шт",
     "price": 466.0,
@@ -9668,8 +9668,8 @@ var PRODUCTS = [
   },
   {
     "id": "148062",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок 280 мл, VERSAILLES 6 шт",
     "price": 349.0,
@@ -9679,8 +9679,8 @@ var PRODUCTS = [
   },
   {
     "id": "148068",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок високих ADORA 370 мл, VERSAILLES 6 шт",
     "price": 383.0,
@@ -9690,8 +9690,8 @@ var PRODUCTS = [
   },
   {
     "id": "148069",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок ADORA 80 мл, VERSAILLES 6 шт",
     "price": 274.0,
@@ -9701,8 +9701,8 @@ var PRODUCTS = [
   },
   {
     "id": "148070",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок високих ARAS 300 мл, VERSAILLES 6 шт",
     "price": 349.0,
@@ -9738,8 +9738,8 @@ var PRODUCTS = [
   },
   {
     "id": "148071",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ARAS 290 мл, VERSAILLES 6 шт",
     "price": 435.0,
@@ -9749,8 +9749,8 @@ var PRODUCTS = [
   },
   {
     "id": "156226",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок Classic 55 мл, VERSAILLES 6 шт",
     "price": 132.0,
@@ -9760,8 +9760,8 @@ var PRODUCTS = [
   },
   {
     "id": "148072",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок ARAS 50 мл, VERSAILLES 6 шт",
     "price": 186.0,
@@ -9773,8 +9773,8 @@ var PRODUCTS = [
   },
   {
     "id": "156227",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок Crystal Drop 45 мл, VERSAILLES 6 шт",
     "price": 149.0,
@@ -9784,8 +9784,8 @@ var PRODUCTS = [
   },
   {
     "id": "148073",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок MISKET 30 мл, VERSAILLES 6 шт",
     "price": 186.0,
@@ -9797,8 +9797,8 @@ var PRODUCTS = [
   },
   {
     "id": "148074",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок 60 мл, VERSAILLES 6 шт",
     "price": 220.0,
@@ -9821,8 +9821,8 @@ var PRODUCTS = [
   },
   {
     "id": "156228",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок Crystal Drop 50 мл, VERSAILLES 6 шт",
     "price": 186.0,
@@ -9876,8 +9876,8 @@ var PRODUCTS = [
   },
   {
     "id": "127490",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Висока склянка Топаз білий 380мл, 1 шт VERSAILLES",
     "price": 137.0,
@@ -9900,8 +9900,8 @@ var PRODUCTS = [
   },
   {
     "id": "148043",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір високих склянок Texas 390 мл, VERSAILLES 4 шт",
     "price": 393.0,
@@ -9911,8 +9911,8 @@ var PRODUCTS = [
   },
   {
     "id": "156225",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок Classic 45 мл, VERSAILLES 6 шт",
     "price": 131.0,
@@ -9935,8 +9935,8 @@ var PRODUCTS = [
   },
   {
     "id": "148044",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Texas 370 мл, VERSAILLES 4 шт",
     "price": 372.0,
@@ -9957,8 +9957,8 @@ var PRODUCTS = [
   },
   {
     "id": "156224",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чарок Slim 60 мл, VERSAILLES 6 шт",
     "price": 180.0,
@@ -9992,8 +9992,8 @@ var PRODUCTS = [
   },
   {
     "id": "147416",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір високих склянок Los Angeles 650 мл, VERSAILLES 2 шт",
     "price": 443.0,
@@ -10003,8 +10003,8 @@ var PRODUCTS = [
   },
   {
     "id": "147417",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Los Angeles 550 мл, VERSAILLES 2 шт",
     "price": 423.0,
@@ -10051,8 +10051,8 @@ var PRODUCTS = [
   },
   {
     "id": "136782",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір високих склянок Chicago 450 мл, VERSAILLES 2 шт",
     "price": 612.0,
@@ -10075,8 +10075,8 @@ var PRODUCTS = [
   },
   {
     "id": "136783",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Chicago 300 мл, VERSAILLES 2 шт",
     "price": 597.0,
@@ -10184,8 +10184,8 @@ var PRODUCTS = [
   },
   {
     "id": "127510",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Топаз білий 300мл, 1 шт VERSAILLES",
     "price": 110.0,
@@ -10249,8 +10249,8 @@ var PRODUCTS = [
   },
   {
     "id": "132598",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка Турмалін рожевий 350мл, 1 шт VERSAILLES",
     "price": 149.0,
@@ -10288,8 +10288,8 @@ var PRODUCTS = [
   },
   {
     "id": "136798",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір для віскі Madrid, 5 предметів, VERSAILLES 750",
     "price": 1750.0,
@@ -10356,8 +10356,8 @@ var PRODUCTS = [
   },
   {
     "id": "136778",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок New York 350 мл, VERSAILLES 2 шт",
     "price": 627.0,
@@ -10382,8 +10382,8 @@ var PRODUCTS = [
   },
   {
     "id": "136776",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір високих склянок New York 450 мл, VERSAILLES 2 шт",
     "price": 636.0,
@@ -10629,8 +10629,8 @@ var PRODUCTS = [
   },
   {
     "id": "136787",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Atlantis 500 мл, VERSAILLES 2 шт",
     "price": 597.0,
@@ -11134,8 +11134,8 @@ var PRODUCTS = [
   },
   {
     "id": "136106",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ємностей для спецій Vittora, 12шт по 120мл",
     "price": 2065.0,
@@ -11147,8 +11147,8 @@ var PRODUCTS = [
   },
   {
     "id": "136094",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ємностей для спецій Vittora, 8шт по 230мл",
     "price": 1827.0,
@@ -11186,8 +11186,8 @@ var PRODUCTS = [
   },
   {
     "id": "136107",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ємностей для спецій Vittora, 4шт по 250мл",
     "price": 981.0,
@@ -11238,8 +11238,8 @@ var PRODUCTS = [
   },
   {
     "id": "135483",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний VITTORA, 630 мл",
     "price": 216.0,
@@ -11251,8 +11251,8 @@ var PRODUCTS = [
   },
   {
     "id": "147020",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ємностей для спецій Vittora, 12шт по 100мл",
     "price": 1560.0,
@@ -11264,8 +11264,8 @@ var PRODUCTS = [
   },
   {
     "id": "147021",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Ємність скляна для спецій з віконною кришкою Vittora, 220мл",
     "price": 159.0,
@@ -11277,8 +11277,8 @@ var PRODUCTS = [
   },
   {
     "id": "136093",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ємностей для спецій Vittora, 8шт по 250мл",
     "price": 1549.0,
@@ -11290,8 +11290,8 @@ var PRODUCTS = [
   },
   {
     "id": "135484",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний VITTORA, 1040 мл",
     "price": 266.0,
@@ -11303,8 +11303,8 @@ var PRODUCTS = [
   },
   {
     "id": "135485",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний VITTORA, 1500 мл",
     "price": 352.0,
@@ -11316,8 +11316,8 @@ var PRODUCTS = [
   },
   {
     "id": "135486",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з дерев'яною кришкою, прямокутний VITTORA, 370 мл",
     "price": 258.0,
@@ -11329,8 +11329,8 @@ var PRODUCTS = [
   },
   {
     "id": "135487",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з дерев'яною кришкою, прямокутний VITTORA, 630 мл",
     "price": 331.0,
@@ -11342,8 +11342,8 @@ var PRODUCTS = [
   },
   {
     "id": "135488",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з дерев'яною кришкою, прямокутний VITTORA, 1040 мл",
     "price": 446.0,
@@ -11355,8 +11355,8 @@ var PRODUCTS = [
   },
   {
     "id": "135489",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з дерев'яною кришкою, прямокутний VITTORA, 1500 мл",
     "price": 559.0,
@@ -11368,8 +11368,8 @@ var PRODUCTS = [
   },
   {
     "id": "142652",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Ємність скляна для спецій з дерев'яною кришкою Vittora, 220мл",
     "price": 77.0,
@@ -11381,8 +11381,8 @@ var PRODUCTS = [
   },
   {
     "id": "127035",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, квадратний 310 мл VITTORA",
     "price": 159.0,
@@ -11394,8 +11394,8 @@ var PRODUCTS = [
   },
   {
     "id": "127039",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, квадратний 530 мл VITTORA",
     "price": 197.0,
@@ -11407,8 +11407,8 @@ var PRODUCTS = [
   },
   {
     "id": "127050",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, квадратний 800 мл VITTORA",
     "price": 244.0,
@@ -11420,8 +11420,8 @@ var PRODUCTS = [
   },
   {
     "id": "135478",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з куточком VITTORA, 370 мл",
     "price": 157.0,
@@ -11433,8 +11433,8 @@ var PRODUCTS = [
   },
   {
     "id": "135479",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з куточком VITTORA, 630 мл",
     "price": 226.0,
@@ -11446,8 +11446,8 @@ var PRODUCTS = [
   },
   {
     "id": "135482",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний VITTORA, 370 мл",
     "price": 147.0,
@@ -11459,8 +11459,8 @@ var PRODUCTS = [
   },
   {
     "id": "135480",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з куточком VITTORA, 1040 мл",
     "price": 275.0,
@@ -11472,8 +11472,8 @@ var PRODUCTS = [
   },
   {
     "id": "136103",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір ємностей для олії та оцту Vittora, 2шт по 250мл",
     "price": 601.0,
@@ -11485,8 +11485,8 @@ var PRODUCTS = [
   },
   {
     "id": "135481",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з куточком VITTORA, 1500 мл",
     "price": 358.0,
@@ -11498,8 +11498,8 @@ var PRODUCTS = [
   },
   {
     "id": "127053",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний 630 мл VITTORA",
     "price": 225.0,
@@ -11511,8 +11511,8 @@ var PRODUCTS = [
   },
   {
     "id": "127052",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний 370 мл VITTORA",
     "price": 172.0,
@@ -11524,8 +11524,8 @@ var PRODUCTS = [
   },
   {
     "id": "127049",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний 1040 мл VITTORA",
     "price": 309.0,
@@ -11537,8 +11537,8 @@ var PRODUCTS = [
   },
   {
     "id": "127048",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний 1500 мл VITTORA",
     "price": 396.0,
@@ -11550,8 +11550,8 @@ var PRODUCTS = [
   },
   {
     "id": "127051",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, квадратний 1100 мл VITTORA",
     "price": 335.0,
@@ -11563,8 +11563,8 @@ var PRODUCTS = [
   },
   {
     "id": "127042",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний Бурштин 630 мл VITTORA",
     "price": 303.0,
@@ -11576,8 +11576,8 @@ var PRODUCTS = [
   },
   {
     "id": "127043",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний Бурштин 370 мл VITTORA",
     "price": 219.0,
@@ -11589,8 +11589,8 @@ var PRODUCTS = [
   },
   {
     "id": "135687",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з прозорою пластиковою кришкою, прямокутний VITTORA, 630 мл",
     "price": 346.0,
@@ -11602,8 +11602,8 @@ var PRODUCTS = [
   },
   {
     "id": "135686",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з скляною дерев'яною кришкою, прямокутний VITTORA, 1380 мл",
     "price": 476.0,
@@ -11615,8 +11615,8 @@ var PRODUCTS = [
   },
   {
     "id": "127041",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний Бурштин 1040 мл VITTORA",
     "price": 404.0,
@@ -11628,8 +11628,8 @@ var PRODUCTS = [
   },
   {
     "id": "135689",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з прозорою пластиковою кришкою, прямокутний VITTORA, 1040 мл",
     "price": 421.0,
@@ -11641,8 +11641,8 @@ var PRODUCTS = [
   },
   {
     "id": "135688",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з прозорою пластиковою кришкою, прямокутний VITTORA, 1500 мл",
     "price": 529.0,
@@ -11654,8 +11654,8 @@ var PRODUCTS = [
   },
   {
     "id": "135490",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з скляною силіконовою кришкою, прямокутний вакуум VITTORA, 1000мл",
     "price": 434.0,
@@ -11667,8 +11667,8 @@ var PRODUCTS = [
   },
   {
     "id": "135491",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з скляною силіконовою кришкою, прямокутний вакуум VITTORA, 1600мл",
     "price": 519.0,
@@ -11680,8 +11680,8 @@ var PRODUCTS = [
   },
   {
     "id": "135685",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з скляною дерев'яною кришкою, прямокутний VITTORA, 800 мл",
     "price": 370.0,
@@ -11693,8 +11693,8 @@ var PRODUCTS = [
   },
   {
     "id": "135691",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з силіконовою кришкою, прямокутний VITTORA,1400 мл",
     "price": 458.0,
@@ -11704,8 +11704,8 @@ var PRODUCTS = [
   },
   {
     "id": "127040",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний с пластиковою кришкою, прямокутний + прибори 630 мл VITTORA",
     "price": 454.0,
@@ -11717,8 +11717,8 @@ var PRODUCTS = [
   },
   {
     "id": "135690",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з силіконовою кришкою, прямокутний VITTORA,600 мл",
     "price": 297.0,
@@ -11778,8 +11778,8 @@ var PRODUCTS = [
   },
   {
     "id": "127047",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з малюнком VITTORA, 370 мл",
     "price": 157.0,
@@ -11830,8 +11830,8 @@ var PRODUCTS = [
   },
   {
     "id": "127045",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з малюнком VITTORA, 1040 мл",
     "price": 288.0,
@@ -11856,8 +11856,8 @@ var PRODUCTS = [
   },
   {
     "id": "127044",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з малюнком VITTORA, 1500 мл",
     "price": 383.0,
@@ -11934,8 +11934,8 @@ var PRODUCTS = [
   },
   {
     "id": "112054",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Креманка скляна VERSAILLES, 165мл",
     "price": 103.0,
@@ -11947,8 +11947,8 @@ var PRODUCTS = [
   },
   {
     "id": "153128",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Сяйво кохання VITTORA, 2шт, 300мл",
     "price": 390.0,
@@ -11971,8 +11971,8 @@ var PRODUCTS = [
   },
   {
     "id": "127046",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Харчовий контейнер скляний з пластиковою кришкою, прямокутний з малюнком VITTORA, 630 мл",
     "price": 206.0,
@@ -11997,8 +11997,8 @@ var PRODUCTS = [
   },
   {
     "id": "153140",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Сяйво кохання VITTORA, 2шт, 700мл",
     "price": 741.0,
@@ -12008,8 +12008,8 @@ var PRODUCTS = [
   },
   {
     "id": "153135",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Сяйво кохання VITTORA, 2шт, 500мл",
     "price": 569.0,
@@ -12043,8 +12043,8 @@ var PRODUCTS = [
   },
   {
     "id": "153136",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Квіткова блакить VITTORA, 2шт, 500мл",
     "price": 569.0,
@@ -12054,8 +12054,8 @@ var PRODUCTS = [
   },
   {
     "id": "153130",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Фіолетове диво  VITTORA, 2шт, 300мл",
     "price": 390.0,
@@ -12065,8 +12065,8 @@ var PRODUCTS = [
   },
   {
     "id": "153138",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Викрадач снів  VITTORA, 2шт,500мл",
     "price": 569.0,
@@ -12076,8 +12076,8 @@ var PRODUCTS = [
   },
   {
     "id": "153142",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Фіолетове диво  VITTORA, 2шт, 700мл",
     "price": 741.0,
@@ -12087,8 +12087,8 @@ var PRODUCTS = [
   },
   {
     "id": "153132",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном  Сонячний промінь VITTORA, 2шт, 300мл",
     "price": 390.0,
@@ -12098,8 +12098,8 @@ var PRODUCTS = [
   },
   {
     "id": "153143",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Викрадач снів  VITTORA, 2шт,700мл",
     "price": 741.0,
@@ -12109,8 +12109,8 @@ var PRODUCTS = [
   },
   {
     "id": "153137",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Фіолетове диво  VITTORA, 2шт, 500мл",
     "price": 569.0,
@@ -12122,8 +12122,8 @@ var PRODUCTS = [
   },
   {
     "id": "153144",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном  Сонячний промінь VITTORA, 2шт, 700мл",
     "price": 741.0,
@@ -12146,8 +12146,8 @@ var PRODUCTS = [
   },
   {
     "id": "153139",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном  Сонячний промінь VITTORA, 2шт, 500мл",
     "price": 569.0,
@@ -12211,8 +12211,8 @@ var PRODUCTS = [
   },
   {
     "id": "153131",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Викрадач снів  VITTORA, 2шт,300мл",
     "price": 390.0,
@@ -12302,8 +12302,8 @@ var PRODUCTS = [
   },
   {
     "id": "153129",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір піал з подвійним дном Квіткова блакить VITTORA, 2шт, 300мл",
     "price": 390.0,
@@ -12315,8 +12315,8 @@ var PRODUCTS = [
   },
   {
     "id": "97447",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Blanco Wave, Vittora 220 мм",
     "price": 118.0,
@@ -12406,8 +12406,8 @@ var PRODUCTS = [
   },
   {
     "id": "111007",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Оселедниця Blanco Wave, Vittora 225 мм",
     "price": 93.0,
@@ -12588,8 +12588,8 @@ var PRODUCTS = [
   },
   {
     "id": "97693",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка десертна Blanco Diva, Vittora 220 мм",
     "price": 105.0,
@@ -12846,8 +12846,8 @@ var PRODUCTS = [
   },
   {
     "id": "146583",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Blanco, Lava, Блюдо Vittora 355 мм",
     "price": 172.0,
@@ -12868,8 +12868,8 @@ var PRODUCTS = [
   },
   {
     "id": "146584",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Blanco, Velvet, Піала Vittora 115 мм",
     "price": 48.0,
@@ -13378,8 +13378,8 @@ var PRODUCTS = [
   },
   {
     "id": "111002",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Black Wave, Vittora 220 мм",
     "price": 126.0,
@@ -13495,8 +13495,8 @@ var PRODUCTS = [
   },
   {
     "id": "116531",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня, Овочевий етюд, Black Wave, Vittora, 220 мм",
     "price": 118.0,
@@ -13833,8 +13833,8 @@ var PRODUCTS = [
   },
   {
     "id": "116535",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня, Овочевий етюд, Wave, Vittora, 220 мм",
     "price": 118.0,
@@ -13885,8 +13885,8 @@ var PRODUCTS = [
   },
   {
     "id": "104136",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Чорно-біле суцвіття Wave, Vittora 220 мм",
     "price": 118.0,
@@ -13937,8 +13937,8 @@ var PRODUCTS = [
   },
   {
     "id": "127723",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Графічні квіти Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14080,8 +14080,8 @@ var PRODUCTS = [
   },
   {
     "id": "122942",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня, Бабусин сад, Wave, Vittora, 220 мм",
     "price": 118.0,
@@ -14132,8 +14132,8 @@ var PRODUCTS = [
   },
   {
     "id": "127727",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Лісова галявина Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14158,8 +14158,8 @@ var PRODUCTS = [
   },
   {
     "id": "127731",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Радісні пташки Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14210,8 +14210,8 @@ var PRODUCTS = [
   },
   {
     "id": "110946",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Квіткові вензеля Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14275,8 +14275,8 @@ var PRODUCTS = [
   },
   {
     "id": "110950",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Східні мотиви Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14314,8 +14314,8 @@ var PRODUCTS = [
   },
   {
     "id": "101799",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Фіолетова орхідея Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14379,8 +14379,8 @@ var PRODUCTS = [
   },
   {
     "id": "100403",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Квіткова симфонія Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14483,8 +14483,8 @@ var PRODUCTS = [
   },
   {
     "id": "97689",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Виноградна лоза Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14509,8 +14509,8 @@ var PRODUCTS = [
   },
   {
     "id": "111009",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Лаванда, Wave, Оселедниця , Vittora 225 мм",
     "price": 105.0,
@@ -14561,8 +14561,8 @@ var PRODUCTS = [
   },
   {
     "id": "111008",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Оселедниця Рожевий букет Wave, Vittora 225 мм",
     "price": 105.0,
@@ -14587,8 +14587,8 @@ var PRODUCTS = [
   },
   {
     "id": "136972",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Чарівний сад Wave Vittora, 220 мм",
     "price": 118.0,
@@ -14600,8 +14600,8 @@ var PRODUCTS = [
   },
   {
     "id": "104146",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Рожевий букет Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14613,8 +14613,8 @@ var PRODUCTS = [
   },
   {
     "id": "97673",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Лаванда Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14639,8 +14639,8 @@ var PRODUCTS = [
   },
   {
     "id": "127715",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Ніжність Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14743,8 +14743,8 @@ var PRODUCTS = [
   },
   {
     "id": "122958",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня, Лаванда і троянда, Wave, Vittora, 220 мм",
     "price": 118.0,
@@ -14847,8 +14847,8 @@ var PRODUCTS = [
   },
   {
     "id": "127719",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Букет для пані Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14873,8 +14873,8 @@ var PRODUCTS = [
   },
   {
     "id": "97685",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Букет орхідеї Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14925,8 +14925,8 @@ var PRODUCTS = [
   },
   {
     "id": "97678",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Сакура Wave, Vittora 220 мм",
     "price": 118.0,
@@ -14964,8 +14964,8 @@ var PRODUCTS = [
   },
   {
     "id": "122950",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня, Дотик весни, Wave, Vittora, 220 мм",
     "price": 118.0,
@@ -15003,8 +15003,8 @@ var PRODUCTS = [
   },
   {
     "id": "110954",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Акварельні квіти Wave, Vittora 220 мм",
     "price": 118.0,
@@ -15068,8 +15068,8 @@ var PRODUCTS = [
   },
   {
     "id": "122966",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня,Рідні барви, Wave,  Vittora, 220 мм",
     "price": 118.0,
@@ -15133,8 +15133,8 @@ var PRODUCTS = [
   },
   {
     "id": "136967",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Магічна краса Wave Vittora 220 мм",
     "price": 118.0,
@@ -15146,8 +15146,8 @@ var PRODUCTS = [
   },
   {
     "id": "116539",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Літні Барви  Wave, Vittora 220 мм",
     "price": 118.0,
@@ -15172,8 +15172,8 @@ var PRODUCTS = [
   },
   {
     "id": "101803",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка обідня Фіалки Wave, Vittora 220 мм",
     "price": 118.0,
@@ -15341,8 +15341,8 @@ var PRODUCTS = [
   },
   {
     "id": "136976",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Квітковий сюжет, Wave, Тарілка обідня,Vittora, 220 мм",
     "price": 118.0,
@@ -15679,8 +15679,8 @@ var PRODUCTS = [
   },
   {
     "id": "111012",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Фруктовниця 3-х ярусна Blanco Buongiorno, Vittora",
     "price": 576.0,
@@ -15716,8 +15716,8 @@ var PRODUCTS = [
   },
   {
     "id": "111011",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Фруктовниця 3-х ярусна Піони AURA, Vittora",
     "price": 665.0,
@@ -15742,8 +15742,8 @@ var PRODUCTS = [
   },
   {
     "id": "147186",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Джоконда Vittora, 140мм",
     "price": 118.0,
@@ -15816,8 +15816,8 @@ var PRODUCTS = [
   },
   {
     "id": "147187",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка глибока Джоконда Vittora, 220мм",
     "price": 148.0,
@@ -15842,8 +15842,8 @@ var PRODUCTS = [
   },
   {
     "id": "147181",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Венера Vittora, 160мм",
     "price": 118.0,
@@ -15868,8 +15868,8 @@ var PRODUCTS = [
   },
   {
     "id": "147152",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка глибока Мадонна Vittora, 220мм",
     "price": 126.0,
@@ -15881,8 +15881,8 @@ var PRODUCTS = [
   },
   {
     "id": "147182",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка глибока Венера Vittora, 220мм",
     "price": 148.0,
@@ -15894,8 +15894,8 @@ var PRODUCTS = [
   },
   {
     "id": "147158",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Вавилон Vittora, 152мм",
     "price": 104.0,
@@ -15907,8 +15907,8 @@ var PRODUCTS = [
   },
   {
     "id": "156020",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Блюдо Вавилон Vittora, 300мм",
     "price": 208.0,
@@ -15931,8 +15931,8 @@ var PRODUCTS = [
   },
   {
     "id": "155465",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Вавилон Vittora, 203мм",
     "price": 172.0,
@@ -15994,8 +15994,8 @@ var PRODUCTS = [
   },
   {
     "id": "147151",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Мадонна Vittora, 152мм",
     "price": 115.0,
@@ -16072,8 +16072,8 @@ var PRODUCTS = [
   },
   {
     "id": "157282",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Блюдце Cream Royale Vittora, 147мм",
     "price": 64.0,
@@ -16150,8 +16150,8 @@ var PRODUCTS = [
   },
   {
     "id": "157288",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Блюдо Cream Royale Vittora, 250*118мм",
     "price": 233.0,
@@ -16163,8 +16163,8 @@ var PRODUCTS = [
   },
   {
     "id": "157289",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Блюдо Cream Royale Vittora, 217*103мм",
     "price": 211.0,
@@ -16189,8 +16189,8 @@ var PRODUCTS = [
   },
   {
     "id": "157287",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Блюдо Cream Royale Vittora, 335*148мм",
     "price": 394.0,
@@ -16226,8 +16226,8 @@ var PRODUCTS = [
   },
   {
     "id": "156021",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Блюдо Вернісаж Vittora, 305мм",
     "price": 247.0,
@@ -16237,8 +16237,8 @@ var PRODUCTS = [
   },
   {
     "id": "156022",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Вернісаж Vittora, 140мм",
     "price": 96.0,
@@ -16318,8 +16318,8 @@ var PRODUCTS = [
   },
   {
     "id": "157732",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Grafene Night Vittora, 140мм",
     "price": 174.0,
@@ -16370,8 +16370,8 @@ var PRODUCTS = [
   },
   {
     "id": "157735",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Grafene Day Vittora, 140мм",
     "price": 143.0,
@@ -16409,8 +16409,8 @@ var PRODUCTS = [
   },
   {
     "id": "147169",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Аполлон Vittora, 178мм",
     "price": 104.0,
@@ -16513,8 +16513,8 @@ var PRODUCTS = [
   },
   {
     "id": "147164",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Артеміда Vittora, 178мм",
     "price": 104.0,
@@ -16613,8 +16613,8 @@ var PRODUCTS = [
   },
   {
     "id": "147177",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Офелія Vittora, 203мм",
     "price": 197.0,
@@ -16691,8 +16691,8 @@ var PRODUCTS = [
   },
   {
     "id": "147172",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Калахарі Vittora, 152мм",
     "price": 165.0,
@@ -16726,8 +16726,8 @@ var PRODUCTS = [
   },
   {
     "id": "157739",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Galaxy Vittora, 150*80мм",
     "price": 145.0,
@@ -16761,8 +16761,8 @@ var PRODUCTS = [
   },
   {
     "id": "159076",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка десертна Golden Line Vittora, 220мм",
     "price": 180.0,
@@ -16881,8 +16881,8 @@ var PRODUCTS = [
   },
   {
     "id": "157740",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Тарілка десертна Eclipse Vittora, 220x204мм",
     "price": 177.0,
@@ -16894,8 +16894,8 @@ var PRODUCTS = [
   },
   {
     "id": "159079",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Салатник Golden Line Vittora, 220мм",
     "price": 258.0,
@@ -16983,8 +16983,8 @@ var PRODUCTS = [
   },
   {
     "id": "111068",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Океан ТМ Vittora 570мл, 150мм",
     "price": 205.0,
@@ -17087,8 +17087,8 @@ var PRODUCTS = [
   },
   {
     "id": "111073",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Тропічний персик ТМ Vittora 570мл, 155мм",
     "price": 189.0,
@@ -17152,8 +17152,8 @@ var PRODUCTS = [
   },
   {
     "id": "133483",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Вишукана троянда Vittora, 125мм, 480мл",
     "price": 217.0,
@@ -17165,8 +17165,8 @@ var PRODUCTS = [
   },
   {
     "id": "128889",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Веселі горохи Vittora, 140мм, 550мл",
     "price": 178.0,
@@ -17178,8 +17178,8 @@ var PRODUCTS = [
   },
   {
     "id": "134851",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Мамина турбота  Vittora, 650мл",
     "price": 134.0,
@@ -17191,8 +17191,8 @@ var PRODUCTS = [
   },
   {
     "id": "128961",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Квітковий вальс з вушками , Vittora 125мм, 500мл",
     "price": 134.0,
@@ -17204,8 +17204,8 @@ var PRODUCTS = [
   },
   {
     "id": "128964",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Ароматний обід з вушками , Vittora 125мм, 500мл",
     "price": 134.0,
@@ -17217,8 +17217,8 @@ var PRODUCTS = [
   },
   {
     "id": "134850",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Барви ночі  Vittora, 650мл",
     "price": 134.0,
@@ -17230,8 +17230,8 @@ var PRODUCTS = [
   },
   {
     "id": "137555",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Незабутній вечір Vittora, 140мм",
     "price": 251.0,
@@ -17243,8 +17243,8 @@ var PRODUCTS = [
   },
   {
     "id": "155471",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Менажниця біла Vittora, 305мм",
     "price": 270.0,
@@ -17256,8 +17256,8 @@ var PRODUCTS = [
   },
   {
     "id": "122682",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Смак свободи Vittora, 660мл",
     "price": 119.0,
@@ -17269,8 +17269,8 @@ var PRODUCTS = [
   },
   {
     "id": "128966",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Пастельні візерунки з вушками , Vittora 165мм, 600мл",
     "price": 212.0,
@@ -17282,8 +17282,8 @@ var PRODUCTS = [
   },
   {
     "id": "155470",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Менажниця біла Vittora, 254мм",
     "price": 198.0,
@@ -17321,8 +17321,8 @@ var PRODUCTS = [
   },
   {
     "id": "128959",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Безмежна любов з вушками , Vittora 140мм, 650мл",
     "price": 126.0,
@@ -17347,8 +17347,8 @@ var PRODUCTS = [
   },
   {
     "id": "137554",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Баланс смаку Vittora, 165мм",
     "price": 199.0,
@@ -17581,8 +17581,8 @@ var PRODUCTS = [
   },
   {
     "id": "127372",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес DIJON, 800мл VITTORA",
     "price": 480.0,
@@ -17594,8 +17594,8 @@ var PRODUCTS = [
   },
   {
     "id": "127371",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес DIJON, 600мл VITTORA",
     "price": 385.0,
@@ -17607,8 +17607,8 @@ var PRODUCTS = [
   },
   {
     "id": "127370",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес DIJON, 350мл VITTORA",
     "price": 287.0,
@@ -17620,8 +17620,8 @@ var PRODUCTS = [
   },
   {
     "id": "136061",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес DIJON, 1000мл VITTORA",
     "price": 508.0,
@@ -17646,8 +17646,8 @@ var PRODUCTS = [
   },
   {
     "id": "127377",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MARSEILLE, 600мл VITTORA",
     "price": 479.0,
@@ -17659,8 +17659,8 @@ var PRODUCTS = [
   },
   {
     "id": "127373",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес ORLEANS, 350мл VITTORA",
     "price": 442.0,
@@ -17672,8 +17672,8 @@ var PRODUCTS = [
   },
   {
     "id": "127376",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MARSEILLE, 350мл VITTORA",
     "price": 378.0,
@@ -17685,8 +17685,8 @@ var PRODUCTS = [
   },
   {
     "id": "136062",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес ORLEANS, 800мл VITTORA",
     "price": 647.0,
@@ -17698,8 +17698,8 @@ var PRODUCTS = [
   },
   {
     "id": "127375",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес ORLEANS, 1000мл VITTORA",
     "price": 685.0,
@@ -17711,8 +17711,8 @@ var PRODUCTS = [
   },
   {
     "id": "127378",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MARSEILLE, 800мл VITTORA",
     "price": 636.0,
@@ -17724,8 +17724,8 @@ var PRODUCTS = [
   },
   {
     "id": "127380",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MARSEILLE, 1000мл VITTORA",
     "price": 648.0,
@@ -17737,8 +17737,8 @@ var PRODUCTS = [
   },
   {
     "id": "136084",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес LYON, 600мл VITTORA",
     "price": 598.0,
@@ -17750,8 +17750,8 @@ var PRODUCTS = [
   },
   {
     "id": "136085",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес LYON, 800мл VITTORA",
     "price": 695.0,
@@ -17763,8 +17763,8 @@ var PRODUCTS = [
   },
   {
     "id": "127374",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес ORLEANS, 600мл VITTORA",
     "price": 543.0,
@@ -17776,8 +17776,8 @@ var PRODUCTS = [
   },
   {
     "id": "136086",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес LYON, 1000мл VITTORA",
     "price": 717.0,
@@ -17789,8 +17789,8 @@ var PRODUCTS = [
   },
   {
     "id": "136064",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес GERARD, 600мл VITTORA",
     "price": 379.0,
@@ -17802,8 +17802,8 @@ var PRODUCTS = [
   },
   {
     "id": "136070",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MACRON, 350мл VITTORA",
     "price": 552.0,
@@ -17815,8 +17815,8 @@ var PRODUCTS = [
   },
   {
     "id": "136072",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MACRON, 800мл VITTORA",
     "price": 734.0,
@@ -17828,8 +17828,8 @@ var PRODUCTS = [
   },
   {
     "id": "136080",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес PARIS, 350мл VITTORA",
     "price": 343.0,
@@ -17841,8 +17841,8 @@ var PRODUCTS = [
   },
   {
     "id": "136081",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес PARIS, 600мл VITTORA",
     "price": 428.0,
@@ -17854,8 +17854,8 @@ var PRODUCTS = [
   },
   {
     "id": "136071",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MACRON, 600мл VITTORA",
     "price": 673.0,
@@ -17867,8 +17867,8 @@ var PRODUCTS = [
   },
   {
     "id": "136079",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес MACRON, 1000мл VITTORA",
     "price": 769.0,
@@ -17880,8 +17880,8 @@ var PRODUCTS = [
   },
   {
     "id": "136066",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес FLAIR, 600мл VITTORA",
     "price": 753.0,
@@ -17893,8 +17893,8 @@ var PRODUCTS = [
   },
   {
     "id": "136069",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес FLAIR, 1000мл VITTORA",
     "price": 880.0,
@@ -17906,8 +17906,8 @@ var PRODUCTS = [
   },
   {
     "id": "136068",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес FLAIR, 800мл VITTORA",
     "price": 836.0,
@@ -17919,8 +17919,8 @@ var PRODUCTS = [
   },
   {
     "id": "134049",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Бульйонниця Серпанок, Vittora, 500мл Україна",
     "price": 89.0,
@@ -17932,8 +17932,8 @@ var PRODUCTS = [
   },
   {
     "id": "136065",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес FLAIR, 350мл VITTORA",
     "price": 606.0,
@@ -17945,8 +17945,8 @@ var PRODUCTS = [
   },
   {
     "id": "134048",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Борщівниця Серпанок, Vittora, 350мл Україна",
     "price": 99.0,
@@ -18010,8 +18010,8 @@ var PRODUCTS = [
   },
   {
     "id": "133105",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ESPRESSO з подвійним дном VITTORA, 2 шт, 80мл",
     "price": 265.0,
@@ -18036,8 +18036,8 @@ var PRODUCTS = [
   },
   {
     "id": "133063",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок TWIN з подвійним дном VITTORA, 2 шт, 350мл",
     "price": 476.0,
@@ -18049,8 +18049,8 @@ var PRODUCTS = [
   },
   {
     "id": "127360",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок TWIN з подвійним дном 2 шт, 300мл VITTORA",
     "price": 443.0,
@@ -18062,8 +18062,8 @@ var PRODUCTS = [
   },
   {
     "id": "127362",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок TWIN з подвійним дном 2 шт, 360мл VITTORA",
     "price": 548.0,
@@ -18075,8 +18075,8 @@ var PRODUCTS = [
   },
   {
     "id": "141392",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок TWIN з подвійним дном VITTORA, 2 шт, 250мл",
     "price": 274.0,
@@ -18088,8 +18088,8 @@ var PRODUCTS = [
   },
   {
     "id": "136083",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес PARIS, 1000мл VITTORA",
     "price": 552.0,
@@ -18101,8 +18101,8 @@ var PRODUCTS = [
   },
   {
     "id": "136082",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Френч прес PARIS, 800мл VITTORA",
     "price": 528.0,
@@ -18114,8 +18114,8 @@ var PRODUCTS = [
   },
   {
     "id": "133062",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок TWIN з подвійним дном VITTORA, 2шт, 350мл",
     "price": 527.0,
@@ -18127,8 +18127,8 @@ var PRODUCTS = [
   },
   {
     "id": "141384",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок TWINNY з подвійним дном VITTORA, 2шт, 250мл",
     "price": 334.0,
@@ -18140,8 +18140,8 @@ var PRODUCTS = [
   },
   {
     "id": "127359",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок TWIN LOVE з подвійним дном 2 шт, 300мл VITTORA",
     "price": 665.0,
@@ -18153,8 +18153,8 @@ var PRODUCTS = [
   },
   {
     "id": "133107",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок RABBITS з подвійним дном VITTORA, 2 шт, 300мл",
     "price": 593.0,
@@ -18166,8 +18166,8 @@ var PRODUCTS = [
   },
   {
     "id": "141381",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок KITTY PINK з подвійним дном VITTORA, 2 шт, 250мл",
     "price": 806.0,
@@ -18177,8 +18177,8 @@ var PRODUCTS = [
   },
   {
     "id": "133109",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок GOLD з подвійним дном VITTORA, 2 шт, 270мл",
     "price": 644.0,
@@ -18190,8 +18190,8 @@ var PRODUCTS = [
   },
   {
     "id": "133108",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок GOLD з подвійним дном VITTORA, 2 шт, 250мл",
     "price": 534.0,
@@ -18203,8 +18203,8 @@ var PRODUCTS = [
   },
   {
     "id": "127364",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок ANIMALS з подвійним дном 2 шт, 200мл VITTORA",
     "price": 666.0,
@@ -18216,8 +18216,8 @@ var PRODUCTS = [
   },
   {
     "id": "127363",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок ANIMALS з подвійним дном 2 шт, 250мл VITTORA",
     "price": 707.0,
@@ -18229,8 +18229,8 @@ var PRODUCTS = [
   },
   {
     "id": "133106",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок CATS з подвійним дном VITTORA, 2 шт, 250мл",
     "price": 767.0,
@@ -18242,8 +18242,8 @@ var PRODUCTS = [
   },
   {
     "id": "135072",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок DIAMOND з боросилікатного скла, 2 шт, 300 мл",
     "price": 474.0,
@@ -18255,8 +18255,8 @@ var PRODUCTS = [
   },
   {
     "id": "141380",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок KITTY BLUE з подвійним дном VITTORA, 2 шт, 250мл",
     "price": 806.0,
@@ -18268,8 +18268,8 @@ var PRODUCTS = [
   },
   {
     "id": "135078",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок NIGHT з боросилікатного скла, 2 шт, 400 мл",
     "price": 424.0,
@@ -18293,7 +18293,7 @@ var PRODUCTS = [
   {
     "id": "141394",
     "category": "instrument",
-    "subcategory": "nabory",
+    "subcategory": "elektro",
     "available": true,
     "name": "Набір склянок TILT з подвійним дном VITTORA, 2 шт, 220мл",
     "price": 524.0,
@@ -18303,8 +18303,8 @@ var PRODUCTS = [
   },
   {
     "id": "135076",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок HOLA з боросилікатного скла, 2 шт, 400 мл",
     "price": 450.0,
@@ -18316,8 +18316,8 @@ var PRODUCTS = [
   },
   {
     "id": "135077",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок SUNSET з боросилікатного скла, 2 шт, 400 мл",
     "price": 470.0,
@@ -18329,8 +18329,8 @@ var PRODUCTS = [
   },
   {
     "id": "135071",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок CRYSTAL з подвійним дном VITTORA, 2 шт, 350мл",
     "price": 699.0,
@@ -18342,8 +18342,8 @@ var PRODUCTS = [
   },
   {
     "id": "141393",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок TILT з подвійним дном VITTORA, 2 шт, 280мл",
     "price": 597.0,
@@ -18353,8 +18353,8 @@ var PRODUCTS = [
   },
   {
     "id": "127361",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок TWIN з подвійним дном 2шт, 250мл VITTORA",
     "price": 510.0,
@@ -18366,8 +18366,8 @@ var PRODUCTS = [
   },
   {
     "id": "158609",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Ранкова окраса з подвійними стінками (червоний) VITTORA, 2шт, 200мл",
     "price": 337.0,
@@ -18377,8 +18377,8 @@ var PRODUCTS = [
   },
   {
     "id": "135070",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок ICE з боросилікатного скла, 2 шт, 350 мл",
     "price": 379.0,
@@ -18390,8 +18390,8 @@ var PRODUCTS = [
   },
   {
     "id": "158608",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок  Ранкова окраса з подвійними стінками (фіолетовий) VITTORA, 2шт, 200мл",
     "price": 337.0,
@@ -18401,8 +18401,8 @@ var PRODUCTS = [
   },
   {
     "id": "135075",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок CIAO з боросилікатного скла, 2 шт, 400 мл",
     "price": 520.0,
@@ -18414,8 +18414,8 @@ var PRODUCTS = [
   },
   {
     "id": "158610",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Ранкова окраса з подвійними стінками (білий) VITTORA, 2шт, 200мл",
     "price": 337.0,
@@ -18425,8 +18425,8 @@ var PRODUCTS = [
   },
   {
     "id": "141387",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Квіткова блакить з подвійним дном VITTORA, 2шт, 200мл",
     "price": 538.0,
@@ -18436,8 +18436,8 @@ var PRODUCTS = [
   },
   {
     "id": "141386",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Фіолетове диво з подвійним дном VITTORA, 2шт, 200мл",
     "price": 538.0,
@@ -18447,8 +18447,8 @@ var PRODUCTS = [
   },
   {
     "id": "158611",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Ранкова окраса з подвійними стінками (золотий) VITTORA, 2шт, 200мл",
     "price": 337.0,
@@ -18458,8 +18458,8 @@ var PRODUCTS = [
   },
   {
     "id": "147375",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Сонячний промінь з подвійним дном VITTORA, 2шт, 200мл",
     "price": 538.0,
@@ -18471,8 +18471,8 @@ var PRODUCTS = [
   },
   {
     "id": "141391",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок STAR SILVER з подвійним дном VITTORA, 2 шт, 350мл",
     "price": 458.0,
@@ -18482,8 +18482,8 @@ var PRODUCTS = [
   },
   {
     "id": "141395",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок STAR RED з подвійним дном VITTORA, 2 шт, 350мл",
     "price": 458.0,
@@ -18493,8 +18493,8 @@ var PRODUCTS = [
   },
   {
     "id": "158606",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Ранкова окраса з подвійними стінками (фіолетовий) VITTORA, 2шт, 150мл",
     "price": 298.0,
@@ -18506,8 +18506,8 @@ var PRODUCTS = [
   },
   {
     "id": "158605",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Ранкова окраса з подвійними стінками (блакитний) VITTORA, 2шт, 150мл",
     "price": 298.0,
@@ -18519,8 +18519,8 @@ var PRODUCTS = [
   },
   {
     "id": "158607",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Ранкова окраса з подвійними стінками (блакитний) VITTORA, 2шт, 200мл",
     "price": 337.0,
@@ -18532,8 +18532,8 @@ var PRODUCTS = [
   },
   {
     "id": "147365",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок BROOK з боросилікатного скла, 2 шт, 400 мл",
     "price": 334.0,
@@ -18545,8 +18545,8 @@ var PRODUCTS = [
   },
   {
     "id": "147362",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Квітковий спокій з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18558,8 +18558,8 @@ var PRODUCTS = [
   },
   {
     "id": "147374",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок М'ятний подих з подвійним дном VITTORA, 2шт, 200мл",
     "price": 538.0,
@@ -18571,8 +18571,8 @@ var PRODUCTS = [
   },
   {
     "id": "147373",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "farby",
     "available": true,
     "name": "Набір чашок Фарби літа з подвійним дном VITTORA, 2шт, 200мл",
     "price": 538.0,
@@ -18584,8 +18584,8 @@ var PRODUCTS = [
   },
   {
     "id": "147371",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Спекотне літо з подвійним дном VITTORA, 2шт, 270мл",
     "price": 538.0,
@@ -18597,8 +18597,8 @@ var PRODUCTS = [
   },
   {
     "id": "147372",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Чарівний збір з подвійним дном VITTORA, 2шт, 270мл",
     "price": 538.0,
@@ -18610,8 +18610,8 @@ var PRODUCTS = [
   },
   {
     "id": "147378",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Танець квітів з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18623,8 +18623,8 @@ var PRODUCTS = [
   },
   {
     "id": "141374",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Кармен з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18634,8 +18634,8 @@ var PRODUCTS = [
   },
   {
     "id": "141379",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Викрадач снів з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18645,8 +18645,8 @@ var PRODUCTS = [
   },
   {
     "id": "141390",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Чар-Зілля з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18656,8 +18656,8 @@ var PRODUCTS = [
   },
   {
     "id": "141389",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Пристрасть з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18667,8 +18667,8 @@ var PRODUCTS = [
   },
   {
     "id": "141388",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Сухоцвіт з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18691,8 +18691,8 @@ var PRODUCTS = [
   },
   {
     "id": "147369",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Північне сяйво з подвійним дном VITTORA, 2 шт, 350мл",
     "price": 852.0,
@@ -18704,8 +18704,8 @@ var PRODUCTS = [
   },
   {
     "id": "141385",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Народна Берегиня з подвійним дном VITTORA, 2шт, 270мл",
     "price": 538.0,
@@ -18717,8 +18717,8 @@ var PRODUCTS = [
   },
   {
     "id": "147367",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Морозні обійми з подвійним дном VITTORA, 2 шт, 300мл",
     "price": 490.0,
@@ -18730,8 +18730,8 @@ var PRODUCTS = [
   },
   {
     "id": "147368",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Свято в чашці з подвійним дном VITTORA, 2 шт, 350мл",
     "price": 625.0,
@@ -18743,8 +18743,8 @@ var PRODUCTS = [
   },
   {
     "id": "153829",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Рожеве намисто з подвійним дном VITTORA, 2шт, 320мл",
     "price": 538.0,
@@ -18782,8 +18782,8 @@ var PRODUCTS = [
   },
   {
     "id": "147376",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Гербарій з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18795,8 +18795,8 @@ var PRODUCTS = [
   },
   {
     "id": "147377",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Магія бутонів з подвійним дном VITTORA, 2шт, 320мл",
     "price": 553.0,
@@ -18808,8 +18808,8 @@ var PRODUCTS = [
   },
   {
     "id": "153831",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Червоне намисто з подвійним дном VITTORA, 2шт, 320мл",
     "price": 538.0,
@@ -18821,8 +18821,8 @@ var PRODUCTS = [
   },
   {
     "id": "153832",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Жовте намисто з подвійним дном VITTORA, 2шт, 320мл",
     "price": 538.0,
@@ -18847,8 +18847,8 @@ var PRODUCTS = [
   },
   {
     "id": "147364",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Збережена краса з подвійним дном VITTORA, 2шт, 250мл",
     "price": 498.0,
@@ -18860,8 +18860,8 @@ var PRODUCTS = [
   },
   {
     "id": "147363",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір склянок Квіткова тиша з подвійним дном VITTORA, 2шт, 250мл",
     "price": 441.0,
@@ -18873,8 +18873,8 @@ var PRODUCTS = [
   },
   {
     "id": "153830",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Зелене намисто з подвійним дном VITTORA, 2шт, 320мл",
     "price": 538.0,
@@ -18886,8 +18886,8 @@ var PRODUCTS = [
   },
   {
     "id": "137552",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок 4шт. Щасливі будні Vittora, 360мл",
     "price": 1169.0,
@@ -18899,8 +18899,8 @@ var PRODUCTS = [
   },
   {
     "id": "137550",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок 4шт. Вишукане золото Vittora, 320мл",
     "price": 1212.0,
@@ -18912,8 +18912,8 @@ var PRODUCTS = [
   },
   {
     "id": "153833",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Блакитне намисто з подвійним дном VITTORA, 2шт, 320мл",
     "price": 538.0,
@@ -18925,8 +18925,8 @@ var PRODUCTS = [
   },
   {
     "id": "137539",
-    "category": "dlyadomu",
-    "subcategory": "posud",
+    "category": "instrument",
+    "subcategory": "elektro",
     "available": true,
     "name": "Чашка з блюдцем Полуденний оазис Vittora, 220мл",
     "price": 284.0,
@@ -18938,8 +18938,8 @@ var PRODUCTS = [
   },
   {
     "id": "153834",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок Бузкове намисто з подвійним дном VITTORA, 2шт, 320мл",
     "price": 538.0,
@@ -18951,8 +18951,8 @@ var PRODUCTS = [
   },
   {
     "id": "112339",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір Grace, 6 чашок з блюдцями на підставці, Vittora",
     "price": 906.0,
@@ -18977,8 +18977,8 @@ var PRODUCTS = [
   },
   {
     "id": "112340",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір Elegance, 6 чашок з блюдцями на підставці, Vittora",
     "price": 906.0,
@@ -19003,8 +19003,8 @@ var PRODUCTS = [
   },
   {
     "id": "158613",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір Blooming, 6 чашок з блюдцями на підставці, Vittora",
     "price": 906.0,
@@ -19029,8 +19029,8 @@ var PRODUCTS = [
   },
   {
     "id": "158612",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір Terra, 6 чашок з блюдцями на підставці, Vittora",
     "price": 803.0,
@@ -19042,8 +19042,8 @@ var PRODUCTS = [
   },
   {
     "id": "112336",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір Linea, 6 чашок з блюдцями на підставці, Vittora",
     "price": 790.0,
@@ -19107,8 +19107,8 @@ var PRODUCTS = [
   },
   {
     "id": "147439",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір чашок 2шт. Нестримні почуття Vittora, 355 мл",
     "price": 306.0,
@@ -21861,8 +21861,8 @@ var PRODUCTS = [
   },
   {
     "id": "133484",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дитячий набір Джентельмени Vittora,  2пр",
     "price": 368.0,
@@ -22068,7 +22068,7 @@ var PRODUCTS = [
   {
     "id": "144353",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води SPORT 350мл GT-699001-350, GUSTO",
     "price": 296.0,
@@ -22081,7 +22081,7 @@ var PRODUCTS = [
   {
     "id": "144370",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води SPORT 800мл GT-699003-800, GUSTO",
     "price": 332.0,
@@ -22094,7 +22094,7 @@ var PRODUCTS = [
   {
     "id": "144371",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води SPORT 500мл GT-699002-500, GUSTO",
     "price": 312.0,
@@ -22119,8 +22119,8 @@ var PRODUCTS = [
   },
   {
     "id": "144368",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води WAY 900мл GT-699005-900, GUSTO бузкова",
     "price": 346.0,
@@ -22132,8 +22132,8 @@ var PRODUCTS = [
   },
   {
     "id": "144369",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води WAY 900мл GT-699004-900, GUSTO блакитна",
     "price": 346.0,
@@ -22145,8 +22145,8 @@ var PRODUCTS = [
   },
   {
     "id": "144367",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води WAY 900мл GT-699006-900, GUSTO чорна",
     "price": 346.0,
@@ -22172,7 +22172,7 @@ var PRODUCTS = [
   {
     "id": "144366",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води STEP 450мл GT-699007-450, GUSTO бузкова",
     "price": 262.0,
@@ -22198,7 +22198,7 @@ var PRODUCTS = [
   {
     "id": "144365",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води STEP 450мл GT-699008-450, GUSTO рожева",
     "price": 262.0,
@@ -22224,7 +22224,7 @@ var PRODUCTS = [
   {
     "id": "144364",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води GO 750мл GT-699009-750, GUSTO бузкова",
     "price": 357.0,
@@ -22237,7 +22237,7 @@ var PRODUCTS = [
   {
     "id": "144363",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води GO 750мл GT-699010-750, GUSTO блакитна",
     "price": 357.0,
@@ -22250,7 +22250,7 @@ var PRODUCTS = [
   {
     "id": "144362",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води HOP 750мл GT-699011-750, GUSTO",
     "price": 386.0,
@@ -22276,7 +22276,7 @@ var PRODUCTS = [
   {
     "id": "144361",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води KEEP 800мл GT-699012-800, GUSTO сіра",
     "price": 370.0,
@@ -22289,7 +22289,7 @@ var PRODUCTS = [
   {
     "id": "144359",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води KEEP 800мл GT-699014-800, GUSTO хакі",
     "price": 370.0,
@@ -22301,8 +22301,8 @@ var PRODUCTS = [
   },
   {
     "id": "144358",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води WENT 600мл GT-699015-600, GUSTO",
     "price": 303.0,
@@ -22314,8 +22314,8 @@ var PRODUCTS = [
   },
   {
     "id": "144357",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води WENT 750мл GT-699016-750, GUSTO",
     "price": 377.0,
@@ -22328,7 +22328,7 @@ var PRODUCTS = [
   {
     "id": "144360",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води KEEP 800мл GT-699013-800, GUSTO графіт",
     "price": 370.0,
@@ -22340,8 +22340,8 @@ var PRODUCTS = [
   },
   {
     "id": "155948",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води VIBE 800мл, GUSTO",
     "price": 298.0,
@@ -22352,7 +22352,7 @@ var PRODUCTS = [
   {
     "id": "144355",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води RUN 800мл GT-699018-800, GUSTO",
     "price": 296.0,
@@ -22365,7 +22365,7 @@ var PRODUCTS = [
   {
     "id": "155944",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води FLOW 500мл , GUSTO",
     "price": 307.0,
@@ -22378,7 +22378,7 @@ var PRODUCTS = [
   {
     "id": "155945",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води FLOW 650мл, GUSTO",
     "price": 322.0,
@@ -22390,8 +22390,8 @@ var PRODUCTS = [
   },
   {
     "id": "155949",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води VIBE 1000мл, GUSTO",
     "price": 333.0,
@@ -22402,7 +22402,7 @@ var PRODUCTS = [
   {
     "id": "144356",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води RUN 600мл GT-699017-600, GUSTO",
     "price": 281.0,
@@ -22415,7 +22415,7 @@ var PRODUCTS = [
   {
     "id": "144354",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води SKIP 1000мл GT-699019-1000, GUSTO",
     "price": 348.0,
@@ -22428,7 +22428,7 @@ var PRODUCTS = [
   {
     "id": "155946",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води FLOW 800мл , GUSTO",
     "price": 334.0,
@@ -22441,7 +22441,7 @@ var PRODUCTS = [
   {
     "id": "126097",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Migo 300мл GUSTO, зелена",
     "price": 266.0,
@@ -22454,7 +22454,7 @@ var PRODUCTS = [
   {
     "id": "126099",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Migo 300мл GUSTO, рожева",
     "price": 266.0,
@@ -22467,7 +22467,7 @@ var PRODUCTS = [
   {
     "id": "126105",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Mini Sky 450мл GUSTO, аквамарін",
     "price": 150.0,
@@ -22480,7 +22480,7 @@ var PRODUCTS = [
   {
     "id": "126101",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Migo 300мл GUSTO, синя",
     "price": 266.0,
@@ -22493,7 +22493,7 @@ var PRODUCTS = [
   {
     "id": "126107",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Mini Sky 450мл GUSTO, салатова",
     "price": 150.0,
@@ -22506,7 +22506,7 @@ var PRODUCTS = [
   {
     "id": "126117",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Sonic 500мл GUSTO, синя",
     "price": 206.0,
@@ -22519,7 +22519,7 @@ var PRODUCTS = [
   {
     "id": "126115",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Sonic 500мл GUSTO, рожева",
     "price": 206.0,
@@ -22532,7 +22532,7 @@ var PRODUCTS = [
   {
     "id": "126067",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Falcon 500мл GUSTO, рожева",
     "price": 332.0,
@@ -22544,8 +22544,8 @@ var PRODUCTS = [
   },
   {
     "id": "155947",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води VIBE 550мл, GUSTO",
     "price": 256.0,
@@ -22558,7 +22558,7 @@ var PRODUCTS = [
   {
     "id": "126069",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Falcon 500мл GUSTO, синя",
     "price": 332.0,
@@ -22571,7 +22571,7 @@ var PRODUCTS = [
   {
     "id": "126071",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Falcon 500мл GUSTO, сіра",
     "price": 332.0,
@@ -22584,7 +22584,7 @@ var PRODUCTS = [
   {
     "id": "126073",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Juno 500мл GUSTO, рожева",
     "price": 288.0,
@@ -22597,7 +22597,7 @@ var PRODUCTS = [
   {
     "id": "126075",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Juno 500мл GUSTO, сіра",
     "price": 288.0,
@@ -22610,7 +22610,7 @@ var PRODUCTS = [
   {
     "id": "126079",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya 500мл GUSTO, рожева",
     "price": 255.0,
@@ -22623,7 +22623,7 @@ var PRODUCTS = [
   {
     "id": "126081",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya 500мл GUSTO, сіра",
     "price": 255.0,
@@ -22636,7 +22636,7 @@ var PRODUCTS = [
   {
     "id": "126093",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya 630мл GUSTO, синя",
     "price": 299.0,
@@ -22649,7 +22649,7 @@ var PRODUCTS = [
   {
     "id": "126077",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Juno 500мл GUSTO,синя",
     "price": 288.0,
@@ -22662,7 +22662,7 @@ var PRODUCTS = [
   {
     "id": "126083",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya 500мл GUSTO,синя",
     "price": 255.0,
@@ -22675,7 +22675,7 @@ var PRODUCTS = [
   {
     "id": "126091",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya 630мл GUSTO, рожева",
     "price": 299.0,
@@ -22688,7 +22688,7 @@ var PRODUCTS = [
   {
     "id": "126095",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya 630мл GUSTO, сіра",
     "price": 299.0,
@@ -22701,7 +22701,7 @@ var PRODUCTS = [
   {
     "id": "126109",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Sky 630мл GUSTO, аквамарін",
     "price": 163.0,
@@ -22714,7 +22714,7 @@ var PRODUCTS = [
   {
     "id": "126111",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Sky 630мл GUSTO, рожева",
     "price": 163.0,
@@ -22727,7 +22727,7 @@ var PRODUCTS = [
   {
     "id": "126113",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Sky 630мл GUSTO, салатова",
     "price": 163.0,
@@ -22740,7 +22740,7 @@ var PRODUCTS = [
   {
     "id": "128509",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Atlas 630мл GUSTO, бежева",
     "price": 417.0,
@@ -22753,7 +22753,7 @@ var PRODUCTS = [
   {
     "id": "128508",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Atlas 630мл GUSTO, фіолетова",
     "price": 417.0,
@@ -22766,7 +22766,7 @@ var PRODUCTS = [
   {
     "id": "128510",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Atlas 630мл GUSTO, бірюза",
     "price": 417.0,
@@ -22779,7 +22779,7 @@ var PRODUCTS = [
   {
     "id": "128506",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Saga 630мл GUSTO, синя",
     "price": 408.0,
@@ -22792,7 +22792,7 @@ var PRODUCTS = [
   {
     "id": "126087",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya з інфузором 730мл GUSTO, синя",
     "price": 354.0,
@@ -22805,7 +22805,7 @@ var PRODUCTS = [
   {
     "id": "128505",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Saga 630мл GUSTO, зелена",
     "price": 408.0,
@@ -22818,7 +22818,7 @@ var PRODUCTS = [
   {
     "id": "128507",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Saga 630мл GUSTO, фіолетова",
     "price": 408.0,
@@ -22831,7 +22831,7 @@ var PRODUCTS = [
   {
     "id": "126085",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya з інфузором 730мл GUSTO, рожева",
     "price": 354.0,
@@ -22844,7 +22844,7 @@ var PRODUCTS = [
   {
     "id": "126055",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Ege 750мл GUSTO, рожева",
     "price": 395.0,
@@ -22857,7 +22857,7 @@ var PRODUCTS = [
   {
     "id": "126059",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Ege 750мл GUSTO, сіра",
     "price": 395.0,
@@ -22870,7 +22870,7 @@ var PRODUCTS = [
   {
     "id": "126057",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Ege 750мл GUSTO, синя",
     "price": 395.0,
@@ -22883,7 +22883,7 @@ var PRODUCTS = [
   {
     "id": "126061",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Ege 800мл GUSTO, рожева",
     "price": 338.0,
@@ -22896,7 +22896,7 @@ var PRODUCTS = [
   {
     "id": "126063",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Ege 800мл GUSTO, синя",
     "price": 338.0,
@@ -22909,7 +22909,7 @@ var PRODUCTS = [
   {
     "id": "126065",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Ege 800мл GUSTO, сіра",
     "price": 338.0,
@@ -22922,7 +22922,7 @@ var PRODUCTS = [
   {
     "id": "128515",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Cross 1л GUSTO, рожева",
     "price": 183.0,
@@ -22935,7 +22935,7 @@ var PRODUCTS = [
   {
     "id": "126089",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Lidya з інфузором 730мл GUSTO, сіра",
     "price": 354.0,
@@ -22948,7 +22948,7 @@ var PRODUCTS = [
   {
     "id": "128514",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Cross 1л GUSTO, синя",
     "price": 183.0,
@@ -22961,7 +22961,7 @@ var PRODUCTS = [
   {
     "id": "128516",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для води Cross 1л GUSTO, зелена",
     "price": 183.0,
@@ -22974,7 +22974,7 @@ var PRODUCTS = [
   {
     "id": "88434",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Перерва на каву (біла) GUSTO, 350мл",
     "price": 607.0,
@@ -22987,7 +22987,7 @@ var PRODUCTS = [
   {
     "id": "88437",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Перерва на каву (коричнева) GUSTO, 350мл",
     "price": 607.0,
@@ -22999,8 +22999,8 @@ var PRODUCTS = [
   },
   {
     "id": "135663",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Волошкове поле GUSTO, 350мл",
     "price": 698.0,
@@ -23012,8 +23012,8 @@ var PRODUCTS = [
   },
   {
     "id": "156245",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Ванільне небо (пудрова) GUSTO, 320 мл",
     "price": 525.0,
@@ -23025,8 +23025,8 @@ var PRODUCTS = [
   },
   {
     "id": "156244",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Ванільне небо (молочна) GUSTO, 320 мл",
     "price": 525.0,
@@ -23038,8 +23038,8 @@ var PRODUCTS = [
   },
   {
     "id": "135661",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "vytratni",
     "available": true,
     "name": "Термокружка Диско (рожева) GUSTO, 380мл",
     "price": 646.0,
@@ -23051,8 +23051,8 @@ var PRODUCTS = [
   },
   {
     "id": "135660",
-    "category": "budmaterialy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "vytratni",
     "available": true,
     "name": "Термокружка Диско (синя) GUSTO, 380мл",
     "price": 646.0,
@@ -23065,7 +23065,7 @@ var PRODUCTS = [
   {
     "id": "156249",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Перерва на каву (пудрова) GUSTO, 350мл",
     "price": 453.0,
@@ -23078,7 +23078,7 @@ var PRODUCTS = [
   {
     "id": "135662",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Місячне сяйво GUSTO, 400мл",
     "price": 659.0,
@@ -23091,7 +23091,7 @@ var PRODUCTS = [
   {
     "id": "156246",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Мрійлива (зелена) GUSTO, 350 мл",
     "price": 536.0,
@@ -23104,7 +23104,7 @@ var PRODUCTS = [
   {
     "id": "156251",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Перерва на каву (олива) GUSTO, 350мл",
     "price": 453.0,
@@ -23117,7 +23117,7 @@ var PRODUCTS = [
   {
     "id": "156243",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Пульс GUSTO, 500",
     "price": 536.0,
@@ -23130,7 +23130,7 @@ var PRODUCTS = [
   {
     "id": "88665",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Гаряча насолода (бузкова) GUSTO, 480мл",
     "price": 946.0,
@@ -23143,7 +23143,7 @@ var PRODUCTS = [
   {
     "id": "88668",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Гранатовий браслет (червона) GUSTO, 500мл",
     "price": 826.0,
@@ -23156,7 +23156,7 @@ var PRODUCTS = [
   {
     "id": "88429",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Блакить GUSTO, 500мл",
     "price": 807.0,
@@ -23169,7 +23169,7 @@ var PRODUCTS = [
   {
     "id": "156247",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Мрійлива (фіолетова) GUSTO, 350 мл",
     "price": 536.0,
@@ -23182,7 +23182,7 @@ var PRODUCTS = [
   {
     "id": "156242",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Пульс GUSTO, 350",
     "price": 513.0,
@@ -23195,7 +23195,7 @@ var PRODUCTS = [
   {
     "id": "135665",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Сонячний промінь GUSTO, 560мл",
     "price": 739.0,
@@ -23208,7 +23208,7 @@ var PRODUCTS = [
   {
     "id": "135666",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Травневе небо GUSTO, 560мл",
     "price": 739.0,
@@ -23221,7 +23221,7 @@ var PRODUCTS = [
   {
     "id": "88433",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Пляшка для пиття з нержавіючої сталі Солодка ягідка GUSTO, 400мл",
     "price": 474.0,
@@ -23234,7 +23234,7 @@ var PRODUCTS = [
   {
     "id": "88435",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термо-пляшка Чемпіон GUSTO, 500мл",
     "price": 768.0,
@@ -23247,7 +23247,7 @@ var PRODUCTS = [
   {
     "id": "88438",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Оновлення GUSTO, 600мл",
     "price": 659.0,
@@ -23260,7 +23260,7 @@ var PRODUCTS = [
   {
     "id": "146920",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Дружній візит GUSTO, 1100мл",
     "price": 790.0,
@@ -23271,7 +23271,7 @@ var PRODUCTS = [
   {
     "id": "135664",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Індиго GUSTO, 600мл",
     "price": 698.0,
@@ -23284,7 +23284,7 @@ var PRODUCTS = [
   {
     "id": "126800",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Пробудження GUSTO, 600мл",
     "price": 659.0,
@@ -23297,7 +23297,7 @@ var PRODUCTS = [
   {
     "id": "146919",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Термокружка Променад GUSTO, 850мл",
     "price": 753.0,
@@ -23516,7 +23516,7 @@ var PRODUCTS = [
   {
     "id": "156255",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Нічний шарм GUSTO,750 мл",
     "price": 822.0,
@@ -23581,7 +23581,7 @@ var PRODUCTS = [
   {
     "id": "156256",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Нічний шарм GUSTO,1000 мл",
     "price": 886.0,
@@ -23697,8 +23697,8 @@ var PRODUCTS = [
   },
   {
     "id": "114491",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Chromium Набір столових ложок 3 шт, GUSTO",
     "price": 161.0,
@@ -23710,8 +23710,8 @@ var PRODUCTS = [
   },
   {
     "id": "114494",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Chromium Набір чайних ложок 3 шт, GUSTO",
     "price": 127.0,
@@ -23723,8 +23723,8 @@ var PRODUCTS = [
   },
   {
     "id": "114493",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Chromium Набір столових ножів 2 шт,GUSTO",
     "price": 156.0,
@@ -23736,8 +23736,8 @@ var PRODUCTS = [
   },
   {
     "id": "114492",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Chromium Набір столових виделок 3 шт, GUSTO",
     "price": 161.0,
@@ -23749,8 +23749,8 @@ var PRODUCTS = [
   },
   {
     "id": "114488",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Mercury Набір столових виделок 3 шт, GUSTO",
     "price": 161.0,
@@ -23762,8 +23762,8 @@ var PRODUCTS = [
   },
   {
     "id": "114489",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Mercury Набір столових ножів 2 шт, GUSTO",
     "price": 156.0,
@@ -23775,8 +23775,8 @@ var PRODUCTS = [
   },
   {
     "id": "114487",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Mercury Набір столових ложок 3 шт,GUSTO",
     "price": 161.0,
@@ -23788,8 +23788,8 @@ var PRODUCTS = [
   },
   {
     "id": "114490",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Mercury Набір чайних ложок 3 шт,GUSTO",
     "price": 127.0,
@@ -23801,8 +23801,8 @@ var PRODUCTS = [
   },
   {
     "id": "114496",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Platinum Набір столових виделок 3 шт, GUSTO",
     "price": 161.0,
@@ -23814,8 +23814,8 @@ var PRODUCTS = [
   },
   {
     "id": "114479",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Modicum Набір столових ложок 3 шт, GUSTO",
     "price": 156.0,
@@ -23827,8 +23827,8 @@ var PRODUCTS = [
   },
   {
     "id": "114480",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Modicum Набір столових виделок 3 шт, GUSTO",
     "price": 156.0,
@@ -23840,8 +23840,8 @@ var PRODUCTS = [
   },
   {
     "id": "114495",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Platinum Набір столових ложок 3 шт, GUSTO",
     "price": 161.0,
@@ -23853,8 +23853,8 @@ var PRODUCTS = [
   },
   {
     "id": "114497",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Platinum Набір столових ножів 2 шт, GUSTO",
     "price": 156.0,
@@ -23866,8 +23866,8 @@ var PRODUCTS = [
   },
   {
     "id": "114498",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Platinum Набір чайних ложок 3 шт, GUSTO",
     "price": 127.0,
@@ -23879,8 +23879,8 @@ var PRODUCTS = [
   },
   {
     "id": "114481",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Modicum Набір столових ножів 2 шт, GUSTO",
     "price": 152.0,
@@ -23892,8 +23892,8 @@ var PRODUCTS = [
   },
   {
     "id": "114482",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Modicum Набір чайних ложок 3 шт, GUSTO",
     "price": 123.0,
@@ -23905,8 +23905,8 @@ var PRODUCTS = [
   },
   {
     "id": "114484",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Silver Набір столових виделок 3 шт,GUSTO",
     "price": 161.0,
@@ -23918,8 +23918,8 @@ var PRODUCTS = [
   },
   {
     "id": "114483",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Silver Набір столових ложок 3 шт, GUSTO",
     "price": 161.0,
@@ -23931,8 +23931,8 @@ var PRODUCTS = [
   },
   {
     "id": "133608",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Neptunium Набір столових приборів 24 шт, GT-SFKS01-24, GUSTO",
     "price": 1896.0,
@@ -23944,8 +23944,8 @@ var PRODUCTS = [
   },
   {
     "id": "133609",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Plutonium Набір столових приборів 24 шт, GT-SFKS02-24, GUSTO",
     "price": 1896.0,
@@ -23957,8 +23957,8 @@ var PRODUCTS = [
   },
   {
     "id": "114486",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Silver Набір чайних ложок 3 шт, GUSTO",
     "price": 127.0,
@@ -23970,8 +23970,8 @@ var PRODUCTS = [
   },
   {
     "id": "114502",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Titanium Набір чайних ложок 3 шт,GUSTO",
     "price": 127.0,
@@ -23983,8 +23983,8 @@ var PRODUCTS = [
   },
   {
     "id": "114485",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Silver Набір столових ножів 2 шт,GUSTO",
     "price": 156.0,
@@ -24022,8 +24022,8 @@ var PRODUCTS = [
   },
   {
     "id": "114499",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Titanium Набір столових ложок 3 шт, GUSTO",
     "price": 161.0,
@@ -24035,8 +24035,8 @@ var PRODUCTS = [
   },
   {
     "id": "114500",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Titanium Набір столових виделок 3 шт,GUSTO",
     "price": 161.0,
@@ -24048,8 +24048,8 @@ var PRODUCTS = [
   },
   {
     "id": "114501",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Titanium Набір столових ножів 2 шт, GUSTO",
     "price": 156.0,
@@ -24126,8 +24126,8 @@ var PRODUCTS = [
   },
   {
     "id": "110922",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шампура 'Time2Grill' 45см (набір 6 шт) нерж.сталь GUSTO",
     "price": 627.0,
@@ -24140,7 +24140,7 @@ var PRODUCTS = [
   {
     "id": "110920",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шампура 'Time2Grill' 45 см GUSTO",
     "price": 67.0,
@@ -24153,7 +24153,7 @@ var PRODUCTS = [
   {
     "id": "110921",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шампура 'Time2Grill' 60 см GUSTO",
     "price": 77.0,
@@ -24191,8 +24191,8 @@ var PRODUCTS = [
   },
   {
     "id": "110923",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шампура 'Time2Grill' 60 см (набір 6 шт) нерж.сталь GUSTO",
     "price": 741.0,
@@ -24204,8 +24204,8 @@ var PRODUCTS = [
   },
   {
     "id": "110924",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Аксесуари для барбекю 'Time2Grill' (набір 4 пр) нерж.сталь GUSTO",
     "price": 1085.0,
@@ -24218,7 +24218,7 @@ var PRODUCTS = [
   {
     "id": "125074",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Міні-дуршляк з ручкою складний 0,6л GUSTO",
     "price": 132.0,
@@ -24244,7 +24244,7 @@ var PRODUCTS = [
   {
     "id": "125064",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дуршляк для рису складний 3л GUSTO",
     "price": 206.0,
@@ -24257,7 +24257,7 @@ var PRODUCTS = [
   {
     "id": "125068",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дуршляк складний з ручкою 1,5л GUSTO",
     "price": 178.0,
@@ -24296,7 +24296,7 @@ var PRODUCTS = [
   {
     "id": "121422",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "farby",
     "available": true,
     "name": "Друшлак рожевий 2л.GUSTO",
     "price": 91.0,
@@ -24308,8 +24308,8 @@ var PRODUCTS = [
   },
   {
     "id": "121430",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Набір 3шт. ємностей для змішування (1,5, 2,00, 2,5л) GUSTO",
     "price": 306.0,
@@ -24348,7 +24348,7 @@ var PRODUCTS = [
   {
     "id": "128764",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Лійка-воронка GUSTO, 115мм Україна",
     "price": 26.0,
@@ -24426,7 +24426,7 @@ var PRODUCTS = [
   {
     "id": "121432",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Чаша для змішування 2,25л GUSTO",
     "price": 96.0,
@@ -24439,7 +24439,7 @@ var PRODUCTS = [
   {
     "id": "164172",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Лійка із жолобком  GUSTО Україна",
     "price": 26.0,
@@ -24452,7 +24452,7 @@ var PRODUCTS = [
   {
     "id": "121434",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Чаша для змішування 4,5 л GUSTO",
     "price": 115.0,
@@ -24515,7 +24515,7 @@ var PRODUCTS = [
   {
     "id": "123226",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка для мікрохвильової печі (D-27см) GUSTO",
     "price": 123.0,
@@ -24528,7 +24528,7 @@ var PRODUCTS = [
   {
     "id": "149283",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кришка для мікрохвильової печі 26х10см GUSTO",
     "price": 138.0,
@@ -24553,8 +24553,8 @@ var PRODUCTS = [
   },
   {
     "id": "128771",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір для пікніка Люкс GUSTO Україна",
     "price": 502.0,
@@ -24580,7 +24580,7 @@ var PRODUCTS = [
   {
     "id": "121438",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Соковитискач ручний для цитрусових GUSTO",
     "price": 117.0,
@@ -24606,7 +24606,7 @@ var PRODUCTS = [
   {
     "id": "123220",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склянка Aura 350мл  GUSTO",
     "price": 73.0,
@@ -24658,7 +24658,7 @@ var PRODUCTS = [
   {
     "id": "123218",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кружка Aura 350мл  GUSTO",
     "price": 86.0,
@@ -24671,7 +24671,7 @@ var PRODUCTS = [
   {
     "id": "121424",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер продуктовий  1,2л GUSTO",
     "price": 137.0,
@@ -24697,7 +24697,7 @@ var PRODUCTS = [
   {
     "id": "121426",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер продуктовий 1,8л GUSTO",
     "price": 162.0,
@@ -24710,7 +24710,7 @@ var PRODUCTS = [
   {
     "id": "123194",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий герметичний  Смарагд 0,60л GUSTO",
     "price": 132.0,
@@ -24723,7 +24723,7 @@ var PRODUCTS = [
   {
     "id": "123190",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Потрійний контейнер для зберігання (3х0,75л) GUSTO",
     "price": 193.0,
@@ -24736,7 +24736,7 @@ var PRODUCTS = [
   {
     "id": "123192",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий герметичний Смарагд 0,35л GUSTO",
     "price": 113.0,
@@ -24749,7 +24749,7 @@ var PRODUCTS = [
   {
     "id": "123196",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий герметичний Смарагд 0,90л GUSTO",
     "price": 145.0,
@@ -24762,7 +24762,7 @@ var PRODUCTS = [
   {
     "id": "123200",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий герметичний Смарагд 1,7л  GUSTO",
     "price": 164.0,
@@ -24775,7 +24775,7 @@ var PRODUCTS = [
   {
     "id": "123198",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий герметичний Смарагд 1,0л  GUSTO",
     "price": 145.0,
@@ -24788,7 +24788,7 @@ var PRODUCTS = [
   {
     "id": "123204",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий Янтар 0,60л  GUSTO",
     "price": 85.0,
@@ -24801,7 +24801,7 @@ var PRODUCTS = [
   {
     "id": "123202",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий Янтар 0,35л  GUSTO",
     "price": 66.0,
@@ -24814,7 +24814,7 @@ var PRODUCTS = [
   {
     "id": "123208",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий Янтар 1,0л  GUSTO",
     "price": 113.0,
@@ -24827,7 +24827,7 @@ var PRODUCTS = [
   {
     "id": "123210",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий Янтар 2,0л  GUSTO",
     "price": 225.0,
@@ -24840,7 +24840,7 @@ var PRODUCTS = [
   {
     "id": "123206",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий Янтар 0,90л  GUSTO",
     "price": 94.0,
@@ -24853,7 +24853,7 @@ var PRODUCTS = [
   {
     "id": "123212",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Судок харчовий Янтар 2,2л GT-G-485 GUSTO",
     "price": 143.0,
@@ -24892,7 +24892,7 @@ var PRODUCTS = [
   {
     "id": "123188",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ланчбокс Радість (140х180х75 мм) GUSTO",
     "price": 145.0,
@@ -24905,7 +24905,7 @@ var PRODUCTS = [
   {
     "id": "121418",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дощечка гнучка  кухарська (246*346*2,6 мм) GUSTO",
     "price": 155.0,
@@ -24931,7 +24931,7 @@ var PRODUCTS = [
   {
     "id": "123184",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дощечка Грушка GUSTO",
     "price": 232.0,
@@ -24944,7 +24944,7 @@ var PRODUCTS = [
   {
     "id": "121420",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дощечка зелене яблуко (280*305*8мм) GUSTO",
     "price": 232.0,
@@ -24957,7 +24957,7 @@ var PRODUCTS = [
   {
     "id": "121414",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дощечка антиковзаюча (190*365*7 мм)  GUSTO",
     "price": 237.0,
@@ -24970,7 +24970,7 @@ var PRODUCTS = [
   {
     "id": "121416",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дощечка антиковзаюча (205*290*8 мм)  GUSTO",
     "price": 259.0,
@@ -24996,7 +24996,7 @@ var PRODUCTS = [
   {
     "id": "121412",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дощечка  Полуниця( 270*315*8мм) GUSTO",
     "price": 259.0,
@@ -25021,8 +25021,8 @@ var PRODUCTS = [
   },
   {
     "id": "149282",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір дощечок 4 шт GUSTO",
     "price": 643.0,
@@ -25034,8 +25034,8 @@ var PRODUCTS = [
   },
   {
     "id": "148152",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Нефрит (зелена) 24.5см, VITTORA",
     "price": 383.0,
@@ -25047,8 +25047,8 @@ var PRODUCTS = [
   },
   {
     "id": "148158",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Діамант (прозора) 29.5см, VITTORA",
     "price": 418.0,
@@ -25061,7 +25061,7 @@ var PRODUCTS = [
   {
     "id": "137792",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ланчбокс Сова з ложкою і виделкою 1л (145х170х60 мм) GUSTO Україна",
     "price": 87.0,
@@ -25073,8 +25073,8 @@ var PRODUCTS = [
   },
   {
     "id": "148151",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Онікс (коричнева) 24.5см, VITTORA",
     "price": 383.0,
@@ -25099,8 +25099,8 @@ var PRODUCTS = [
   },
   {
     "id": "148159",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Місячний камінь (молочна) 29.5см, VITTORA",
     "price": 500.0,
@@ -25112,8 +25112,8 @@ var PRODUCTS = [
   },
   {
     "id": "151109",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця прямокутна Home 35.8х25х4см, VITTORA",
     "price": 300.0,
@@ -25123,8 +25123,8 @@ var PRODUCTS = [
   },
   {
     "id": "148157",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Турмалін 19.5см, VITTORA",
     "price": 499.0,
@@ -25136,8 +25136,8 @@ var PRODUCTS = [
   },
   {
     "id": "151110",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": false,
     "name": "Таця прямокутна Home 44х30х4см, VITTORA",
     "price": 319.0,
@@ -25147,8 +25147,8 @@ var PRODUCTS = [
   },
   {
     "id": "148155",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Аметист (бензинова) 27.5см, VITTORA",
     "price": 556.0,
@@ -25160,8 +25160,8 @@ var PRODUCTS = [
   },
   {
     "id": "151111",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця прямокутна Home 40х29х5см, VITTORA",
     "price": 319.0,
@@ -25172,7 +25172,7 @@ var PRODUCTS = [
   {
     "id": "137793",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ланчбокс Дитячий 0,4л (143х145х30 мм) GUSTO Україна",
     "price": 59.0,
@@ -25184,8 +25184,8 @@ var PRODUCTS = [
   },
   {
     "id": "148153",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Сапфір (синя) 20.5см, VITTORA",
     "price": 625.0,
@@ -25197,8 +25197,8 @@ var PRODUCTS = [
   },
   {
     "id": "148156",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Магічний Агат (димчата) 27.5см, VITTORA",
     "price": 556.0,
@@ -25210,8 +25210,8 @@ var PRODUCTS = [
   },
   {
     "id": "148160",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Гірський кришталь 30см, VITTORA",
     "price": 276.0,
@@ -25223,8 +25223,8 @@ var PRODUCTS = [
   },
   {
     "id": "136320",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Геометрія 45х30см, мокко Versailles",
     "price": 78.0,
@@ -25236,8 +25236,8 @@ var PRODUCTS = [
   },
   {
     "id": "148154",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ваза скляна Смарагд (зелена) 20.5см, VITTORA",
     "price": 625.0,
@@ -25249,8 +25249,8 @@ var PRODUCTS = [
   },
   {
     "id": "151120",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця прямокутна Provence 35х25х5см, VITTORA",
     "price": 433.0,
@@ -25262,8 +25262,8 @@ var PRODUCTS = [
   },
   {
     "id": "136322",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Домашній 45х30см, бежевий Versailles",
     "price": 78.0,
@@ -25275,8 +25275,8 @@ var PRODUCTS = [
   },
   {
     "id": "151121",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця прямокутна з ручками Provence 30х20х5см, VITTORA",
     "price": 360.0,
@@ -25288,8 +25288,8 @@ var PRODUCTS = [
   },
   {
     "id": "151122",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця прямокутна з ручками Provence 35х25х5см, VITTORA",
     "price": 399.0,
@@ -25301,8 +25301,8 @@ var PRODUCTS = [
   },
   {
     "id": "151119",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця кругла Provence 35х5см, VITTORA",
     "price": 334.0,
@@ -25314,8 +25314,8 @@ var PRODUCTS = [
   },
   {
     "id": "136326",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Атмосфера 45х30см, бежевий Versailles",
     "price": 85.0,
@@ -25327,8 +25327,8 @@ var PRODUCTS = [
   },
   {
     "id": "136325",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Затишний 45х30см, капучіно Versailles",
     "price": 85.0,
@@ -25340,8 +25340,8 @@ var PRODUCTS = [
   },
   {
     "id": "151118",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таця кругла Provence 25х5см, VITTORA",
     "price": 260.0,
@@ -25353,8 +25353,8 @@ var PRODUCTS = [
   },
   {
     "id": "136331",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Сімейний 45х30см, шоколад Versailles",
     "price": 81.0,
@@ -25366,8 +25366,8 @@ var PRODUCTS = [
   },
   {
     "id": "136329",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Затишний 45х30см, світло-сірий Versailles",
     "price": 81.0,
@@ -25379,8 +25379,8 @@ var PRODUCTS = [
   },
   {
     "id": "136319",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Геометрія 45х30см, чорний Versailles",
     "price": 78.0,
@@ -25392,8 +25392,8 @@ var PRODUCTS = [
   },
   {
     "id": "136334",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Весняний колорит 45х30см, бузковий Versailles",
     "price": 85.0,
@@ -25405,8 +25405,8 @@ var PRODUCTS = [
   },
   {
     "id": "136318",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування  45х30см,  Versailles",
     "price": 65.0,
@@ -25418,8 +25418,8 @@ var PRODUCTS = [
   },
   {
     "id": "136336",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Весняний колорит 45х30см, салатовий Versailles",
     "price": 85.0,
@@ -25431,8 +25431,8 @@ var PRODUCTS = [
   },
   {
     "id": "136324",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Затишний 45х30см, гірчичний Versailles",
     "price": 85.0,
@@ -25444,8 +25444,8 @@ var PRODUCTS = [
   },
   {
     "id": "136327",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Атмосфера 45х30см, сірий Versailles",
     "price": 85.0,
@@ -25457,8 +25457,8 @@ var PRODUCTS = [
   },
   {
     "id": "136337",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Весняний колорит 45х30см, темно-сірий Versailles",
     "price": 85.0,
@@ -25470,8 +25470,8 @@ var PRODUCTS = [
   },
   {
     "id": "136335",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Весняний колорит 45х30см, червоний Versailles",
     "price": 85.0,
@@ -25483,8 +25483,8 @@ var PRODUCTS = [
   },
   {
     "id": "136338",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Мелодія Сходу 45х30см, сірий Versailles",
     "price": 85.0,
@@ -25496,8 +25496,8 @@ var PRODUCTS = [
   },
   {
     "id": "136332",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Смарт 45х30см, сірий Versailles",
     "price": 81.0,
@@ -25509,8 +25509,8 @@ var PRODUCTS = [
   },
   {
     "id": "136342",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Симфонія 45х30см, бежевий Versailles",
     "price": 89.0,
@@ -25522,8 +25522,8 @@ var PRODUCTS = [
   },
   {
     "id": "136321",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Геометрія 45х30см, оливковий Versailles",
     "price": 78.0,
@@ -25535,8 +25535,8 @@ var PRODUCTS = [
   },
   {
     "id": "136323",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Затишний 45х30см, сірий Versailles",
     "price": 85.0,
@@ -25548,8 +25548,8 @@ var PRODUCTS = [
   },
   {
     "id": "136339",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Мелодія Сходу 45х30см, червоний Versailles",
     "price": 85.0,
@@ -25561,8 +25561,8 @@ var PRODUCTS = [
   },
   {
     "id": "136333",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Зустріч 45х30см, сірий Versailles",
     "price": 85.0,
@@ -25574,8 +25574,8 @@ var PRODUCTS = [
   },
   {
     "id": "136345",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Симфонія 45х30см, шоколад Versailles",
     "price": 92.0,
@@ -25587,8 +25587,8 @@ var PRODUCTS = [
   },
   {
     "id": "136328",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Затишний 45х30см, шоколад Versailles",
     "price": 81.0,
@@ -25600,8 +25600,8 @@ var PRODUCTS = [
   },
   {
     "id": "136349",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Енігма 45х30см, сірий Versailles",
     "price": 112.0,
@@ -25613,8 +25613,8 @@ var PRODUCTS = [
   },
   {
     "id": "136341",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Мелодія Сходу 45х30см, темно-сірий Versailles",
     "price": 85.0,
@@ -25626,8 +25626,8 @@ var PRODUCTS = [
   },
   {
     "id": "136344",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Симфонія 45х30см, темно-сірий Versailles",
     "price": 92.0,
@@ -25639,8 +25639,8 @@ var PRODUCTS = [
   },
   {
     "id": "136340",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Мелодія Сходу 45х30см, зелений Versailles",
     "price": 85.0,
@@ -25652,8 +25652,8 @@ var PRODUCTS = [
   },
   {
     "id": "136330",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Сімейний 45х30см, сірий Versailles",
     "price": 81.0,
@@ -25665,8 +25665,8 @@ var PRODUCTS = [
   },
   {
     "id": "136343",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Симфонія 45х30см, сірий Versailles",
     "price": 89.0,
@@ -25678,8 +25678,8 @@ var PRODUCTS = [
   },
   {
     "id": "136356",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Пальмова гілка 45х30см, сірий Versailles",
     "price": 154.0,
@@ -25691,8 +25691,8 @@ var PRODUCTS = [
   },
   {
     "id": "136357",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Смачний обід 45х30см, сірий Versailles",
     "price": 118.0,
@@ -25704,8 +25704,8 @@ var PRODUCTS = [
   },
   {
     "id": "136350",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Лоза 45х30см, бежевий Versailles",
     "price": 112.0,
@@ -25717,8 +25717,8 @@ var PRODUCTS = [
   },
   {
     "id": "136352",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Кульбабки 45х30см, блакитний Versailles",
     "price": 89.0,
@@ -25730,8 +25730,8 @@ var PRODUCTS = [
   },
   {
     "id": "136359",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Персона 45х30см, сірий Versailles",
     "price": 109.0,
@@ -25743,8 +25743,8 @@ var PRODUCTS = [
   },
   {
     "id": "136351",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Кульбабки 45х30см, сірий Versailles",
     "price": 89.0,
@@ -25756,8 +25756,8 @@ var PRODUCTS = [
   },
   {
     "id": "136360",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Персона 45х30см, мокко Versailles",
     "price": 109.0,
@@ -25769,8 +25769,8 @@ var PRODUCTS = [
   },
   {
     "id": "136363",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Віхола 38см,  Versailles",
     "price": 89.0,
@@ -25782,8 +25782,8 @@ var PRODUCTS = [
   },
   {
     "id": "136348",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Ретро 45х30см, сірий Versailles",
     "price": 112.0,
@@ -25795,8 +25795,8 @@ var PRODUCTS = [
   },
   {
     "id": "136364",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Жозефіна 38см,  Versailles",
     "price": 89.0,
@@ -25808,8 +25808,8 @@ var PRODUCTS = [
   },
   {
     "id": "136365",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Силует 38см,  Versailles",
     "price": 89.0,
@@ -25821,8 +25821,8 @@ var PRODUCTS = [
   },
   {
     "id": "141230",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Набір килимків для сервірування 4шт Домашній 45х30см, Versailles",
     "price": 499.0,
@@ -25834,8 +25834,8 @@ var PRODUCTS = [
   },
   {
     "id": "141229",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Набір килимків для сервірування 4шт Затишний 45х30см, Versailles",
     "price": 514.0,
@@ -25847,8 +25847,8 @@ var PRODUCTS = [
   },
   {
     "id": "141231",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Набір килимків для сервірування 4шт Мереживо 45х30см, Versailles",
     "price": 528.0,
@@ -25860,8 +25860,8 @@ var PRODUCTS = [
   },
   {
     "id": "156827",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування екошкіра, молочний 45х30см, Versailles",
     "price": 114.0,
@@ -25871,8 +25871,8 @@ var PRODUCTS = [
   },
   {
     "id": "156829",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування екошкіра, темний 45х30см, Versailles",
     "price": 114.0,
@@ -25882,8 +25882,8 @@ var PRODUCTS = [
   },
   {
     "id": "156828",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування екошкіра, коричневий 45х30см, Versailles",
     "price": 114.0,
@@ -25893,8 +25893,8 @@ var PRODUCTS = [
   },
   {
     "id": "156831",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вологопоглинаючий килимок для кухні (соти) 30х45 см, Versailles",
     "price": 111.0,
@@ -25904,8 +25904,8 @@ var PRODUCTS = [
   },
   {
     "id": "136354",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Кульбабки 45х30см, мокко Versailles",
     "price": 89.0,
@@ -25917,8 +25917,8 @@ var PRODUCTS = [
   },
   {
     "id": "156833",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вологопоглинаючий килимок для кухні (орнамент) 30х45 см, Versailles",
     "price": 111.0,
@@ -25928,8 +25928,8 @@ var PRODUCTS = [
   },
   {
     "id": "156834",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вологопоглинаючий килимок для кухні (лимони) 30х45 см, Versailles",
     "price": 111.0,
@@ -25939,8 +25939,8 @@ var PRODUCTS = [
   },
   {
     "id": "156835",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вологопоглинаючий килимок для кухні (бежевий) 30х45 см, Versailles",
     "price": 111.0,
@@ -25950,8 +25950,8 @@ var PRODUCTS = [
   },
   {
     "id": "156830",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Антиковзаючий килимок Сяйво Карпат, 30х45 см, Versailles",
     "price": 111.0,
@@ -25961,8 +25961,8 @@ var PRODUCTS = [
   },
   {
     "id": "156836",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вологопоглинаючий килимок для кухні (фантазія) 30х45 см, Versailles",
     "price": 103.0,
@@ -25972,8 +25972,8 @@ var PRODUCTS = [
   },
   {
     "id": "156832",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вологопоглинаючий килимок для кухні ( смарагд) 30х45 см, Versailles",
     "price": 111.0,
@@ -25983,8 +25983,8 @@ var PRODUCTS = [
   },
   {
     "id": "136353",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Кульбабки 45х30см, помаранчевий Versailles",
     "price": 89.0,
@@ -26073,8 +26073,8 @@ var PRODUCTS = [
   },
   {
     "id": "136361",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Мереживо 45х30см, срібний Versailles",
     "price": 85.0,
@@ -26086,8 +26086,8 @@ var PRODUCTS = [
   },
   {
     "id": "136355",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Золотий візерунок 45х30см, чорний Versailles",
     "price": 154.0,
@@ -26147,8 +26147,8 @@ var PRODUCTS = [
   },
   {
     "id": "136358",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування круглий 38см, шоколад Versailles",
     "price": 101.0,
@@ -26321,8 +26321,8 @@ var PRODUCTS = [
   },
   {
     "id": "136347",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Плетіння 45х30см, сірий Versailles",
     "price": 112.0,
@@ -26334,8 +26334,8 @@ var PRODUCTS = [
   },
   {
     "id": "136346",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Рання пташка 45х30см, сірий Versailles",
     "price": 92.0,
@@ -26664,8 +26664,8 @@ var PRODUCTS = [
   },
   {
     "id": "136366",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Килимок для сервірування Імпресія 45х30см,  Versailles",
     "price": 98.0,
@@ -28329,7 +28329,7 @@ var PRODUCTS = [
   {
     "id": "146110",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см бавовна/ПЕ, Вірідіан VERSAILLES",
     "price": 152.0,
@@ -28342,7 +28342,7 @@ var PRODUCTS = [
   {
     "id": "146111",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см бавовна/ПЕ, Вірідіан VERSAILLES",
     "price": 63.0,
@@ -28355,7 +28355,7 @@ var PRODUCTS = [
   {
     "id": "146770",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см бавовна/ПЕ, Коричневий VERSAILLES",
     "price": 63.0,
@@ -28368,7 +28368,7 @@ var PRODUCTS = [
   {
     "id": "146769",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см бавовна/ПЕ, Коричневий VERSAILLES",
     "price": 152.0,
@@ -28394,7 +28394,7 @@ var PRODUCTS = [
   {
     "id": "146771",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Теракот VERSAILLES",
     "price": 296.0,
@@ -28407,7 +28407,7 @@ var PRODUCTS = [
   {
     "id": "146109",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Вірідіан VERSAILLES",
     "price": 296.0,
@@ -28420,7 +28420,7 @@ var PRODUCTS = [
   {
     "id": "146774",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Сірий VERSAILLES",
     "price": 296.0,
@@ -28433,7 +28433,7 @@ var PRODUCTS = [
   {
     "id": "146768",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Коричневий VERSAILLES",
     "price": 296.0,
@@ -28446,7 +28446,7 @@ var PRODUCTS = [
   {
     "id": "146772",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см бавовна/ПЕ, Теракот VERSAILLES",
     "price": 152.0,
@@ -28459,7 +28459,7 @@ var PRODUCTS = [
   {
     "id": "146777",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Світло сірий VERSAILLES",
     "price": 296.0,
@@ -28472,7 +28472,7 @@ var PRODUCTS = [
   {
     "id": "146778",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см бавовна/ПЕ, Світло сірий VERSAILLES",
     "price": 152.0,
@@ -28485,7 +28485,7 @@ var PRODUCTS = [
   {
     "id": "146773",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см бавовна/ПЕ, Теракот VERSAILLES",
     "price": 63.0,
@@ -28498,7 +28498,7 @@ var PRODUCTS = [
   {
     "id": "146775",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см бавовна/ПЕ, Сірий VERSAILLES",
     "price": 152.0,
@@ -28511,7 +28511,7 @@ var PRODUCTS = [
   {
     "id": "146779",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см бавовна/ПЕ, Світло сірий VERSAILLES",
     "price": 63.0,
@@ -28524,7 +28524,7 @@ var PRODUCTS = [
   {
     "id": "146112",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см мікрофібра, Айворі VERSAILLES",
     "price": 238.0,
@@ -28537,7 +28537,7 @@ var PRODUCTS = [
   {
     "id": "146114",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см мікрофібра, Айворі VERSAILLES",
     "price": 46.0,
@@ -28550,7 +28550,7 @@ var PRODUCTS = [
   {
     "id": "146113",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см мікрофібра, Айворі VERSAILLES",
     "price": 123.0,
@@ -28563,7 +28563,7 @@ var PRODUCTS = [
   {
     "id": "146786",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см мікрофібра, Капучіно VERSAILLES",
     "price": 238.0,
@@ -28576,7 +28576,7 @@ var PRODUCTS = [
   {
     "id": "146787",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см мікрофібра, Капучіно VERSAILLES",
     "price": 123.0,
@@ -28589,7 +28589,7 @@ var PRODUCTS = [
   {
     "id": "146789",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см мікрофібра, Сірий VERSAILLES",
     "price": 238.0,
@@ -28602,7 +28602,7 @@ var PRODUCTS = [
   {
     "id": "146790",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см мікрофібра, Сірий VERSAILLES",
     "price": 123.0,
@@ -28615,7 +28615,7 @@ var PRODUCTS = [
   {
     "id": "146788",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см мікрофібра, Капучіно VERSAILLES",
     "price": 46.0,
@@ -28628,7 +28628,7 @@ var PRODUCTS = [
   {
     "id": "146791",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см мікрофібра, Сірий VERSAILLES",
     "price": 46.0,
@@ -28641,7 +28641,7 @@ var PRODUCTS = [
   {
     "id": "146776",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см бавовна/ПЕ, Сірий VERSAILLES",
     "price": 63.0,
@@ -28654,7 +28654,7 @@ var PRODUCTS = [
   {
     "id": "146783",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Блакитний VERSAILLES",
     "price": 296.0,
@@ -28667,7 +28667,7 @@ var PRODUCTS = [
   {
     "id": "146792",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см мікрофібра, Сапфіровий VERSAILLES",
     "price": 238.0,
@@ -28680,7 +28680,7 @@ var PRODUCTS = [
   {
     "id": "146795",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см мікрофібра, Ізумрудний VERSAILLES",
     "price": 238.0,
@@ -28693,7 +28693,7 @@ var PRODUCTS = [
   {
     "id": "146784",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см бавовна/ПЕ, Блакитний VERSAILLES",
     "price": 152.0,
@@ -28706,7 +28706,7 @@ var PRODUCTS = [
   {
     "id": "146780",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см бавовна/ПЕ, Рожевий VERSAILLES",
     "price": 296.0,
@@ -28719,7 +28719,7 @@ var PRODUCTS = [
   {
     "id": "146794",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см мікрофібра, Сапфіровий VERSAILLES",
     "price": 46.0,
@@ -28732,7 +28732,7 @@ var PRODUCTS = [
   {
     "id": "146793",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см мікрофібра, Сапфіровий VERSAILLES",
     "price": 123.0,
@@ -28745,7 +28745,7 @@ var PRODUCTS = [
   {
     "id": "146796",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см мікрофібра, Ізумрудний VERSAILLES",
     "price": 123.0,
@@ -28758,7 +28758,7 @@ var PRODUCTS = [
   {
     "id": "146785",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см бавовна/ПЕ, Блакитний VERSAILLES",
     "price": 63.0,
@@ -28771,7 +28771,7 @@ var PRODUCTS = [
   {
     "id": "146797",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см мікрофібра, Ізумрудний VERSAILLES",
     "price": 46.0,
@@ -28784,7 +28784,7 @@ var PRODUCTS = [
   {
     "id": "151911",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 30х50см мікрофібра, корал VERSAILLES",
     "price": 50.0,
@@ -28797,7 +28797,7 @@ var PRODUCTS = [
   {
     "id": "151918",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 70х140см мікрофібра, лазур VERSAILLES",
     "price": 221.0,
@@ -28810,7 +28810,7 @@ var PRODUCTS = [
   {
     "id": "151909",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 30х50см мікрофібра, ніч VERSAILLES",
     "price": 50.0,
@@ -28823,7 +28823,7 @@ var PRODUCTS = [
   {
     "id": "151910",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 30х50см мікрофібра, лазур VERSAILLES",
     "price": 50.0,
@@ -28836,7 +28836,7 @@ var PRODUCTS = [
   {
     "id": "151913",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 50х90см мікрофібра, ніч VERSAILLES",
     "price": 115.0,
@@ -28849,7 +28849,7 @@ var PRODUCTS = [
   {
     "id": "151915",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 50х90см мікрофібра, корал VERSAILLES",
     "price": 115.0,
@@ -28862,7 +28862,7 @@ var PRODUCTS = [
   {
     "id": "151919",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 70х140см мікрофібра, корал VERSAILLES",
     "price": 221.0,
@@ -28875,7 +28875,7 @@ var PRODUCTS = [
   {
     "id": "151917",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 70х140см мікрофібра, ніч VERSAILLES",
     "price": 221.0,
@@ -28914,7 +28914,7 @@ var PRODUCTS = [
   {
     "id": "151914",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник фактурний 50х90см мікрофібра, лазур VERSAILLES",
     "price": 115.0,
@@ -28927,7 +28927,7 @@ var PRODUCTS = [
   {
     "id": "151896",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 30х50см мікрофібра, сірий VERSAILLES",
     "price": 50.0,
@@ -28940,7 +28940,7 @@ var PRODUCTS = [
   {
     "id": "151900",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 50х90см мікрофібра, сірий VERSAILLES",
     "price": 115.0,
@@ -28953,7 +28953,7 @@ var PRODUCTS = [
   {
     "id": "151905",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 70х140см мікрофібра, кремовий VERSAILLES",
     "price": 221.0,
@@ -28966,7 +28966,7 @@ var PRODUCTS = [
   {
     "id": "151904",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 70х140см мікрофібра, сірий VERSAILLES",
     "price": 221.0,
@@ -28979,7 +28979,7 @@ var PRODUCTS = [
   {
     "id": "151897",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 30х50см мікрофібра, кремовий VERSAILLES",
     "price": 50.0,
@@ -28992,7 +28992,7 @@ var PRODUCTS = [
   {
     "id": "151898",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 30х50см мікрофібра, фісташковий VERSAILLES",
     "price": 50.0,
@@ -29005,7 +29005,7 @@ var PRODUCTS = [
   {
     "id": "151901",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 50х90см мікрофібра, кремовий VERSAILLES",
     "price": 115.0,
@@ -29018,7 +29018,7 @@ var PRODUCTS = [
   {
     "id": "151902",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 50х90см мікрофібра, фісташковий VERSAILLES",
     "price": 115.0,
@@ -29044,7 +29044,7 @@ var PRODUCTS = [
   {
     "id": "151899",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 30х50см мікрофібра, малиновий VERSAILLES",
     "price": 50.0,
@@ -29057,7 +29057,7 @@ var PRODUCTS = [
   {
     "id": "151906",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 70х140см мікрофібра, фісташковий VERSAILLES",
     "price": 221.0,
@@ -29070,7 +29070,7 @@ var PRODUCTS = [
   {
     "id": "151907",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 70х140см мікрофібра, малиновий VERSAILLES",
     "price": 221.0,
@@ -29083,7 +29083,7 @@ var PRODUCTS = [
   {
     "id": "151903",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Баланс 50х90см мікрофібра, малиновий VERSAILLES",
     "price": 115.0,
@@ -29096,7 +29096,7 @@ var PRODUCTS = [
   {
     "id": "151886",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 30х50см мікрофібра, графіт  VERSAILLES",
     "price": 54.0,
@@ -29109,7 +29109,7 @@ var PRODUCTS = [
   {
     "id": "151895",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 70х140см мікрофібра, блакить VERSAILLES",
     "price": 247.0,
@@ -29122,7 +29122,7 @@ var PRODUCTS = [
   {
     "id": "151887",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 30х50см мікрофібра, блакить VERSAILLES",
     "price": 54.0,
@@ -29135,7 +29135,7 @@ var PRODUCTS = [
   {
     "id": "151891",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 50х90см мікрофібра, блакить VERSAILLES",
     "price": 125.0,
@@ -29148,7 +29148,7 @@ var PRODUCTS = [
   {
     "id": "151890",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 50х90см мікрофібра, графіт VERSAILLES",
     "price": 125.0,
@@ -29161,7 +29161,7 @@ var PRODUCTS = [
   {
     "id": "151894",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 70х140см мікрофібра, графіт VERSAILLES",
     "price": 247.0,
@@ -29174,7 +29174,7 @@ var PRODUCTS = [
   {
     "id": "151884",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 30х50см мікрофібра, ваніль VERSAILLES",
     "price": 54.0,
@@ -29187,7 +29187,7 @@ var PRODUCTS = [
   {
     "id": "151885",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 30х50см мікрофібра, карамель VERSAILLES",
     "price": 54.0,
@@ -29200,7 +29200,7 @@ var PRODUCTS = [
   {
     "id": "151889",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 50х90см мікрофібра, карамель  VERSAILLES",
     "price": 125.0,
@@ -29213,7 +29213,7 @@ var PRODUCTS = [
   {
     "id": "151893",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 70х140см мікрофібра, карамель  VERSAILLES",
     "price": 247.0,
@@ -29226,7 +29226,7 @@ var PRODUCTS = [
   {
     "id": "151888",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 50х90см мікрофібра, ваніль  VERSAILLES",
     "price": 125.0,
@@ -29239,7 +29239,7 @@ var PRODUCTS = [
   {
     "id": "151892",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Хмаринка 70х140см мікрофібра, ваніль  VERSAILLES",
     "price": 247.0,
@@ -29252,7 +29252,7 @@ var PRODUCTS = [
   {
     "id": "146186",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Айворі VERSAILLES",
     "price": 74.0,
@@ -29265,7 +29265,7 @@ var PRODUCTS = [
   {
     "id": "146184",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Айворі VERSAILLES",
     "price": 470.0,
@@ -29278,7 +29278,7 @@ var PRODUCTS = [
   {
     "id": "146185",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Айворі VERSAILLES",
     "price": 215.0,
@@ -29291,7 +29291,7 @@ var PRODUCTS = [
   {
     "id": "153092",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 90х150см 100% бавовна, Айворі VERSAILLES",
     "price": 562.0,
@@ -29304,7 +29304,7 @@ var PRODUCTS = [
   {
     "id": "146678",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Перлинний VERSAILLES",
     "price": 215.0,
@@ -29317,7 +29317,7 @@ var PRODUCTS = [
   {
     "id": "146674",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, М'ята VERSAILLES",
     "price": 74.0,
@@ -29330,7 +29330,7 @@ var PRODUCTS = [
   {
     "id": "146677",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Перлинний VERSAILLES",
     "price": 74.0,
@@ -29343,7 +29343,7 @@ var PRODUCTS = [
   {
     "id": "146675",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, М'ята VERSAILLES",
     "price": 215.0,
@@ -29356,7 +29356,7 @@ var PRODUCTS = [
   {
     "id": "146676",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, М'ята VERSAILLES",
     "price": 470.0,
@@ -29369,7 +29369,7 @@ var PRODUCTS = [
   {
     "id": "153093",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 90х150см 100% бавовна, М'ята VERSAILLES",
     "price": 562.0,
@@ -29382,7 +29382,7 @@ var PRODUCTS = [
   {
     "id": "146679",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Перлинний VERSAILLES",
     "price": 470.0,
@@ -29395,7 +29395,7 @@ var PRODUCTS = [
   {
     "id": "153094",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 90х150см 100% бавовна, Перлинний VERSAILLES",
     "price": 562.0,
@@ -29408,7 +29408,7 @@ var PRODUCTS = [
   {
     "id": "146680",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Денім VERSAILLES",
     "price": 74.0,
@@ -29421,7 +29421,7 @@ var PRODUCTS = [
   {
     "id": "146681",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Денім VERSAILLES",
     "price": 215.0,
@@ -29434,7 +29434,7 @@ var PRODUCTS = [
   {
     "id": "146683",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Рожевий VERSAILLES",
     "price": 74.0,
@@ -29447,7 +29447,7 @@ var PRODUCTS = [
   {
     "id": "146682",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Денім VERSAILLES",
     "price": 470.0,
@@ -29460,7 +29460,7 @@ var PRODUCTS = [
   {
     "id": "153095",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 90х150см 100% бавовна, Денім VERSAILLES",
     "price": 562.0,
@@ -29473,7 +29473,7 @@ var PRODUCTS = [
   {
     "id": "146685",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Рожевий VERSAILLES",
     "price": 470.0,
@@ -29486,7 +29486,7 @@ var PRODUCTS = [
   {
     "id": "146684",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Рожевий VERSAILLES",
     "price": 215.0,
@@ -29499,7 +29499,7 @@ var PRODUCTS = [
   {
     "id": "146728",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Ліловий VERSAILLES",
     "price": 74.0,
@@ -29512,7 +29512,7 @@ var PRODUCTS = [
   {
     "id": "146729",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Ліловий VERSAILLES",
     "price": 215.0,
@@ -29525,7 +29525,7 @@ var PRODUCTS = [
   {
     "id": "146730",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Ліловий VERSAILLES",
     "price": 470.0,
@@ -29538,7 +29538,7 @@ var PRODUCTS = [
   {
     "id": "146731",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Пісочний VERSAILLES",
     "price": 74.0,
@@ -29551,7 +29551,7 @@ var PRODUCTS = [
   {
     "id": "153096",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 90х150см 100% бавовна, Графіт VERSAILLES",
     "price": 562.0,
@@ -29564,7 +29564,7 @@ var PRODUCTS = [
   {
     "id": "146743",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Пісочний VERSAILLES",
     "price": 215.0,
@@ -29577,7 +29577,7 @@ var PRODUCTS = [
   {
     "id": "146746",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Графіт VERSAILLES",
     "price": 74.0,
@@ -29590,7 +29590,7 @@ var PRODUCTS = [
   {
     "id": "146747",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Графіт VERSAILLES",
     "price": 215.0,
@@ -29603,7 +29603,7 @@ var PRODUCTS = [
   {
     "id": "146751",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Графіт VERSAILLES",
     "price": 470.0,
@@ -29616,7 +29616,7 @@ var PRODUCTS = [
   {
     "id": "146752",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Хакі VERSAILLES",
     "price": 74.0,
@@ -29629,7 +29629,7 @@ var PRODUCTS = [
   {
     "id": "146744",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Пісочний VERSAILLES",
     "price": 470.0,
@@ -29642,7 +29642,7 @@ var PRODUCTS = [
   {
     "id": "146756",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Хакі VERSAILLES",
     "price": 470.0,
@@ -29655,7 +29655,7 @@ var PRODUCTS = [
   {
     "id": "146754",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Хакі VERSAILLES",
     "price": 215.0,
@@ -29668,7 +29668,7 @@ var PRODUCTS = [
   {
     "id": "146757",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Марсала VERSAILLES",
     "price": 74.0,
@@ -29681,7 +29681,7 @@ var PRODUCTS = [
   {
     "id": "146759",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Марсала VERSAILLES",
     "price": 470.0,
@@ -29694,7 +29694,7 @@ var PRODUCTS = [
   {
     "id": "146758",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Марсала VERSAILLES",
     "price": 215.0,
@@ -29707,7 +29707,7 @@ var PRODUCTS = [
   {
     "id": "146763",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Шоколад VERSAILLES",
     "price": 74.0,
@@ -29720,7 +29720,7 @@ var PRODUCTS = [
   {
     "id": "146761",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Маренго VERSAILLES",
     "price": 215.0,
@@ -29733,7 +29733,7 @@ var PRODUCTS = [
   {
     "id": "146760",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 30х50см 100% бавовна, Маренго VERSAILLES",
     "price": 74.0,
@@ -29746,7 +29746,7 @@ var PRODUCTS = [
   {
     "id": "146762",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Маренго VERSAILLES",
     "price": 470.0,
@@ -29759,7 +29759,7 @@ var PRODUCTS = [
   {
     "id": "153091",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 90х150см 100% бавовна, Маренго VERSAILLES",
     "price": 562.0,
@@ -29772,7 +29772,7 @@ var PRODUCTS = [
   {
     "id": "151932",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 50х90см 100% бавовна, сірий VERSAILLES",
     "price": 276.0,
@@ -29783,7 +29783,7 @@ var PRODUCTS = [
   {
     "id": "151939",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 70х140см 100% бавовна, сірий VERSAILLES",
     "price": 598.0,
@@ -29794,7 +29794,7 @@ var PRODUCTS = [
   {
     "id": "146764",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 50х90см 100% бавовна, Шоколад VERSAILLES",
     "price": 215.0,
@@ -29807,7 +29807,7 @@ var PRODUCTS = [
   {
     "id": "146765",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник 70х140см 100% бавовна, Шоколад VERSAILLES",
     "price": 470.0,
@@ -29820,7 +29820,7 @@ var PRODUCTS = [
   {
     "id": "151931",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 50х90см 100% бавовна, білий VERSAILLES",
     "price": 276.0,
@@ -29833,7 +29833,7 @@ var PRODUCTS = [
   {
     "id": "151938",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 70х140см 100% бавовна, білий VERSAILLES",
     "price": 598.0,
@@ -29846,7 +29846,7 @@ var PRODUCTS = [
   {
     "id": "151926",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 30х50см 100% бавовна, сірий VERSAILLES",
     "price": 94.0,
@@ -29859,7 +29859,7 @@ var PRODUCTS = [
   {
     "id": "151928",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 30х50см 100% бавовна, пісочний VERSAILLES",
     "price": 94.0,
@@ -29872,7 +29872,7 @@ var PRODUCTS = [
   {
     "id": "151935",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 50х90см 100% бавовна, пісочний VERSAILLES",
     "price": 276.0,
@@ -29885,7 +29885,7 @@ var PRODUCTS = [
   {
     "id": "151933",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 50х90см 100% бавовна, смарагдовий VERSAILLES",
     "price": 276.0,
@@ -29898,7 +29898,7 @@ var PRODUCTS = [
   {
     "id": "151941",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 70х140см 100% бавовна, пісочний VERSAILLES",
     "price": 598.0,
@@ -29911,7 +29911,7 @@ var PRODUCTS = [
   {
     "id": "151925",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 30х50см 100% бавовна, білий VERSAILLES",
     "price": 94.0,
@@ -29924,7 +29924,7 @@ var PRODUCTS = [
   {
     "id": "151929",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 30х50см 100% бавовна, блакитний VERSAILLES",
     "price": 94.0,
@@ -29937,7 +29937,7 @@ var PRODUCTS = [
   {
     "id": "151936",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 50х90см 100% бавовна, блакитний VERSAILLES",
     "price": 276.0,
@@ -29950,7 +29950,7 @@ var PRODUCTS = [
   {
     "id": "151930",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 30х50см 100% бавовна, чорний VERSAILLES",
     "price": 94.0,
@@ -29963,7 +29963,7 @@ var PRODUCTS = [
   {
     "id": "151942",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 70х140см 100% бавовна, блакитний VERSAILLES",
     "price": 598.0,
@@ -29976,7 +29976,7 @@ var PRODUCTS = [
   {
     "id": "151944",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 70х140см 100% бавовна, чорний VERSAILLES",
     "price": 598.0,
@@ -29989,7 +29989,7 @@ var PRODUCTS = [
   {
     "id": "153097",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 30х50см 100% бавовна, білий VERSAILLES",
     "price": 96.0,
@@ -30002,7 +30002,7 @@ var PRODUCTS = [
   {
     "id": "151937",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 50х90см 100% бавовна, чорний VERSAILLES",
     "price": 276.0,
@@ -30015,7 +30015,7 @@ var PRODUCTS = [
   {
     "id": "153098",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 30х50см 100% бавовна, вершковий VERSAILLES",
     "price": 96.0,
@@ -30028,7 +30028,7 @@ var PRODUCTS = [
   {
     "id": "153102",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 50х90см 100% бавовна, білий VERSAILLES",
     "price": 256.0,
@@ -30041,7 +30041,7 @@ var PRODUCTS = [
   {
     "id": "151927",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 30х50см 100% бавовна, смарагдовий VERSAILLES",
     "price": 94.0,
@@ -30054,7 +30054,7 @@ var PRODUCTS = [
   {
     "id": "153099",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 30х50см 100% бавовна, карміновий VERSAILLES",
     "price": 96.0,
@@ -30067,7 +30067,7 @@ var PRODUCTS = [
   {
     "id": "153108",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 70х140см 100% бавовна, вершковий VERSAILLES",
     "price": 563.0,
@@ -30080,7 +30080,7 @@ var PRODUCTS = [
   {
     "id": "153107",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 70х140см 100% бавовна, білий VERSAILLES",
     "price": 563.0,
@@ -30093,7 +30093,7 @@ var PRODUCTS = [
   {
     "id": "153109",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 70х140см 100% бавовна, карміновий VERSAILLES",
     "price": 563.0,
@@ -30106,7 +30106,7 @@ var PRODUCTS = [
   {
     "id": "151940",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Афіна 70х140см 100% бавовна, смарагдовий VERSAILLES",
     "price": 598.0,
@@ -30119,7 +30119,7 @@ var PRODUCTS = [
   {
     "id": "153104",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 50х90см 100% бавовна, карміновий VERSAILLES",
     "price": 256.0,
@@ -30132,7 +30132,7 @@ var PRODUCTS = [
   {
     "id": "153100",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 30х50см 100% бавовна, індиго VERSAILLES",
     "price": 96.0,
@@ -30145,7 +30145,7 @@ var PRODUCTS = [
   {
     "id": "153105",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 50х90см 100% бавовна, індиго VERSAILLES",
     "price": 256.0,
@@ -30158,7 +30158,7 @@ var PRODUCTS = [
   {
     "id": "153101",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 30х50см 100% бавовна, скеля VERSAILLES",
     "price": 96.0,
@@ -30171,7 +30171,7 @@ var PRODUCTS = [
   {
     "id": "153111",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 70х140см 100% бавовна, скеля VERSAILLES",
     "price": 563.0,
@@ -30184,7 +30184,7 @@ var PRODUCTS = [
   {
     "id": "153106",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 50х90см 100% бавовна, скеля VERSAILLES",
     "price": 256.0,
@@ -30197,7 +30197,7 @@ var PRODUCTS = [
   {
     "id": "153116",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 50х90см 100% бавовна, пудровий VERSAILLES",
     "price": 256.0,
@@ -30210,7 +30210,7 @@ var PRODUCTS = [
   {
     "id": "153110",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 70х140см 100% бавовна, індиго VERSAILLES",
     "price": 563.0,
@@ -30223,7 +30223,7 @@ var PRODUCTS = [
   {
     "id": "153112",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 30х50см 100% бавовна, пудровий VERSAILLES",
     "price": 96.0,
@@ -30236,7 +30236,7 @@ var PRODUCTS = [
   {
     "id": "153120",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 70х140см 100% бавовна, пудровий VERSAILLES",
     "price": 563.0,
@@ -30249,7 +30249,7 @@ var PRODUCTS = [
   {
     "id": "153103",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Посейдон 50х90см 100% бавовна, вершковий VERSAILLES",
     "price": 256.0,
@@ -30262,7 +30262,7 @@ var PRODUCTS = [
   {
     "id": "153117",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 50х90см 100% бавовна, небесний VERSAILLES",
     "price": 256.0,
@@ -30275,7 +30275,7 @@ var PRODUCTS = [
   {
     "id": "153114",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 30х50см 100% бавовна, сірий VERSAILLES",
     "price": 96.0,
@@ -30288,7 +30288,7 @@ var PRODUCTS = [
   {
     "id": "153121",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 70х140см 100% бавовна, небесний VERSAILLES",
     "price": 563.0,
@@ -30301,7 +30301,7 @@ var PRODUCTS = [
   {
     "id": "153113",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 30х50см 100% бавовна, небесний VERSAILLES",
     "price": 96.0,
@@ -30314,7 +30314,7 @@ var PRODUCTS = [
   {
     "id": "125045",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 160x200см \"Бургунді\" (WERK)",
     "price": 804.0,
@@ -30327,7 +30327,7 @@ var PRODUCTS = [
   {
     "id": "125056",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 200х220см \"Бургунді\" (WERK)",
     "price": 1062.0,
@@ -30340,7 +30340,7 @@ var PRODUCTS = [
   {
     "id": "153118",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 50х90см 100% бавовна, сірий VERSAILLES",
     "price": 256.0,
@@ -30353,7 +30353,7 @@ var PRODUCTS = [
   {
     "id": "125051",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 160x200см \"Айворі\" (WERK)",
     "price": 804.0,
@@ -30366,7 +30366,7 @@ var PRODUCTS = [
   {
     "id": "125057",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 200х220см \"Айворі\" (WERK)",
     "price": 1062.0,
@@ -30379,7 +30379,7 @@ var PRODUCTS = [
   {
     "id": "125054",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 160x200см \"Синій океан\" (WERK)",
     "price": 804.0,
@@ -30392,7 +30392,7 @@ var PRODUCTS = [
   {
     "id": "153115",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 30х50см 100% бавовна, амарант VERSAILLES",
     "price": 96.0,
@@ -30405,7 +30405,7 @@ var PRODUCTS = [
   {
     "id": "125109",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 200х220см \"Синій океан\"  (WERK)",
     "price": 1062.0,
@@ -30418,7 +30418,7 @@ var PRODUCTS = [
   {
     "id": "125055",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 160x200см \"Пильна троянда\"  (WERK)",
     "price": 804.0,
@@ -30431,7 +30431,7 @@ var PRODUCTS = [
   {
     "id": "119201",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класчний 125х150см \"Онікс сірий\"  (WERK)",
     "price": 507.0,
@@ -30444,7 +30444,7 @@ var PRODUCTS = [
   {
     "id": "119213",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класчний 200х220см \"Онікс сірий\"  (WERK)",
     "price": 879.0,
@@ -30457,7 +30457,7 @@ var PRODUCTS = [
   {
     "id": "119205",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класчний 160x200см \"Онікс сірий\" (WERK)",
     "price": 804.0,
@@ -30470,7 +30470,7 @@ var PRODUCTS = [
   {
     "id": "125110",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 200х220см \"Пильна троянда\"  (WERK)",
     "price": 1062.0,
@@ -30483,7 +30483,7 @@ var PRODUCTS = [
   {
     "id": "119209",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класчний 125х150см \"Сердолік бежевий\" (WERK)",
     "price": 507.0,
@@ -30496,7 +30496,7 @@ var PRODUCTS = [
   {
     "id": "146956",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 150x200см \"Аметист\" (WERK)",
     "price": 804.0,
@@ -30507,7 +30507,7 @@ var PRODUCTS = [
   {
     "id": "119211",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класчний 200х220см \"Сердолік бежевий\" (WERK)",
     "price": 1062.0,
@@ -30520,7 +30520,7 @@ var PRODUCTS = [
   {
     "id": "146957",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класичний 200x220см \"Аметист\" (WERK)",
     "price": 1062.0,
@@ -30531,7 +30531,7 @@ var PRODUCTS = [
   {
     "id": "119207",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед класчний 160x200см \"Сердолік бежевий\"  (WERK)",
     "price": 804.0,
@@ -30543,8 +30543,8 @@ var PRODUCTS = [
   },
   {
     "id": "130336",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній зі штучною овчиною 200х220см WERK",
     "price": 1584.0,
@@ -30554,8 +30554,8 @@ var PRODUCTS = [
   },
   {
     "id": "130334",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній зі штучною овчиною 125х150см WERK",
     "price": 712.0,
@@ -30567,8 +30567,8 @@ var PRODUCTS = [
   },
   {
     "id": "130335",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній зі штучною овчиною 155х200см WERK",
     "price": 1126.0,
@@ -30580,8 +30580,8 @@ var PRODUCTS = [
   },
   {
     "id": "130337",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній зі штучною овчиною та штучним хутром 125х150см WERK",
     "price": 727.0,
@@ -30593,8 +30593,8 @@ var PRODUCTS = [
   },
   {
     "id": "130338",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній зі штучною овчиною та штучним хутром 155х200см WERK",
     "price": 1150.0,
@@ -30606,8 +30606,8 @@ var PRODUCTS = [
   },
   {
     "id": "130341",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній рельєфний зі штучною овчиною 155х200см WERK",
     "price": 1197.0,
@@ -30620,7 +30620,7 @@ var PRODUCTS = [
   {
     "id": "147631",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед флісовий 130x180см \"Шотландська Зима\" (VERSAILLES)",
     "price": 339.0,
@@ -30631,7 +30631,7 @@ var PRODUCTS = [
   {
     "id": "153119",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 50х90см 100% бавовна, амарант VERSAILLES",
     "price": 256.0,
@@ -30643,8 +30643,8 @@ var PRODUCTS = [
   },
   {
     "id": "130340",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед двосторонній рельєфний зі штучною овчиною 125х150см WERK",
     "price": 751.0,
@@ -30657,7 +30657,7 @@ var PRODUCTS = [
   {
     "id": "147630",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед флісовий 130x180см \"Британський Ранок\" (VERSAILLES)",
     "price": 339.0,
@@ -30668,7 +30668,7 @@ var PRODUCTS = [
   {
     "id": "153122",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 70х140см 100% бавовна, сірий VERSAILLES",
     "price": 563.0,
@@ -30681,7 +30681,7 @@ var PRODUCTS = [
   {
     "id": "147633",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед флісовий 130x180см \"Лапки\" (VERSAILLES)",
     "price": 339.0,
@@ -30692,7 +30692,7 @@ var PRODUCTS = [
   {
     "id": "153123",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник Каліпсо 70х140см 100% бавовна, амарант VERSAILLES",
     "price": 563.0,
@@ -30705,7 +30705,7 @@ var PRODUCTS = [
   {
     "id": "147632",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед флісовий 130x180см \"Котики\" (VERSAILLES)",
     "price": 339.0,
@@ -30716,7 +30716,7 @@ var PRODUCTS = [
   {
     "id": "147629",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед флісовий 130x180см \"Зимовий Твід\" (VERSAILLES)",
     "price": 339.0,
@@ -30727,7 +30727,7 @@ var PRODUCTS = [
   {
     "id": "147635",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 200х220см \"Затишна Ідилія\" (VERSAILLES)",
     "price": 1133.0,
@@ -30738,7 +30738,7 @@ var PRODUCTS = [
   {
     "id": "147638",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 200х220см \"Туманний Ранок\" (VERSAILLES)",
     "price": 1133.0,
@@ -30749,7 +30749,7 @@ var PRODUCTS = [
   {
     "id": "147634",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 150х200см \"Затишна Ідилія\" (VERSAILLES)",
     "price": 807.0,
@@ -30760,7 +30760,7 @@ var PRODUCTS = [
   {
     "id": "147636",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 150х200см \"Туманний Ранок\" (VERSAILLES)",
     "price": 807.0,
@@ -30771,7 +30771,7 @@ var PRODUCTS = [
   {
     "id": "147639",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 150х200см \"М'яка Історія\" (VERSAILLES)",
     "price": 807.0,
@@ -30782,7 +30782,7 @@ var PRODUCTS = [
   {
     "id": "147640",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 200х220см \"М'яка Історія\" (VERSAILLES)",
     "price": 1133.0,
@@ -30793,7 +30793,7 @@ var PRODUCTS = [
   {
     "id": "147641",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 150х200см \"Ванільна смужка\" (VERSAILLES)",
     "price": 807.0,
@@ -30804,7 +30804,7 @@ var PRODUCTS = [
   {
     "id": "147642",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед смугастий 200х220см \"Ванільна смужка\" (VERSAILLES)",
     "price": 1133.0,
@@ -30815,7 +30815,7 @@ var PRODUCTS = [
   {
     "id": "147963",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 150х200см \"Молочна пінка\" (VERSAILLES)",
     "price": 986.0,
@@ -30828,7 +30828,7 @@ var PRODUCTS = [
   {
     "id": "147967",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 200х220см \"Молочна пінка\" (VERSAILLES)",
     "price": 1279.0,
@@ -30841,7 +30841,7 @@ var PRODUCTS = [
   {
     "id": "147968",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 200х220см \"Сонячний фрукт\" (VERSAILLES)",
     "price": 1279.0,
@@ -30854,7 +30854,7 @@ var PRODUCTS = [
   {
     "id": "147964",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 150х200см \"Сонячний фрукт\" (VERSAILLES)",
     "price": 986.0,
@@ -30867,7 +30867,7 @@ var PRODUCTS = [
   {
     "id": "147966",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 150х200см \"Атлантида\" (VERSAILLES)",
     "price": 986.0,
@@ -30880,7 +30880,7 @@ var PRODUCTS = [
   {
     "id": "147969",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 200х220см \"Насичений графіт\" (VERSAILLES)",
     "price": 1279.0,
@@ -30893,7 +30893,7 @@ var PRODUCTS = [
   {
     "id": "147970",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 200х220см \"Атлантида\" (VERSAILLES)",
     "price": 1279.0,
@@ -30906,7 +30906,7 @@ var PRODUCTS = [
   {
     "id": "147965",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Рельєфний 150х200см \"Насичений графіт\" (VERSAILLES)",
     "price": 986.0,
@@ -30919,7 +30919,7 @@ var PRODUCTS = [
   {
     "id": "147957",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Шарпей 150х200см \"Зимовий ранок\" (VERSAILLES)",
     "price": 1146.0,
@@ -30932,7 +30932,7 @@ var PRODUCTS = [
   {
     "id": "147960",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Шарпей 200х220см \"Зимовий ранок\" (VERSAILLES)",
     "price": 1545.0,
@@ -30945,7 +30945,7 @@ var PRODUCTS = [
   {
     "id": "147971",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Коси 150х200см \"Капучіно\" (VERSAILLES)",
     "price": 959.0,
@@ -30958,7 +30958,7 @@ var PRODUCTS = [
   {
     "id": "147959",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Шарпей 150х200см \"Бузковий травень\" (VERSAILLES)",
     "price": 1146.0,
@@ -30971,7 +30971,7 @@ var PRODUCTS = [
   {
     "id": "147962",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Шарпей 200х220см \"Бузковий травень\" (VERSAILLES)",
     "price": 1545.0,
@@ -30984,7 +30984,7 @@ var PRODUCTS = [
   {
     "id": "147958",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Шарпей 150х200см \"Зелень весни\" (VERSAILLES)",
     "price": 1146.0,
@@ -30996,8 +30996,8 @@ var PRODUCTS = [
   },
   {
     "id": "149099",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Електроплед максі 180*130см тем.сірий VERSAILLES",
     "price": 2868.0,
@@ -31009,8 +31009,8 @@ var PRODUCTS = [
   },
   {
     "id": "149101",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Електроплед 180*130см мокко VERSAILLES",
     "price": 2728.0,
@@ -31022,8 +31022,8 @@ var PRODUCTS = [
   },
   {
     "id": "149100",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Електроплед максі 160*120см сірий VERSAILLES",
     "price": 2667.0,
@@ -31036,7 +31036,7 @@ var PRODUCTS = [
   {
     "id": "147974",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Коси 200х220см \"Айворі\" (VERSAILLES)",
     "price": 1279.0,
@@ -31048,8 +31048,8 @@ var PRODUCTS = [
   },
   {
     "id": "152369",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ковдра деміcезонна Comfort 170х205, VERSAILLES                             Антиалергійне 100% силіконізоване поліефірне волокно (полотно)\nщільність 250 г/м2 Україна",
     "price": 900.0,
@@ -31061,8 +31061,8 @@ var PRODUCTS = [
   },
   {
     "id": "152370",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ковдра деміcезонна Comfort 200х220, VERSAILLES                             Антиалергійне 100% силіконізоване поліефірне волокно (полотно)\nщільність 250 г/м2 Україна",
     "price": 1121.0,
@@ -31074,8 +31074,8 @@ var PRODUCTS = [
   },
   {
     "id": "149102",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Електроплед 160*120см сірий VERSAILLES",
     "price": 2527.0,
@@ -31087,8 +31087,8 @@ var PRODUCTS = [
   },
   {
     "id": "152371",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ковдра зимова Arctic Luxe 140х205, VERSAILLES                                                                       Антиалергійне 100% силіконізоване поліефірне волокно (полотно)\nщільність 300 г/м2 Україна",
     "price": 914.0,
@@ -31100,8 +31100,8 @@ var PRODUCTS = [
   },
   {
     "id": "152368",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ковдра деміcезонна Comfort 140х205, VERSAILLES.                            Антиалергійне 100% силіконізоване поліефірне волокно (полотно)\nщільність 250 г/м2 Україна",
     "price": 755.0,
@@ -31113,8 +31113,8 @@ var PRODUCTS = [
   },
   {
     "id": "152372",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ковдра зимова Arctic Luxe 170х205, VERSAILLES                                  Антиалергійне 100% силіконізоване поліефірне волокно (полотно)\nщільність 300 г/м2 Україна",
     "price": 1066.0,
@@ -31126,8 +31126,8 @@ var PRODUCTS = [
   },
   {
     "id": "152373",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Ковдра зимова Arctic Luxe 200х220, VERSAILLES                                 Антиалергійне 100% силіконізоване поліефірне волокно (полотно)\nщільність 300 г/м2 Україна",
     "price": 1326.0,
@@ -31140,7 +31140,7 @@ var PRODUCTS = [
   {
     "id": "147973",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Коси 200х220см \"Капучіно\" (VERSAILLES)",
     "price": 1279.0,
@@ -31153,7 +31153,7 @@ var PRODUCTS = [
   {
     "id": "147961",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Шарпей 200х220см \"Зелень весни\" (VERSAILLES)",
     "price": 1545.0,
@@ -31165,8 +31165,8 @@ var PRODUCTS = [
   },
   {
     "id": "146057",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 56x36см з ефектом пам'яті Aloe Vera, VERSAILLES",
     "price": 1298.0,
@@ -31178,8 +31178,8 @@ var PRODUCTS = [
   },
   {
     "id": "150540",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40х12см з ефектом пам'яті Rose, VERSAILLES",
     "price": 1224.0,
@@ -31190,7 +31190,7 @@ var PRODUCTS = [
   {
     "id": "147972",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Плед Коси 150х200см \"Айворі\" (VERSAILLES)",
     "price": 959.0,
@@ -31202,8 +31202,8 @@ var PRODUCTS = [
   },
   {
     "id": "150542",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40х12см з ефектом пам'яті Eucalyptus, VERSAILLES",
     "price": 1224.0,
@@ -31213,8 +31213,8 @@ var PRODUCTS = [
   },
   {
     "id": "150543",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40х12/9см з ефектом пам'яті AROMA CONTOUR Aloe, VERSAILLES",
     "price": 1356.0,
@@ -31224,8 +31224,8 @@ var PRODUCTS = [
   },
   {
     "id": "150541",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40х12см з ефектом пам'яті Sakura, VERSAILLES",
     "price": 1224.0,
@@ -31235,8 +31235,8 @@ var PRODUCTS = [
   },
   {
     "id": "146058",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40см з ефектом пам'яті Lavender, VERSAILLES",
     "price": 1224.0,
@@ -31248,8 +31248,8 @@ var PRODUCTS = [
   },
   {
     "id": "150544",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40х12/9см з ефектом пам'яті AROMA CONTOUR Lavender, VERSAILLES",
     "price": 1356.0,
@@ -31259,8 +31259,8 @@ var PRODUCTS = [
   },
   {
     "id": "150546",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 60x40х13см з ефектом пам'яті MEDIUM, VERSAILLES",
     "price": 1419.0,
@@ -31270,8 +31270,8 @@ var PRODUCTS = [
   },
   {
     "id": "160432",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Покривало з ефектом охолодження 150х200см, рожеве VERSAILLES",
     "price": 1162.0,
@@ -31283,8 +31283,8 @@ var PRODUCTS = [
   },
   {
     "id": "160430",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Покривало з ефектом охолодження 150х200см, зелене VERSAILLES",
     "price": 1162.0,
@@ -31296,8 +31296,8 @@ var PRODUCTS = [
   },
   {
     "id": "160435",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Покривало з ефектом охолодження 200х220см, рожеве VERSAILLES",
     "price": 1631.0,
@@ -31309,8 +31309,8 @@ var PRODUCTS = [
   },
   {
     "id": "160434",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Покривало з ефектом охолодження 200х220см, блакитне VERSAILLES",
     "price": 1631.0,
@@ -31322,8 +31322,8 @@ var PRODUCTS = [
   },
   {
     "id": "160433",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Покривало з ефектом охолодження 200х220см, зелене VERSAILLES",
     "price": 1631.0,
@@ -31335,8 +31335,8 @@ var PRODUCTS = [
   },
   {
     "id": "160431",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Покривало з ефектом охолодження 150х200см, блакитне VERSAILLES",
     "price": 1162.0,
@@ -31348,8 +31348,8 @@ var PRODUCTS = [
   },
   {
     "id": "150545",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 55x45х10см з ефектом пам'яті BUTTERFLY, VERSAILLES",
     "price": 1230.0,
@@ -31361,8 +31361,8 @@ var PRODUCTS = [
   },
   {
     "id": "146060",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 47x30см з ефектом пам'яті Bamboo, VERSAILLES",
     "price": 699.0,
@@ -31374,8 +31374,8 @@ var PRODUCTS = [
   },
   {
     "id": "146059",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 55x35см з ефектом пам'яті Spectrum, VERSAILLES",
     "price": 974.0,
@@ -31387,8 +31387,8 @@ var PRODUCTS = [
   },
   {
     "id": "146061",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 50x30см з ефектом пам'яті Gel Contour, VERSAILLES",
     "price": 1199.0,
@@ -31400,8 +31400,8 @@ var PRODUCTS = [
   },
   {
     "id": "149707",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка 50х70см Sleep Well, VERSAILLES\nНаповнювач поліефірне силіконізоване волокно DoubleAir 650 грам",
     "price": 360.0,
@@ -31413,8 +31413,8 @@ var PRODUCTS = [
   },
   {
     "id": "149706",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Подушка на блискавці 50х70см Sleep Cloud, VERSAILLES\nНа блискавці, з внутрішнім коконом.\nНаповнювач поліефірне силіконізоване волокно DoubleAir 650 грам",
     "price": 523.0,
@@ -31426,8 +31426,8 @@ var PRODUCTS = [
   },
   {
     "id": "147990",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Горнятко кави\" 100х137см, WERK",
     "price": 146.0,
@@ -31439,8 +31439,8 @@ var PRODUCTS = [
   },
   {
     "id": "147988",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Зелена мозаїка\" 100х137см, WERK",
     "price": 146.0,
@@ -31452,8 +31452,8 @@ var PRODUCTS = [
   },
   {
     "id": "147989",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Соняшники\" 100х137см, WERK",
     "price": 146.0,
@@ -31465,8 +31465,8 @@ var PRODUCTS = [
   },
   {
     "id": "126290",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Мандри океану WERK, PEVA 180×180 (без кілець)",
     "price": 217.0,
@@ -31478,8 +31478,8 @@ var PRODUCTS = [
   },
   {
     "id": "147987",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Бабусин затишок\" 100х137см, WERK",
     "price": 146.0,
@@ -31491,8 +31491,8 @@ var PRODUCTS = [
   },
   {
     "id": "147991",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Орнамент\" 120х150см, WERK",
     "price": 178.0,
@@ -31504,8 +31504,8 @@ var PRODUCTS = [
   },
   {
     "id": "146987",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Осіння пора\" 100х137см, WERK",
     "price": 146.0,
@@ -31517,8 +31517,8 @@ var PRODUCTS = [
   },
   {
     "id": "147992",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Лавандовий букет\" 120х150см, WERK",
     "price": 178.0,
@@ -31530,8 +31530,8 @@ var PRODUCTS = [
   },
   {
     "id": "126294",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Стрімка злива WERK, PEVA 180×180 (без кілець)",
     "price": 217.0,
@@ -31543,8 +31543,8 @@ var PRODUCTS = [
   },
   {
     "id": "147993",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Лимони\" 120х150см, WERK",
     "price": 178.0,
@@ -31556,8 +31556,8 @@ var PRODUCTS = [
   },
   {
     "id": "147994",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Кольорова клітинка\" 120х150см, WERK",
     "price": 178.0,
@@ -31569,8 +31569,8 @@ var PRODUCTS = [
   },
   {
     "id": "147995",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Скатертина з ПВХ \"Різдвяний настрій\" 120х150см, WERK",
     "price": 178.0,
@@ -31582,8 +31582,8 @@ var PRODUCTS = [
   },
   {
     "id": "126292",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Осіння позолота WERK, PEVA 180×180 (без кілець)",
     "price": 217.0,
@@ -31595,8 +31595,8 @@ var PRODUCTS = [
   },
   {
     "id": "126296",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Вітраж PEVA 180x180 (з кільцями)WERK",
     "price": 232.0,
@@ -31608,8 +31608,8 @@ var PRODUCTS = [
   },
   {
     "id": "126298",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Віра в любов  PEVA 180x180 (з кільцями)WERK",
     "price": 232.0,
@@ -31622,7 +31622,7 @@ var PRODUCTS = [
   {
     "id": "126317",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Гірський водоспад PEVA 180x180 (з кільцями)WERK",
     "price": 232.0,
@@ -31635,7 +31635,7 @@ var PRODUCTS = [
   {
     "id": "147982",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Гарний настрій  PEVA 180x180 (з кільцями)WERK",
     "price": 243.0,
@@ -31648,7 +31648,7 @@ var PRODUCTS = [
   {
     "id": "126327",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Французький стиль PEVA 180x180 (з кільцями)WERK",
     "price": 232.0,
@@ -31660,8 +31660,8 @@ var PRODUCTS = [
   },
   {
     "id": "126315",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Весела геометрія WERK, PEVA 180×180 (з кільцями)",
     "price": 243.0,
@@ -31673,8 +31673,8 @@ var PRODUCTS = [
   },
   {
     "id": "147979",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Тіфані PEVA 180x180 (без кілець) WERK",
     "price": 216.0,
@@ -31687,7 +31687,7 @@ var PRODUCTS = [
   {
     "id": "147981",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Краплі дощу PEVA 180x180 (з кільцями)WERK",
     "price": 243.0,
@@ -31699,8 +31699,8 @@ var PRODUCTS = [
   },
   {
     "id": "126302",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Морський танок WERK, PEVA 180×180 (з кільцями)",
     "price": 243.0,
@@ -31712,8 +31712,8 @@ var PRODUCTS = [
   },
   {
     "id": "126322",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Віртуозний ритм WERK, Поліестер 180×180 (без кілець)",
     "price": 507.0,
@@ -31725,8 +31725,8 @@ var PRODUCTS = [
   },
   {
     "id": "126325",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Візерунки океану WERK, Поліестер 180×180 (без кілець)",
     "price": 507.0,
@@ -31739,7 +31739,7 @@ var PRODUCTS = [
   {
     "id": "126329",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Квіти в ночі PEVA 180x180 (з кільцями)WERK",
     "price": 232.0,
@@ -31751,8 +31751,8 @@ var PRODUCTS = [
   },
   {
     "id": "126331",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Весняні мотиви WERK, Поліестер 180×180 (з кільцями)",
     "price": 535.0,
@@ -31765,7 +31765,7 @@ var PRODUCTS = [
   {
     "id": "154721",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Комплект для ванної кімнати Пісочний шторка PEVA (180*180см) та килимок (40*60см)WERK",
     "price": 514.0,
@@ -31775,8 +31775,8 @@ var PRODUCTS = [
   },
   {
     "id": "126320",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Цікава арифметика WERK, Поліестер 180×180 (без кілець)",
     "price": 507.0,
@@ -31788,8 +31788,8 @@ var PRODUCTS = [
   },
   {
     "id": "126334",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Сонячна симетрія WERK, Поліестер 180×180 (з кільцями)",
     "price": 535.0,
@@ -31801,8 +31801,8 @@ var PRODUCTS = [
   },
   {
     "id": "147980",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Градієнт PEVA 180x180 (з кільцями) WERK",
     "price": 243.0,
@@ -31815,7 +31815,7 @@ var PRODUCTS = [
   {
     "id": "154723",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Комплект для ванної кімнати Зелений шторка PEVA (180*180см) та килимок (40*60см)WERK",
     "price": 514.0,
@@ -31825,8 +31825,8 @@ var PRODUCTS = [
   },
   {
     "id": "147978",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Квітковий ескіз PEVA 180x180 (без кілець) WERK",
     "price": 216.0,
@@ -31838,8 +31838,8 @@ var PRODUCTS = [
   },
   {
     "id": "142540",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Карниз для ванної з нержавіючої сталі 110-200см, WERK",
     "price": 318.0,
@@ -31850,7 +31850,7 @@ var PRODUCTS = [
   {
     "id": "148000",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Комплект для ванної кімнати Сірий шторка PEVA (180х180см) та килимок (40х60см)WERK",
     "price": 514.0,
@@ -31862,8 +31862,8 @@ var PRODUCTS = [
   },
   {
     "id": "126336",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Карниз для ванної білий 110-200см, WERK",
     "price": 299.0,
@@ -31874,7 +31874,7 @@ var PRODUCTS = [
   {
     "id": "147286",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Комплект для ванної кімнати Синій шторка PEVA (180х180см) та килимок (40х60см)WERK",
     "price": 514.0,
@@ -31886,8 +31886,8 @@ var PRODUCTS = [
   },
   {
     "id": "147977",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Планетарій PEVA 180x180 (без кілець) WERK",
     "price": 216.0,
@@ -31900,7 +31900,7 @@ var PRODUCTS = [
   {
     "id": "144705",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра роликова WD05 з віджимом і сухою запаскою, 110см WERK. Подвійник ролик, алюмінієва виделка, 110 см телескопічна ручка (фарбований метал). Запаска суха 27*5.5см",
     "price": 339.0,
@@ -31913,7 +31913,7 @@ var PRODUCTS = [
   {
     "id": "144703",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра роликова зелена WD03 з подвійнім віджимом, 110см WERK. Подвійник ролик, пластикова виделка, 110 см телескопічна ручка (фарбований метал). Запаска 27*5.5см",
     "price": 376.0,
@@ -31926,7 +31926,7 @@ var PRODUCTS = [
   {
     "id": "117112",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра роликова 27 см, з подвійнім віджимом, телескопічною ручкою 110 см. Подвійний ролик, пластикова основа WERK",
     "price": 467.0,
@@ -31939,7 +31939,7 @@ var PRODUCTS = [
   {
     "id": "147984",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Соти Поліестер 180x180 (без кілець)WERK",
     "price": 507.0,
@@ -31952,7 +31952,7 @@ var PRODUCTS = [
   {
     "id": "147983",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної М'ятна троянда Поліестер 180x180 (без кілець)WERK",
     "price": 507.0,
@@ -31978,7 +31978,7 @@ var PRODUCTS = [
   {
     "id": "147985",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Сухоцвіти Поліестер 180x180 (з кільцями)WERK",
     "price": 535.0,
@@ -31991,7 +31991,7 @@ var PRODUCTS = [
   {
     "id": "144704",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра роликова оранжева WD02 з подвійнім віджимом, 110см WERK.Подвійник ролик, пластикова виделка, 110 см телескопічна ручка (фарбований метал). Запаска 27*5.5см",
     "price": 409.0,
@@ -32017,7 +32017,7 @@ var PRODUCTS = [
   {
     "id": "144706",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Насадка запасна для швабри WRDS-02 WERK.  Запаска до WD02, WD03, WD05.  Розмір 27*5,5 см",
     "price": 126.0,
@@ -32030,7 +32030,7 @@ var PRODUCTS = [
   {
     "id": "137994",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Насадка запасна для швабри WPM-203 WERK.  Розмір 27*5,5 см",
     "price": 149.0,
@@ -32043,7 +32043,7 @@ var PRODUCTS = [
   {
     "id": "147986",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Шторка для ванної Павутинка Поліестер 180x180 (з кільцями)WERK",
     "price": 535.0,
@@ -32056,7 +32056,7 @@ var PRODUCTS = [
   {
     "id": "121965",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Насадка запасна для швабри WDS-04 та WDS-01 розмір 27x6.3x4.2см WERK",
     "price": 152.0,
@@ -32069,7 +32069,7 @@ var PRODUCTS = [
   {
     "id": "121953",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра-натирач для підлоги WDS-1208 з запаскою із мікрофібри, Металева телескопічна ручка 70-120 см, мікрофі WERK",
     "price": 305.0,
@@ -32095,7 +32095,7 @@ var PRODUCTS = [
   {
     "id": "142706",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра-натирач для підлоги 2 в 1 (двосторння насадка)WF02C WERK",
     "price": 357.0,
@@ -32108,7 +32108,7 @@ var PRODUCTS = [
   {
     "id": "121961",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска \"локшина\" до швабри WDS-1208, 100% поліестер, Розмір: 42x13см. Вага: 80±5 гр WERK",
     "price": 160.0,
@@ -32121,7 +32121,7 @@ var PRODUCTS = [
   {
     "id": "143772",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра-натирач для підлоги WF01B з запаскою із мікрофібри WERK",
     "price": 253.0,
@@ -32134,7 +32134,7 @@ var PRODUCTS = [
   {
     "id": "143771",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра-натирач для підлоги WF01A з запаскою \"локшина\" WERK",
     "price": 239.0,
@@ -32147,7 +32147,7 @@ var PRODUCTS = [
   {
     "id": "137992",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра кругла з мікрофіброю WERK\nМеталева ручка 120см, запаска 150гр",
     "price": 405.0,
@@ -32160,7 +32160,7 @@ var PRODUCTS = [
   {
     "id": "142707",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска 2 в 1 до швабри WF02C WERK,розмір 45*58*30cм",
     "price": 193.0,
@@ -32173,7 +32173,7 @@ var PRODUCTS = [
   {
     "id": "143774",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска із мікрофібри до швабри WF01B WERK",
     "price": 97.0,
@@ -32186,7 +32186,7 @@ var PRODUCTS = [
   {
     "id": "143773",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска \"локшина\"до швабри WF01A WERK,розмір 45*58*30cм",
     "price": 112.0,
@@ -32225,7 +32225,7 @@ var PRODUCTS = [
   {
     "id": "144895",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска до круглої швабри WRCY-450 (WERK)",
     "price": 256.0,
@@ -32238,7 +32238,7 @@ var PRODUCTS = [
   {
     "id": "121949",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра-моп стрічкова , довжина ручки: 120 см. Вага: 200 гр",
     "price": 283.0,
@@ -32251,7 +32251,7 @@ var PRODUCTS = [
   {
     "id": "117558",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра \"Вільні і сухі руки\" довжина 125 см, запаска 35*11см Важливо- при відватаженні мають співпадати дати партії виробництва",
     "price": 505.0,
@@ -32264,7 +32264,7 @@ var PRODUCTS = [
   {
     "id": "121959",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска до швабри-моп WDS-1904 . Вага: 200 гр",
     "price": 146.0,
@@ -32276,8 +32276,8 @@ var PRODUCTS = [
   },
   {
     "id": "117562",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Запаска із мікрофібри WRFS07 к WRF6/WHF6 (WERK) Важливо- при відватаженні мають співпадати дати партії виробництва.35*11см",
     "price": 80.0,
@@ -32290,7 +32290,7 @@ var PRODUCTS = [
   {
     "id": "144897",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска до швабри з розпилювачем WRCY-400 (WERK)",
     "price": 109.0,
@@ -32303,7 +32303,7 @@ var PRODUCTS = [
   {
     "id": "137996",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Насадка запасна для швабри WPM-213 WERK,довжина 27 см. В пакеті",
     "price": 116.0,
@@ -32316,7 +32316,7 @@ var PRODUCTS = [
   {
     "id": "133156",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання відро 12л + швабра 300 ZAMBAK",
     "price": 804.0,
@@ -32329,7 +32329,7 @@ var PRODUCTS = [
   {
     "id": "127848",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра-пильник 450 ZAMBAK",
     "price": 281.0,
@@ -32342,7 +32342,7 @@ var PRODUCTS = [
   {
     "id": "137988",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання кругла швабра з відром, віджимом та запаскою WERK",
     "price": 1024.0,
@@ -32354,8 +32354,8 @@ var PRODUCTS = [
   },
   {
     "id": "143279",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Запаска до набору для прибирання WRCY-360 (WERK)\nДля набору WCY-360 та WX01",
     "price": 72.0,
@@ -32368,7 +32368,7 @@ var PRODUCTS = [
   {
     "id": "121945",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання WDS-342 квадратне відро, віджимна швабра та запаска (WERK),ручка швабра 120 см(4секції),пад шв.32*11см,запаска 32,5*11,5см,відро 6,5л(19,5*16,5*35,5см)+1 додаткова запаска",
     "price": 1102.0,
@@ -32381,7 +32381,7 @@ var PRODUCTS = [
   {
     "id": "121963",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска із мікрофібри до швабри WDS-1208, 100% поліестер, Розмір: 43x13см. Вага: 55±5 гр WERK",
     "price": 119.0,
@@ -32394,7 +32394,7 @@ var PRODUCTS = [
   {
     "id": "135409",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання відро + швабра з віджимом 355 ZAMBAK",
     "price": 1013.0,
@@ -32406,8 +32406,8 @@ var PRODUCTS = [
   },
   {
     "id": "144896",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Запаска до набору для прибирання WRCY-351 (WERK),32,5*11,5см",
     "price": 55.0,
@@ -32420,7 +32420,7 @@ var PRODUCTS = [
   {
     "id": "126730",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Запаска із мікрофібри  (WERK) до швабри з набору  WDS-342,мікрофібра 31.5X12см",
     "price": 134.0,
@@ -32433,7 +32433,7 @@ var PRODUCTS = [
   {
     "id": "127207",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра змінна з мікрофібри 279 ZAMBAK",
     "price": 334.0,
@@ -32446,7 +32446,7 @@ var PRODUCTS = [
   {
     "id": "112063",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочисник  20см довжина 76см",
     "price": 269.0,
@@ -32459,7 +32459,7 @@ var PRODUCTS = [
   {
     "id": "109474",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Швабра роликова 27 см, з подвійнім віджимом, телескопічною ручкою 110 см. Подвійний ролик, металева основа WERK",
     "price": 503.0,
@@ -32472,7 +32472,7 @@ var PRODUCTS = [
   {
     "id": "137986",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання квадратне відро(, віджимна швабра та дві запаски WERK",
     "price": 823.0,
@@ -32484,8 +32484,8 @@ var PRODUCTS = [
   },
   {
     "id": "136851",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочищувач 20 см з телескопічною ручкою до 112 см  WERK",
     "price": 244.0,
@@ -32497,8 +32497,8 @@ var PRODUCTS = [
   },
   {
     "id": "137998",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочищувач 3 в 1 телескопічною ручкою 128 см WERK",
     "price": 485.0,
@@ -32511,7 +32511,7 @@ var PRODUCTS = [
   {
     "id": "137999",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочищувач 25 см зел.WERK",
     "price": 62.0,
@@ -32524,7 +32524,7 @@ var PRODUCTS = [
   {
     "id": "112061",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка  для ванної та кухні 24x6х3,5см",
     "price": 64.0,
@@ -32536,8 +32536,8 @@ var PRODUCTS = [
   },
   {
     "id": "136847",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочищувач 25 см  WERK",
     "price": 79.0,
@@ -32550,7 +32550,7 @@ var PRODUCTS = [
   {
     "id": "116924",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочисник 20.5 см  ZAMBAK",
     "price": 47.0,
@@ -32563,7 +32563,7 @@ var PRODUCTS = [
   {
     "id": "124995",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Склоочищувач зі щіткою 22 см 170 ZAMBAK",
     "price": 212.0,
@@ -32576,7 +32576,7 @@ var PRODUCTS = [
   {
     "id": "116923",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Склоочисник 28 см  ZAMBAK",
     "price": 66.0,
@@ -32589,7 +32589,7 @@ var PRODUCTS = [
   {
     "id": "127208",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання відро 8л + швабра 304 ZAMBAK",
     "price": 794.0,
@@ -32601,8 +32601,8 @@ var PRODUCTS = [
   },
   {
     "id": "133167",
-    "category": "dlyadomu",
-    "subcategory": "himiya",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Щітка \"праска\" (15см x 6см) 145 ZAMBAK",
     "price": 82.0,
@@ -32615,7 +32615,7 @@ var PRODUCTS = [
   {
     "id": "133170",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка з ручкою 143 ZAMBAK",
     "price": 91.0,
@@ -32641,7 +32641,7 @@ var PRODUCTS = [
   {
     "id": "133168",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для миття раковини та ванни (16х14х5,5см) 144 ZAMBAK",
     "price": 79.0,
@@ -32667,7 +32667,7 @@ var PRODUCTS = [
   {
     "id": "116750",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка вулична 40 см з металевим кріпленням РР червоний(WERK Україна",
     "price": 166.0,
@@ -32679,8 +32679,8 @@ var PRODUCTS = [
   },
   {
     "id": "136857",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мітла 18 см з металевим черенком 100 см WERK",
     "price": 158.0,
@@ -32692,8 +32692,8 @@ var PRODUCTS = [
   },
   {
     "id": "136855",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мітла 26,5 см з металевим черенком 108 см  WERK",
     "price": 209.0,
@@ -32706,7 +32706,7 @@ var PRODUCTS = [
   {
     "id": "138069",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка 24х9 см чорна WERK",
     "price": 120.0,
@@ -32718,8 +32718,8 @@ var PRODUCTS = [
   },
   {
     "id": "138074",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір міні щіток 23х3 см 3 штуки WERK",
     "price": 93.0,
@@ -32731,8 +32731,8 @@ var PRODUCTS = [
   },
   {
     "id": "138070",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Черенок дерев'яний 115 см до щіток WBH-500 та WBH-501 WERK",
     "price": 71.0,
@@ -32745,7 +32745,7 @@ var PRODUCTS = [
   {
     "id": "116756",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка вулична 80 см з металевим кріпленням РР червоний  WERK Україна",
     "price": 402.0,
@@ -32758,7 +32758,7 @@ var PRODUCTS = [
   {
     "id": "116754",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка вулична 60 см з металевим кріпленням РР червоний  WERK Україна",
     "price": 232.0,
@@ -32771,7 +32771,7 @@ var PRODUCTS = [
   {
     "id": "116752",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка вулична 50 см з металевим кріпленням РР червоний  WERK Україна",
     "price": 196.0,
@@ -32784,7 +32784,7 @@ var PRODUCTS = [
   {
     "id": "116759",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка вулична 100 см з металевим кріпленням РР червоний WERK Україна",
     "price": 464.0,
@@ -32796,8 +32796,8 @@ var PRODUCTS = [
   },
   {
     "id": "138076",
-    "category": "dlyadomu",
-    "subcategory": "himiya",
+    "category": "technika",
+    "subcategory": "dribna",
     "available": true,
     "name": "Щітка \"праска\" 14х6 см WERK",
     "price": 46.0,
@@ -32809,8 +32809,8 @@ var PRODUCTS = [
   },
   {
     "id": "116722",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мітла вулична 23 см, різьба, з металічним черенком WERK Україна",
     "price": 211.0,
@@ -32822,8 +32822,8 @@ var PRODUCTS = [
   },
   {
     "id": "116723",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мітла вулична 24 см, MINI з металічним черенком WERK Україна",
     "price": 225.0,
@@ -32835,8 +32835,8 @@ var PRODUCTS = [
   },
   {
     "id": "116724",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мітла вулична 24 см, MAXI з металічним черенком WERK Україна",
     "price": 482.0,
@@ -32849,7 +32849,7 @@ var PRODUCTS = [
   {
     "id": "116732",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для підлоги 30 см, з металічним черенком WERK Україна",
     "price": 246.0,
@@ -32861,8 +32861,8 @@ var PRODUCTS = [
   },
   {
     "id": "116727",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Черенок дерев'яний,L-1300,конус WERK Україна",
     "price": 83.0,
@@ -32873,7 +32873,7 @@ var PRODUCTS = [
   {
     "id": "116745",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для твердих поверхонь 205х62 мм WERK Україна",
     "price": 81.0,
@@ -32885,8 +32885,8 @@ var PRODUCTS = [
   },
   {
     "id": "116731",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Черенок чорний металічний,L-1200,з різьбою WERK Україна",
     "price": 83.0,
@@ -32899,7 +32899,7 @@ var PRODUCTS = [
   {
     "id": "138015",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка 27х11 см  блакитна WERK",
     "price": 126.0,
@@ -32912,7 +32912,7 @@ var PRODUCTS = [
   {
     "id": "116748",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для одягу та взуття 140х45 мм ECO WERK Україна",
     "price": 94.0,
@@ -32925,7 +32925,7 @@ var PRODUCTS = [
   {
     "id": "133163",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Запаска з мікрофібри 302 для наборів 300/304 (32x12см) ZAMBAK",
     "price": 106.0,
@@ -32938,7 +32938,7 @@ var PRODUCTS = [
   {
     "id": "116916",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком з ручкою ECO 21х15,5х84см ZAMBAK",
     "price": 235.0,
@@ -32951,7 +32951,7 @@ var PRODUCTS = [
   {
     "id": "112065",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком  24x24.5x85cm",
     "price": 329.0,
@@ -32964,7 +32964,7 @@ var PRODUCTS = [
   {
     "id": "116915",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком з ручкою 21х17х86см ZAMBAK",
     "price": 256.0,
@@ -32977,7 +32977,7 @@ var PRODUCTS = [
   {
     "id": "116917",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком з ручкою 25х18х97см ZAMBAK",
     "price": 351.0,
@@ -32990,7 +32990,7 @@ var PRODUCTS = [
   {
     "id": "138006",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком 100 см складний WERK",
     "price": 500.0,
@@ -33003,7 +33003,7 @@ var PRODUCTS = [
   {
     "id": "116741",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для змітання 285х40 мм WERK Україна",
     "price": 77.0,
@@ -33016,7 +33016,7 @@ var PRODUCTS = [
   {
     "id": "116918",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок з ручкою 25х24х86 см ZAMBAK",
     "price": 153.0,
@@ -33029,7 +33029,7 @@ var PRODUCTS = [
   {
     "id": "116739",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для змітання 263х33 мм WERK Україна",
     "price": 52.0,
@@ -33041,8 +33041,8 @@ var PRODUCTS = [
   },
   {
     "id": "144899",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок з довгою ручкою WD-261 (WERK)",
     "price": 122.0,
@@ -33054,8 +33054,8 @@ var PRODUCTS = [
   },
   {
     "id": "145358",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок складний з довгою ручкою WD-262 (WERK)",
     "price": 186.0,
@@ -33068,7 +33068,7 @@ var PRODUCTS = [
   {
     "id": "138002",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком 76 см зел. WERK",
     "price": 241.0,
@@ -33080,8 +33080,8 @@ var PRODUCTS = [
   },
   {
     "id": "128754",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок для сміття WERK Україна",
     "price": 39.0,
@@ -33094,7 +33094,7 @@ var PRODUCTS = [
   {
     "id": "136853",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком WDS-519 WERK",
     "price": 202.0,
@@ -33107,7 +33107,7 @@ var PRODUCTS = [
   {
     "id": "121967",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набiр вiник з совком 30*20,5*7,6см",
     "price": 152.0,
@@ -33120,7 +33120,7 @@ var PRODUCTS = [
   {
     "id": "116919",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок з гумовою вставкою 169  23х31х6 см ZAMBAK",
     "price": 77.0,
@@ -33133,7 +33133,7 @@ var PRODUCTS = [
   {
     "id": "116743",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для килимів 30 см, з вставкою WERK Україна",
     "price": 103.0,
@@ -33146,7 +33146,7 @@ var PRODUCTS = [
   {
     "id": "116920",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок з гумовою вставкою 22х35х6.5см ZAMBAK",
     "price": 62.0,
@@ -33159,7 +33159,7 @@ var PRODUCTS = [
   {
     "id": "119227",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для скла 24.5х22см WERK",
     "price": 106.0,
@@ -33172,7 +33172,7 @@ var PRODUCTS = [
   {
     "id": "116922",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник великий 20х12х62см ZAMBAK",
     "price": 197.0,
@@ -33184,8 +33184,8 @@ var PRODUCTS = [
   },
   {
     "id": "145359",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок сірий WD-264 (WERK)",
     "price": 93.0,
@@ -33198,7 +33198,7 @@ var PRODUCTS = [
   {
     "id": "116921",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник средній 20х11х40см ZAMBAK",
     "price": 142.0,
@@ -33210,8 +33210,8 @@ var PRODUCTS = [
   },
   {
     "id": "145360",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Совок синій WD-265 (WERK)",
     "price": 48.0,
@@ -33224,7 +33224,7 @@ var PRODUCTS = [
   {
     "id": "161739",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник великий  19,5*11*63мм  ZAMBAK",
     "price": 150.0,
@@ -33237,7 +33237,7 @@ var PRODUCTS = [
   {
     "id": "138010",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір віник з совком сірий WERK",
     "price": 138.0,
@@ -33250,7 +33250,7 @@ var PRODUCTS = [
   {
     "id": "119231",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для авто 90-120см розсувна WERK\nзі шкребком",
     "price": 609.0,
@@ -33263,7 +33263,7 @@ var PRODUCTS = [
   {
     "id": "119229",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для авто 52см WERK\nзі шкребком",
     "price": 296.0,
@@ -33276,7 +33276,7 @@ var PRODUCTS = [
   {
     "id": "119230",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для авто 54-66см розсувна WERK\nзі шкребком",
     "price": 465.0,
@@ -33289,7 +33289,7 @@ var PRODUCTS = [
   {
     "id": "119242",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для авто 39см WERK\nзі шкребком",
     "price": 211.0,
@@ -33302,7 +33302,7 @@ var PRODUCTS = [
   {
     "id": "119246",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка двустороння для авто 40x40см 1шт WERK",
     "price": 68.0,
@@ -33315,7 +33315,7 @@ var PRODUCTS = [
   {
     "id": "119243",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для авто 44см WERK\nзі шкребком",
     "price": 186.0,
@@ -33328,7 +33328,7 @@ var PRODUCTS = [
   {
     "id": "136829",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка безворсова 30x30см (1шт) - WERK",
     "price": 53.0,
@@ -33341,7 +33341,7 @@ var PRODUCTS = [
   {
     "id": "149645",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка ультрам’яка GREY Coral Fleece 40x40см (1шт) WERK",
     "price": 74.0,
@@ -33352,7 +33352,7 @@ var PRODUCTS = [
   {
     "id": "119244",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка волога замшева 32*43 WERK\nШтучна замша",
     "price": 144.0,
@@ -33365,7 +33365,7 @@ var PRODUCTS = [
   {
     "id": "136814",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка з мікрофібри 46x60см (1шт) -WERK",
     "price": 107.0,
@@ -33378,7 +33378,7 @@ var PRODUCTS = [
   {
     "id": "125150",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для авто 46см F-306 WERK",
     "price": 288.0,
@@ -33391,7 +33391,7 @@ var PRODUCTS = [
   {
     "id": "127850",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Набір для прибирання VENUS з ручкою, насадкою для швабри та віджимним пристроєм 211 ZAMBAK",
     "price": 281.0,
@@ -33404,7 +33404,7 @@ var PRODUCTS = [
   {
     "id": "126150",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка з мікрофібри 35x35см (1шт) WERK",
     "price": 35.0,
@@ -33417,7 +33417,7 @@ var PRODUCTS = [
   {
     "id": "133341",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка ультрам’яка Coral Fleece 40x40см (1шт) WERK",
     "price": 74.0,
@@ -33429,8 +33429,8 @@ var PRODUCTS = [
   },
   {
     "id": "138294",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір серветок з мікрофібри 30х30 см (4шт) WERK",
     "price": 173.0,
@@ -33443,7 +33443,7 @@ var PRODUCTS = [
   {
     "id": "119228",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Щітка для скла 20х23см WERK",
     "price": 148.0,
@@ -33455,8 +33455,8 @@ var PRODUCTS = [
   },
   {
     "id": "138296",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір губок для чищення з мікрофібри 17х20 см (3шт) WERK",
     "price": 95.0,
@@ -33469,7 +33469,7 @@ var PRODUCTS = [
   {
     "id": "138304",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка кухонна в квадрат, біла 30х30см WERK",
     "price": 36.0,
@@ -33495,7 +33495,7 @@ var PRODUCTS = [
   {
     "id": "138292",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка з мікрофібри для скляних поверхонь 30x30см (1 шт) WERK",
     "price": 40.0,
@@ -33508,7 +33508,7 @@ var PRODUCTS = [
   {
     "id": "138290",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Універсальна серветка з мікрофібри з малюнком 30х30 см (1шт) WERK",
     "price": 38.0,
@@ -33554,7 +33554,7 @@ var PRODUCTS = [
   {
     "id": "138202",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Універсальна серветка з мікрофібри 30х30 см (1шт) WERK",
     "price": 36.0,
@@ -33578,7 +33578,7 @@ var PRODUCTS = [
   {
     "id": "138300",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка кухонна, жовта 30х30см WERK",
     "price": 50.0,
@@ -33591,7 +33591,7 @@ var PRODUCTS = [
   {
     "id": "138298",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка кухонна в смужку, салатова 30х30см WERK",
     "price": 32.0,
@@ -33617,7 +33617,7 @@ var PRODUCTS = [
   {
     "id": "138302",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка кухонна хвиляста, синя 30х30см WERK",
     "price": 52.0,
@@ -33629,8 +33629,8 @@ var PRODUCTS = [
   },
   {
     "id": "133342",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір серветок з мікрофібри для скляних поверхонь 35x35см (3 шт) WERK",
     "price": 149.0,
@@ -33643,7 +33643,7 @@ var PRODUCTS = [
   {
     "id": "138306",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник кухонний з малюнком 40х60см WERK",
     "price": 75.0,
@@ -33656,7 +33656,7 @@ var PRODUCTS = [
   {
     "id": "136825",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник кухонний бежевий 40х60см WERK",
     "price": 134.0,
@@ -33669,7 +33669,7 @@ var PRODUCTS = [
   {
     "id": "156680",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Scrubby 4 шт 9.8х6,8х3,5 см WERK,Україна",
     "price": 64.0,
@@ -33682,7 +33682,7 @@ var PRODUCTS = [
   {
     "id": "136827",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рушник кухонний смугастий оранжевий 40х60см WERK",
     "price": 119.0,
@@ -33695,7 +33695,7 @@ var PRODUCTS = [
   {
     "id": "156683",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна  Daily Wash 6 шт 9.8х6,8х3,5 см WERK,Україна",
     "price": 64.0,
@@ -33708,7 +33708,7 @@ var PRODUCTS = [
   {
     "id": "156685",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Scrubby 4 шт 9.8х6,8х3,5 см WERK,Україна",
     "price": 66.0,
@@ -33721,7 +33721,7 @@ var PRODUCTS = [
   {
     "id": "156684",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна  Soft Scrub 6 шт 9х6х3 см WERK,Україна",
     "price": 53.0,
@@ -33734,7 +33734,7 @@ var PRODUCTS = [
   {
     "id": "123761",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Целюлозна серветка Super Absorb 3 шт. WERK, 15,7×16 Україна",
     "price": 88.0,
@@ -33746,8 +33746,8 @@ var PRODUCTS = [
   },
   {
     "id": "123763",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Абразивна фібра Scraber 5 шт WERK, 9×13 Україна",
     "price": 48.0,
@@ -33760,7 +33760,7 @@ var PRODUCTS = [
   {
     "id": "156687",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Shiny Day  5 шт 9х6.5х4.5 см WERK,Україна",
     "price": 60.0,
@@ -33772,8 +33772,8 @@ var PRODUCTS = [
   },
   {
     "id": "117135",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Валик для чищення одягу та видалення ворсу\n(підходить для чищення одягу, меблів, сидіння авто від шерсті тварин, пилу, тощо)\n- дві штуки в наборі                       \n- 20 листів                           \n- легка заміна блоку WERK",
     "price": 72.0,
@@ -33786,7 +33786,7 @@ var PRODUCTS = [
   {
     "id": "123762",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Серветка з віскози 7шт WERK, 35×38 Україна",
     "price": 166.0,
@@ -33799,7 +33799,7 @@ var PRODUCTS = [
   {
     "id": "156688",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Foam Mate  5 шт 10х7х4 см WERK,Україна",
     "price": 69.0,
@@ -33811,8 +33811,8 @@ var PRODUCTS = [
   },
   {
     "id": "117139",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір запасок до валику                  \n(підходить для чищення одягу, меблів, сидіння авто від шерсті тварин, пилу, тощо)                       \n- з чорною ручкою                         \n- спіральний виріз                          \n- 20 листів WERK",
     "price": 89.0,
@@ -33825,7 +33825,7 @@ var PRODUCTS = [
   {
     "id": "161740",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Органайзер з ручкою  ZAMBAK",
     "price": 167.0,
@@ -33836,7 +33836,7 @@ var PRODUCTS = [
   {
     "id": "123766",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Bacterial protect 10x7x4 см WERK,Україна",
     "price": 85.0,
@@ -33848,8 +33848,8 @@ var PRODUCTS = [
   },
   {
     "id": "127233",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір запасок до валика для чищення одягу 2 шт по 20 листів кольорова ручка WERK",
     "price": 89.0,
@@ -33862,7 +33862,7 @@ var PRODUCTS = [
   {
     "id": "123765",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Bubble 5 шт 9x6x3 см WERK,Україна",
     "price": 57.0,
@@ -33874,8 +33874,8 @@ var PRODUCTS = [
   },
   {
     "id": "126693",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір запасок  до валика для чищення одягу 2 шт по 60 листів чорна ручка WERK",
     "price": 152.0,
@@ -33887,8 +33887,8 @@ var PRODUCTS = [
   },
   {
     "id": "121976",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прасувальна дошка - (110x30см) WERK Україна",
     "price": 730.0,
@@ -33900,8 +33900,8 @@ var PRODUCTS = [
   },
   {
     "id": "127235",
-    "category": "instrument",
-    "subcategory": "nabory",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Набір запасок до валика для чищення одягу 2 шт по 60 листів кольорова ручка WERK",
     "price": 152.0,
@@ -33913,8 +33913,8 @@ var PRODUCTS = [
   },
   {
     "id": "121977",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прасувальна дошка - (120x38см) WERK Україна",
     "price": 874.0,
@@ -33979,7 +33979,7 @@ var PRODUCTS = [
   {
     "id": "121311",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур капроновий плетений  діаметр 2мм, довжина 20м Україна",
     "price": 55.0,
@@ -33992,7 +33992,7 @@ var PRODUCTS = [
   {
     "id": "121315",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур капроновий плетений  діаметр 6мм, довжина 20мУкраїна",
     "price": 300.0,
@@ -34005,7 +34005,7 @@ var PRODUCTS = [
   {
     "id": "121319",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур поліпропіленовий плетений  діаметр 3мм, довжина 20мУкраїна",
     "price": 34.0,
@@ -34018,7 +34018,7 @@ var PRODUCTS = [
   {
     "id": "121321",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур поліпропіленовий плетений  діаметр 5мм, довжина 20мУкраїна",
     "price": 60.0,
@@ -34031,7 +34031,7 @@ var PRODUCTS = [
   {
     "id": "121317",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур поліпропіленовий плетений  діаметр 2мм, довжина 20мУкраїна",
     "price": 28.0,
@@ -34044,7 +34044,7 @@ var PRODUCTS = [
   {
     "id": "156686",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Губка кухонна Fresh Task  6 шт 9.8х6.8х3.5 см WERK,Україна",
     "price": 71.0,
@@ -34057,7 +34057,7 @@ var PRODUCTS = [
   {
     "id": "160126",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Підставка універсальна  Ажур  GUSTO, (156х185х147мм) в асорт.",
     "price": 116.0,
@@ -34068,7 +34068,7 @@ var PRODUCTS = [
   {
     "id": "121323",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур поліпропіленовий плетений  діаметр 6мм, довжина 20мУкраїна",
     "price": 122.0,
@@ -34080,8 +34080,8 @@ var PRODUCTS = [
   },
   {
     "id": "126691",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Валик  для чищення одягу, 60 листів чорна ручка WERK",
     "price": 106.0,
@@ -34094,7 +34094,7 @@ var PRODUCTS = [
   {
     "id": "121313",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур капроновий плетений  діаметр 4мм, довжина 20мУкраїна",
     "price": 109.0,
@@ -34107,7 +34107,7 @@ var PRODUCTS = [
   {
     "id": "136155",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 1.8л (150х200х92мм) в асорт.Україна",
     "price": 102.0,
@@ -34120,7 +34120,7 @@ var PRODUCTS = [
   {
     "id": "136159",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 4,7 л (195х300х110 мм) в асорт.асорт.Україна",
     "price": 149.0,
@@ -34133,7 +34133,7 @@ var PRODUCTS = [
   {
     "id": "136157",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 3.5л (150х200х165мм) в асорт.асорт.Україна",
     "price": 130.0,
@@ -34146,7 +34146,7 @@ var PRODUCTS = [
   {
     "id": "136158",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 3.5л (150х200х165мм) з кришкою, в асорт.асорт.Україна",
     "price": 181.0,
@@ -34159,7 +34159,7 @@ var PRODUCTS = [
   {
     "id": "136161",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 4,7 л (200х305х115 мм) з кришкою, в асорт.асорт.Україна",
     "price": 209.0,
@@ -34172,7 +34172,7 @@ var PRODUCTS = [
   {
     "id": "136156",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 1.8л (156х207х95мм) з кришкою, в асорт.асорт.Україна",
     "price": 149.0,
@@ -34185,7 +34185,7 @@ var PRODUCTS = [
   {
     "id": "136162",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Контейнер Ажур GUSTO, 7,5 л (200х305х165 мм) з кришкою, в асорт.асорт.Україна",
     "price": 246.0,
@@ -34198,7 +34198,7 @@ var PRODUCTS = [
   {
     "id": "136165",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сухарниця прямокутна Ажур GUSTO (183х266х105 мм) в асорт.асорт.Україна",
     "price": 74.0,
@@ -34211,7 +34211,7 @@ var PRODUCTS = [
   {
     "id": "136160",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кошик Ажур GUSTO, 12л з кришкою (296х396х127мм) в асорт.асорт.Україна",
     "price": 400.0,
@@ -34224,7 +34224,7 @@ var PRODUCTS = [
   {
     "id": "136163",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Кошик Ажур GUSTO, 18л (296х396х194мм) з кришкою, в асорт.асорт.Україна",
     "price": 441.0,
@@ -34237,7 +34237,7 @@ var PRODUCTS = [
   {
     "id": "136166",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Сухарниця кругла Ажур GUSTO (245х245х101 мм) в асорт.асорт.Україна",
     "price": 73.0,
@@ -34249,8 +34249,8 @@ var PRODUCTS = [
   },
   {
     "id": "128753",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Ківш пластиковий господарський 1л WERK, Україна",
     "price": 42.0,
@@ -34263,7 +34263,7 @@ var PRODUCTS = [
   {
     "id": "121325",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Шнур поліпропіленовий плетений  діаметр 8мм, довжина 25мУкраїна",
     "price": 270.0,
@@ -34275,8 +34275,8 @@ var PRODUCTS = [
   },
   {
     "id": "127231",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Валик для чищення одягу, 60 листів кольорова ручка WERK",
     "price": 106.0,
@@ -34288,8 +34288,8 @@ var PRODUCTS = [
   },
   {
     "id": "128748",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий Незабудка 6л WERK, Україна",
     "price": 87.0,
@@ -34301,8 +34301,8 @@ var PRODUCTS = [
   },
   {
     "id": "128751",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий Незабудка 20л WERK, Україна",
     "price": 288.0,
@@ -34314,8 +34314,8 @@ var PRODUCTS = [
   },
   {
     "id": "127229",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Валик для чищення одягу, 20 листів кольорова ручка WERK",
     "price": 72.0,
@@ -34328,7 +34328,7 @@ var PRODUCTS = [
   {
     "id": "127036",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Прищіпки 20 шт 103 (ZAMBAK)",
     "price": 73.0,
@@ -34340,8 +34340,8 @@ var PRODUCTS = [
   },
   {
     "id": "128752",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий Незабудка 28л WERK, Україна",
     "price": 414.0,
@@ -34353,8 +34353,8 @@ var PRODUCTS = [
   },
   {
     "id": "128749",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий Незабудка 9л WERK, Україна",
     "price": 135.0,
@@ -34367,7 +34367,7 @@ var PRODUCTS = [
   {
     "id": "161293",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Відро пластикове господарське 5 л WERK,Україна",
     "price": 161.0,
@@ -34377,8 +34377,8 @@ var PRODUCTS = [
   },
   {
     "id": "128750",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий Незабудка 15л WERK, Україна",
     "price": 201.0,
@@ -34391,7 +34391,7 @@ var PRODUCTS = [
   {
     "id": "127210",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий круглий 7л 625 ZAMBAK",
     "price": 153.0,
@@ -34403,8 +34403,8 @@ var PRODUCTS = [
   },
   {
     "id": "128742",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вiдро для смiття з поворотною кришкою 10л WERK, Україна",
     "price": 123.0,
@@ -34416,8 +34416,8 @@ var PRODUCTS = [
   },
   {
     "id": "128745",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Вiдро пластикове господарське 12л WERK, Україна",
     "price": 213.0,
@@ -34430,7 +34430,7 @@ var PRODUCTS = [
   {
     "id": "161292",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Відро пластикове мірне MODERN 10л WERK, Україна",
     "price": 199.0,
@@ -34442,8 +34442,8 @@ var PRODUCTS = [
   },
   {
     "id": "128744",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вiдро для смiття з поворотною кришкою 5л WERK, Україна",
     "price": 123.0,
@@ -34456,7 +34456,7 @@ var PRODUCTS = [
   {
     "id": "130528",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Відро-туалет 16л WERK, Україна",
     "price": 717.0,
@@ -34468,8 +34468,8 @@ var PRODUCTS = [
   },
   {
     "id": "130526",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вiдро пластикове мірне з носиком 5л WERK, Україна",
     "price": 208.0,
@@ -34481,8 +34481,8 @@ var PRODUCTS = [
   },
   {
     "id": "136116",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Хвиля WERK, 500мл",
     "price": 155.0,
@@ -34495,7 +34495,7 @@ var PRODUCTS = [
   {
     "id": "127213",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий круглий 10л 626 ZAMBAK",
     "price": 189.0,
@@ -34507,8 +34507,8 @@ var PRODUCTS = [
   },
   {
     "id": "136123",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Скеля WERK, 500мл",
     "price": 155.0,
@@ -34520,8 +34520,8 @@ var PRODUCTS = [
   },
   {
     "id": "136122",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Лагуна WERK, 300мл в ассортименті",
     "price": 155.0,
@@ -34546,8 +34546,8 @@ var PRODUCTS = [
   },
   {
     "id": "121008",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рукавички господарські латексні - розмір S WERK m- 28g",
     "price": 30.0,
@@ -34572,8 +34572,8 @@ var PRODUCTS = [
   },
   {
     "id": "146624",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Бриз WERK, 480мл в ассортименті",
     "price": 123.0,
@@ -34585,8 +34585,8 @@ var PRODUCTS = [
   },
   {
     "id": "146628",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мильниця Меридіан WERK, 15.2*9.9*2.3см в ассортименті",
     "price": 97.0,
@@ -34598,8 +34598,8 @@ var PRODUCTS = [
   },
   {
     "id": "146627",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Мильниця Паралель WERK, 15.2*9.9*2.3см в ассортименті",
     "price": 97.0,
@@ -34611,8 +34611,8 @@ var PRODUCTS = [
   },
   {
     "id": "146625",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Лиман WERK, 365мл в ассортименті",
     "price": 121.0,
@@ -34624,8 +34624,8 @@ var PRODUCTS = [
   },
   {
     "id": "146626",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Шарм WERK, 450мл в ассортименті",
     "price": 123.0,
@@ -34637,8 +34637,8 @@ var PRODUCTS = [
   },
   {
     "id": "121013",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рукавички господарські латексні -розмір L WERK m- 28g",
     "price": 30.0,
@@ -34650,8 +34650,8 @@ var PRODUCTS = [
   },
   {
     "id": "148541",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рукавички господарські латексні потовщені - WHL-02M, розмір М WERK",
     "price": 36.0,
@@ -34661,8 +34661,8 @@ var PRODUCTS = [
   },
   {
     "id": "148540",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рукавички господарські латексні потовщені - WHL-02S, розмір S WERK",
     "price": 36.0,
@@ -34672,8 +34672,8 @@ var PRODUCTS = [
   },
   {
     "id": "121011",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рукавички господарські латексні -розмір М WERK m- 28g",
     "price": 30.0,
@@ -34685,8 +34685,8 @@ var PRODUCTS = [
   },
   {
     "id": "148542",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "dlyadomu",
+    "subcategory": "gosp",
     "available": true,
     "name": "Рукавички господарські латексні потовщені - WHL-02L, розмір L WERK",
     "price": 36.0,
@@ -34697,7 +34697,7 @@ var PRODUCTS = [
   {
     "id": "127215",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Таз пластиковий круглий 14л 627 ZAMBAK",
     "price": 257.0,
@@ -34709,8 +34709,8 @@ var PRODUCTS = [
   },
   {
     "id": "136861",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу WDS-961 WERK",
     "price": 127.0,
@@ -34722,8 +34722,8 @@ var PRODUCTS = [
   },
   {
     "id": "121969",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу 37,5*11см WERK",
     "price": 101.0,
@@ -34735,8 +34735,8 @@ var PRODUCTS = [
   },
   {
     "id": "136859",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу WDS-960 WERK",
     "price": 115.0,
@@ -34749,7 +34749,7 @@ var PRODUCTS = [
   {
     "id": "133166",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу 152 ZAMBAK",
     "price": 113.0,
@@ -34761,8 +34761,8 @@ var PRODUCTS = [
   },
   {
     "id": "136120",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Міраж WERK, 450мл в ассортименті",
     "price": 142.0,
@@ -34774,8 +34774,8 @@ var PRODUCTS = [
   },
   {
     "id": "136121",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Дозатор для мила Фантом WERK, 450мл в ассортименті",
     "price": 142.0,
@@ -34787,8 +34787,8 @@ var PRODUCTS = [
   },
   {
     "id": "136865",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу WDS-963 WERK",
     "price": 115.0,
@@ -34800,8 +34800,8 @@ var PRODUCTS = [
   },
   {
     "id": "136863",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу WDS-962 WERK",
     "price": 88.0,
@@ -34813,8 +34813,8 @@ var PRODUCTS = [
   },
   {
     "id": "138080",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу рожевий WERK",
     "price": 77.0,
@@ -34827,7 +34827,7 @@ var PRODUCTS = [
   {
     "id": "133165",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу з кришкою 150 ZAMBAK",
     "price": 152.0,
@@ -34839,8 +34839,8 @@ var PRODUCTS = [
   },
   {
     "id": "138082",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу силіконовий зелений WERK",
     "price": 165.0,
@@ -34853,7 +34853,7 @@ var PRODUCTS = [
   {
     "id": "127856",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вантуз гофрований (великий) 225 ZAMBAK",
     "price": 125.0,
@@ -34865,8 +34865,8 @@ var PRODUCTS = [
   },
   {
     "id": "138087",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вантуз 50 см WERK",
     "price": 128.0,
@@ -34878,8 +34878,8 @@ var PRODUCTS = [
   },
   {
     "id": "147424",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу силіконовий сірий WERK",
     "price": 219.0,
@@ -34892,7 +34892,7 @@ var PRODUCTS = [
   {
     "id": "123644",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник трьохпучковий 70-75*30 (УМАНЬ)",
     "price": 169.0,
@@ -34905,7 +34905,7 @@ var PRODUCTS = [
   {
     "id": "123643",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник молдавський 75-80*30 (УМАНЬ)",
     "price": 184.0,
@@ -34917,8 +34917,8 @@ var PRODUCTS = [
   },
   {
     "id": "147426",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу силіконовий блакитний WERK",
     "price": 131.0,
@@ -34931,7 +34931,7 @@ var PRODUCTS = [
   {
     "id": "127855",
     "category": "budmaterialy",
-    "subcategory": "all",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вантуз гофрований (малий) 224 ZAMBAK",
     "price": 83.0,
@@ -34943,8 +34943,8 @@ var PRODUCTS = [
   },
   {
     "id": "138085",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "inshe",
     "available": true,
     "name": "Вантуз 30 см WERK",
     "price": 73.0,
@@ -34957,7 +34957,7 @@ var PRODUCTS = [
   {
     "id": "124480",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник ЛЮКС 80*35 (УМАНЬ)",
     "price": 168.0,
@@ -34969,8 +34969,8 @@ var PRODUCTS = [
   },
   {
     "id": "138078",
-    "category": "instrument",
-    "subcategory": "elektro",
+    "category": "budmaterialy",
+    "subcategory": "santehnika",
     "available": true,
     "name": "Йоржик для унітазу силіконовий білий WERK",
     "price": 276.0,
@@ -34983,7 +34983,7 @@ var PRODUCTS = [
   {
     "id": "148557",
     "category": "dlyadomu",
-    "subcategory": "himiya",
+    "subcategory": "gosp",
     "available": true,
     "name": "Віник малий 60*25 (УМАНЬ)",
     "price": 135.0,
