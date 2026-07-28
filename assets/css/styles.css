@@ -766,7 +766,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   .catalog-filters-wrap { flex-direction: column; align-items: stretch; gap: 12px; }
   .catalog-filters { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
   .catalog-filters::-webkit-scrollbar { display: none; }
-  .chip { white-space: nowrap; font-size: 13px; padding: 8px 16px; }
+  .chip { white-space: nowrap; font-size: 13px; padding: 8px 16px; flex-shrink: 0; }
   
   /* Category Grid - Horizontal Scroll */
   .category-grid { display: flex; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; -webkit-overflow-scrolling: touch; }

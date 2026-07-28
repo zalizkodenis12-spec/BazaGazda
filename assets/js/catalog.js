@@ -35308,13 +35308,13 @@ function renderCategoryPage() {
   html += '<div class="catalog-header"><h1 class="section-title">'+catInfo.name+'</h1></div>';
   html += '<div class="catalog-controls">';
   
-  html += '<div class="catalog-filters-wrap" style="display:flex; flex-wrap:wrap; align-items:center; gap:16px; flex:1;">';
+  html += '<div class="catalog-filters-wrap">';
   if (subs && subs.length>0) {
-    html += '<div class="catalog-filters" style="margin:0;">';
+    html += '<div class="catalog-filters">';
     for (var s=0;s<subs.length;s++) html += '<button class="chip'+(state.subcategory===subs[s].id?' active':'')+'" data-sub="'+subs[s].id+'">'+subs[s].name+'</button>';
     html += '</div>';
   }
-  html += '<div style="flex-grow:1; margin-bottom:0;" class="catalog-search-wrap-inline">' + searchBarHtml(state.search).replace('class="catalog-search-wrap"','class="catalog-search-wrap" style="margin-bottom:0; max-width:none;"') + '</div>';
+  html += '<div class="catalog-search-wrap-inline">' + searchBarHtml(state.search).replace('class="catalog-search-wrap"','class="catalog-search-wrap" style="margin-bottom:0; max-width:none;"') + '</div>';
   html += '</div>';
 
   html += '<select class="sort-select" id="sortSelect">'+
