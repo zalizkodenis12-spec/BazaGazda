@@ -34999,6 +34999,6966 @@ var PRODUCTS = [
       "assets/images/products/148557.jpg"
     ],
     "specs": []
+  },
+  {
+    "id": "pt_148537",
+    "name": "Варильна поверхня GPC 453 BE склокераміка, 3 конф. 45 см (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5449.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPC 453 BE склокераміка, 3 конф. 45 см (GRUNHELM). Артикул: GPC 453 BE. Код 1С: 148537",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPC 453 BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148537"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_106569",
+    "name": "Варильна поверхня GPC 623 BE склокераміка, 2 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPC 623 BE склокераміка, 2 конф. (GRUNHELM). Артикул: GPC 623 BE. Код 1С: 106569",
+    "images": [
+      "assets/images/products/pt_106569.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPC 623 BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "106569"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_103761",
+    "name": "Варильна поверхня GPG 6355 IF газ нерж.сталь чавун WOK (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8549.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 6355 IF газ нерж.сталь чавун WOK (GRUNHELM). Артикул: GPG 6355 IF. Код 1С: 103761",
+    "images": [
+      "assets/images/products/pt_103761.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 6355 IF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "103761"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153430",
+    "name": "Варильна поверхня GD-3001CB склокераміка, 2 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 2799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-3001CB склокераміка, 2 конф. (GRUNHELM). Артикул: GD-3001CB. Код 1С: 153430",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-3001CB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153430"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153428",
+    "name": "Варильна поверхня GD-3201CB склокераміка, 2 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 2799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-3201CB склокераміка, 2 конф. (GRUNHELM). Артикул: GD-3201CB. Код 1С: 153428",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-3201CB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153428"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153421",
+    "name": "Варильна поверхня GD-4836CB склокераміка, 3 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-4836CB склокераміка, 3 конф. (GRUNHELM). Артикул: GD-4836CB. Код 1С: 153421",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-4836CB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153421"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153424",
+    "name": "Варильна поверхня GD-6036CB склокераміка, 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-6036CB склокераміка, 4 конф. (GRUNHELM). Артикул: GD-6036CB. Код 1С: 153424",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-6036CB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153424"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153426",
+    "name": "Варильна поверхня GD-6401CB склокераміка, 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-6401CB склокераміка, 4 конф. (GRUNHELM). Артикул: GD-6401CB. Код 1С: 153426",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-6401CB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153426"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_103400",
+    "name": "Варильна поверхня GPG 3211 BF газ скло 4 к. газконт. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6829.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 3211 BF газ скло 4 к. газконт. (GRUNHELM). Артикул: GPG 3211 BF. Код 1С: 103400",
+    "images": [
+      "assets/images/products/pt_103400.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 3211 BF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "103400"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148535",
+    "name": "Варильна поверхня GPI 453 B індукц. 3 конф 45 см (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6929.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPI 453 B індукц. 3 конф 45 см (GRUNHELM). Артикул: GPI 453 B. Код 1С: 148535",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPI 453 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148535"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_103803",
+    "name": "Варильна поверхня GPG 3356 BF газ нерж.сталь доміно (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5229.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 3356 BF газ нерж.сталь доміно (GRUNHELM). Артикул: GPG 3356 BF. Код 1С: 103803",
+    "images": [
+      "assets/images/products/pt_103803.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 3356 BF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "103803"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148533",
+    "name": "Варильна поверхня GPI 525 BF індукц. 2 конф. FLEXI (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPI 525 BF індукц. 2 конф. FLEXI (GRUNHELM). Артикул: GPI 525 BF. Код 1С: 148533",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPI 525 BF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148533"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143084",
+    "name": "Варильна поверхня GHI 0427 MI газ нерж.сталь чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5839.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GHI 0427 MI газ нерж.сталь чавун (GRUNHELM). Артикул: GHI 0427 MI. Код 1С: 143084",
+    "images": [
+      "assets/images/products/pt_143084.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHI 0427 MI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143084"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143076",
+    "name": "Варильна поверхня GHIW 0229 MI WOK газ нержавійка доміно (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GHIW 0229 MI WOK газ нержавійка доміно (GRUNHELM). Артикул: GHIW 0229 MI. Код 1С: 143076",
+    "images": [
+      "assets/images/products/pt_143076.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHIW 0229 MI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143076"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153420",
+    "name": "Варильна поверхня GD-3501IB індукц. 2 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-3501IB індукц. 2 конф. (GRUNHELM). Артикул: GD-3501IB. Код 1С: 153420",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-3501IB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153420"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156307",
+    "name": "Варильна поверхня GD-4901IB індукц. 3 конф 45 см (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-4901IB індукц. 3 конф 45 см (GRUNHELM). Артикул: GD-4901IB. Код 1С: 156307",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-4901IB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156307"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153418",
+    "name": "Варильна поверхня GD-7001IB індукц. 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GD-7001IB індукц. 4 конф. (GRUNHELM). Артикул: GD-7001IB. Код 1С: 153418",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GD-7001IB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153418"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_155807",
+    "name": "Варильна поверхня GCA-4401GC комбі 4 конф.(2 Газ + 2 Кераміка) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GCA-4401GC комбі 4 конф.(2 Газ + 2 Кераміка) (GRUNHELM). Артикул: GCA-4401GC. Код 1С: 155807",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCA-4401GC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "155807"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_155809",
+    "name": "Варильна поверхня GCA-4401GI комбі 4 конф.(2 Газ + 2 Індукція) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GCA-4401GI комбі 4 конф.(2 Газ + 2 Індукція) (GRUNHELM). Артикул: GCA-4401GI. Код 1С: 155809",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCA-4401GI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "155809"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143080",
+    "name": "Варильна поверхня GHG 0434 MB газ скло 4 к. газконт. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5949.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GHG 0434 MB газ скло 4 к. газконт. (GRUNHELM). Артикул: GHG 0434 MB. Код 1С: 143080",
+    "images": [
+      "assets/images/products/pt_143080.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHG 0434 MB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143080"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143082",
+    "name": "Варильна поверхня GHIW 0427 MI WOK газ нерж.сталь чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5779.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GHIW 0427 MI WOK газ нерж.сталь чавун (GRUNHELM). Артикул: GHIW 0427 MI. Код 1С: 143082",
+    "images": [
+      "assets/images/products/pt_143082.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHIW 0427 MI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143082"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127425",
+    "name": "Варильна поверхня GPC 723 BE склокераміка, 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPC 723 BE склокераміка, 4 конф. (GRUNHELM). Артикул: GPC 723 BE. Код 1С: 127425",
+    "images": [
+      "assets/images/products/pt_127425.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPC 723 BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127425"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143074",
+    "name": "Варильна поверхня GHGW 0229 MB WOK газ скло доміно (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GHGW 0229 MB WOK газ скло доміно (GRUNHELM). Артикул: GHGW 0229 MB. Код 1С: 143074",
+    "images": [
+      "assets/images/products/pt_143074.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHGW 0229 MB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143074"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_121732",
+    "name": "Варильна поверхня GPG 3211 GF газ скло 4 к. газконт. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 3211 GF газ скло 4 к. газконт. (GRUNHELM). Артикул: GPG 3211 GF. Код 1С: 121732",
+    "images": [
+      "assets/images/products/pt_121732.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 3211 GF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "121732"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143078",
+    "name": "Варильна поверхня GHGW 0434 MB WOK газ скло 4 к. газконт. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GHGW 0434 MB WOK газ скло 4 к. газконт. (GRUNHELM). Артикул: GHGW 0434 MB. Код 1С: 143078",
+    "images": [
+      "assets/images/products/pt_143078.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHGW 0434 MB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143078"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_125701",
+    "name": "Варильна поверхня GPG 3211 WF газ скло 4 к. газконт. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 3211 WF газ скло 4 к. газконт. (GRUNHELM). Артикул: GPG 3211 GF. Код 1С: 125701",
+    "images": [
+      "assets/images/products/pt_125701.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 3211 GF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "125701"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101643",
+    "name": "Варильна поверхня GPC 725 BE склокераміка, 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7059.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPC 725 BE склокераміка, 4 конф. (GRUNHELM). Артикул: GPC 725 BE. Код 1С: 101643",
+    "images": [
+      "assets/images/products/pt_101643.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPC 725 BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101643"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_103802",
+    "name": "Варильна поверхня GPG 6136 BEF газ емаль чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 6136 BEF газ емаль чавун (GRUNHELM). Артикул: GPG 6136 BEF. Код 1С: 103802",
+    "images": [
+      "assets/images/products/pt_103802.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 6136 BEF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "103802"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_89996",
+    "name": "Варильна поверхня GPI 523 B індукц. 2 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5779.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPI 523 B індукц. 2 конф. (GRUNHELM). Артикул: GPI 523 B. Код 1С: 89996",
+    "images": [
+      "assets/images/products/pt_89996.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPI 523 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "89996"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_107540",
+    "name": "Варильна поверхня GPG 6254 WF газ скло.чавун WOK (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 6254 WF газ скло.чавун WOK (GRUNHELM). Артикул: GPG 6254 WF. Код 1С: 107540",
+    "images": [
+      "assets/images/products/pt_107540.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 6254 WF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "107540"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134702",
+    "name": "Витяжка GVB 430 TB вбудована чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVB 430 TB вбудована чорна (GRUNHELM). Артикул: GVB 430 TB. Код 1С: 134702",
+    "images": [
+      "assets/images/products/pt_134702.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVB 430 TB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134702"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_103797",
+    "name": "Варильна поверхня GPG 6214 BF газ скло.чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 6214 BF газ скло.чавун (GRUNHELM). Артикул: GPG 6214 BF. Код 1С: 103797",
+    "images": [
+      "assets/images/products/pt_103797.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 6214 BF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "103797"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134704",
+    "name": "Витяжка GVB 430 TW вбудована біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVB 430 TW вбудована біла (GRUNHELM). Артикул: GVB 430 TW. Код 1С: 134704",
+    "images": [
+      "assets/images/products/pt_134704.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVB 430 TW"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134704"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_116373",
+    "name": "Варильна поверхня GPG 261 X газ нерж чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 261 X газ нерж чавун (GRUNHELM). Артикул: GPG261X. Код 1С: 116373",
+    "images": [
+      "assets/images/products/pt_116373.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG261X"
+      },
+      {
+        "label": "Код 1С",
+        "value": "116373"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128653",
+    "name": "Витяжка GVC 020 B вбудована чорний (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3779.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVC 020 B вбудована чорний (GRUNHELM). Артикул: GVC 020 B. Код 1С: 128653",
+    "images": [
+      "assets/images/products/pt_128653.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVC 020 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128653"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_107001",
+    "name": "Витяжка GVN 330 W вбудована біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7349.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 330 W вбудована біла (GRUNHELM). Артикул: GVN 330 W. Код 1С: 107001",
+    "images": [
+      "assets/images/products/pt_107001.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 330 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "107001"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_115759",
+    "name": "Варильна поверхня GPC 611 B склокераміка, 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7639.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPC 611 B склокераміка, 4 конф. (GRUNHELM). Артикул: GPC 611 B. Код 1С: 115759",
+    "images": [
+      "assets/images/products/pt_115759.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPC 611 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "115759"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128655",
+    "name": "Витяжка GVC 020 I вбудована нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVC 020 I вбудована нерж (GRUNHELM). Артикул: GVC 020 I. Код 1С: 128655",
+    "images": [
+      "assets/images/products/pt_128655.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVC 020 I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128655"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128651",
+    "name": "Витяжка GVC 020 W вбудована білий (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3779.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVC 020 W вбудована білий (GRUNHELM). Артикул: GVC 020 W. Код 1С: 128651",
+    "images": [
+      "assets/images/products/pt_128651.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVC 020 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128651"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_117918",
+    "name": "Витяжка GVC 620 W вбудована білий (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVC 620 W вбудована білий (GRUNHELM). Артикул: GVC 620 W. Код 1С: 117918",
+    "images": [
+      "assets/images/products/pt_117918.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVC 620 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "117918"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_107000",
+    "name": "Витяжка GVN 330 B вбудована (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7349.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 330 B вбудована (GRUNHELM). Артикул: GVN 330 B. Код 1С: 107000",
+    "images": [
+      "assets/images/products/pt_107000.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 330 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "107000"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_89995",
+    "name": "Варильна поверхня GPI 823 B індукц. 4 конф. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPI 823 B індукц. 4 конф. (GRUNHELM). Артикул: GPI 823 B. Код 1С: 89995",
+    "images": [
+      "assets/images/products/pt_89995.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPI 823 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "89995"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134924",
+    "name": "Витяжка GVR 651 MB купольна чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVR 651 MB купольна чорна (GRUNHELM). Артикул: GVR 651 MB. Код 1С: 134924",
+    "images": [
+      "assets/images/products/pt_134924.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVR 651 MB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134924"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_90006",
+    "name": "Витяжка GVK 234 I купольна нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3859.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVK 234 I купольна нерж (GRUNHELM). Артикул: GVK 234 I. Код 1С: 90006",
+    "images": [
+      "assets/images/products/pt_90006.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVK 234 I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "90006"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134926",
+    "name": "Витяжка GVG 651 MI скляна нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVG 651 MI скляна нерж (GRUNHELM). Артикул: GVG 651 MI. Код 1С: 134926",
+    "images": [
+      "assets/images/products/pt_134926.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVG 651 MI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134926"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_116371",
+    "name": "Варильна поверхня GPG 161 B газ емаль чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5629.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 161 B газ емаль чавун (GRUNHELM). Артикул: GPG161B. Код 1С: 116371",
+    "images": [
+      "assets/images/products/pt_116371.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG161B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "116371"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101592",
+    "name": "Варильна поверхня GPI 995 B індукц. 4 конф FLEXI (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPI 995 B індукц. 4 конф FLEXI (GRUNHELM). Артикул: GPI 995 B FLEXI. Код 1С: 101592",
+    "images": [
+      "assets/images/products/pt_101592.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPI 995 B FLEXI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101592"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134928",
+    "name": "Витяжка GVG 651 MW скляна біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4929.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVG 651 MW скляна біла (GRUNHELM). Артикул: GVG 651 MW. Код 1С: 134928",
+    "images": [
+      "assets/images/products/pt_134928.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVG 651 MW"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134928"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128663",
+    "name": "Витяжка GVP 251 I пласка зі склом нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 2979.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 251 I пласка зі склом нерж (GRUNHELM). Артикул: GVP 251 I. Код 1С: 128663",
+    "images": [
+      "assets/images/products/pt_128663.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 251 I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128663"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_103800",
+    "name": "Варильна поверхня GPG 6325 IF газ нерж.сталь чавун (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7759.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 6325 IF газ нерж.сталь чавун (GRUNHELM). Артикул: GPG 6325 IF. Код 1С: 103800",
+    "images": [
+      "assets/images/products/pt_103800.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 6325 IF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "103800"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146531",
+    "name": "Витяжка GVP 251 BR пласка зі склом коричнева (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3419.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 251 BR пласка зі склом коричнева (GRUNHELM). Артикул: GVP 251 BR. Код 1С: 146531",
+    "images": [
+      "assets/images/products/pt_146531.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 251 BR"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146531"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134696",
+    "name": "Витяжка GVG 156 TI скляна нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5669.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVG 156 TI скляна нерж (GRUNHELM). Артикул: GVG 156 TI. Код 1С: 134696",
+    "images": [
+      "assets/images/products/pt_134696.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVG 156 TI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134696"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_116489",
+    "name": "Витяжка GVN 830 B похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 830 B похила скло (GRUNHELM). Артикул: GVN 830 B. Код 1С: 116489",
+    "images": [
+      "assets/images/products/pt_116489.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 830 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "116489"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_118703",
+    "name": "Витяжка GVN 325 W похила скло, біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 325 W похила скло, біла (GRUNHELM). Артикул: GVN 325 W. Код 1С: 118703",
+    "images": [
+      "assets/images/products/pt_118703.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 325 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "118703"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146529",
+    "name": "Витяжка GVP 251 B пласка зі склом чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3419.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 251 B пласка зі склом чорна (GRUNHELM). Артикул: GVP 251 B. Код 1С: 146529",
+    "images": [
+      "assets/images/products/pt_146529.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 251 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146529"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_105808",
+    "name": "Витяжка GVN 220 W похила, біле скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6929.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 220 W похила, біле скло (GRUNHELM). Артикул: GVN 220 W. Код 1С: 105808",
+    "images": [
+      "assets/images/products/pt_105808.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 220 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "105808"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_89980",
+    "name": "Витяжка GVN 321 B похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4279.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 321 B похила скло (GRUNHELM). Артикул: GVN 321 B. Код 1С: 89980",
+    "images": [
+      "assets/images/products/pt_89980.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 321 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "89980"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_93828",
+    "name": "Витяжка GVN 3521 B похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4619.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 3521 B похила скло (GRUNHELM). Артикул: GVN 3521 B. Код 1С: 93828",
+    "images": [
+      "assets/images/products/pt_93828.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 3521 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "93828"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128661",
+    "name": "Витяжка GVP 251 W пласка зі склом білий (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 2979.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 251 W пласка зі склом білий (GRUNHELM). Артикул: GVP 251 W. Код 1С: 128661",
+    "images": [
+      "assets/images/products/pt_128661.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 251 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128661"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_137703",
+    "name": "Витяжка GVP 410 WF пласка білий (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 2919.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 410 WF пласка білий (GRUNHELM). Артикул: GVP 410 WF. Код 1С: 137703",
+    "images": [
+      "assets/images/products/pt_137703.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 410 WF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "137703"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134930",
+    "name": "Витяжка GVN 650 MB похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7939.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 650 MB похила скло (GRUNHELM). Артикул: GVN 650 MB. Код 1С: 134930",
+    "images": [
+      "assets/images/products/pt_134930.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 650 MB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134930"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156952",
+    "name": "Духова шафа GBA-45D0B (чорна) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GBA-45D0B (чорна) (GRUNHELM). Артикул: GBA-45D0B. Код 1С: 156952",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GBA-45D0B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156952"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156954",
+    "name": "Духова шафа GBA-45D1B (чорна мех.таймер) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GBA-45D1B (чорна мех.таймер) (GRUNHELM). Артикул: GBA-45D1B. Код 1С: 156954",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GBA-45D1B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156954"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_160493",
+    "name": "Духова шафа GDG 255 BE чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDG 255 BE чорна (GRUNHELM). Артикул: GDG 255 BE. Код 1С: 160493",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDG 255 BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "160493"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148207",
+    "name": "Духова шафа GDG 565 I нерж. ел.таймер (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11379.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDG 565 I нерж. ел.таймер (GRUNHELM). Артикул: GDG 565 I. Код 1С: 148207",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDG 565 I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148207"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134698",
+    "name": "Витяжка GVG 156 TW скляна біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5669.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVG 156 TW скляна біла (GRUNHELM). Артикул: GVG 156 TW. Код 1С: 134698",
+    "images": [
+      "assets/images/products/pt_134698.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVG 156 TW"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134698"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146533",
+    "name": "Витяжка GVT 115 W 50 телескоп. Біла 50 см. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 115 W 50 телескоп. Біла 50 см. (GRUNHELM). Артикул: GVT 115 W 50. Код 1С: 146533",
+    "images": [
+      "assets/images/products/pt_146533.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 115 W 50"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146533"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148199",
+    "name": "Духова шафа GMG 465 BG чорна мех.таймер (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8819.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GMG 465 BG чорна мех.таймер (GRUNHELM). Артикул: GMG 465 BG. Код 1С: 148199",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GMG 465 BG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148199"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134700",
+    "name": "Витяжка GVT 076 TI нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 076 TI нерж (GRUNHELM). Артикул: GVT 076 TI. Код 1С: 134700",
+    "images": [
+      "assets/images/products/pt_134700.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 076 TI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134700"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152814",
+    "name": "Мікрохвильова піч вбудована - GBMW-20LB (чорна) 20л, (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 5370.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мікрохвильова піч вбудована - GBMW-20LB (чорна) 20л, (GRUNHELM). Артикул: GBMW-20LB. Код 1С: 152814",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GBMW-20LB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152814"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152816",
+    "name": "Мікрохвильова піч вбудована - GBMW-25LB (чорна) 25л, (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 7110.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мікрохвильова піч вбудована - GBMW-25LB (чорна) 25л, (GRUNHELM). Артикул: GBMW-25LB. Код 1С: 152816",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GBMW-25LB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152816"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_90002",
+    "name": "Витяжка GVT 114 B телескоп. чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3819.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 114 B телескоп. чорна (GRUNHELM). Артикул: GVT 114 B. Код 1С: 90002",
+    "images": [
+      "assets/images/products/pt_90002.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 114 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "90002"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148991",
+    "name": "Посудомийна машина GDW 160 S 60 см. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 16679.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Посудомийна машина GDW 160 S 60 см. (GRUNHELM). Артикул: GDW 160 S. Код 1С: 148991",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDW 160 S"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148991"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_90004",
+    "name": "Витяжка GVK 214 W купольна біла. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVK 214 W купольна біла. (GRUNHELM). Артикул: GVK 214 W. Код 1С: 90004",
+    "images": [
+      "assets/images/products/pt_90004.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVK 214 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "90004"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146537",
+    "name": "Витяжка GVT 114 B 50 телескоп. чорна 50 см. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 114 B 50 телескоп. чорна 50 см. (GRUNHELM). Артикул: GVT 114 B 50. Код 1С: 146537",
+    "images": [
+      "assets/images/products/pt_146537.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 114 B 50"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146537"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152309",
+    "name": "Холодильник - BRH-D178E54-BI,(вбудований, двухк.,нижн мороз, 178см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14220.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-D178E54-BI,(вбудований, двухк.,нижн мороз, 178см) (GRUNHELM). Артикул: BRH-D178E54-BI. Код 1С: 152309",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-D178E54-BI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152309"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_97503",
+    "name": "Витяжка GVT 115 W телескоп. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3819.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 115 W телескоп. біла (GRUNHELM). Артикул: GVT 115 W. Код 1С: 97503",
+    "images": [
+      "assets/images/products/pt_97503.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 115 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "97503"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_90003",
+    "name": "Витяжка GVT 134 I телескоп. нерж. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3939.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 134 I телескоп. нерж. (GRUNHELM). Артикул: GVT 134 I. Код 1С: 90003",
+    "images": [
+      "assets/images/products/pt_90003.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 134 I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "90003"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131839",
+    "name": "Духова шафа GDG 190 B чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7789.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDG 190 B чорна (GRUNHELM). Артикул: GDG 190 B. Код 1С: 131839",
+    "images": [
+      "assets/images/products/pt_131839.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDG 190 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131839"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128659",
+    "name": "Витяжка GVP 220 I пласка нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3089.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 220 I пласка нерж (GRUNHELM). Артикул: GVP 220 I. Код 1С: 128659",
+    "images": [
+      "assets/images/products/pt_128659.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 220 I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128659"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146064",
+    "name": "Духова шафа GDG 290 BG чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDG 290 BG чорна (GRUNHELM). Артикул: GDG 290 BG. Код 1С: 146064",
+    "images": [
+      "assets/images/products/pt_146064.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDG 290 BG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146064"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_110877",
+    "name": "Духова шафа GDG610X нерж. сталь, ел.таймер (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDG610X нерж. сталь, ел.таймер (GRUNHELM). Артикул: nan. Код 1С: 110877",
+    "images": [
+      "assets/images/products/pt_110877.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "nan"
+      },
+      {
+        "label": "Код 1С",
+        "value": "110877"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128657",
+    "name": "Витяжка GVP 220 W пласка білий (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3089.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 220 W пласка білий (GRUNHELM). Артикул: GVP 220 W. Код 1С: 128657",
+    "images": [
+      "assets/images/products/pt_128657.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 220 W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128657"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_136415",
+    "name": "Холодильник - BRM-N194E54-BI,(no-frost, вбудований, двухк.,нижн мороз, 194см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 31499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRM-N194E54-BI,(no-frost, вбудований, двухк.,нижн мороз, 194см) (GRUNHELM). Артикул: BRM-N194E54-BI. Код 1С: 136415",
+    "images": [
+      "assets/images/products/pt_136415.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRM-N194E54-BI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "136415"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_115175",
+    "name": "Витяжка GVN 1030 BX похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7639.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 1030 BX похила скло (GRUNHELM). Артикул: GVN 1030 BX. Код 1С: 115175",
+    "images": [
+      "assets/images/products/pt_115175.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 1030 BX"
+      },
+      {
+        "label": "Код 1С",
+        "value": "115175"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131862",
+    "name": "Мікрохвильова піч вбудована - GBMW 20MB800 (чорна) 20л, 800 Вт, елект. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 9739.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мікрохвильова піч вбудована - GBMW 20MB800 (чорна) 20л, 800 Вт, елект. (GRUNHELM). Артикул: GBMW 20MB800. Код 1С: 131862",
+    "images": [
+      "assets/images/products/pt_131862.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GBMW 20MB800"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131862"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146535",
+    "name": "Витяжка GVT 134 I 50 телескоп. нерж. 50 см. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVT 134 I 50 телескоп. нерж. 50 см. (GRUNHELM). Артикул: GVT 115 I 50. Код 1С: 146535",
+    "images": [
+      "assets/images/products/pt_146535.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVT 115 I 50"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146535"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150495",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-07GH-INV32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 15699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-07GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-07GH-INV32. Код 1С: 150495",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "INVERIO GAC-07GH-INV32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150495"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150496",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-09GH-INV32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 17669.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-09GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-09GH-INV32. Код 1С: 150496",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "INVERIO GAC-09GH-INV32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150496"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150497",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-12GH-INV32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 19919.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-12GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-12GH-INV32. Код 1С: 150497",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "INVERIO GAC-12GH-INV32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150497"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150498",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-18GH-INV32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 27679.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-18GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-18GH-INV32. Код 1С: 150498",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "INVERIO GAC-18GH-INV32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150498"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150499",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-24GH-INV32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 36119.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-24GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-24GH-INV32. Код 1С: 150499",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "INVERIO GAC-24GH-INV32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150499"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_106325",
+    "name": "Витяжка GVN 325 BK похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4039.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 325 BK похила скло (GRUNHELM). Артикул: GVN 325 BK. Код 1С: 106325",
+    "images": [
+      "assets/images/products/pt_106325.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 325 BK"
+      },
+      {
+        "label": "Код 1С",
+        "value": "106325"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_137705",
+    "name": "Витяжка GVP 410 IF пласка нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3089.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVP 410 IF пласка нерж (GRUNHELM). Артикул: GVP 410 IF. Код 1С: 137705",
+    "images": [
+      "assets/images/products/pt_137705.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVP 410 IF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "137705"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141191",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-18GH-I32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 26249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-18GH-I32 (GRUNHELM). Артикул: GAC-18GH-I32. Код 1С: 141191",
+    "images": [
+      "assets/images/products/pt_141191.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-18GH-I32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141191"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138050",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-A18GH-I (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 28899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-A18GH-I (GRUNHELM). Артикул: GAC-A18GH-I. Код 1С: 138050",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-A18GH-I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138050"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_110875",
+    "name": "Духова шафа GDX 600 X нерж. сталь мех.таймер (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9639.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDX 600 X нерж. сталь мех.таймер (GRUNHELM). Артикул: nan. Код 1С: 110875",
+    "images": [
+      "assets/images/products/pt_110875.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "nan"
+      },
+      {
+        "label": "Код 1С",
+        "value": "110875"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134798",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-09GH-I32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 16799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-09GH-I32 (GRUNHELM). Артикул: GAC-09GH-I32. Код 1С: 134798",
+    "images": [
+      "assets/images/products/pt_134798.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-09GH-I32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134798"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_113778",
+    "name": "Духова шафа GDG 252 BG чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Духова шафа GDG 252 BG чорна (GRUNHELM). Артикул: GDG 252 BG. Код 1С: 113778",
+    "images": [
+      "assets/images/products/pt_113778.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDG 252 BG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "113778"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134800",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-12GH-I32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 18899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-12GH-I32 (GRUNHELM). Артикул: GAC-12GH-I32. Код 1С: 134800",
+    "images": [
+      "assets/images/products/pt_134800.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-12GH-I32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134800"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141199",
+    "name": "Кондиціонер Inverter GAC-18GH-IWF-TPRO-32 Grunhelm",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 34399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер Inverter GAC-18GH-IWF-TPRO-32 Grunhelm. Артикул: GAC-18GH-IWF-TPRO-32. Код 1С: 141199",
+    "images": [
+      "assets/images/products/pt_141199.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-18GH-IWF-TPRO-32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141199"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156560",
+    "name": "МОНІТОР 23.8'' FHD 120HZ, IPS panel , VGA+HDMI, без динаміків - GM24F120B (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 3199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 23.8'' FHD 120HZ, IPS panel , VGA+HDMI, без динаміків - GM24F120B (GRUNHELM). Артикул: GM24F120B. Код 1С: 156560",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM24F120B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156560"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156563",
+    "name": "МОНІТОР 23.8'' FHD 240HZ, IPS panel , HDMI+DP, без динаміків - GM24F240G (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 5499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 23.8'' FHD 240HZ, IPS panel , HDMI+DP, без динаміків - GM24F240G (GRUNHELM). Артикул: GM24F240G. Код 1С: 156563",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM24F240G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156563"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156562",
+    "name": "МОНІТОР 27'' FHD 120HZ, VA panel, VGA+HDMI, без динаміків - GM27F120B (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 4199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 27'' FHD 120HZ, VA panel, VGA+HDMI, без динаміків - GM27F120B (GRUNHELM). Артикул: GM27F120B. Код 1С: 156562",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM27F120B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156562"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_156565",
+    "name": "МОНІТОР 27'' QHD 200HZ, Fast IPS panel, 2HDMI+2DP, без динаміків - GM27QU200G (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 7599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 27'' QHD 200HZ, Fast IPS panel, 2HDMI+2DP, без динаміків - GM27QU200G (GRUNHELM). Артикул: GM27QU200G. Код 1С: 156565",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM27QU200G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "156565"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152017",
+    "name": "Плита газова G4F5600B 50см. чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4F5600B 50см. чорна (GRUNHELM). Артикул: G4F5600B. Код 1С: 152017",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4F5600B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152017"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148444",
+    "name": "МОНІТОР 23.8'' FHD 100HZ, IPS panel , VGA+HDMI - GM24F100B (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 4199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 23.8'' FHD 100HZ, IPS panel , VGA+HDMI - GM24F100B (GRUNHELM). Артикул: GM24F100B. Код 1С: 148444",
+    "images": [
+      "assets/images/products/pt_148444.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM24F100B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148444"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_84065",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-09GH-I (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 16559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-09GH-I (GRUNHELM). Артикул: GAC-09GH-I. Код 1С: 84065",
+    "images": [
+      "assets/images/products/pt_84065.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-09GH-I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "84065"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146462",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-07GH-I32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 14949.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-07GH-I32 (GRUNHELM). Артикул: GAC-07GH-I32. Код 1С: 146462",
+    "images": [
+      "assets/images/products/pt_146462.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-07GH-I32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146462"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146326",
+    "name": "Плита газова G4F6600GB 60см. сiра (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10739.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4F6600GB 60см. сiра (GRUNHELM). Артикул: G4F6600GB. Код 1С: 146326",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4F6600GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146326"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_145664",
+    "name": "Плита газова G4FG5612BRB 50см. коричнева (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FG5612BRB 50см. коричнева (GRUNHELM). Артикул: G4FG5612BRB. Код 1С: 145664",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FG5612BRB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "145664"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_139414",
+    "name": "Плита газова G4F5600G 50см. сiра (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4F5600G 50см. сiра (GRUNHELM). Артикул: G4F5600G. Код 1С: 139414",
+    "images": [
+      "assets/images/products/pt_139414.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4F5600G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "139414"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146330",
+    "name": "Плита газова G4FG66124GB 60см. сіро-чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FG66124GB 60см. сіро-чорна (GRUNHELM). Артикул: G4FG66124GB. Код 1С: 146330",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FG66124GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146330"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146328",
+    "name": "Плита газова G4FG6612GB 60см. сіро-чорна  (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13129.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FG6612GB 60см. сіро-чорна  (GRUNHELM). Артикул: G4FG6612GB. Код 1С: 146328",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FG6612GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146328"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_96473",
+    "name": "Витяжка GVN 220 B похила скло (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6819.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Витяжка GVN 220 B похила скло (GRUNHELM). Артикул: GVN 220 B. Код 1С: 96473",
+    "images": [
+      "assets/images/products/pt_96473.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GVN 220 B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "96473"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127334",
+    "name": "Плита газова G4F5600W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4F5600W 50см. біла (GRUNHELM). Артикул: G4F5600W. Код 1С: 127334",
+    "images": [
+      "assets/images/products/pt_127334.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4F5600W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127334"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133508",
+    "name": "Плита газова G4F56124B 50см. чорна, чавунна решітка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13129.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4F56124B 50см. чорна, чавунна решітка (GRUNHELM). Артикул: G4F56124B. Код 1С: 133508",
+    "images": [
+      "assets/images/products/pt_133508.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4F56124B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133508"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127337",
+    "name": "Плита газова G4FG5612W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FG5612W 50см. біла (GRUNHELM). Артикул: G4FG5612W. Код 1С: 127337",
+    "images": [
+      "assets/images/products/pt_127337.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FG5612W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127337"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141201",
+    "name": "Кондиціонер Inverter GAC-24GH-IWF-TPRO-32 Grunhelm",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 43329.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер Inverter GAC-24GH-IWF-TPRO-32 Grunhelm. Артикул: GAC-24GH-IWF-TPRO-32. Код 1С: 141201",
+    "images": [
+      "assets/images/products/pt_141201.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-24GH-IWF-TPRO-32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141201"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127335",
+    "name": "Плита газова G4FM5611W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9949.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FM5611W 50см. біла (GRUNHELM). Артикул: G4FM5611W. Код 1С: 127335",
+    "images": [
+      "assets/images/products/pt_127335.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FM5611W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127335"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127338",
+    "name": "Плита газова G4FM6611W 60см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11479.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FM6611W 60см. біла (GRUNHELM). Артикул: G4FM6611W. Код 1С: 127338",
+    "images": [
+      "assets/images/products/pt_127338.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FM6611W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127338"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152015",
+    "name": "Плита газова 60см - G4FM6612GB, сіро-чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова 60см - G4FM6612GB, сіро-чорна (GRUNHELM). Артикул: G4FM6612GB. Код 1С: 152015",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FM6612GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152015"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127339",
+    "name": "Плита газова G4FG6612W-0 60см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12989.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FG6612W-0 60см. біла (GRUNHELM). Артикул: G4FG6612W-0. Код 1С: 127339",
+    "images": [
+      "assets/images/products/pt_127339.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FG6612W-0"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127339"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_125772",
+    "name": "Плита газова GFG5612W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11239.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова GFG5612W 50см. біла (GRUNHELM). Артикул: GFG5612W. Код 1С: 125772",
+    "images": [
+      "assets/images/products/pt_125772.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GFG5612W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "125772"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146322",
+    "name": "Плита газоелектр F661234GBС 60см. ,чорно-сіра , каталітичне очищення (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16239.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр F661234GBС 60см. ,чорно-сіра , каталітичне очищення (GRUNHELM). Артикул: F961234GB. Код 1С: 146322",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "F961234GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146322"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146324",
+    "name": "Плита газоелектр FD661234BEC 60см. ,бежева, каталітичне очищення (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17319.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр FD661234BEC 60см. ,бежева, каталітичне очищення (GRUNHELM). Артикул: FD661234BEC. Код 1С: 146324",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FD661234BEC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146324"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_125770",
+    "name": "Плита газова GFM5611W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова GFM5611W 50см. біла (GRUNHELM). Артикул: GFM5611W. Код 1С: 125770",
+    "images": [
+      "assets/images/products/pt_125770.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GFM5611W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "125770"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_125774",
+    "name": "Плита газова 60см - GFG6612W-0, біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12049.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова 60см - GFG6612W-0, біла (GRUNHELM). Артикул: GFG6612W-0. Код 1С: 125774",
+    "images": [
+      "assets/images/products/pt_125774.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GFG6612W-0"
+      },
+      {
+        "label": "Код 1С",
+        "value": "125774"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152016",
+    "name": "Плита газоелектр. F66234IB 60см. черна, чавунна решітка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 15559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. F66234IB 60см. черна, чавунна решітка (GRUNHELM). Артикул: F66234IB. Код 1С: 152016",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "F66234IB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152016"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138037",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-A09GH-I (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 15279.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-A09GH-I (GRUNHELM). Артикул: GAC-A09GH-I. Код 1С: 138037",
+    "images": [
+      "assets/images/products/pt_138037.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-A09GH-I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138037"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_84060",
+    "name": "Кондиціонер (Спліт-система) - GAC-07GH (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 11339.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система) - GAC-07GH (GRUNHELM). Артикул: GAC-07GH. Код 1С: 84060",
+    "images": [
+      "assets/images/products/pt_84060.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-07GH"
+      },
+      {
+        "label": "Код 1С",
+        "value": "84060"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141193",
+    "name": "Кондиціонер (Спліт-система, Інверторний) - GAC-24GH-I32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 34399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - GAC-24GH-I32 (GRUNHELM). Артикул: GAC-24GH-I32. Код 1С: 141193",
+    "images": [
+      "assets/images/products/pt_141193.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-24GH-I32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141193"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141197",
+    "name": "Кондиціонер Inverter GAC-12GH-IWF-TPRO-32 Grunhelm",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 20499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер Inverter GAC-12GH-IWF-TPRO-32 Grunhelm. Артикул: GAC-12GH-IWF-TPRO-32. Код 1С: 141197",
+    "images": [
+      "assets/images/products/pt_141197.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-12GH-IWF-TPRO-32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141197"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133514",
+    "name": "Плита газоелектр. F66234I 60см. нержавійка, чавунна решітка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17449.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. F66234I 60см. нержавійка, чавунна решітка (GRUNHELM). Артикул: F66234I. Код 1С: 133514",
+    "images": [
+      "assets/images/products/pt_133514.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "F66234I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133514"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127336",
+    "name": "Плита газова 50см - G4FG5612BR-0, коричнева (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11479.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова 50см - G4FG5612BR-0, коричнева (GRUNHELM). Артикул: G4FG5612BR-0. Код 1С: 127336",
+    "images": [
+      "assets/images/products/pt_127336.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FG5612BR-0"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127336"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141189",
+    "name": "Кондиціонер (Спліт-система) - GAC-09GH-32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 15729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система) - GAC-09GH-32 (GRUNHELM). Артикул: GAC-09GH-32. Код 1С: 141189",
+    "images": [
+      "assets/images/products/pt_141189.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-09GH-32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141189"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141195",
+    "name": "Кондиціонер Inverter GAC-09GH-IWF-TPRO-32 Grunhelm",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 18689.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер Inverter GAC-09GH-IWF-TPRO-32 Grunhelm. Артикул: GAC-09GH-IWF-TPRO-32. Код 1С: 141195",
+    "images": [
+      "assets/images/products/pt_141195.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-09GH-IWF-TPRO-32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141195"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133510",
+    "name": "Плита газоелектр. FD661234BE 60см. бежева, дисплей, чавунна решітка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FD661234BE 60см. бежева, дисплей, чавунна решітка (GRUNHELM). Артикул: FD661234BE. Код 1С: 133510",
+    "images": [
+      "assets/images/products/pt_133510.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FD661234BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133510"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_139412",
+    "name": "Плита газоелектр. FDR661234BE 60см. бежева, дисплей, чавунна решітка, ретро (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18259.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FDR661234BE 60см. бежева, дисплей, чавунна решітка, ретро (GRUNHELM). Артикул: FDR661234BE. Код 1С: 139412",
+    "images": [
+      "assets/images/products/pt_139412.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FDR661234BE"
+      },
+      {
+        "label": "Код 1С",
+        "value": "139412"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133596",
+    "name": "Плита газоелектр. FG5611GB 50см. ,сіро-чорна  (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FG5611GB 50см. ,сіро-чорна  (GRUNHELM). Артикул: FG5611GB. Код 1С: 133596",
+    "images": [
+      "assets/images/products/pt_133596.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FG5611GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133596"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_110815",
+    "name": "Плита газоелектр. FG5612BR 50см. коричнева (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11439.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FG5612BR 50см. коричнева (GRUNHELM). Артикул: FG5612BR. Код 1С: 110815",
+    "images": [
+      "assets/images/products/pt_110815.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FG5612BR"
+      },
+      {
+        "label": "Код 1С",
+        "value": "110815"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_147313",
+    "name": "Плита газоелектр. 60см - АG6612BRB, коричнево-чорна (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14259.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. 60см - АG6612BRB, коричнево-чорна (GRUNHELM). Артикул: AG6612BRB. Код 1С: 147313",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "AG6612BRB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "147313"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_110813",
+    "name": "Плита газоелектр. FM5612W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10749.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FM5612W 50см. біла (GRUNHELM). Артикул: FM5612W. Код 1С: 110813",
+    "images": [
+      "assets/images/products/pt_110813.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FM5612W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "110813"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_139410",
+    "name": "Плита газоелектр. FD66234I 60см. нержавійка, чавунна решітка,дисплей (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18529.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FD66234I 60см. нержавійка, чавунна решітка,дисплей (GRUNHELM). Артикул: FD66234I. Код 1С: 139410",
+    "images": [
+      "assets/images/products/pt_139410.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FD66234I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "139410"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138356",
+    "name": "Плита газоелектр. FG5612BU  50см. ,бургунді  (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13129.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FG5612BU  50см. ,бургунді  (GRUNHELM). Артикул: FG5612BU. Код 1С: 138356",
+    "images": [
+      "assets/images/products/pt_138356.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FG5612BU"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138356"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_144990",
+    "name": "Пральна машина авт. GWS-F610D1WB-ST (біла,чорний люк,BLDC,інвентор 6кг. 1000 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12129.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWS-F610D1WB-ST (біла,чорний люк,BLDC,інвентор 6кг. 1000 об.) (GRUNHELM). Артикул: GWS-F610D1WB-ST. Код 1С: 144990",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWS-F610D1WB-ST"
+      },
+      {
+        "label": "Код 1С",
+        "value": "144990"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138365",
+    "name": "Плита газоелектр. FG6612G 60см. ,дзеркальна  (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14479.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FG6612G 60см. ,дзеркальна  (GRUNHELM). Артикул: FG6612G. Код 1С: 138365",
+    "images": [
+      "assets/images/products/pt_138365.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FG6612G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138365"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_145607",
+    "name": "Пральна машина авт. GWS-F714D3B (біла, 7кг. 1200 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWS-F714D3B (біла, 7кг. 1200 об.) (GRUNHELM). Артикул: GWS-F714D3B. Код 1С: 145607",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWS-F714D3B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "145607"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_145609",
+    "name": "Пральна машина авт. GWS-F812D1WB-ST (чорн/біл. 8кг.1200 об.,BLDC,інверт,пара) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWS-F812D1WB-ST (чорн/біл. 8кг.1200 об.,BLDC,інверт,пара) (GRUNHELM). Артикул: GWS-F812D1WB-ST. Код 1С: 145609",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWS-F812D1WB-ST"
+      },
+      {
+        "label": "Код 1С",
+        "value": "145609"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_125773",
+    "name": "Плита газова 60см - GFM6611W, біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10689.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова 60см - GFM6611W, біла (GRUNHELM). Артикул: GFM6611W. Код 1С: 125773",
+    "images": [
+      "assets/images/products/pt_125773.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GFM6611W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "125773"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_147357",
+    "name": "Пральна машина авт. GWW-F612D0WB (чорн/біл. 6кг.1200 об.,BLDC,інверт) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11339.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWW-F612D0WB (чорн/біл. 6кг.1200 об.,BLDC,інверт) (GRUNHELM). Артикул: GWW-F612D0WB. Код 1С: 147357",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWW-F612D0WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "147357"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146907",
+    "name": "Пральна машина авт. GWW-F812D1WB (чорн/біл. 8кг.1200 об.,BLDC,інверт) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWW-F812D1WB (чорн/біл. 8кг.1200 об.,BLDC,інверт) (GRUNHELM). Артикул: GWW-F812D1WB. Код 1С: 146907",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWW-F812D1WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146907"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_145902",
+    "name": "Прально-сушильна машина авт.GWDS-FF8812D2W (біла,1200 об, 8 кг прання, 8 кг сушка) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 19899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Прально-сушильна машина авт.GWDS-FF8812D2W (біла,1200 об, 8 кг прання, 8 кг сушка) (GRUNHELM). Артикул: GWDS-FF8812D2W. Код 1С: 145902",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWDS-FF8812D2W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "145902"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_151628",
+    "name": "Пральна машина авт. GWF-WS5A01-G (сіра, 5кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWF-WS5A01-G (сіра, 5кг) (GRUNHELM). Артикул: GWF-WS5A01-G. Код 1С: 151628",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS5A01-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "151628"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_151631",
+    "name": "Пральна машина авт. GWF-WS6A01-G (сіра, 6кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWF-WS6A01-G (сіра, 6кг) (GRUNHELM). Артикул: GWF-WS6A01-G. Код 1С: 151631",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS6A01-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "151631"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_151637",
+    "name": "Пральна машина авт. GWF-WS7A01-G (сіра, 7кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWF-WS7A01-G (сіра, 7кг) (GRUNHELM). Артикул: GWF-WS7A01-G. Код 1С: 151637",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS7A01-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "151637"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149625",
+    "name": "Пральна машина авт. GWW-F612D2GB-ST (сіро/чорна. 6кг.1200 об.,BLDC,інверт,пара) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWW-F612D2GB-ST (сіро/чорна. 6кг.1200 об.,BLDC,інверт,пара) (GRUNHELM). Артикул: GWW-F612D2GB-ST. Код 1С: 149625",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWW-F612D2GB-ST"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149625"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_119421",
+    "name": "Плита газоелектр. 60см - AM6611W, біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13129.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. 60см - AM6611W, біла (GRUNHELM). Артикул: AM6611W. Код 1С: 119421",
+    "images": [
+      "assets/images/products/pt_119421.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "AM6611W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "119421"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_122503",
+    "name": "Плита газоелектр. FM5611W 50см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FM5611W 50см. біла (GRUNHELM). Артикул: FM5611W. Код 1С: 122503",
+    "images": [
+      "assets/images/products/pt_122503.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FM5611W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "122503"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133496",
+    "name": "Плита електрична FEG661W 60см. біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12049.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита електрична FEG661W 60см. біла (GRUNHELM). Артикул: FEG661W. Код 1С: 133496",
+    "images": [
+      "assets/images/products/pt_133496.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FEG661W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133496"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132308",
+    "name": "Пральна машина авт. GWS-F610D2WB-ST (біла,чорний люк,BLDC,інвентор 6кг. 1000 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWS-F610D2WB-ST (біла,чорний люк,BLDC,інвентор 6кг. 1000 об.) (GRUNHELM). Артикул: GWS-F610D2WB-ST. Код 1С: 132308",
+    "images": [
+      "assets/images/products/pt_132308.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWS-F610D2WB-ST"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132308"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131855",
+    "name": "Пральна машина авт. GWT-DDI112D2WB (Прямий інверторний двигун, дісплей 10кг. 1200 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17039.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWT-DDI112D2WB (Прямий інверторний двигун, дісплей 10кг. 1200 об.) (GRUNHELM). Артикул: GWT-DDI112D2WB. Код 1С: 131855",
+    "images": [
+      "assets/images/products/pt_131855.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWT-DDI112D2WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131855"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132306",
+    "name": "Пральна машина авт. GWS-FN610D1WB (біла, чорний люк, mini дісплей 6кг. 1000 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWS-FN610D1WB (біла, чорний люк, mini дісплей 6кг. 1000 об.) (GRUNHELM). Артикул: GWS-FN610D1WB. Код 1С: 132306",
+    "images": [
+      "assets/images/products/pt_132306.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWS-FN610D1WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132306"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101991",
+    "name": "Пральна машина напівавт. GWF-WS701W (біла, 7кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWF-WS701W (біла, 7кг) (GRUNHELM). Артикул: GWF-WS701W. Код 1С: 101991",
+    "images": [
+      "assets/images/products/pt_101991.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS701W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101991"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_145666",
+    "name": "Плита газова G4FM6612BRB 60см. коричнева (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газова G4FM6612BRB 60см. коричнева (GRUNHELM). Артикул: G4FM6612BRB. Код 1С: 145666",
+    "images": [
+      "assets/images/products/pt_145666.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "G4FM6612BRB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "145666"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101993",
+    "name": "Пральна машина напівавт. GWF-WS752B (біла/синя, 7,5кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7659.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWF-WS752B (біла/синя, 7,5кг) (GRUNHELM). Артикул: GWF-WS752B. Код 1С: 101993",
+    "images": [
+      "assets/images/products/pt_101993.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS752B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101993"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131082",
+    "name": "Кондиціонер Inverter GAC-09GH-IWF-TPRO Grunhelm",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 17219.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер Inverter GAC-09GH-IWF-TPRO Grunhelm. Артикул: GAC-09GH-IWF-TPRO. Код 1С: 131082",
+    "images": [
+      "assets/images/products/pt_131082.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-09GH-IWF-TPRO"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131082"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148446",
+    "name": "МОНІТОР 27'' QHD 180HZ, Fast IPS panel, 2HDMI+2DP - GM27QU180G (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 9449.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 27'' QHD 180HZ, Fast IPS panel, 2HDMI+2DP - GM27QU180G (GRUNHELM). Артикул: GM27QU180G. Код 1С: 148446",
+    "images": [
+      "assets/images/products/pt_148446.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM27QU180G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148446"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133470",
+    "name": "Пральна машина напівавт. GWL-WS1002B3 (біла, 10кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9659.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWL-WS1002B3 (біла, 10кг) (GRUNHELM). Артикул: GWL-WS1002B3. Код 1С: 133470",
+    "images": [
+      "assets/images/products/pt_133470.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWL-WS1002B3"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133470"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128604",
+    "name": "Пральна машина напівавт. GWF-WS702B4  (біла/синя, 7кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWF-WS702B4  (біла/синя, 7кг) (GRUNHELM). Артикул: GWF-WS702B. Код 1С: 128604",
+    "images": [
+      "assets/images/products/pt_128604.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS702B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128604"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_136594",
+    "name": "Плита електрична EFC5613W 50см. біла, скло-кераміка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17049.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита електрична EFC5613W 50см. біла, скло-кераміка (GRUNHELM). Артикул: EFC5613W. Код 1С: 136594",
+    "images": [
+      "assets/images/products/pt_136594.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "EFC5613W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "136594"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131962",
+    "name": "Посудомийна машина GDW 160 MG 60 см. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 16999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Посудомийна машина GDW 160 MG 60 см. (GRUNHELM). Артикул: GDW 160 MG. Код 1С: 131962",
+    "images": [
+      "assets/images/products/pt_131962.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDW 160 MG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131962"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131960",
+    "name": "Посудомийна машина GDW 145 MG 45 см. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 13999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Посудомийна машина GDW 145 MG 45 см. (GRUNHELM). Артикул: GDW 145 MG. Код 1С: 131960",
+    "images": [
+      "assets/images/products/pt_131960.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDW 145 MG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131960"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133466",
+    "name": "Пральна машина напівавт. GWL-WS602B3 (біла, 6кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWL-WS602B3 (біла, 6кг) (GRUNHELM). Артикул: GWL-WS602B3. Код 1С: 133466",
+    "images": [
+      "assets/images/products/pt_133466.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWL-WS602B3"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133466"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101995",
+    "name": "Пральна машина напівавт. GWF-WS753BGH (біла/беж, 7,5кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWF-WS753BGH (біла/беж, 7,5кг) (GRUNHELM). Артикул: GWF-WS753BGH. Код 1С: 101995",
+    "images": [
+      "assets/images/products/pt_101995.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS753BGH"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101995"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128438",
+    "name": "Пральна машина авт. GWS-F814D3I (біла, 8кг. 1400 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 19599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWS-F814D3I (біла, 8кг. 1400 об.) (GRUNHELM). Артикул: GWS-F814D3I. Код 1С: 128438",
+    "images": [
+      "assets/images/products/pt_128438.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWS-F814D3I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128438"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133468",
+    "name": "Пральна машина напівавт. GWL-WS782B3 (біла, 7.8кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWL-WS782B3 (біла, 7.8кг) (GRUNHELM). Артикул: GWL-WS782B3. Код 1С: 133468",
+    "images": [
+      "assets/images/products/pt_133468.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWL-WS782B3"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133468"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148300",
+    "name": "Сполучна планка GSS-WDW8  (біла, пiд моделi GWS 7-8 кг ) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 1979.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Сполучна планка GSS-WDW8  (біла, пiд моделi GWS 7-8 кг ) (GRUNHELM). Артикул: GSS-WDW8. Код 1С: 148300",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GSS-WDW8"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148300"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148298",
+    "name": "Сушильна машина GDS-8PD1WB  (біла, 8 кг, тепловий насос, пiд моделi GWS 7-8 кг )  (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 21729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Сушильна машина GDS-8PD1WB  (біла, 8 кг, тепловий насос, пiд моделi GWS 7-8 кг )  (GRUNHELM). Артикул: GDW-8PD1WB. Код 1С: 148298",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDW-8PD1WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148298"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146909",
+    "name": "Сушильна машина GDW-8PD1WB (біла, 8кг. тепловий насос) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 21729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Сушильна машина GDW-8PD1WB (біла, 8кг. тепловий насос) (GRUNHELM). Артикул: GDW-8PD1WB. Код 1С: 146909",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GDW-8PD1WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146909"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_147591",
+    "name": "Сполучна планка GSK-WDW8 (біла під модель GDW-8PD1WВ) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 1980.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Сполучна планка GSK-WDW8 (біла під модель GDW-8PD1WВ) (GRUNHELM). Артикул: GSK-WDW8. Код 1С: 147591",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GSK-WDW8"
+      },
+      {
+        "label": "Код 1С",
+        "value": "147591"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101992",
+    "name": "Пральна машина напівавт. GWF-WS702B (біла/синя, 7кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWF-WS702B (біла/синя, 7кг) (GRUNHELM). Артикул: GWF-WS702B. Код 1С: 101992",
+    "images": [
+      "assets/images/products/pt_101992.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS702B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101992"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150419",
+    "name": "Телевізор 24, AOSP Android 14 - 24GH-2514AV, DDR 1G, Flash 8G, Voice RC, Frame, SMART HD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6839.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, AOSP Android 14 - 24GH-2514AV, DDR 1G, Flash 8G, Voice RC, Frame, SMART HD (GH). Артикул: 24GH-2514AV. Код 1С: 150419",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24GH-2514AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150419"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128632",
+    "name": "Пральна машина напівавт. однобакова GWB-W602-B (біла/блакитка, 6кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4099.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. однобакова GWB-W602-B (біла/блакитка, 6кг) (GRUNHELM). Артикул: GWB-W602-B. Код 1С: 128632",
+    "images": [
+      "assets/images/products/pt_128632.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWB-W602-B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128632"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146599",
+    "name": "Телевізор 24, Google Android TV 11.0 - 24H310-GA11 T2 SMART TV, color box (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, Google Android TV 11.0 - 24H310-GA11 T2 SMART TV, color box (GRUNHELM). Артикул: 24H310-GA11 T2 SMART TV, color box. Код 1С: 146599",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24H310-GA11 T2 SMART TV, color box"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146599"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149971",
+    "name": "Телевізор 24, Google TV 5.0 - 24H550 SMART TV, T2, HD, голосове керування, рамка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, Google TV 5.0 - 24H550 SMART TV, T2, HD, голосове керування, рамка (GRUNHELM). Артикул: 24H550 SMART TV, T2, HD. Код 1С: 149971",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24H550 SMART TV, T2, HD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149971"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128633",
+    "name": "Пральна машина напівавт. однобакова GWB-W701-W (біла/блакитка, 7кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. однобакова GWB-W701-W (біла/блакитка, 7кг) (GRUNHELM). Артикул: GWB-W701-W. Код 1С: 128633",
+    "images": [
+      "assets/images/products/pt_128633.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWB-W701-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128633"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148990",
+    "name": "Телевізор 24, Non-Smart TV - 24H530-T2 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, Non-Smart TV - 24H530-T2 (GRUNHELM). Артикул: 24H530-T2. Код 1С: 148990",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24H530-T2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148990"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128605",
+    "name": "Пральна машина напівавт. GWF-WS601W  (біла, 6кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWF-WS601W  (біла, 6кг) (GRUNHELM). Артикул: GWF-WS601W. Код 1С: 128605",
+    "images": [
+      "assets/images/products/pt_128605.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWF-WS601W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128605"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128631",
+    "name": "Пральна машина напівавт. однобакова GWB-W902-S (біла/срiбна, 9кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5099.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. однобакова GWB-W902-S (біла/срiбна, 9кг) (GRUNHELM). Артикул: GWB-W902-S. Код 1С: 128631",
+    "images": [
+      "assets/images/products/pt_128631.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWB-W902-S"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128631"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_128634",
+    "name": "Пральна машина напівавт. однобакова GWB-W703-WH (біла/рожева, 7кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. однобакова GWB-W703-WH (біла/рожева, 7кг) (GRUNHELM). Артикул: GWB-W703-WH. Код 1С: 128634",
+    "images": [
+      "assets/images/products/pt_128634.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWB-W703-WH"
+      },
+      {
+        "label": "Код 1С",
+        "value": "128634"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150420",
+    "name": "Телевізор 32, Non-Smart TV - 32GH-2500T2 Frameless (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7429.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Non-Smart TV - 32GH-2500T2 Frameless (GH). Артикул: 32GH-2500T2. Код 1С: 150420",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32GH-2500T2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150420"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131088",
+    "name": "Кондиціонер Inverter GAC-24GH-IWF-TPRO Grunhelm",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 39999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер Inverter GAC-24GH-IWF-TPRO Grunhelm. Артикул: GAC-24GH-IWF-TPRO. Код 1С: 131088",
+    "images": [
+      "assets/images/products/pt_131088.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-24GH-IWF-TPRO"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131088"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146601",
+    "name": "Телевізор 32, Google Android TV 11.0 - 32H310-GA11V T2 SMART TV, G7W, color box (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Google Android TV 11.0 - 32H310-GA11V T2 SMART TV, G7W, color box (GRUNHELM). Артикул: 32H310-GA11V T2 SMART TV, G7W, color box. Код 1С: 146601",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H310-GA11V T2 SMART TV, G7W, color box"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146601"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134071",
+    "name": "Пральна машина напівавт. однобакова GWB-W403-B (блакитка/біла, 4кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3289.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. однобакова GWB-W403-B (блакитка/біла, 4кг) (GRUNHELM). Артикул: GWB-W403-B. Код 1С: 134071",
+    "images": [
+      "assets/images/products/pt_134071.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWB-W403-B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134071"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148985",
+    "name": "Телевізор 32, Google TV 5.0 - 32F550 SMART TV, T2, FHD, голосове керування, металева безра(GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9079.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Google TV 5.0 - 32F550 SMART TV, T2, FHD, голосове керування, металева безра(GRUNHELM). Артикул: 32F550 SMART TV, T2, FHD. Код 1С: 148985",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32F550 SMART TV, T2, FHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148985"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148984",
+    "name": "Телевізор 32, Google TV 5.0 - 32H550 SMART TV, T2, HD, голосове керування, металева безрам(GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8489.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Google TV 5.0 - 32H550 SMART TV, T2, HD, голосове керування, металева безрам(GRUNHELM). Артикул: 32H550 SMART TV, T2, HD. Код 1С: 148984",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H550 SMART TV, T2, HD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148984"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148445",
+    "name": "МОНІТОР 27'' FHD 100HZ, VA panel, VGA+HDMI - GM27F100B (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 5629.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: МОНІТОР 27'' FHD 100HZ, VA panel, VGA+HDMI - GM27F100B (GRUNHELM). Артикул: GM27F100B. Код 1С: 148445",
+    "images": [
+      "assets/images/products/pt_148445.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GM27F100B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148445"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146596",
+    "name": "Телевізор 32, Non-Smart TV - 32H310-T2 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Non-Smart TV - 32H310-T2 (GRUNHELM). Артикул: 32H310-T2. Код 1С: 146596",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H310-T2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146596"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148983",
+    "name": "Телевізор 32, Non-Smart TV - 32H545-T2 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Non-Smart TV - 32H545-T2 (GRUNHELM). Артикул: 32H545-T2. Код 1С: 148983",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H545-T2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148983"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_154802",
+    "name": "Телевізор 32, WEBOS - 32GRF-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART HD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, WEBOS - 32GRF-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART HD (GRUNHELM). Артикул: WEBOS - 32. Код 1С: 154802",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "WEBOS - 32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "154802"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_136807",
+    "name": "Телевізор 24, AOSP Android 12 - 24GH-450AV, DDR 1G, Flash 8G, Voice RC, Frame, SMART HD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6839.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, AOSP Android 12 - 24GH-450AV, DDR 1G, Flash 8G, Voice RC, Frame, SMART HD (GH). Артикул: 24GH-450AV. Код 1С: 136807",
+    "images": [
+      "assets/images/products/pt_136807.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24GH-450AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "136807"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_144739",
+    "name": "Телевізор 40, Google Android TV 11.0 -40FN300-GA11V T2 SMART TV, G5N, color box, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11049.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 40, Google Android TV 11.0 -40FN300-GA11V T2 SMART TV, G5N, color box, voice RC (GRUNHELM). Артикул: 40FN300-GA11V T2 SMART TV, G5N, color box, voice RC. Код 1С: 144739",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "40FN300-GA11V T2 SMART TV, G5N, color box, voice RC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "144739"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148986",
+    "name": "Телевізор 40, Google TV 5.0 - 40F550 SMART TV, T2, FHD, голосове керування, металева безр (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10939.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 40, Google TV 5.0 - 40F550 SMART TV, T2, FHD, голосове керування, металева безр (GRUNHELM). Артикул: 40F550 SMART TV, T2, FHD. Код 1С: 148986",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "40F550 SMART TV, T2, FHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148986"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_154803",
+    "name": "Телевізор 40, WEBOS - 40GRF-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 40, WEBOS - 40GRF-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM). Артикул: WEBOS - 40. Код 1С: 154803",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "WEBOS - 40"
+      },
+      {
+        "label": "Код 1С",
+        "value": "154803"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_120193",
+    "name": "Телевізор 24, Google Android TV 11.0 - 24H300-GA11 T2 SMART TV, color box (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, Google Android TV 11.0 - 24H300-GA11 T2 SMART TV, color box (GRUNHELM). Артикул: 24H300-GA11 T2 SMART TV, color box. Код 1С: 120193",
+    "images": [
+      "assets/images/products/pt_120193.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24H300-GA11 T2 SMART TV, color box"
+      },
+      {
+        "label": "Код 1С",
+        "value": "120193"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146880",
+    "name": "Телевізор 40, WEBOS - 40GRF-25WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 40, WEBOS - 40GRF-25WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM). Артикул: WEBOS - 40. Код 1С: 146880",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "WEBOS - 40"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146880"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134422",
+    "name": "Телевізор 32, Non-Smart TV - 32GH-750T2 Frameless (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7429.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Non-Smart TV - 32GH-750T2 Frameless (GH). Артикул: 32GH-750T2. Код 1С: 134422",
+    "images": [
+      "assets/images/products/pt_134422.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32GH-750T2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134422"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146874",
+    "name": "Телевізор 43, AOSP Android 14 - 43GHF-2514AV  DDR 1G, Flash 8G, Voice RC, Frameless, SMART FHD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, AOSP Android 14 - 43GHF-2514AV  DDR 1G, Flash 8G, Voice RC, Frameless, SMART FHD (GH). Артикул: 43 AOSP Android 14. Код 1С: 146874",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43 AOSP Android 14"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146874"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146875",
+    "name": "Телевізор 43, AOSP Android 14 - 43GHU-2514AV  DDR 2G, Flash 8G, Voice RC, Frameless, SMART UHD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13759.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, AOSP Android 14 - 43GHU-2514AV  DDR 2G, Flash 8G, Voice RC, Frameless, SMART UHD (GH). Артикул: 43 UHD AOSP Android 14. Код 1С: 146875",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43 UHD AOSP Android 14"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146875"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_141187",
+    "name": "Кондиціонер (Спліт-система) - GAC-07GH-32 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 13649.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Кондиціонер (Спліт-система) - GAC-07GH-32 (GRUNHELM). Артикул: GAC-07GH-32. Код 1С: 141187",
+    "images": [
+      "assets/images/products/pt_141187.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GAC-07GH-32"
+      },
+      {
+        "label": "Код 1С",
+        "value": "141187"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_120199",
+    "name": "Телевізор 43, Google Android TV 11.0 - 43F500-GA11V (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, Google Android TV 11.0 - 43F500-GA11V (GRUNHELM). Артикул: 43F500-GA11V. Код 1С: 120199",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43F500-GA11V"
+      },
+      {
+        "label": "Код 1С",
+        "value": "120199"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_120191",
+    "name": "Телевізор 32, Google Android TV 11.0 - 32H500-GA11V T2 SMART TV, G7L, color box (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Google Android TV 11.0 - 32H500-GA11V T2 SMART TV, G7L, color box (GRUNHELM). Артикул: 32H500-GA11V T2 SMART TV, G7L, color box. Код 1С: 120191",
+    "images": [
+      "assets/images/products/pt_120191.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H500-GA11V T2 SMART TV, G7L, color box"
+      },
+      {
+        "label": "Код 1С",
+        "value": "120191"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133516",
+    "name": "Плита електрична EFC6613W 60см. біла, скло-кераміка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17589.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита електрична EFC6613W 60см. біла, скло-кераміка (GRUNHELM). Артикул: EFC6613W. Код 1С: 133516",
+    "images": [
+      "assets/images/products/pt_133516.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "EFC6613W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133516"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148987",
+    "name": "Телевізор 43, Google TV 5.0 - 43F550 SMART TV, T2, FHD, голосове керування, металева безр (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, Google TV 5.0 - 43F550 SMART TV, T2, FHD, голосове керування, металева безр (GRUNHELM). Артикул: 43F550 SMART TV, T2, FHD. Код 1С: 148987",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43F550 SMART TV, T2, FHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148987"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148988",
+    "name": "Телевізор 43, Google TV 5.0 - 43U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, Google TV 5.0 - 43U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM). Артикул: 43U550 SMART TV, T2, UHD. Код 1С: 148988",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43U550 SMART TV, T2, UHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148988"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_154805",
+    "name": "Телевізор 43, WEBOS - 43GRU-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART UHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, WEBOS - 43GRU-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART UHD (GRUNHELM). Артикул: 43GRU-26WV WEBOS. Код 1С: 154805",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43GRU-26WV WEBOS"
+      },
+      {
+        "label": "Код 1С",
+        "value": "154805"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_154806",
+    "name": "Телевізор 50, WEBOS - 50GRU-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART UHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 19299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 50, WEBOS - 50GRU-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART UHD (GRUNHELM). Артикул: 50GRU-26WV WEBOS. Код 1С: 154806",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "50GRU-26WV WEBOS"
+      },
+      {
+        "label": "Код 1С",
+        "value": "154806"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_154807",
+    "name": "Телевізор 55, WEBOS - 55GRU-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART UHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 22399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, WEBOS - 55GRU-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART UHD (GRUNHELM). Артикул: 55GRU-26WV WEBOS. Код 1С: 154807",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "55GRU-26WV WEBOS"
+      },
+      {
+        "label": "Код 1С",
+        "value": "154807"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_154804",
+    "name": "Телевізор 43, WEBOS - 43GRF-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, WEBOS - 43GRF-26WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM). Артикул: 43GRF-26WV WEBOS. Код 1С: 154804",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43GRF-26WV WEBOS"
+      },
+      {
+        "label": "Код 1С",
+        "value": "154804"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146881",
+    "name": "Телевізор 43, WEBOS - 43GRF-25WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14199.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, WEBOS - 43GRF-25WV DDR 1.5G, Flash 8G, Air Mouse, Frameless, SMART FHD (GRUNHELM). Артикул: 43GRF-25WV WEBOS. Код 1С: 146881",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43GRF-25WV WEBOS"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146881"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150424",
+    "name": "Телевізор 50, AOSP Android 14 - 50GHU-2514AV, DDR 2G, Flash 8G, Voice RC, Frameless, SMART UHD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17359.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 50, AOSP Android 14 - 50GHU-2514AV, DDR 2G, Flash 8G, Voice RC, Frameless, SMART UHD (GH). Артикул: 50GHU-2514AV. Код 1С: 150424",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "50GHU-2514AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150424"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_122874",
+    "name": "Телевізор 32, Non-Smart TV - 32H300-T2 (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Non-Smart TV - 32H300-T2 (GRUNHELM). Артикул: 32H300-T2. Код 1С: 122874",
+    "images": [
+      "assets/images/products/pt_122874.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H300-T2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "122874"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134587",
+    "name": "Телевізор 40, Google Android TV 11.0 - 40F300-GA11V T2 SMART TV, G7W, color box, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11049.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 40, Google Android TV 11.0 - 40F300-GA11V T2 SMART TV, G7W, color box, voice RC (GRUNHELM). Артикул: 40F300-GA11V T2 SMART TV, G7W, color box, voice RC. Код 1С: 134587",
+    "images": [
+      "assets/images/products/pt_134587.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "40F300-GA11V T2 SMART TV, G7W, color box, voice RC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134587"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148989",
+    "name": "Телевізор 50, Google TV 5.0 - 50U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18159.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 50, Google TV 5.0 - 50U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM). Артикул: 50U550 SMART TV, T2, UHD. Код 1С: 148989",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "50U550 SMART TV, T2, UHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148989"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134934",
+    "name": "Телевізор 32, Google Android TV 11.0 - 32F700-GA11V T2 SMART TV, FHD, G7L, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9079.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Google Android TV 11.0 - 32F700-GA11V T2 SMART TV, FHD, G7L, voice RC (GRUNHELM). Артикул: 32F700-GA11V. Код 1С: 134934",
+    "images": [
+      "assets/images/products/pt_134934.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32F700-GA11V"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134934"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133236",
+    "name": "Телевізор 32, Google Android TV 11.0 - 32H300-GA11V T2 SMART TV, G7W, color box (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, Google Android TV 11.0 - 32H300-GA11V T2 SMART TV, G7W, color box (GRUNHELM). Артикул: 32H300-GA11V T2 SMART TV, G7W, color box. Код 1С: 133236",
+    "images": [
+      "assets/images/products/pt_133236.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32H300-GA11V T2 SMART TV, G7W, color box"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133236"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152264",
+    "name": "Телевізор 55, Google TV 5.0 - 55U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20679.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, Google TV 5.0 - 55U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM). Артикул: 55U550 SMART TV, T2, UHD. Код 1С: 152264",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "55U550 SMART TV, T2, UHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152264"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153027",
+    "name": "Телевізор 55, Google TV 5.0 - Q55U701-GTV5V SMART TV, T2, QLED, UHD, голосове керування (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 22689.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, Google TV 5.0 - Q55U701-GTV5V SMART TV, T2, QLED, UHD, голосове керування (GRUNHELM). Артикул: Q55U701-GA11V SMART TV, T2, QLED, UHD. Код 1С: 153027",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q55U701-GA11V SMART TV, T2, QLED, UHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153027"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134426",
+    "name": "Телевізор 43, AOSP Android 12 - 43GHF-750AV, DDR 1G, Flash 8G, Voice RC, Frameless, SMART FHD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, AOSP Android 12 - 43GHF-750AV, DDR 1G, Flash 8G, Voice RC, Frameless, SMART FHD (GH). Артикул: 43GHF-750AV. Код 1С: 134426",
+    "images": [
+      "assets/images/products/pt_134426.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43GHF-750AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134426"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_122872",
+    "name": "Телевізор 24, Non-Smart TV - 24H300-T2, HD (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 5299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 24, Non-Smart TV - 24H300-T2, HD (GRUNHELM). Артикул: 24H300-T2, HD. Код 1С: 122872",
+    "images": [
+      "assets/images/products/pt_122872.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "24H300-T2, HD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "122872"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_153028",
+    "name": "Телевізор 65, Google TV 5.0 - Q65U701-GTV5V SMART TV, T2, QLED, UHD, голосове керування (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 34999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 65, Google TV 5.0 - Q65U701-GTV5V SMART TV, T2, QLED, UHD, голосове керування (GRUNHELM). Артикул: Q65U701-GA11V SMART TV, T2, QLED, UHD. Код 1С: 153028",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q65U701-GA11V SMART TV, T2, QLED, UHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "153028"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_142737",
+    "name": "Телевізор 43, AOSP Android 14 - 43GHU-750AV, DDR 1.5G, Flash 8G, Voice RC, Frameless, SMART UHD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13759.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, AOSP Android 14 - 43GHU-750AV, DDR 1.5G, Flash 8G, Voice RC, Frameless, SMART UHD (GH). Артикул: 43GHU-750AV. Код 1С: 142737",
+    "images": [
+      "assets/images/products/pt_142737.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43GHU-750AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "142737"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134941",
+    "name": "Телевізор 43, Google Android TV 11.0 - 43UI700-GA11V T2 SMART TV, UHD, M8X, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16459.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, Google Android TV 11.0 - 43UI700-GA11V T2 SMART TV, UHD, M8X, voice RC (GRUNHELM). Артикул: 43UI700-GA11V T2 SMART TV, UHD, M8X, color box, voice RC, da. Код 1С: 134941",
+    "images": [
+      "assets/images/products/pt_134941.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43UI700-GA11V T2 SMART TV, UHD, M8X, color box, voice RC, da"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134941"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_147939",
+    "name": "Телевізор 75, Google TV 5.0 - Q75U701-GTV5V SMART TV, T2, QLED, UHD, голосове керування (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 42489.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 75, Google TV 5.0 - Q75U701-GTV5V SMART TV, T2, QLED, UHD, голосове керування (GRUNHELM). Артикул: Q75U701-GTV5V SMART TV, T2, QLED, UHD. Код 1С: 147939",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q75U701-GTV5V SMART TV, T2, QLED, UHD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "147939"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_147941",
+    "name": "Телевізор 85, Google TV 5.0 - Q85U801-GTV5V T2 SMART TV, QLED, UHD, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 67899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 85, Google TV 5.0 - Q85U801-GTV5V T2 SMART TV, QLED, UHD, voice RC (GRUNHELM). Артикул: Q85U801-GTV5V. Код 1С: 147941",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q85U801-GTV5V"
+      },
+      {
+        "label": "Код 1С",
+        "value": "147941"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134073",
+    "name": "Пральна машина напівавт. однобакова GWB-W501-P  (рожева, 5кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. однобакова GWB-W501-P  (рожева, 5кг) (GRUNHELM). Артикул: GWB-W501-P. Код 1С: 134073",
+    "images": [
+      "assets/images/products/pt_134073.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWB-W501-P"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134073"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_142739",
+    "name": "Телевізор 50, AOSP Android 14 - 50GHU-750AV, DDR 1.5G, Flash 8G, Voice RC, Frameless, SMART UHD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17359.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 50, AOSP Android 14 - 50GHU-750AV, DDR 1.5G, Flash 8G, Voice RC, Frameless, SMART UHD (GH). Артикул: 50GHU-750AV. Код 1С: 142739",
+    "images": [
+      "assets/images/products/pt_142739.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "50GHU-750AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "142739"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148761",
+    "name": "Морозильна камера VFH-N143M60W , no-frost, 143 см, 161 л,  бiла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18259.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера VFH-N143M60W , no-frost, 143 см, 161 л,  бiла (GRUNHELM). Артикул: VFH-N143M60W. Код 1С: 148761",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-N143M60W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148761"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_126566",
+    "name": "Телевізор 55, Google Android TV 11.0 - Q55U701-GA11V T2 SMART TV, QLED,UHD, M8Q, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 22899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, Google Android TV 11.0 - Q55U701-GA11V T2 SMART TV, QLED,UHD, M8Q, voice RC (GRUNHELM). Артикул: Q55U701-GA11V T2 SMART TV, UHD, M8Q, color box, voice RC. Код 1С: 126566",
+    "images": [
+      "assets/images/products/pt_126566.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q55U701-GA11V T2 SMART TV, UHD, M8Q, color box, voice RC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "126566"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132394",
+    "name": "Морозильна камера  VFH-S143M58W, 143 см, 157 л, біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10959.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера  VFH-S143M58W, 143 см, 157 л, біла (GRUNHELM). Артикул: VFH-S143M58W. Код 1С: 132394",
+    "images": [
+      "assets/images/products/pt_132394.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-S143M58W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132394"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138008",
+    "name": "Телевізор 55, Google Android TV 11.0 - 55UIN700-GA11V T2 SMART TV, N9X, voice RC, dar (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20889.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, Google Android TV 11.0 - 55UIN700-GA11V T2 SMART TV, N9X, voice RC, dar (GRUNHELM). Артикул: 55UI700-GA11V T2 SMART TV, M8X, color box, voice RC, dar. Код 1С: 138008",
+    "images": [
+      "assets/images/products/pt_138008.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "55UI700-GA11V T2 SMART TV, M8X, color box, voice RC, dar"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138008"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131851",
+    "name": "Пральна машина авт. GWT-FN610D2WB (біла, чорний люк та панель, дісплей 6кг. 1000 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10379.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWT-FN610D2WB (біла, чорний люк та панель, дісплей 6кг. 1000 об.) (GRUNHELM). Артикул: GWT-FN610D2WB. Код 1С: 131851",
+    "images": [
+      "assets/images/products/pt_131851.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWT-FN610D2WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131851"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146472",
+    "name": "Морозильна камераVFH-N171D55G , no-frost, 171 см, 204 л,  графiт (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20229.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камераVFH-N171D55G , no-frost, 171 см, 204 л,  графiт (GRUNHELM). Артикул: VFH-N171D55G. Код 1С: 146472",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-N171D55G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146472"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134943",
+    "name": "Телевізор 55, Google Android TV 11.0 - 55UI700-GA11V T2 SMART TV, M8X, voice RC, dar (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20889.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, Google Android TV 11.0 - 55UI700-GA11V T2 SMART TV, M8X, voice RC, dar (GRUNHELM). Артикул: 55UI700-GA11V T2 SMART TV, M8X, color box, voice RC, dar. Код 1С: 134943",
+    "images": [
+      "assets/images/products/pt_134943.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "55UI700-GA11V T2 SMART TV, M8X, color box, voice RC, dar"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134943"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133547",
+    "name": "Морозильна камера VFH-N185D70DI, no-frost, 185 см, 274 л,  темно сіра(GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 25829.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера VFH-N185D70DI, no-frost, 185 см, 274 л,  темно сіра(GRUNHELM). Артикул: VFH-N185D70DI. Код 1С: 133547",
+    "images": [
+      "assets/images/products/pt_133547.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-N185D70DI"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133547"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_89913",
+    "name": "Морозильна камера - GHUF-85, однокамерна, 85см, 85л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 8299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера - GHUF-85, однокамерна, 85см, 85л. (GRUNHELM). Артикул: GHUF-85. Код 1С: 89913",
+    "images": [
+      "assets/images/products/pt_89913.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHUF-85"
+      },
+      {
+        "label": "Код 1С",
+        "value": "89913"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133891",
+    "name": "Телевізор 43, Google Android TV 11.0 - 43FI500-GA11V (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 43, Google Android TV 11.0 - 43FI500-GA11V (GRUNHELM). Артикул: 43FI500-GA11V. Код 1С: 133891",
+    "images": [
+      "assets/images/products/pt_133891.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43FI500-GA11V"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133891"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132396",
+    "name": "Морозильна камера VFH-S170M60W , 170 см, 225 л, біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17279.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера VFH-S170M60W , 170 см, 225 л, біла (GRUNHELM). Артикул: VFH-S170M60W. Код 1С: 132396",
+    "images": [
+      "assets/images/products/pt_132396.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-S170M60W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132396"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_96365",
+    "name": "Морозильна скриня - GCFW-100, 100л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6929.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - GCFW-100, 100л. (GRUNHELM). Артикул: GCFW-100. Код 1С: 96365",
+    "images": [
+      "assets/images/products/pt_96365.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCFW-100"
+      },
+      {
+        "label": "Код 1С",
+        "value": "96365"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_80597",
+    "name": "Морозильна скриня - GCFW-200, 200л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - GCFW-200, 200л. (GRUNHELM). Артикул: GCFW-200. Код 1С: 80597",
+    "images": [
+      "assets/images/products/pt_80597.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCFW-200"
+      },
+      {
+        "label": "Код 1С",
+        "value": "80597"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_85308",
+    "name": "Морозильна скриня - GCFW-251, 251л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 11799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - GCFW-251, 251л. (GRUNHELM). Артикул: GCFW-251. Код 1С: 85308",
+    "images": [
+      "assets/images/products/pt_85308.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCFW-251"
+      },
+      {
+        "label": "Код 1С",
+        "value": "85308"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_134424",
+    "name": "Телевізор 32, AOSP Android 12 - 32GH-750AV, DDR 1G, Flash 8G, Voice RC, Frameless, SMART HD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7429.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, AOSP Android 12 - 32GH-750AV, DDR 1G, Flash 8G, Voice RC, Frameless, SMART HD (GH). Артикул: 32GH-750AV. Код 1С: 134424",
+    "images": [
+      "assets/images/products/pt_134424.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32GH-750AV"
+      },
+      {
+        "label": "Код 1С",
+        "value": "134424"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138012",
+    "name": "Телевізор 55, Google Android TV 11.0 - Q55UN701-GA11V T2 SMART TV, QLED,UHD, N9X,voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 22899.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 55, Google Android TV 11.0 - Q55UN701-GA11V T2 SMART TV, QLED,UHD, N9X,voice RC (GRUNHELM). Артикул: Q55U701-GA11V T2 SMART TV, UHD, M8Q, color box, voice RC. Код 1С: 138012",
+    "images": [
+      "assets/images/products/pt_138012.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q55U701-GA11V T2 SMART TV, UHD, M8Q, color box, voice RC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138012"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133594",
+    "name": "Плита газоелектр. FG56113ВЕ 50см. , бежевий (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. FG56113ВЕ 50см. , бежевий (GRUNHELM). Артикул: FG56113ВЕ. Код 1С: 133594",
+    "images": [
+      "assets/images/products/pt_133594.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FG56113ВЕ"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133594"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132400",
+    "name": "Морозильна камера VFH-N185D70W , no-frost, 185 см, 262 л,  біла (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 24149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера VFH-N185D70W , no-frost, 185 см, 262 л,  біла (GRUNHELM). Артикул: VFH-N185D70W. Код 1С: 132400",
+    "images": [
+      "assets/images/products/pt_132400.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-N185D70W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132400"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_116995",
+    "name": "Морозильна скриня - GCFW-300, 290л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13649.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - GCFW-300, 290л. (GRUNHELM). Артикул: GCFW-300. Код 1С: 116995",
+    "images": [
+      "assets/images/products/pt_116995.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCFW-300"
+      },
+      {
+        "label": "Код 1С",
+        "value": "116995"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138367",
+    "name": "Плита газоелектр.FG5612DG 50см. ,чорне темне скло  (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14079.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр.FG5612DG 50см. ,чорне темне скло  (GRUNHELM). Артикул: FG5612DG. Код 1С: 138367",
+    "images": [
+      "assets/images/products/pt_138367.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "FG5612DG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138367"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146873",
+    "name": "Телевізор 32, AOSP Android 14 - 32GH-2514AV DDR 1G, Flash 8G, Voice RC, Frameless, SMART HD (GH)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7429.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 32, AOSP Android 14 - 32GH-2514AV DDR 1G, Flash 8G, Voice RC, Frameless, SMART HD (GH). Артикул: 32 AOSP Android 14. Код 1С: 146873",
+    "images": [
+      "assets/images/products/pt_146873.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "32 AOSP Android 14"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146873"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_84069",
+    "name": "Холодильник - GRW-138DD, (білий, двухк, верх мороз, 138см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 9599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - GRW-138DD, (білий, двухк, верх мороз, 138см) (GRUNHELM). Артикул: GRW-138DD. Код 1С: 84069",
+    "images": [
+      "assets/images/products/pt_84069.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GRW-138DD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "84069"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152489",
+    "name": "Винна шафа - GHS-8B, (чорна, 8 пляшки) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 4423.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Винна шафа - GHS-8B, (чорна, 8 пляшки) (GRUNHELM). Артикул: GHS-8B. Код 1С: 152489",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHS-8B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152489"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_152488",
+    "name": "Винна шафа - GHS-16B, (чорна, 16 пляшки) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 5529.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Винна шафа - GHS-16B, (чорна, 16 пляшки) (GRUNHELM). Артикул: GHS-16B. Код 1С: 152488",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GHS-16B"
+      },
+      {
+        "label": "Код 1С",
+        "value": "152488"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149331",
+    "name": "Холодильник - BRH-N181М55-G,(графiт, двухк.,нижн мороз, 181см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 19299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N181М55-G,(графiт, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: BRH-N181М55-G. Код 1С: 149331",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N181М55-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149331"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149333",
+    "name": "Холодильник - BRH-N181М55-HG,(графiт, двухк.,нижн мороз, 181см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 19299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N181М55-HG,(графiт, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: BRH-N181М55-HG. Код 1С: 149333",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N181М55-HG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149333"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149335",
+    "name": "Холодильник - BRH-N181М55-HW,(білий, двухк.,нижн мороз, 181см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18259.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N181М55-HW,(білий, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: BRH-N181М55-HW. Код 1С: 149335",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N181М55-HW"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149335"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_84071",
+    "name": "Холодильник - GRW-143DD, (білий, двухк, верх мороз, 143см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10499.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - GRW-143DD, (білий, двухк, верх мороз, 143см) (GRUNHELM). Артикул: GRW-143DD. Код 1С: 84071",
+    "images": [
+      "assets/images/products/pt_84071.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GRW-143DD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "84071"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148755",
+    "name": "Холодильник - BRH-N186D60-W,(білий, двухк.,дисплей,,нижн мороз, 186см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 21289.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N186D60-W,(білий, двухк.,дисплей,,нижн мороз, 186см) (GRUNHELM). Артикул: BRH-N186D60-W. Код 1С: 148755",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N186D60-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148755"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146476",
+    "name": "Холодильник - BRH-N186E60-G,(графiт, двухк.,нижн мороз, 186см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20949.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N186E60-G,(графiт, двухк.,нижн мороз, 186см) (GRUNHELM). Артикул: BRH-N186E60-G. Код 1С: 146476",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N186E60-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146476"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149337",
+    "name": "Холодильник - BRH-N186EI68-G,(графiт, двухк.,нижн мороз, 186см, iнвертор, 400л) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 22549.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N186EI68-G,(графiт, двухк.,нижн мороз, 186см, iнвертор, 400л) (GRUNHELM). Артикул: BRH-N186EI68-G. Код 1С: 149337",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N186EI68-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149337"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_149339",
+    "name": "Холодильник - BRH-N186EI68-W,(бiлий, двухк.,нижн мороз, 186см, iнвертор, 400л) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 21949.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N186EI68-W,(бiлий, двухк.,нижн мороз, 186см, iнвертор, 400л) (GRUNHELM). Артикул: BRH-N186EI68-W. Код 1С: 149339",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N186EI68-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "149339"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_112798",
+    "name": "Холодильник TRH-S166M55-W (білий, двухк, верх мороз, 166см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 13229.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник TRH-S166M55-W (білий, двухк, верх мороз, 166см) (GRUNHELM). Артикул: TRH-S166M55-W. Код 1С: 112798",
+    "images": [
+      "assets/images/products/pt_112798.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "TRH-S166M55-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "112798"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_89903",
+    "name": "Морозильна скриня - GCFW-145, 145л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7939.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - GCFW-145, 145л. (GRUNHELM). Артикул: GCFW-145. Код 1С: 89903",
+    "images": [
+      "assets/images/products/pt_89903.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCFW-145"
+      },
+      {
+        "label": "Код 1С",
+        "value": "89903"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133512",
+    "name": "Плита газоелектр. F661234GB 60см. сіро-чорка, чавунна решітка (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 15559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Плита газоелектр. F661234GB 60см. сіро-чорка, чавунна решітка (GRUNHELM). Артикул: F661234GB. Код 1С: 133512",
+    "images": [
+      "assets/images/products/pt_133512.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "F661234GB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133512"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_138014",
+    "name": "Телевізор 65, Google Android TV 11.0 - Q65UN701-GA11V T2 SMART TV, QLED,UHD, N9X,voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 31189.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 65, Google Android TV 11.0 - Q65UN701-GA11V T2 SMART TV, QLED,UHD, N9X,voice RC (GRUNHELM). Артикул: Q65UN701-GA11V. Код 1С: 138014",
+    "images": [
+      "assets/images/products/pt_138014.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q65UN701-GA11V"
+      },
+      {
+        "label": "Код 1С",
+        "value": "138014"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_142475",
+    "name": "Холодильник - GRW-138DD-G, (графіт, двухк, верх мороз, 138см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10189.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - GRW-138DD-G, (графіт, двухк, верх мороз, 138см) (GRUNHELM). Артикул: GRW-138DD-G. Код 1С: 142475",
+    "images": [
+      "assets/images/products/pt_142475.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GRW-138DD-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "142475"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143261",
+    "name": "Холодильник - GRW-143DD-G, (графіт, двухк, верх мороз, 143см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 10999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - GRW-143DD-G, (графіт, двухк, верх мороз, 143см) (GRUNHELM). Артикул: GRW-143DD-G. Код 1С: 143261",
+    "images": [
+      "assets/images/products/pt_143261.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GRW-143DD-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143261"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_98688",
+    "name": "Винна шафа - GWC-34, (нерж. сталь, 34 пляшки 85см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 11869.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Винна шафа - GWC-34, (нерж. сталь, 34 пляшки 85см) (GRUNHELM). Артикул: GWC-34. Код 1С: 98688",
+    "images": [
+      "assets/images/products/pt_98688.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWC-34"
+      },
+      {
+        "label": "Код 1С",
+        "value": "98688"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_120201",
+    "name": "Телевізор 50, Google Android TV 11.0 - 50U700-GA11V T2 SMART TV, M8X, color box, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 19619.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 50, Google Android TV 11.0 - 50U700-GA11V T2 SMART TV, M8X, color box, voice RC (GRUNHELM). Артикул: 50U700-GA11V T2 SMART TV, M8X, color box, voice RC. Код 1С: 120201",
+    "images": [
+      "assets/images/products/pt_120201.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "50U700-GA11V T2 SMART TV, M8X, color box, voice RC"
+      },
+      {
+        "label": "Код 1С",
+        "value": "120201"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_144787",
+    "name": "Холодильник BRH-S151E57-G (static, нижня мороз, 151см,графіт) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12969.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-S151E57-G (static, нижня мороз, 151см,графіт) (GRUNHELM). Артикул: BRH-S151E57-G. Код 1С: 144787",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-S151E57-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "144787"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132387",
+    "name": "Холодильник BRH-N185D60W  (no frost, нижня мороз., дісплей,  185см, білий ) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 21279.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-N185D60W  (no frost, нижня мороз., дісплей,  185см, білий ) (GRUNHELM). Артикул: BRH-N185D60W. Код 1С: 132387",
+    "images": [
+      "assets/images/products/pt_132387.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N185D60W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132387"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148759",
+    "name": "Холодильник BRH-N200D60-G(no frost, нижня мороз., дисплей  200см, графiт) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 22259.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-N200D60-G(no frost, нижня мороз., дисплей  200см, графiт) (GRUNHELM). Артикул: BRH-N200D60-G. Код 1С: 148759",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N200D60-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148759"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_148757",
+    "name": "Холодильник BRH-N200D60-W(no frost, нижня мороз., дисплей  200см, білий) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 21209.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-N200D60-W(no frost, нижня мороз., дисплей  200см, білий) (GRUNHELM). Артикул: BRH-N200D60W. Код 1С: 148757",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N200D60W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "148757"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146542",
+    "name": "Холодильник - BRH-N167E55-W (бiлий, двухк.,нижн мороз, 167см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16399.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N167E55-W (бiлий, двухк.,нижн мороз, 167см) (GRUNHELM). Артикул: BRH-N167E55-W. Код 1С: 146542",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N167E55-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146542"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146544",
+    "name": "Холодильник - BRH-N167E55-G (графiт, двухк.,нижн мороз, 167см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 16999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N167E55-G (графiт, двухк.,нижн мороз, 167см) (GRUNHELM). Артикул: BRH-N167E55-G. Код 1С: 146544",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N167E55-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146544"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_84738",
+    "name": "Холодильник - GRW-185DD, (білий, двухк, нижн мороз, 185см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17119.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - GRW-185DD, (білий, двухк, нижн мороз, 185см) (GRUNHELM). Артикул: GRW-185DD. Код 1С: 84738",
+    "images": [
+      "assets/images/products/pt_84738.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GRW-185DD"
+      },
+      {
+        "label": "Код 1С",
+        "value": "84738"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_144773",
+    "name": "Холодильник TRF-S86M44-S (сірий, двухк, верх мороз, 86см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник TRF-S86M44-S (сірий, двухк, верх мороз, 86см) (GRUNHELM). Артикул: TRF-S86M44-S. Код 1С: 144773",
+    "images": [
+      "assets/images/products/pt_144773.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "TRF-S86M44-S"
+      },
+      {
+        "label": "Код 1С",
+        "value": "144773"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_142479",
+    "name": "Холодильник - BRH-S176M55-G (графіт, двухк, ниж мороз, 176см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-S176M55-G (графіт, двухк, ниж мороз, 176см) (GRUNHELM). Артикул: BRH-S176M55-G. Код 1С: 142479",
+    "images": [
+      "assets/images/products/pt_142479.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-S176M55-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "142479"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_144785",
+    "name": "Холодильник - DDH-N177D91-DG, (графiт, SBS NF, 177см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 30999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - DDH-N177D91-DG, (графiт, SBS NF, 177см) (GRUNHELM). Артикул: DDH-N177D91-DG. Код 1С: 144785",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "DDH-N177D91-DG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "144785"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_143263",
+    "name": "Холодильник BRH-N185D68-G  (no frost, нижня мороз., дісплей,  185см, графіт  ) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 21599.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-N185D68-G  (no frost, нижня мороз., дісплей,  185см, графіт  ) (GRUNHELM). Артикул: BRH-N185D68-G. Код 1С: 143263",
+    "images": [
+      "assets/images/products/pt_143263.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N185D68-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "143263"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_146474",
+    "name": "Холодильник - MDH-N180D80-DG, (графiт, multi-door, NF, 180см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 30729.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - MDH-N180D80-DG, (графiт, multi-door, NF, 180см) (GRUNHELM). Артикул: MDH-N180D80-DG. Код 1С: 146474",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "MDH-N180D80-DG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "146474"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_150394",
+    "name": "Холодильник - MDH-N185D80-G, (графiт, multi-door, NF, 185см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 29659.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - MDH-N185D80-G, (графiт, multi-door, NF, 185см) (GRUNHELM). Артикул: MDH-N185D80-G. Код 1С: 150394",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "MDH-N185D80-G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "150394"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_151508",
+    "name": "Холодильник - MDH-N185D80-MB, (металевий чорний, multi-door, NF, 185см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 29659.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - MDH-N185D80-MB, (металевий чорний, multi-door, NF, 185см) (GRUNHELM). Артикул: MDH-N185D80-MB. Код 1С: 151508",
+    "images": [],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "MDH-N185D80-MB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "151508"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_97321",
+    "name": "Морозильна скриня - GCFW-380, 380л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18249.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - GCFW-380, 380л. (GRUNHELM). Артикул: GCFW-380. Код 1С: 97321",
+    "images": [
+      "assets/images/products/pt_97321.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GCFW-380"
+      },
+      {
+        "label": "Код 1С",
+        "value": "97321"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_98686",
+    "name": "Винна шафа - GWC-14, (чорний, 14 пляшок 50см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "dribna",
+    "price": 7459.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Винна шафа - GWC-14, (чорний, 14 пляшок 50см) (GRUNHELM). Артикул: GWC-14. Код 1С: 98686",
+    "images": [
+      "assets/images/products/pt_98686.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWC-14"
+      },
+      {
+        "label": "Код 1С",
+        "value": "98686"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132389",
+    "name": "Холодильник BRH-N200E60W (no frost, нижня мороз.,  200см, білий) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20689.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-N200E60W (no frost, нижня мороз.,  200см, білий) (GRUNHELM). Артикул: BRH-N200E60W. Код 1С: 132389",
+    "images": [
+      "assets/images/products/pt_132389.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N200E60W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132389"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132392",
+    "name": "Холодильник BRH-S151E57W (static, нижня мороз, 151см, білий) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12349.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-S151E57W (static, нижня мороз, 151см, білий) (GRUNHELM). Артикул: BRH-S151E57W. Код 1С: 132392",
+    "images": [
+      "assets/images/products/pt_132392.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-S151E57W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132392"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133539",
+    "name": "Холодильник - DDH-N177D91-BG, (чорне скло, SBS NF, 177см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 32529.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - DDH-N177D91-BG, (чорне скло, SBS NF, 177см) (GRUNHELM). Артикул: DDH-N177D91-BG. Код 1С: 133539",
+    "images": [
+      "assets/images/products/pt_133539.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "DDH-N177D91-BG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133539"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127630",
+    "name": "Холодильник - BRH-N181М55-W,(білий, двухк.,нижн мороз, 181см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 17189.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N181М55-W,(білий, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: GNC-185HLW2. Код 1С: 127630",
+    "images": [
+      "assets/images/products/pt_127630.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GNC-185HLW2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127630"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_112932",
+    "name": "Холодильник - VRH-S85M48-W, (білий, однок, 85см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 6299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - VRH-S85M48-W, (білий, однок, 85см) (GRUNHELM). Артикул: VRH-S85M48-W. Код 1С: 112932",
+    "images": [
+      "assets/images/products/pt_112932.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VRH-S85M48-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "112932"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_125277",
+    "name": "Телевізор 65, Google Android TV 11.0 - Q65U701-GA11V T2 SMART TV, QLED,UHD, M8Q, voice RC (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 31189.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Телевізор 65, Google Android TV 11.0 - Q65U701-GA11V T2 SMART TV, QLED,UHD, M8Q, voice RC (GRUNHELM). Артикул: Q65U701-GA11V. Код 1С: 125277",
+    "images": [
+      "assets/images/products/pt_125277.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "Q65U701-GA11V"
+      },
+      {
+        "label": "Код 1С",
+        "value": "125277"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133540",
+    "name": "Холодильник - MDH-N180D80-BG, (чорне скло, multi-door, NF, 180см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 34319.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - MDH-N180D80-BG, (чорне скло, multi-door, NF, 180см) (GRUNHELM). Артикул: MDH-N180D80-BG. Код 1С: 133540",
+    "images": [
+      "assets/images/products/pt_133540.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "MDH-N180D80-BG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133540"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_110863",
+    "name": "Холодильник - BRH-S176M55-W (білий, двухк, ниж мороз, 176см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 14149.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-S176M55-W (білий, двухк, ниж мороз, 176см) (GRUNHELM). Артикул: BRH-S176M55-W. Код 1С: 110863",
+    "images": [
+      "assets/images/products/pt_110863.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-S176M55-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "110863"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_121988",
+    "name": "Холодильник - VRH-S51M44-W, (білий, однок, 51см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 4999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - VRH-S51M44-W, (білий, однок, 51см) (GRUNHELM). Артикул: VRH-S51M44-W. Код 1С: 121988",
+    "images": [
+      "assets/images/products/pt_121988.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VRH-S51M44-W"
+      },
+      {
+        "label": "Код 1С",
+        "value": "121988"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127626",
+    "name": "Холодильник - MDH-N180D80-X, (нерж, multi-door, NF, 180см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 35699.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - MDH-N180D80-X, (нерж, multi-door, NF, 180см) (GRUNHELM). Артикул: nan. Код 1С: 127626",
+    "images": [
+      "assets/images/products/pt_127626.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "nan"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127626"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_131853",
+    "name": "Пральна машина авт. GWT-FF812D2WB (біла, чорний люк, дісплей 8кг. 1200 об.) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 12999.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина авт. GWT-FF812D2WB (біла, чорний люк, дісплей 8кг. 1200 об.) (GRUNHELM). Артикул: GWT-FF812D2WB. Код 1С: 131853",
+    "images": [
+      "assets/images/products/pt_131853.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWT-FF812D2WB"
+      },
+      {
+        "label": "Код 1С",
+        "value": "131853"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133545",
+    "name": "Холодильник BRH-N195D68BG (no frost, нижня мороз., дісплей,  195см, чорне скло) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 27299.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник BRH-N195D68BG (no frost, нижня мороз., дісплей,  195см, чорне скло) (GRUNHELM). Артикул: BRH-N195D68BG. Код 1С: 133545",
+    "images": [
+      "assets/images/products/pt_133545.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "BRH-N195D68BG"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133545"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_127628",
+    "name": "Холодильник - BRH-N186М60-W,(білий, двухк.,нижн мороз, 186см) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 20529.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Холодильник - BRH-N186М60-W,(білий, двухк.,нижн мороз, 186см) (GRUNHELM). Артикул: GNC-185HLW2. Код 1С: 127628",
+    "images": [
+      "assets/images/products/pt_127628.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GNC-185HLW2"
+      },
+      {
+        "label": "Код 1С",
+        "value": "127628"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133546",
+    "name": "Морозильна камера VFH-N185D70I , no-frost, 185 см, 274 л,  сіра нерж (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 25829.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера VFH-N185D70I , no-frost, 185 см, 274 л,  сіра нерж (GRUNHELM). Артикул: VFH-N185D70I. Код 1С: 133546",
+    "images": [
+      "assets/images/products/pt_133546.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-N185D70I"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133546"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_132398",
+    "name": "Морозильна камера VFH-S170M60G, 170 см, 225 л, сіра (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 18119.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна камера VFH-S170M60G, 170 см, 225 л, сіра (GRUNHELM). Артикул: VFH-S170M60G. Код 1С: 132398",
+    "images": [
+      "assets/images/products/pt_132398.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "VFH-S170M60G"
+      },
+      {
+        "label": "Код 1С",
+        "value": "132398"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_137065",
+    "name": "Морозильна скриня - CFM500, 508л. (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 24459.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Морозильна скриня - CFM500, 508л. (GRUNHELM). Артикул: CFM500. Код 1С: 137065",
+    "images": [
+      "assets/images/products/pt_137065.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "CFM500"
+      },
+      {
+        "label": "Код 1С",
+        "value": "137065"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_133472",
+    "name": "Пральна машина напівавт. GWL-WS782PH4  (біла, 7.8кг) (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 7559.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Пральна машина напівавт. GWL-WS782PH4  (біла, 7.8кг) (GRUNHELM). Артикул: GWL-WS782PH4. Код 1С: 133472",
+    "images": [
+      "assets/images/products/pt_133472.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GWL-WS782PH4"
+      },
+      {
+        "label": "Код 1С",
+        "value": "133472"
+      }
+    ],
+    "available": true
+  },
+  {
+    "id": "pt_101591",
+    "name": "Варильна поверхня GPG 0201 BF газ скло доміно (GRUNHELM)",
+    "category": "technika",
+    "subcategory": "velyka",
+    "price": 3799.0,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Варильна поверхня GPG 0201 BF газ скло доміно (GRUNHELM). Артикул: GPG 0201 BF. Код 1С: 101591",
+    "images": [
+      "assets/images/products/pt_101591.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "GPG 0201 BF"
+      },
+      {
+        "label": "Код 1С",
+        "value": "101591"
+      }
+    ],
+    "available": true
   }
 ];
 
