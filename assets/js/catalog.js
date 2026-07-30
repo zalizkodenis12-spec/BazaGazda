@@ -9,7 +9,7 @@ var CATEGORIES = [
 ];
 
 var SUBCATEGORIES = {
-  technika:     [],
+  technika:     [{id:'all', name:'Всі'}, {id:'velyka', name:'Велика'}, {id:'dribna', name:'Дрібна'}, {id:'klimat', name:'Кліматична'}],
   instrument:   [],
   dlyadomu:     [
     { id:'all', name:'Всі' },
@@ -35008,7 +35008,9 @@ var PRODUCTS = [
     "price": 5449.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Варильна поверхня GPC 453 BE склокераміка, 3 конф. 45 см (GRUNHELM). Артикул: GPC 453 BE. Код 1С: 148537",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148537.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -35203,7 +35205,9 @@ var PRODUCTS = [
     "price": 6929.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Варильна поверхня GPI 453 B індукц. 3 конф 45 см (GRUNHELM). Артикул: GPI 453 B. Код 1С: 148535",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148535.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -35247,7 +35251,9 @@ var PRODUCTS = [
     "price": 4959.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Варильна поверхня GPI 525 BF індукц. 2 конф. FLEXI (GRUNHELM). Артикул: GPI 525 BF. Код 1С: 148533",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148533.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -36965,7 +36971,9 @@ var PRODUCTS = [
     "price": 15699.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-07GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-07GH-INV32. Код 1С: 150495",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_150495.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -36986,7 +36994,9 @@ var PRODUCTS = [
     "price": 17669.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-09GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-09GH-INV32. Код 1С: 150496",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_150496.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37007,7 +37017,9 @@ var PRODUCTS = [
     "price": 19919.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-12GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-12GH-INV32. Код 1С: 150497",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_150497.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37028,7 +37040,9 @@ var PRODUCTS = [
     "price": 27679.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-18GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-18GH-INV32. Код 1С: 150498",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_150498.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37049,7 +37063,9 @@ var PRODUCTS = [
     "price": 36119.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Кондиціонер (Спліт-система, Інверторний) - Inverio GAC-24GH-INV32 (GRUNHELM). Артикул: INVERIO GAC-24GH-INV32. Код 1С: 150499",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_150499.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37275,7 +37291,9 @@ var PRODUCTS = [
     "price": 3199.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: МОНІТОР 23.8'' FHD 120HZ, IPS panel , VGA+HDMI, без динаміків - GM24F120B (GRUNHELM). Артикул: GM24F120B. Код 1С: 156560",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_156560.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37296,7 +37314,9 @@ var PRODUCTS = [
     "price": 5499.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: МОНІТОР 23.8'' FHD 240HZ, IPS panel , HDMI+DP, без динаміків - GM24F240G (GRUNHELM). Артикул: GM24F240G. Код 1С: 156563",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_156563.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37317,7 +37337,9 @@ var PRODUCTS = [
     "price": 4199.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: МОНІТОР 27'' FHD 120HZ, VA panel, VGA+HDMI, без динаміків - GM27F120B (GRUNHELM). Артикул: GM27F120B. Код 1С: 156562",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_156562.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37338,7 +37360,9 @@ var PRODUCTS = [
     "price": 7599.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: МОНІТОР 27'' QHD 200HZ, Fast IPS panel, 2HDMI+2DP, без динаміків - GM27QU200G (GRUNHELM). Артикул: GM27QU200G. Код 1С: 156565",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_156565.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37470,7 +37494,9 @@ var PRODUCTS = [
     "price": 11499.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Плита газова G4FG5612BRB 50см. коричнева (GRUNHELM). Артикул: G4FG5612BRB. Код 1С: 145664",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_145664.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37514,7 +37540,9 @@ var PRODUCTS = [
     "price": 14999.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Плита газова G4FG66124GB 60см. сіро-чорна (GRUNHELM). Артикул: G4FG66124GB. Код 1С: 146330",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146330.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -37535,7 +37563,9 @@ var PRODUCTS = [
     "price": 13129.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Плита газова G4FG6612GB 60см. сіро-чорна  (GRUNHELM). Артикул: G4FG6612GB. Код 1С: 146328",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146328.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -38303,7 +38333,9 @@ var PRODUCTS = [
     "price": 16699.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Пральна машина авт. GWS-F714D3B (біла, 7кг. 1200 об.) (GRUNHELM). Артикул: GWS-F714D3B. Код 1С: 145607",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_145607.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -38410,7 +38442,9 @@ var PRODUCTS = [
     "price": 19899.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Прально-сушильна машина авт.GWDS-FF8812D2W (біла,1200 об, 8 кг прання, 8 кг сушка) (GRUNHELM). Артикул: GWDS-FF8812D2W. Код 1С: 145902",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_145902.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -39126,7 +39160,9 @@ var PRODUCTS = [
     "price": 6959.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 24, Google Android TV 11.0 - 24H310-GA11 T2 SMART TV, color box (GRUNHELM). Артикул: 24H310-GA11 T2 SMART TV, color box. Код 1С: 146599",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146599.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -39325,7 +39361,9 @@ var PRODUCTS = [
     "price": 8249.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 32, Google Android TV 11.0 - 32H310-GA11V T2 SMART TV, G7W, color box (GRUNHELM). Артикул: 32H310-GA11V T2 SMART TV, G7W, color box. Код 1С: 146601",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146601.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -39455,7 +39493,9 @@ var PRODUCTS = [
     "price": 6959.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 32, Non-Smart TV - 32H545-T2 (GRUNHELM). Артикул: 32H545-T2. Код 1С: 148983",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148983.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -39650,7 +39690,9 @@ var PRODUCTS = [
     "price": 11729.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 43, AOSP Android 14 - 43GHF-2514AV  DDR 1G, Flash 8G, Voice RC, Frameless, SMART FHD (GH). Артикул: 43 AOSP Android 14. Код 1С: 146874",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146874.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -39782,7 +39824,9 @@ var PRODUCTS = [
     "price": 12399.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 43, Google TV 5.0 - 43F550 SMART TV, T2, FHD, голосове керування, металева безр (GRUNHELM). Артикул: 43F550 SMART TV, T2, FHD. Код 1С: 148987",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148987.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -39803,7 +39847,9 @@ var PRODUCTS = [
     "price": 14999.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 43, Google TV 5.0 - 43U550 SMART TV, T2, UHD, голосове керування, металева безр (GRUNHELM). Артикул: 43U550 SMART TV, T2, UHD. Код 1С: 148988",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148988.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40239,7 +40285,9 @@ var PRODUCTS = [
     "price": 67899.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Телевізор 85, Google TV 5.0 - Q85U801-GTV5V T2 SMART TV, QLED, UHD, voice RC (GRUNHELM). Артикул: Q85U801-GTV5V. Код 1С: 147941",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_147941.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40850,7 +40898,9 @@ var PRODUCTS = [
     "price": 19299.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N181М55-G,(графiт, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: BRH-N181М55-G. Код 1С: 149331",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_149331.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40871,7 +40921,9 @@ var PRODUCTS = [
     "price": 19299.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N181М55-HG,(графiт, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: BRH-N181М55-HG. Код 1С: 149333",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_149333.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40892,7 +40944,9 @@ var PRODUCTS = [
     "price": 18259.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N181М55-HW,(білий, двухк.,нижн мороз, 181см) (GRUNHELM). Артикул: BRH-N181М55-HW. Код 1С: 149335",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_149335.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40936,7 +40990,9 @@ var PRODUCTS = [
     "price": 21289.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N186D60-W,(білий, двухк.,дисплей,,нижн мороз, 186см) (GRUNHELM). Артикул: BRH-N186D60-W. Код 1С: 148755",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_148755.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40957,7 +41013,9 @@ var PRODUCTS = [
     "price": 20949.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N186E60-G,(графiт, двухк.,нижн мороз, 186см) (GRUNHELM). Артикул: BRH-N186E60-G. Код 1С: 146476",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146476.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40978,7 +41036,9 @@ var PRODUCTS = [
     "price": 22549.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N186EI68-G,(графiт, двухк.,нижн мороз, 186см, iнвертор, 400л) (GRUNHELM). Артикул: BRH-N186EI68-G. Код 1С: 149337",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_149337.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -40999,7 +41059,9 @@ var PRODUCTS = [
     "price": 21949.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - BRH-N186EI68-W,(бiлий, двухк.,нижн мороз, 186см, iнвертор, 400л) (GRUNHELM). Артикул: BRH-N186EI68-W. Код 1С: 149339",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_149339.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -41204,7 +41266,9 @@ var PRODUCTS = [
     "price": 12969.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник BRH-S151E57-G (static, нижня мороз, 151см,графіт) (GRUNHELM). Артикул: BRH-S151E57-G. Код 1С: 144787",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_144787.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -41401,7 +41465,9 @@ var PRODUCTS = [
     "price": 30999.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - DDH-N177D91-DG, (графiт, SBS NF, 177см) (GRUNHELM). Артикул: DDH-N177D91-DG. Код 1С: 144785",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_144785.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -41445,7 +41511,9 @@ var PRODUCTS = [
     "price": 30729.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - MDH-N180D80-DG, (графiт, multi-door, NF, 180см) (GRUNHELM). Артикул: MDH-N180D80-DG. Код 1С: 146474",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_146474.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -41466,7 +41534,9 @@ var PRODUCTS = [
     "price": 29659.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - MDH-N185D80-G, (графiт, multi-door, NF, 185см) (GRUNHELM). Артикул: MDH-N185D80-G. Код 1С: 150394",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_150394.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
@@ -41487,7 +41557,9 @@ var PRODUCTS = [
     "price": 29659.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Холодильник - MDH-N185D80-MB, (металевий чорний, multi-door, NF, 185см) (GRUNHELM). Артикул: MDH-N185D80-MB. Код 1С: 151508",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_151508.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
