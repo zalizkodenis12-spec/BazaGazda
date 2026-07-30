@@ -35140,7 +35140,9 @@ var PRODUCTS = [
     "price": 4799.0,
     "oldPrice": null,
     "desc": "Оригінальний товар: Варильна поверхня GD-6036CB склокераміка, 4 конф. (GRUNHELM). Артикул: GD-6036CB. Код 1С: 153424",
-    "images": [],
+    "images": [
+      "assets/images/products/pt_153424.jpg"
+    ],
     "specs": [
       {
         "label": "Артикул",
