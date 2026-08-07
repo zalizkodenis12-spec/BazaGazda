@@ -5,11 +5,7 @@ var CATEGORIES = [
   { id:'technika',     name:'Техніка',        desc:'Велика та дрібна побутова', img:'assets/images/техніка.jpg' },
   { id:'budmaterialy', name:'Будматеріали',   desc:'Для ремонту та будівництва', img:'assets/images/будматеріали.jpg' },
   { id:'instrument',   name:'Інструмент',      desc:'Електроінструмент та набори', img:'assets/images/інструменти.jpg' },
-  { id:'dlyadomu',     name:'Для дому',      desc:'Посуд та побутова хімія', img:'assets/images/для  дому.jpg' },
-  { id:'sadovatehnika', name:'Садова техніка', desc:'Техніка для саду та городу', img:'assets/images/інструменти.jpg' },
-  { id:'gospodarchi',  name:'Господарчі товари', desc:'Все для господарства', img:'assets/images/для  дому.jpg' },
-  { id:'transport',    name:'Мото/Вело транспорт', desc:'Електротранспорт та інше', img:'assets/images/техніка.jpg' },
-  { id:'ruchniy',      name:'Ручний інструмент', desc:'Витратний та ручний інструмент', img:'assets/images/інструменти.jpg' }
+  { id:'dlyadomu',     name:'Для дому',      desc:'Посуд та побутова хімія', img:'assets/images/для  дому.jpg' }
 ];
 
 var SUBCATEGORIES = {
@@ -18,15 +14,28 @@ var SUBCATEGORIES = {
         { id: 'velyka', name: 'Велика побутова техніка', img: 'assets/images/category/technika_velyka.png' },
         { id: 'dribna', name: 'Дрібна побутова техніка', img: 'assets/images/category/technika_dribna.png' },
         { id: 'klimat', name: 'Кліматична техніка', img: 'assets/images/category/technika_klimat.png' },
-        { id: 'vbudovana', name: 'Вбудована техніка', img: 'assets/images/category/technika_vbudovana.png' }
+        { id: 'vbudovana', name: 'Вбудована техніка', img: 'assets/images/category/technika_vbudovana.png' },
+        { id: 'transport', name: 'Мото та вело транспорт', img: 'assets/images/category/technika_velyka.png' }
     ],
-    'budmaterialy': [ { id: 'all', name: 'Всі' } ],
-    'instrument': [ { id: 'all', name: 'Всі' } ],
-    'dlyadomu': [ { id: 'all', name: 'Всі' } ],
-    'sadovatehnika': [ { id: 'all', name: 'Всі' } ],
-    'gospodarchi': [ { id: 'all', name: 'Всі' } ],
-    'transport': [ { id: 'all', name: 'Всі' } ],
-    'ruchniy': [ { id: 'all', name: 'Всі' } ]
+    'budmaterialy': [ 
+        { id: 'all', name: 'Всі' }
+    ],
+    'instrument': [ 
+        { id: 'all', name: 'Всі' },
+        { id: 'sadovatehnika', name: 'Садова техніка', img: 'assets/images/category/technika_velyka.png' },
+        { id: 'ruchniy', name: 'Ручний інструмент', img: 'assets/images/category/technika_velyka.png' }
+    ],
+    'dlyadomu': [ 
+        { id: 'all', name: 'Всі' },
+        { id: 'kastryuli', name: 'Каструлі та ковші', img: 'assets/images/category/posud_kastryuli.png' },
+        { id: 'skovorody', name: 'Сковороди', img: 'assets/images/category/posud_skovorody.png' },
+        { id: 'chainiky', name: 'Чайники', img: 'assets/images/category/posud_chainiky.png' },
+        { id: 'formy', name: 'Форми для випічки', img: 'assets/images/category/posud_formy.png' },
+        { id: 'kuhonne', name: 'Кухонне приладдя', img: 'assets/images/category/posud_kuhonne.png' },
+        { id: 'kavovarky', name: 'Кавоварки та турки', img: 'assets/images/category/posud_kavovarky.png' },
+        { id: 'nozhi', name: 'Ножі та дошки', img: 'assets/images/category/posud_nozhi.png' },
+        { id: 'gospodarchi', name: 'Господарчі товари', img: 'assets/images/category/technika_velyka.png' }
+    ]
 };
 
 // available: true = В наявності, false = Під замовлення
@@ -42044,8 +42053,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -42063,8 +42072,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -42082,8 +42091,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -42101,8 +42110,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -42120,8 +42129,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -42139,8 +42148,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -42158,8 +42167,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -42177,8 +42186,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -42196,8 +42205,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -42215,8 +42224,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -42234,8 +42243,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -42253,8 +42262,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -42272,8 +42281,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -42291,8 +42300,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -42310,8 +42319,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -42329,8 +42338,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -42348,8 +42357,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -42367,8 +42376,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -42386,8 +42395,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -42405,8 +42414,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -42424,8 +42433,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -42443,8 +42452,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -42462,8 +42471,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -42481,8 +42490,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -42500,8 +42509,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -42519,8 +42528,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -42538,8 +42547,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -42557,8 +42566,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -42576,8 +42585,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -42595,8 +42604,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -42614,8 +42623,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -42633,8 +42642,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -42652,8 +42661,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -42671,8 +42680,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -42690,8 +42699,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -42709,8 +42718,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -42728,8 +42737,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -42747,8 +42756,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -42766,8 +42775,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -42785,8 +42794,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -42804,8 +42813,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -42823,8 +42832,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -42842,8 +42851,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -42861,8 +42870,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -42880,8 +42889,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -42899,8 +42908,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -42918,8 +42927,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -42937,8 +42946,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -42956,8 +42965,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -42975,8 +42984,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -42994,8 +43003,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -43013,8 +43022,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -43032,8 +43041,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -43051,8 +43060,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -43070,8 +43079,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -43089,8 +43098,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -43108,8 +43117,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -43127,8 +43136,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -43146,8 +43155,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -43165,8 +43174,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -43184,8 +43193,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -43203,8 +43212,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -43222,8 +43231,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -43241,8 +43250,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -43260,8 +43269,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -43279,8 +43288,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -43298,8 +43307,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -43317,8 +43326,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -43336,8 +43345,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -43355,8 +43364,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -43374,8 +43383,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -43393,8 +43402,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -43412,8 +43421,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -43431,8 +43440,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -43450,8 +43459,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -43469,8 +43478,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -43488,8 +43497,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -43507,8 +43516,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -43526,8 +43535,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -43545,8 +43554,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -43564,8 +43573,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -43583,8 +43592,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -43602,8 +43611,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -43621,8 +43630,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -43640,8 +43649,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -43659,8 +43668,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -43678,8 +43687,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -43697,8 +43706,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -43716,8 +43725,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -43735,8 +43744,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -43754,8 +43763,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -43773,8 +43782,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -43792,8 +43801,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -43811,8 +43820,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -43830,8 +43839,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -43849,8 +43858,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -43868,8 +43877,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -43887,8 +43896,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -43906,8 +43915,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -43925,8 +43934,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -43944,8 +43953,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -43963,8 +43972,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -43982,8 +43991,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -44001,8 +44010,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -44020,8 +44029,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -44039,8 +44048,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -44058,8 +44067,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -44077,8 +44086,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -44096,8 +44105,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -44115,8 +44124,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -44134,8 +44143,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -44153,8 +44162,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -44172,8 +44181,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -44191,8 +44200,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -44210,8 +44219,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -44229,8 +44238,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -44248,8 +44257,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -44286,8 +44295,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -44305,8 +44314,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -44324,8 +44333,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "sadovatehnika",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "sadovatehnika",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -48637,8 +48646,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -48656,8 +48665,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -48675,8 +48684,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -48694,8 +48703,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -48713,8 +48722,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -48732,8 +48741,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -48751,8 +48760,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -48770,8 +48779,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -48789,8 +48798,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -48808,8 +48817,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -48827,8 +48836,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -48846,8 +48855,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -48865,8 +48874,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -48884,8 +48893,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -48903,8 +48912,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -48922,8 +48931,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -48941,8 +48950,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -48960,8 +48969,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -48979,8 +48988,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -48998,8 +49007,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -49017,8 +49026,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -49036,8 +49045,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -49055,8 +49064,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -49074,8 +49083,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -49093,8 +49102,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -49112,8 +49121,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -49131,8 +49140,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -49150,8 +49159,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -49169,8 +49178,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -49188,8 +49197,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -49207,8 +49216,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -49226,8 +49235,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -49245,8 +49254,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -49264,8 +49273,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -49283,8 +49292,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -49302,8 +49311,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -49321,8 +49330,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -49340,8 +49349,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -49359,8 +49368,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -49378,8 +49387,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -49397,8 +49406,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -49416,8 +49425,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -49435,8 +49444,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -49454,8 +49463,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -49473,8 +49482,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -49492,8 +49501,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -49511,8 +49520,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -49530,8 +49539,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -49549,8 +49558,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -49568,8 +49577,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -49587,8 +49596,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -49606,8 +49615,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -49625,8 +49634,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -49644,8 +49653,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -49663,8 +49672,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -49682,8 +49691,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -49701,8 +49710,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -49720,8 +49729,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -49739,8 +49748,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -49758,8 +49767,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -49777,8 +49786,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -49796,8 +49805,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -49815,8 +49824,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -49834,8 +49843,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -49853,8 +49862,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -49872,8 +49881,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -49891,8 +49900,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -49910,8 +49919,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -49929,8 +49938,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -49948,8 +49957,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -49967,8 +49976,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -49986,8 +49995,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -50005,8 +50014,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -50024,8 +50033,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -50043,8 +50052,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -50062,8 +50071,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -50081,8 +50090,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -50100,8 +50109,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -50119,8 +50128,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -50138,8 +50147,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -50157,8 +50166,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -50176,8 +50185,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -50195,8 +50204,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -50214,8 +50223,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -50233,8 +50242,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -50252,8 +50261,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -50271,8 +50280,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -50290,8 +50299,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -50309,8 +50318,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -50328,8 +50337,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -50347,8 +50356,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -50366,8 +50375,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -50385,8 +50394,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -50404,8 +50413,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -50423,8 +50432,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -50442,8 +50451,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -50461,8 +50470,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -50480,8 +50489,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -50499,8 +50508,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -50518,8 +50527,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -50537,8 +50546,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -50556,8 +50565,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -50575,8 +50584,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -50594,8 +50603,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -50613,8 +50622,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -50632,8 +50641,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -50651,8 +50660,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -50670,8 +50679,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -50689,8 +50698,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -50708,8 +50717,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -50727,8 +50736,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -50746,8 +50755,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -50765,8 +50774,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -50784,8 +50793,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -50803,8 +50812,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -50822,8 +50831,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -50841,8 +50850,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -50860,8 +50869,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -50872,1222 +50881,6 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "145477"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_43688",
-    "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 26704,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
-    "images": [
-      "assets/images/products/bp_43688.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43688"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_119449",
-    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "gospodarchi",
-    "subcategory": "all",
-    "price": 51584,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
-    "images": [
-      "assets/images/products/bp_119449.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "119449"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145476",
-    "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "gospodarchi",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
-    "images": [
-      "assets/images/products/bp_145476.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145476"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124467",
-    "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 56096,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
-    "images": [
-      "assets/images/products/bp_124467.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124467"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_63224",
-    "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 9789,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
-    "images": [
-      "assets/images/products/bp_63224.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "63224"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44067",
-    "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12035,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
-    "images": [
-      "assets/images/products/bp_44067.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44067"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44907",
-    "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 30010,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
-    "images": [
-      "assets/images/products/bp_44907.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44907"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_43689",
-    "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 13016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
-    "images": [
-      "assets/images/products/bp_43689.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43689"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_88870",
-    "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 10429,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
-    "images": [
-      "assets/images/products/bp_88870.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "88870"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44892",
-    "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 32664,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
-    "images": [
-      "assets/images/products/bp_44892.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44892"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_30750",
-    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 53129,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
-    "images": [
-      "assets/images/products/bp_30750.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "30750"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_33939",
-    "name": "Мотообприскувач Forte 3WF-3",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 60818189,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
-    "images": [
-      "assets/images/products/bp_33939.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "33939"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_43690",
-    "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5244166734,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
-    "images": [
-      "assets/images/products/bp_43690.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43690"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_33940",
-    "name": "Мотообприскувач Forte 3W-650",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 6694,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
-    "images": [
-      "assets/images/products/bp_33940.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "33940"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141020",
-    "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 1805,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
-    "images": [
-      "assets/images/products/bp_141020.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141020"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_37344",
-    "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14383228,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
-    "images": [
-      "assets/images/products/bp_37344.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "37344"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_133072",
-    "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14851259,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
-    "images": [
-      "assets/images/products/bp_133072.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "133072"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141019",
-    "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14617247,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
-    "images": [
-      "assets/images/products/bp_141019.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141019"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141018",
-    "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14383232,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
-    "images": [
-      "assets/images/products/bp_141018.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141018"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_81441",
-    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
-    "images": [
-      "assets/images/products/bp_81441.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "81441"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_121871",
-    "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
-    "images": [
-      "assets/images/products/bp_121871.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "121871"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_107867",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
-    "images": [
-      "assets/images/products/bp_107867.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "107867"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141014",
-    "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 13105124,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
-    "images": [
-      "assets/images/products/bp_141014.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141014"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_70202",
-    "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
-    "images": [
-      "assets/images/products/bp_70202.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "70202"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_133783",
-    "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
-    "images": [
-      "assets/images/products/bp_133783.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "133783"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141013",
-    "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12637079,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
-    "images": [
-      "assets/images/products/bp_141013.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141013"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_132022",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12403061,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
-    "images": [
-      "assets/images/products/bp_132022.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "132022"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_109229",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12115034,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
-    "images": [
-      "assets/images/products/bp_109229.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "109229"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141017",
-    "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12115034,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
-    "images": [
-      "assets/images/products/bp_141017.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141017"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_151467",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 11881013,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
-    "images": [
-      "assets/images/products/bp_151467.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "151467"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_153615",
-    "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 1565922987,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
-    "images": [
-      "assets/images/products/bp_153615.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "153615"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141016",
-    "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 11881016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
-    "images": [
-      "assets/images/products/bp_141016.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141016"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152868",
-    "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
-    "images": [
-      "assets/images/products/bp_152868.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152868"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141012",
-    "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12115034,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
-    "images": [
-      "assets/images/products/bp_141012.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141012"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152870",
-    "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
-    "images": [
-      "assets/images/products/bp_152870.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152870"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152876",
-    "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3203127900,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
-    "images": [
-      "assets/images/products/bp_152876.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152876"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152869",
-    "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
-    "images": [
-      "assets/images/products/bp_152869.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152869"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152877",
-    "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3203127900,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
-    "images": [
-      "assets/images/products/bp_152877.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152877"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148740",
-    "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
-    "images": [
-      "assets/images/products/bp_148740.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148740"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145457",
-    "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
-    "images": [
-      "assets/images/products/bp_145457.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145457"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148738",
-    "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
-    "images": [
-      "assets/images/products/bp_148738.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148738"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148739",
-    "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
-    "images": [
-      "assets/images/products/bp_148739.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148739"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145456",
-    "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
-    "images": [
-      "assets/images/products/bp_145456.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145456"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145458",
-    "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
-    "images": [
-      "assets/images/products/bp_145458.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145458"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145776",
-    "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
-    "images": [
-      "assets/images/products/bp_145776.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145776"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145463",
-    "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
-    "images": [
-      "assets/images/products/bp_145463.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145463"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_134949",
-    "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 48360,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
-    "images": [
-      "assets/images/products/bp_134949.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "134949"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145778",
-    "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
-    "images": [
-      "assets/images/products/bp_145778.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145778"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124597",
-    "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 48406,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
-    "images": [
-      "assets/images/products/bp_124597.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124597"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124595",
-    "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 48406,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
-    "images": [
-      "assets/images/products/bp_124595.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124595"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146147",
-    "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158484100,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
-    "images": [
-      "assets/images/products/bp_146147.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146147"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146149",
-    "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158484100,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
-    "images": [
-      "assets/images/products/bp_146149.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146149"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145777",
-    "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
-    "images": [
-      "assets/images/products/bp_145777.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145777"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146145",
-    "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158484100,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
-    "images": [
-      "assets/images/products/bp_146145.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146145"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146210",
-    "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
-    "images": [
-      "assets/images/products/bp_146210.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146210"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146207",
-    "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
-    "images": [
-      "assets/images/products/bp_146207.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146207"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146208",
-    "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
-    "images": [
-      "assets/images/products/bp_146208.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146208"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145477",
-    "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
-    "images": [
-      "assets/images/products/bp_145477.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145477"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146209",
-    "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
-    "images": [
-      "assets/images/products/bp_146209.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146209"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_119449",
-    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 51584,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
-    "images": [
-      "assets/images/products/bp_119449.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "119449"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145475",
-    "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
-    "images": [
-      "assets/images/products/bp_145475.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145475"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145476",
-    "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
-    "images": [
-      "assets/images/products/bp_145476.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145476"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44067",
-    "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12035,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
-    "images": [
-      "assets/images/products/bp_44067.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44067"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124467",
-    "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 56096,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
-    "images": [
-      "assets/images/products/bp_124467.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124467"
       }
     ],
     "available": false
@@ -52112,20 +50905,58 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_44907",
-    "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 30010,
+    "id": "bp_119449",
+    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
+    "price": 51584,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
+    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
     "images": [
-      "assets/images/products/bp_44907.jpg"
+      "assets/images/products/bp_119449.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "44907"
+        "value": "119449"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145476",
+    "name": "Квадроцикл FORTE AFN150 PRO Чорний",
+    "category": "dlyadomu",
+    "subcategory": "gospodarchi",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
+    "images": [
+      "assets/images/products/bp_145476.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145476"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124467",
+    "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 56096,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
+    "images": [
+      "assets/images/products/bp_124467.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124467"
       }
     ],
     "available": false
@@ -52150,20 +50981,39 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_88870",
-    "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
+    "id": "bp_44067",
+    "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
     "category": "instrument",
     "subcategory": "all",
-    "price": 10429,
+    "price": 12035,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
+    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
     "images": [
-      "assets/images/products/bp_88870.jpg"
+      "assets/images/products/bp_44067.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "88870"
+        "value": "44067"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_44907",
+    "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 30010,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
+    "images": [
+      "assets/images/products/bp_44907.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44907"
       }
     ],
     "available": false
@@ -52188,6 +51038,25 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_88870",
+    "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 10429,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
+    "images": [
+      "assets/images/products/bp_88870.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "88870"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
     "category": "instrument",
@@ -52207,20 +51076,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_43690",
-    "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
+    "id": "bp_30750",
+    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5244166734,
+    "price": 53129,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
+    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
     "images": [
-      "assets/images/products/bp_43690.jpg"
+      "assets/images/products/bp_30750.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "43690"
+        "value": "30750"
       }
     ],
     "available": false
@@ -52245,6 +51114,25 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_43690",
+    "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5244166734,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
+    "images": [
+      "assets/images/products/bp_43690.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43690"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
     "category": "instrument",
@@ -52259,25 +51147,6 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "33940"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_133072",
-    "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14851259,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
-    "images": [
-      "assets/images/products/bp_133072.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "133072"
       }
     ],
     "available": false
@@ -52321,20 +51190,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_30750",
-    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
+    "id": "bp_133072",
+    "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
     "category": "instrument",
     "subcategory": "all",
-    "price": 53129,
+    "price": 14851259,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
+    "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
     "images": [
-      "assets/images/products/bp_30750.jpg"
+      "assets/images/products/bp_133072.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "30750"
+        "value": "133072"
       }
     ],
     "available": false
@@ -52359,25 +51228,6 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_81441",
-    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
-    "images": [
-      "assets/images/products/bp_81441.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "81441"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
     "category": "instrument",
@@ -52392,6 +51242,25 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "141018"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_81441",
+    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
+    "images": [
+      "assets/images/products/bp_81441.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "81441"
       }
     ],
     "available": false
@@ -52416,25 +51285,6 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_70202",
-    "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
-    "images": [
-      "assets/images/products/bp_70202.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "70202"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
     "category": "instrument",
@@ -52449,25 +51299,6 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "107867"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141013",
-    "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 12637079,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
-    "images": [
-      "assets/images/products/bp_141013.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141013"
       }
     ],
     "available": false
@@ -52492,20 +51323,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_109229",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
+    "id": "bp_70202",
+    "name": "Обприскувач акумуляторний Forte CL-12A",
     "category": "instrument",
     "subcategory": "all",
-    "price": 12115034,
+    "price": 13393151,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
     "images": [
-      "assets/images/products/bp_109229.jpg"
+      "assets/images/products/bp_70202.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "109229"
+        "value": "70202"
       }
     ],
     "available": false
@@ -52530,6 +51361,25 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_141013",
+    "name": "Оприскувач акумуляторний CL-9R Forte",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 12637079,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
+    "images": [
+      "assets/images/products/bp_141013.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141013"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
     "category": "instrument",
@@ -52544,6 +51394,25 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "132022"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_109229",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
+    "images": [
+      "assets/images/products/bp_109229.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "109229"
       }
     ],
     "available": false
@@ -52568,6 +51437,44 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_151467",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 11881013,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
+    "images": [
+      "assets/images/products/bp_151467.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "151467"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_153615",
+    "name": "Квадроцикл FORTE AX49 Зелений",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 1565922987,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
+    "images": [
+      "assets/images/products/bp_153615.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "153615"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
     "category": "instrument",
@@ -52582,6 +51489,25 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "141016"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152868",
+    "name": "Квадроцикл FORTE AU110 Жовтий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
+    "images": [
+      "assets/images/products/bp_152868.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152868"
       }
     ],
     "available": false
@@ -52606,25 +51532,6 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_151467",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 11881013,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
-    "images": [
-      "assets/images/products/bp_151467.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "151467"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
     "category": "instrument",
@@ -52639,25 +51546,6 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "152870"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152868",
-    "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
-    "images": [
-      "assets/images/products/bp_152868.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152868"
       }
     ],
     "available": false
@@ -52701,44 +51589,6 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_148738",
-    "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
-    "images": [
-      "assets/images/products/bp_148738.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148738"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_153615",
-    "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 1565922987,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
-    "images": [
-      "assets/images/products/bp_153615.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "153615"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
     "category": "instrument",
@@ -52777,20 +51627,39 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_145456",
-    "name": "Квадроцикл FORTE AFP125 синій",
+    "id": "bp_145457",
+    "name": "Квадроцикл FORTE AFP125 червоний",
     "category": "instrument",
     "subcategory": "all",
     "price": 47439,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
     "images": [
-      "assets/images/products/bp_145456.jpg"
+      "assets/images/products/bp_145457.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "145456"
+        "value": "145457"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148738",
+    "name": "Квадроцикл FORTE AF125 Зелений",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
+    "images": [
+      "assets/images/products/bp_148738.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148738"
       }
     ],
     "available": false
@@ -52815,20 +51684,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_145457",
-    "name": "Квадроцикл FORTE AFP125 червоний",
+    "id": "bp_145456",
+    "name": "Квадроцикл FORTE AFP125 синій",
     "category": "instrument",
     "subcategory": "all",
     "price": 47439,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
     "images": [
-      "assets/images/products/bp_145457.jpg"
+      "assets/images/products/bp_145456.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "145457"
+        "value": "145456"
       }
     ],
     "available": false
@@ -52853,20 +51722,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_145777",
-    "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
+    "id": "bp_145776",
+    "name": "Квадроцикл FORTE AFF125 PRO жовтий",
     "category": "instrument",
     "subcategory": "all",
     "price": 4836096960,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
     "images": [
-      "assets/images/products/bp_145777.jpg"
+      "assets/images/products/bp_145776.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "145777"
+        "value": "145776"
       }
     ],
     "available": false
@@ -52891,6 +51760,25 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_134949",
+    "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 48360,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
+    "images": [
+      "assets/images/products/bp_134949.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "134949"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
     "category": "instrument",
@@ -52905,44 +51793,6 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "145778"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145776",
-    "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
-    "images": [
-      "assets/images/products/bp_145776.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145776"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124595",
-    "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 48406,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
-    "images": [
-      "assets/images/products/bp_124595.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124595"
       }
     ],
     "available": false
@@ -52967,20 +51817,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_146149",
-    "name": "Квадроцикл FORTE AFN125 PRO Зелений",
+    "id": "bp_124595",
+    "name": "Квадроцикл FORTE ATV125F біло-червоний",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5158484100,
+    "price": 48406,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
+    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
     "images": [
-      "assets/images/products/bp_146149.jpg"
+      "assets/images/products/bp_124595.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "146149"
+        "value": "124595"
       }
     ],
     "available": false
@@ -53005,39 +51855,39 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_146210",
-    "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
+    "id": "bp_146149",
+    "name": "Квадроцикл FORTE AFN125 PRO Зелений",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5158485016,
+    "price": 5158484100,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
     "images": [
-      "assets/images/products/bp_146210.jpg"
+      "assets/images/products/bp_146149.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "146210"
+        "value": "146149"
       }
     ],
     "available": false
   },
   {
-    "id": "bp_134949",
-    "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
+    "id": "bp_145777",
+    "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
     "category": "instrument",
     "subcategory": "all",
-    "price": 48360,
+    "price": 4836096960,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
     "images": [
-      "assets/images/products/bp_134949.jpg"
+      "assets/images/products/bp_145777.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "134949"
+        "value": "145777"
       }
     ],
     "available": false
@@ -53062,39 +51912,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_146208",
-    "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
+    "id": "bp_146210",
+    "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
     "category": "instrument",
     "subcategory": "all",
     "price": 5158485016,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
     "images": [
-      "assets/images/products/bp_146208.jpg"
+      "assets/images/products/bp_146210.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "146208"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146209",
-    "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "instrument",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
-    "images": [
-      "assets/images/products/bp_146209.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146209"
+        "value": "146210"
       }
     ],
     "available": false
@@ -53119,20 +51950,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_119449",
-    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
+    "id": "bp_146208",
+    "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
     "category": "instrument",
     "subcategory": "all",
-    "price": 51584,
+    "price": 5158485016,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
     "images": [
-      "assets/images/products/bp_119449.jpg"
+      "assets/images/products/bp_146208.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "119449"
+        "value": "146208"
       }
     ],
     "available": false
@@ -53152,6 +51983,44 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "145477"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146209",
+    "name": "Квадроцикл FORTE AFP125 PRO червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
+    "images": [
+      "assets/images/products/bp_146209.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146209"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_119449",
+    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 51584,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
+    "images": [
+      "assets/images/products/bp_119449.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "119449"
       }
     ],
     "available": false
@@ -53195,28 +52064,9 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_43688",
-    "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 26704,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
-    "images": [
-      "assets/images/products/bp_43688.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43688"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 12035,
     "oldPrice": null,
@@ -53235,7 +52085,7 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 56096,
     "oldPrice": null,
@@ -53252,9 +52102,28 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_43688",
+    "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 26704,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
+    "images": [
+      "assets/images/products/bp_43688.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43688"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 30010,
     "oldPrice": null,
@@ -53271,28 +52140,9 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_43689",
-    "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 13016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
-    "images": [
-      "assets/images/products/bp_43689.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43689"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 9789,
     "oldPrice": null,
@@ -53311,7 +52161,7 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 10429,
     "oldPrice": null,
@@ -53328,9 +52178,28 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_43689",
+    "name": "Генератор бензиновий 3 кВт Форте FG3800",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 13016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
+    "images": [
+      "assets/images/products/bp_43689.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43689"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 32664,
     "oldPrice": null,
@@ -53347,28 +52216,9 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_33940",
-    "name": "Мотообприскувач Forte 3W-650",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 6694,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
-    "images": [
-      "assets/images/products/bp_33940.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "33940"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 5244166734,
     "oldPrice": null,
@@ -53385,28 +52235,9 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_30750",
-    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 53129,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
-    "images": [
-      "assets/images/products/bp_30750.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "30750"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 60818189,
     "oldPrice": null,
@@ -53423,20 +52254,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_141019",
-    "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "transport",
+    "id": "bp_33940",
+    "name": "Мотообприскувач Forte 3W-650",
+    "category": "instrument",
     "subcategory": "all",
-    "price": 14617247,
+    "price": 6694,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
+    "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
     "images": [
-      "assets/images/products/bp_141019.jpg"
+      "assets/images/products/bp_33940.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "141019"
+        "value": "33940"
       }
     ],
     "available": false
@@ -53444,7 +52275,7 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 14851259,
     "oldPrice": null,
@@ -53461,85 +52292,9 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_141018",
-    "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 14383232,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
-    "images": [
-      "assets/images/products/bp_141018.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141018"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_37344",
-    "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 14383228,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
-    "images": [
-      "assets/images/products/bp_37344.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "37344"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_81441",
-    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
-    "images": [
-      "assets/images/products/bp_81441.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "81441"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_121871",
-    "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
-    "images": [
-      "assets/images/products/bp_121871.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "121871"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 1805,
     "oldPrice": null,
@@ -53556,20 +52311,115 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_107867",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "transport",
+    "id": "bp_37344",
+    "name": "Обприскувач акумуляторний Forte CL-16A",
+    "category": "instrument",
     "subcategory": "all",
-    "price": 13393151,
+    "price": 14383228,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
     "images": [
-      "assets/images/products/bp_107867.jpg"
+      "assets/images/products/bp_37344.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "107867"
+        "value": "37344"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_30750",
+    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 53129,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
+    "images": [
+      "assets/images/products/bp_30750.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "30750"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141019",
+    "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 14617247,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
+    "images": [
+      "assets/images/products/bp_141019.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141019"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_81441",
+    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
+    "images": [
+      "assets/images/products/bp_81441.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "81441"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141018",
+    "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 14383232,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
+    "images": [
+      "assets/images/products/bp_141018.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141018"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_121871",
+    "name": "Обприскувач акумуляторний Forte KF-16",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
+    "images": [
+      "assets/images/products/bp_121871.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "121871"
       }
     ],
     "available": false
@@ -53577,7 +52427,7 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 13393151,
     "oldPrice": null,
@@ -53594,39 +52444,20 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_133783",
-    "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "transport",
+    "id": "bp_107867",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
+    "category": "instrument",
     "subcategory": "all",
     "price": 13393151,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
     "images": [
-      "assets/images/products/bp_133783.jpg"
+      "assets/images/products/bp_107867.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "133783"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141014",
-    "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 13105124,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
-    "images": [
-      "assets/images/products/bp_141014.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141014"
+        "value": "107867"
       }
     ],
     "available": false
@@ -53634,7 +52465,7 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 12637079,
     "oldPrice": null,
@@ -53651,9 +52482,28 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_141014",
+    "name": "Оприскувач акумуляторний CL-12R Forte",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 13105124,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
+    "images": [
+      "assets/images/products/bp_141014.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141014"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 12115034,
     "oldPrice": null,
@@ -53670,9 +52520,28 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_133783",
+    "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
+    "images": [
+      "assets/images/products/bp_133783.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "133783"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 12403061,
     "oldPrice": null,
@@ -53691,7 +52560,7 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 12115034,
     "oldPrice": null,
@@ -53708,9 +52577,28 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_141016",
+    "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 11881016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
+    "images": [
+      "assets/images/products/bp_141016.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141016"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 12115034,
     "oldPrice": null,
@@ -53729,7 +52617,7 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 11881013,
     "oldPrice": null,
@@ -53746,66 +52634,9 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_153615",
-    "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 1565922987,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
-    "images": [
-      "assets/images/products/bp_153615.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "153615"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141016",
-    "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 11881016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
-    "images": [
-      "assets/images/products/bp_141016.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141016"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152868",
-    "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
-    "images": [
-      "assets/images/products/bp_152868.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152868"
-      }
-    ],
-    "available": false
-  },
-  {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 3178018431,
     "oldPrice": null,
@@ -53822,20 +52653,39 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_152877",
-    "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "transport",
+    "id": "bp_152868",
+    "name": "Квадроцикл FORTE AU110 Жовтий",
+    "category": "instrument",
     "subcategory": "all",
-    "price": 3203127900,
+    "price": 3178018431,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
     "images": [
-      "assets/images/products/bp_152877.jpg"
+      "assets/images/products/bp_152868.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "152877"
+        "value": "152868"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152876",
+    "name": "Квадроцикл FORTE AFU110 Жовтий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 3203127900,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
+    "images": [
+      "assets/images/products/bp_152876.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152876"
       }
     ],
     "available": false
@@ -53843,7 +52693,7 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 3178018431,
     "oldPrice": null,
@@ -53862,7 +52712,7 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 3961022850,
     "oldPrice": null,
@@ -53879,58 +52729,39 @@ var PRODUCTS = [
     "available": false
   },
   {
-    "id": "bp_152876",
-    "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "transport",
+    "id": "bp_153615",
+    "name": "Квадроцикл FORTE AX49 Зелений",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 1565922987,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
+    "images": [
+      "assets/images/products/bp_153615.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "153615"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152877",
+    "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
+    "category": "instrument",
     "subcategory": "all",
     "price": 3203127900,
     "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
     "images": [
-      "assets/images/products/bp_152876.jpg"
+      "assets/images/products/bp_152877.jpg"
     ],
     "specs": [
       {
         "label": "Артикул",
-        "value": "152876"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148739",
-    "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
-    "images": [
-      "assets/images/products/bp_148739.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148739"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145457",
-    "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "transport",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
-    "images": [
-      "assets/images/products/bp_145457.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145457"
+        "value": "152877"
       }
     ],
     "available": false
@@ -53938,7 +52769,7 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
     "price": 3961022850,
     "oldPrice": null,
@@ -53957,8 +52788,1186 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "transport",
+    "category": "instrument",
     "subcategory": "all",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
+    "images": [
+      "assets/images/products/bp_145456.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145456"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148739",
+    "name": "Квадроцикл FORTE AF125 Помаранчевий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
+    "images": [
+      "assets/images/products/bp_148739.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148739"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145457",
+    "name": "Квадроцикл FORTE AFP125 червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
+    "images": [
+      "assets/images/products/bp_145457.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145457"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145458",
+    "name": "Квадроцикл FORTE AFP125 чорно-зелений",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
+    "images": [
+      "assets/images/products/bp_145458.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145458"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145777",
+    "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
+    "images": [
+      "assets/images/products/bp_145777.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145777"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145463",
+    "name": "Квадроцикл FORTE AFF125 PRO червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
+    "images": [
+      "assets/images/products/bp_145463.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145463"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145778",
+    "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
+    "images": [
+      "assets/images/products/bp_145778.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145778"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145776",
+    "name": "Квадроцикл FORTE AFF125 PRO жовтий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
+    "images": [
+      "assets/images/products/bp_145776.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145776"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124595",
+    "name": "Квадроцикл FORTE ATV125F біло-червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 48406,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
+    "images": [
+      "assets/images/products/bp_124595.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124595"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124597",
+    "name": "Квадроцикл FORTE ATV125F біло-синій",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 48406,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
+    "images": [
+      "assets/images/products/bp_124597.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124597"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146149",
+    "name": "Квадроцикл FORTE AFN125 PRO Зелений",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158484100,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
+    "images": [
+      "assets/images/products/bp_146149.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146149"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146147",
+    "name": "Квадроцикл FORTE AFN125 PRO Червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158484100,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
+    "images": [
+      "assets/images/products/bp_146147.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146147"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146210",
+    "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
+    "images": [
+      "assets/images/products/bp_146210.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146210"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_134949",
+    "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 48360,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
+    "images": [
+      "assets/images/products/bp_134949.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "134949"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146145",
+    "name": "Квадроцикл FORTE AFN125 PRO синій",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158484100,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
+    "images": [
+      "assets/images/products/bp_146145.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146145"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146208",
+    "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
+    "images": [
+      "assets/images/products/bp_146208.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146208"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146209",
+    "name": "Квадроцикл FORTE AFP125 PRO червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
+    "images": [
+      "assets/images/products/bp_146209.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146209"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146207",
+    "name": "Квадроцикл FORTE AFP125 PRO синій",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
+    "images": [
+      "assets/images/products/bp_146207.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146207"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_119449",
+    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 51584,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
+    "images": [
+      "assets/images/products/bp_119449.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "119449"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145477",
+    "name": "Квадроцикл FORTE AFN150 PRO Червоний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
+    "images": [
+      "assets/images/products/bp_145477.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145477"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145475",
+    "name": "Квадроцикл FORTE AFN150 PRO Синій",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
+    "images": [
+      "assets/images/products/bp_145475.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145475"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145476",
+    "name": "Квадроцикл FORTE AFN150 PRO Чорний",
+    "category": "instrument",
+    "subcategory": "all",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
+    "images": [
+      "assets/images/products/bp_145476.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145476"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_43688",
+    "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 26704,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
+    "images": [
+      "assets/images/products/bp_43688.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43688"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_44067",
+    "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 12035,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
+    "images": [
+      "assets/images/products/bp_44067.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44067"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124467",
+    "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 56096,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
+    "images": [
+      "assets/images/products/bp_124467.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124467"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_44907",
+    "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 30010,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
+    "images": [
+      "assets/images/products/bp_44907.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44907"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_43689",
+    "name": "Генератор бензиновий 3 кВт Форте FG3800",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 13016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
+    "images": [
+      "assets/images/products/bp_43689.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43689"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_63224",
+    "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 9789,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
+    "images": [
+      "assets/images/products/bp_63224.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "63224"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_88870",
+    "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 10429,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
+    "images": [
+      "assets/images/products/bp_88870.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "88870"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_44892",
+    "name": "Генератор бензиновий 6 кВт Форте FG8000E",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 32664,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
+    "images": [
+      "assets/images/products/bp_44892.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44892"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_33940",
+    "name": "Мотообприскувач Forte 3W-650",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 6694,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
+    "images": [
+      "assets/images/products/bp_33940.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "33940"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_43690",
+    "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 5244166734,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
+    "images": [
+      "assets/images/products/bp_43690.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43690"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_30750",
+    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 53129,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
+    "images": [
+      "assets/images/products/bp_30750.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "30750"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_33939",
+    "name": "Мотообприскувач Forte 3WF-3",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 60818189,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
+    "images": [
+      "assets/images/products/bp_33939.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "33939"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141019",
+    "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 14617247,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
+    "images": [
+      "assets/images/products/bp_141019.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141019"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_133072",
+    "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 14851259,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
+    "images": [
+      "assets/images/products/bp_133072.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "133072"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141018",
+    "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 14383232,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
+    "images": [
+      "assets/images/products/bp_141018.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141018"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_37344",
+    "name": "Обприскувач акумуляторний Forte CL-16A",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 14383228,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
+    "images": [
+      "assets/images/products/bp_37344.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "37344"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_81441",
+    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
+    "images": [
+      "assets/images/products/bp_81441.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "81441"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_121871",
+    "name": "Обприскувач акумуляторний Forte KF-16",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
+    "images": [
+      "assets/images/products/bp_121871.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "121871"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141020",
+    "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 1805,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
+    "images": [
+      "assets/images/products/bp_141020.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141020"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_107867",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
+    "images": [
+      "assets/images/products/bp_107867.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "107867"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_70202",
+    "name": "Обприскувач акумуляторний Forte CL-12A",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
+    "images": [
+      "assets/images/products/bp_70202.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "70202"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_133783",
+    "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
+    "images": [
+      "assets/images/products/bp_133783.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "133783"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141014",
+    "name": "Оприскувач акумуляторний CL-12R Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 13105124,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
+    "images": [
+      "assets/images/products/bp_141014.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141014"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141013",
+    "name": "Оприскувач акумуляторний CL-9R Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 12637079,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
+    "images": [
+      "assets/images/products/bp_141013.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141013"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_109229",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
+    "images": [
+      "assets/images/products/bp_109229.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "109229"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_132022",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 12403061,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
+    "images": [
+      "assets/images/products/bp_132022.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "132022"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141017",
+    "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
+    "images": [
+      "assets/images/products/bp_141017.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141017"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141012",
+    "name": "Оприскувач акумуляторний CL-6R Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
+    "images": [
+      "assets/images/products/bp_141012.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141012"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_151467",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 11881013,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
+    "images": [
+      "assets/images/products/bp_151467.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "151467"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_153615",
+    "name": "Квадроцикл FORTE AX49 Зелений",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 1565922987,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
+    "images": [
+      "assets/images/products/bp_153615.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "153615"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141016",
+    "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 11881016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
+    "images": [
+      "assets/images/products/bp_141016.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141016"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152868",
+    "name": "Квадроцикл FORTE AU110 Жовтий",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
+    "images": [
+      "assets/images/products/bp_152868.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152868"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152870",
+    "name": "Квадроцикл FORTE AU110 Червоний",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
+    "images": [
+      "assets/images/products/bp_152870.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152870"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152877",
+    "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3203127900,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
+    "images": [
+      "assets/images/products/bp_152877.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152877"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152869",
+    "name": "Квадроцикл FORTE AU110 Помаранчевий",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
+    "images": [
+      "assets/images/products/bp_152869.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152869"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148738",
+    "name": "Квадроцикл FORTE AF125 Зелений",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
+    "images": [
+      "assets/images/products/bp_148738.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148738"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152876",
+    "name": "Квадроцикл FORTE AFU110 Жовтий",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3203127900,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
+    "images": [
+      "assets/images/products/bp_152876.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152876"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148739",
+    "name": "Квадроцикл FORTE AF125 Помаранчевий",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
+    "images": [
+      "assets/images/products/bp_148739.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148739"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145457",
+    "name": "Квадроцикл FORTE AFP125 червоний",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
+    "images": [
+      "assets/images/products/bp_145457.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145457"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148740",
+    "name": "Квадроцикл FORTE AF125 червоний",
+    "category": "technika",
+    "subcategory": "transport",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
+    "images": [
+      "assets/images/products/bp_148740.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148740"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145456",
+    "name": "Квадроцикл FORTE AFP125 синій",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -53995,8 +54004,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -54014,8 +54023,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -54033,8 +54042,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -54052,8 +54061,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -54071,8 +54080,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -54090,8 +54099,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -54109,8 +54118,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -54128,8 +54137,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -54147,8 +54156,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -54166,8 +54175,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -54185,8 +54194,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -54204,8 +54213,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -54223,8 +54232,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -54242,8 +54251,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -54261,8 +54270,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -54280,8 +54289,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -54299,8 +54308,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -54318,8 +54327,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -54337,8 +54346,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -54356,8 +54365,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -54375,8 +54384,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -54394,8 +54403,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -54413,8 +54422,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -54432,8 +54441,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -54451,8 +54460,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -54470,8 +54479,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -54489,8 +54498,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -54508,8 +54517,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -54527,8 +54536,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -54546,8 +54555,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -54565,8 +54574,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -54584,8 +54593,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -54603,8 +54612,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -54622,8 +54631,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -54641,8 +54650,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -54660,8 +54669,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -54679,8 +54688,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -54698,8 +54707,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -54717,8 +54726,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -54736,8 +54745,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -54755,8 +54764,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -54774,8 +54783,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -54793,8 +54802,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -54812,8 +54821,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -54831,8 +54840,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -54850,8 +54859,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -54869,8 +54878,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -54888,8 +54897,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -54907,8 +54916,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -54926,8 +54935,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -54945,8 +54954,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -54964,8 +54973,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -54983,8 +54992,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -55002,8 +55011,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -55021,8 +55030,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -55040,8 +55049,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -55059,8 +55068,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -55078,8 +55087,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -55097,8 +55106,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -55116,8 +55125,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -55135,8 +55144,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -55154,8 +55163,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -55173,8 +55182,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -55192,8 +55201,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -55211,8 +55220,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -55230,8 +55239,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -55249,8 +55258,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -55268,8 +55277,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -55287,8 +55296,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -55306,8 +55315,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -55325,8 +55334,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -55344,8 +55353,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -55363,8 +55372,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -55382,8 +55391,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -55401,8 +55410,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -55420,8 +55429,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -55439,8 +55448,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -55458,8 +55467,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -55477,8 +55486,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "transport",
-    "subcategory": "all",
+    "category": "technika",
+    "subcategory": "transport",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -55546,1146 +55555,6 @@ var PRODUCTS = [
       {
         "label": "Артикул",
         "value": "44067"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44907",
-    "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 30010,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
-    "images": [
-      "assets/images/products/bp_44907.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44907"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_63224",
-    "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 9789,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
-    "images": [
-      "assets/images/products/bp_63224.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "63224"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_88870",
-    "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 10429,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
-    "images": [
-      "assets/images/products/bp_88870.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "88870"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44892",
-    "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 32664,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
-    "images": [
-      "assets/images/products/bp_44892.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44892"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_43690",
-    "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5244166734,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
-    "images": [
-      "assets/images/products/bp_43690.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43690"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_43689",
-    "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 13016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
-    "images": [
-      "assets/images/products/bp_43689.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43689"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_33939",
-    "name": "Мотообприскувач Forte 3WF-3",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 60818189,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
-    "images": [
-      "assets/images/products/bp_33939.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "33939"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141020",
-    "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 1805,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
-    "images": [
-      "assets/images/products/bp_141020.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141020"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_33940",
-    "name": "Мотообприскувач Forte 3W-650",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 6694,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
-    "images": [
-      "assets/images/products/bp_33940.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "33940"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_30750",
-    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 53129,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
-    "images": [
-      "assets/images/products/bp_30750.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "30750"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_133072",
-    "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 14851259,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
-    "images": [
-      "assets/images/products/bp_133072.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "133072"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_37344",
-    "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 14383228,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
-    "images": [
-      "assets/images/products/bp_37344.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "37344"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_121871",
-    "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
-    "images": [
-      "assets/images/products/bp_121871.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "121871"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141018",
-    "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 14383232,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
-    "images": [
-      "assets/images/products/bp_141018.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141018"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_70202",
-    "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
-    "images": [
-      "assets/images/products/bp_70202.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "70202"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_107867",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
-    "images": [
-      "assets/images/products/bp_107867.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "107867"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141019",
-    "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 14617247,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
-    "images": [
-      "assets/images/products/bp_141019.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141019"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141014",
-    "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 13105124,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
-    "images": [
-      "assets/images/products/bp_141014.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141014"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141013",
-    "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 12637079,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
-    "images": [
-      "assets/images/products/bp_141013.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141013"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_132022",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 12403061,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
-    "images": [
-      "assets/images/products/bp_132022.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "132022"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_109229",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 12115034,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
-    "images": [
-      "assets/images/products/bp_109229.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "109229"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141017",
-    "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 12115034,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
-    "images": [
-      "assets/images/products/bp_141017.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141017"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141012",
-    "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 12115034,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
-    "images": [
-      "assets/images/products/bp_141012.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141012"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_81441",
-    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 14095214,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
-    "images": [
-      "assets/images/products/bp_81441.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "81441"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_133783",
-    "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 13393151,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
-    "images": [
-      "assets/images/products/bp_133783.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "133783"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_151467",
-    "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 11881013,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
-    "images": [
-      "assets/images/products/bp_151467.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "151467"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_141016",
-    "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 11881016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
-    "images": [
-      "assets/images/products/bp_141016.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "141016"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_153615",
-    "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 1565922987,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
-    "images": [
-      "assets/images/products/bp_153615.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "153615"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152868",
-    "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
-    "images": [
-      "assets/images/products/bp_152868.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152868"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152869",
-    "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
-    "images": [
-      "assets/images/products/bp_152869.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152869"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152876",
-    "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3203127900,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
-    "images": [
-      "assets/images/products/bp_152876.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152876"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152870",
-    "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3178018431,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
-    "images": [
-      "assets/images/products/bp_152870.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152870"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148740",
-    "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
-    "images": [
-      "assets/images/products/bp_148740.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148740"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148739",
-    "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
-    "images": [
-      "assets/images/products/bp_148739.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148739"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145457",
-    "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
-    "images": [
-      "assets/images/products/bp_145457.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145457"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145456",
-    "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
-    "images": [
-      "assets/images/products/bp_145456.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145456"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145458",
-    "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 47439,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
-    "images": [
-      "assets/images/products/bp_145458.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145458"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145776",
-    "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
-    "images": [
-      "assets/images/products/bp_145776.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145776"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145463",
-    "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
-    "images": [
-      "assets/images/products/bp_145463.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145463"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145777",
-    "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
-    "images": [
-      "assets/images/products/bp_145777.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145777"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_148738",
-    "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3961022850,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
-    "images": [
-      "assets/images/products/bp_148738.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "148738"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_152877",
-    "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 3203127900,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
-    "images": [
-      "assets/images/products/bp_152877.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "152877"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145778",
-    "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 4836096960,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
-    "images": [
-      "assets/images/products/bp_145778.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145778"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124595",
-    "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 48406,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
-    "images": [
-      "assets/images/products/bp_124595.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124595"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_134949",
-    "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 48360,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
-    "images": [
-      "assets/images/products/bp_134949.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "134949"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124597",
-    "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 48406,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
-    "images": [
-      "assets/images/products/bp_124597.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124597"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146149",
-    "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158484100,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
-    "images": [
-      "assets/images/products/bp_146149.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146149"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146147",
-    "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158484100,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
-    "images": [
-      "assets/images/products/bp_146147.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146147"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146145",
-    "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158484100,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
-    "images": [
-      "assets/images/products/bp_146145.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146145"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146210",
-    "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
-    "images": [
-      "assets/images/products/bp_146210.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146210"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146209",
-    "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
-    "images": [
-      "assets/images/products/bp_146209.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146209"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145477",
-    "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
-    "images": [
-      "assets/images/products/bp_145477.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145477"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_119449",
-    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 51584,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
-    "images": [
-      "assets/images/products/bp_119449.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "119449"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146207",
-    "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
-    "images": [
-      "assets/images/products/bp_146207.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146207"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_146208",
-    "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 5158485016,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
-    "images": [
-      "assets/images/products/bp_146208.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "146208"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145475",
-    "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
-    "images": [
-      "assets/images/products/bp_145475.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145475"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_145476",
-    "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 59414,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
-    "images": [
-      "assets/images/products/bp_145476.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "145476"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_44067",
-    "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 12035,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
-    "images": [
-      "assets/images/products/bp_44067.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "44067"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_124467",
-    "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 56096,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
-    "images": [
-      "assets/images/products/bp_124467.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "124467"
-      }
-    ],
-    "available": false
-  },
-  {
-    "id": "bp_43688",
-    "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "budmaterialy",
-    "subcategory": "all",
-    "price": 26704,
-    "oldPrice": null,
-    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
-    "images": [
-      "assets/images/products/bp_43688.jpg"
-    ],
-    "specs": [
-      {
-        "label": "Артикул",
-        "value": "43688"
       }
     ],
     "available": false
@@ -56748,6 +55617,1146 @@ var PRODUCTS = [
     "available": false
   },
   {
+    "id": "bp_44892",
+    "name": "Генератор бензиновий 6 кВт Форте FG8000E",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 32664,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
+    "images": [
+      "assets/images/products/bp_44892.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44892"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_43690",
+    "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5244166734,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
+    "images": [
+      "assets/images/products/bp_43690.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43690"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_43689",
+    "name": "Генератор бензиновий 3 кВт Форте FG3800",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 13016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
+    "images": [
+      "assets/images/products/bp_43689.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43689"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_33939",
+    "name": "Мотообприскувач Forte 3WF-3",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 60818189,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
+    "images": [
+      "assets/images/products/bp_33939.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "33939"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141020",
+    "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 1805,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
+    "images": [
+      "assets/images/products/bp_141020.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141020"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_33940",
+    "name": "Мотообприскувач Forte 3W-650",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 6694,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
+    "images": [
+      "assets/images/products/bp_33940.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "33940"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_30750",
+    "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 53129,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
+    "images": [
+      "assets/images/products/bp_30750.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "30750"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_133072",
+    "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 14851259,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
+    "images": [
+      "assets/images/products/bp_133072.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "133072"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_37344",
+    "name": "Обприскувач акумуляторний Forte CL-16A",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 14383228,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
+    "images": [
+      "assets/images/products/bp_37344.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "37344"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_121871",
+    "name": "Обприскувач акумуляторний Forte KF-16",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
+    "images": [
+      "assets/images/products/bp_121871.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "121871"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141018",
+    "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 14383232,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
+    "images": [
+      "assets/images/products/bp_141018.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141018"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_70202",
+    "name": "Обприскувач акумуляторний Forte CL-12A",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
+    "images": [
+      "assets/images/products/bp_70202.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "70202"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_107867",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
+    "images": [
+      "assets/images/products/bp_107867.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "107867"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141019",
+    "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 14617247,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
+    "images": [
+      "assets/images/products/bp_141019.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141019"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141014",
+    "name": "Оприскувач акумуляторний CL-12R Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 13105124,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
+    "images": [
+      "assets/images/products/bp_141014.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141014"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141013",
+    "name": "Оприскувач акумуляторний CL-9R Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 12637079,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
+    "images": [
+      "assets/images/products/bp_141013.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141013"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_132022",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 12403061,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
+    "images": [
+      "assets/images/products/bp_132022.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "132022"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_109229",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
+    "images": [
+      "assets/images/products/bp_109229.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "109229"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141017",
+    "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
+    "images": [
+      "assets/images/products/bp_141017.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141017"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141012",
+    "name": "Оприскувач акумуляторний CL-6R Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 12115034,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
+    "images": [
+      "assets/images/products/bp_141012.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141012"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_81441",
+    "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 14095214,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
+    "images": [
+      "assets/images/products/bp_81441.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "81441"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_133783",
+    "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 13393151,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
+    "images": [
+      "assets/images/products/bp_133783.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "133783"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_151467",
+    "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 11881013,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
+    "images": [
+      "assets/images/products/bp_151467.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "151467"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_141016",
+    "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 11881016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
+    "images": [
+      "assets/images/products/bp_141016.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "141016"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_153615",
+    "name": "Квадроцикл FORTE AX49 Зелений",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 1565922987,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
+    "images": [
+      "assets/images/products/bp_153615.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "153615"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152868",
+    "name": "Квадроцикл FORTE AU110 Жовтий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
+    "images": [
+      "assets/images/products/bp_152868.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152868"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152869",
+    "name": "Квадроцикл FORTE AU110 Помаранчевий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
+    "images": [
+      "assets/images/products/bp_152869.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152869"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152876",
+    "name": "Квадроцикл FORTE AFU110 Жовтий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3203127900,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
+    "images": [
+      "assets/images/products/bp_152876.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152876"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152870",
+    "name": "Квадроцикл FORTE AU110 Червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3178018431,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
+    "images": [
+      "assets/images/products/bp_152870.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152870"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148740",
+    "name": "Квадроцикл FORTE AF125 червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
+    "images": [
+      "assets/images/products/bp_148740.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148740"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148739",
+    "name": "Квадроцикл FORTE AF125 Помаранчевий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
+    "images": [
+      "assets/images/products/bp_148739.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148739"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145457",
+    "name": "Квадроцикл FORTE AFP125 червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
+    "images": [
+      "assets/images/products/bp_145457.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145457"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145456",
+    "name": "Квадроцикл FORTE AFP125 синій",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
+    "images": [
+      "assets/images/products/bp_145456.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145456"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145458",
+    "name": "Квадроцикл FORTE AFP125 чорно-зелений",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 47439,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
+    "images": [
+      "assets/images/products/bp_145458.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145458"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145776",
+    "name": "Квадроцикл FORTE AFF125 PRO жовтий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
+    "images": [
+      "assets/images/products/bp_145776.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145776"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145463",
+    "name": "Квадроцикл FORTE AFF125 PRO червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
+    "images": [
+      "assets/images/products/bp_145463.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145463"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145777",
+    "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
+    "images": [
+      "assets/images/products/bp_145777.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145777"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_148738",
+    "name": "Квадроцикл FORTE AF125 Зелений",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3961022850,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
+    "images": [
+      "assets/images/products/bp_148738.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "148738"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_152877",
+    "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 3203127900,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
+    "images": [
+      "assets/images/products/bp_152877.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "152877"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145778",
+    "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 4836096960,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
+    "images": [
+      "assets/images/products/bp_145778.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145778"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124595",
+    "name": "Квадроцикл FORTE ATV125F біло-червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 48406,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
+    "images": [
+      "assets/images/products/bp_124595.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124595"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_134949",
+    "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 48360,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
+    "images": [
+      "assets/images/products/bp_134949.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "134949"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124597",
+    "name": "Квадроцикл FORTE ATV125F біло-синій",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 48406,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
+    "images": [
+      "assets/images/products/bp_124597.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124597"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146149",
+    "name": "Квадроцикл FORTE AFN125 PRO Зелений",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158484100,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
+    "images": [
+      "assets/images/products/bp_146149.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146149"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146147",
+    "name": "Квадроцикл FORTE AFN125 PRO Червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158484100,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
+    "images": [
+      "assets/images/products/bp_146147.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146147"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146145",
+    "name": "Квадроцикл FORTE AFN125 PRO синій",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158484100,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
+    "images": [
+      "assets/images/products/bp_146145.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146145"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146210",
+    "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
+    "images": [
+      "assets/images/products/bp_146210.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146210"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146209",
+    "name": "Квадроцикл FORTE AFP125 PRO червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
+    "images": [
+      "assets/images/products/bp_146209.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146209"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145477",
+    "name": "Квадроцикл FORTE AFN150 PRO Червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
+    "images": [
+      "assets/images/products/bp_145477.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145477"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_119449",
+    "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 51584,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
+    "images": [
+      "assets/images/products/bp_119449.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "119449"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146207",
+    "name": "Квадроцикл FORTE AFP125 PRO синій",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
+    "images": [
+      "assets/images/products/bp_146207.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146207"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_146208",
+    "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 5158485016,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
+    "images": [
+      "assets/images/products/bp_146208.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "146208"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145475",
+    "name": "Квадроцикл FORTE AFN150 PRO Синій",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
+    "images": [
+      "assets/images/products/bp_145475.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145475"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_145476",
+    "name": "Квадроцикл FORTE AFN150 PRO Чорний",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 59414,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
+    "images": [
+      "assets/images/products/bp_145476.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "145476"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_44067",
+    "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 12035,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
+    "images": [
+      "assets/images/products/bp_44067.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44067"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_124467",
+    "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 56096,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
+    "images": [
+      "assets/images/products/bp_124467.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "124467"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_43688",
+    "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 26704,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
+    "images": [
+      "assets/images/products/bp_43688.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "43688"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_44907",
+    "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 30010,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
+    "images": [
+      "assets/images/products/bp_44907.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "44907"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_63224",
+    "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 9789,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
+    "images": [
+      "assets/images/products/bp_63224.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "63224"
+      }
+    ],
+    "available": false
+  },
+  {
+    "id": "bp_88870",
+    "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
+    "category": "budmaterialy",
+    "subcategory": "all",
+    "price": 10429,
+    "oldPrice": null,
+    "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
+    "images": [
+      "assets/images/products/bp_88870.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Артикул",
+        "value": "88870"
+      }
+    ],
+    "available": false
+  },
+  {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
     "category": "budmaterialy",
@@ -57738,8 +57747,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -57795,8 +57804,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -57814,8 +57823,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -57833,8 +57842,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -57852,8 +57861,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -57871,8 +57880,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -57890,8 +57899,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -57909,8 +57918,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -57928,8 +57937,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -57947,8 +57956,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -57966,8 +57975,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -57985,8 +57994,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -58004,8 +58013,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -58023,8 +58032,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -58042,8 +58051,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -58061,8 +58070,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -58080,8 +58089,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -58099,8 +58108,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -58118,8 +58127,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -58137,8 +58146,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -58156,8 +58165,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -58175,8 +58184,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -58194,8 +58203,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -58213,8 +58222,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -58232,8 +58241,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -58251,8 +58260,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -58270,8 +58279,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -58289,8 +58298,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -58308,8 +58317,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -58327,8 +58336,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -58346,8 +58355,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -58365,8 +58374,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -58384,8 +58393,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -58403,8 +58412,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -58422,8 +58431,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -58441,8 +58450,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -58460,8 +58469,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -58479,8 +58488,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -58498,8 +58507,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -58517,8 +58526,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -58536,8 +58545,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -58555,8 +58564,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -58574,8 +58583,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -58593,8 +58602,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -58612,8 +58621,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -58631,8 +58640,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -58650,8 +58659,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -58669,8 +58678,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -58688,8 +58697,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -58707,8 +58716,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -58726,8 +58735,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -58745,8 +58754,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -58764,8 +58773,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -58783,8 +58792,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -58802,8 +58811,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -58821,8 +58830,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -58840,8 +58849,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -58859,8 +58868,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -58878,8 +58887,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -58897,8 +58906,8 @@ var PRODUCTS = [
   {
     "id": "bp_124467",
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 56096,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 8.3 кВт Форте FG10000E. Артикул: 124467",
@@ -58916,8 +58925,8 @@ var PRODUCTS = [
   {
     "id": "bp_44067",
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12035,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Форте FG3500. Артикул: 44067",
@@ -58935,8 +58944,8 @@ var PRODUCTS = [
   {
     "id": "bp_43688",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 26704,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500. Артикул: 43688",
@@ -58954,8 +58963,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -58973,8 +58982,8 @@ var PRODUCTS = [
   {
     "id": "bp_44907",
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 30010,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 5.5 кВт Форте FG6500E. Артикул: 44907",
@@ -58992,8 +59001,8 @@ var PRODUCTS = [
   {
     "id": "bp_88870",
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 10429,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.8 кВт Werk WPG3800. Артикул: 88870",
@@ -59011,8 +59020,8 @@ var PRODUCTS = [
   {
     "id": "bp_63224",
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 9789,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 2.5 кВт Werk WPG3600. Артикул: 63224",
@@ -59030,8 +59039,8 @@ var PRODUCTS = [
   {
     "id": "bp_30750",
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 53129,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 5.5 кВт Forte FGD6500E3. Артикул: 30750",
@@ -59049,8 +59058,8 @@ var PRODUCTS = [
   {
     "id": "bp_43690",
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5244166734,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор дизельний 4.8 кВт Форте FGD6500E. Артикул: 43690",
@@ -59068,8 +59077,8 @@ var PRODUCTS = [
   {
     "id": "bp_44892",
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 32664,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 6 кВт Форте FG8000E. Артикул: 44892",
@@ -59087,8 +59096,8 @@ var PRODUCTS = [
   {
     "id": "bp_43689",
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Генератор бензиновий 3 кВт Форте FG3800. Артикул: 43689",
@@ -59106,8 +59115,8 @@ var PRODUCTS = [
   {
     "id": "bp_33940",
     "name": "Мотообприскувач Forte 3W-650",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 6694,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3W-650. Артикул: 33940",
@@ -59125,8 +59134,8 @@ var PRODUCTS = [
   {
     "id": "bp_141019",
     "name": "Обприскувач акумуляторний - CF-12 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14617247,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-12 PRO Forte. Артикул: 141019",
@@ -59144,8 +59153,8 @@ var PRODUCTS = [
   {
     "id": "bp_33939",
     "name": "Мотообприскувач Forte 3WF-3",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 60818189,
     "oldPrice": null,
     "desc": "Оригінальний товар: Мотообприскувач Forte 3WF-3. Артикул: 33939",
@@ -59163,8 +59172,8 @@ var PRODUCTS = [
   {
     "id": "bp_141018",
     "name": "Обприскувач акумуляторний - CF-10 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14383232,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-10 PRO Forte. Артикул: 141018",
@@ -59182,8 +59191,8 @@ var PRODUCTS = [
   {
     "id": "bp_37344",
     "name": "Обприскувач акумуляторний Forte CL-16A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14383228,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-16A. Артикул: 37344",
@@ -59201,8 +59210,8 @@ var PRODUCTS = [
   {
     "id": "bp_141020",
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 1805,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-16 PRO Forte. Артикул: 141020",
@@ -59220,8 +59229,8 @@ var PRODUCTS = [
   {
     "id": "bp_133072",
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14851259,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2. Артикул: 133072",
@@ -59239,8 +59248,8 @@ var PRODUCTS = [
   {
     "id": "bp_81441",
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Grunhelm GHS-16M. Артикул: 81441",
@@ -59258,8 +59267,8 @@ var PRODUCTS = [
   {
     "id": "bp_107867",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16A. Артикул: 107867",
@@ -59277,8 +59286,8 @@ var PRODUCTS = [
   {
     "id": "bp_141014",
     "name": "Оприскувач акумуляторний CL-12R Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13105124,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-12R Forte. Артикул: 141014",
@@ -59296,8 +59305,8 @@ var PRODUCTS = [
   {
     "id": "bp_133783",
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний 12л  Grunhelm GHS -12. Артикул: 133783",
@@ -59315,8 +59324,8 @@ var PRODUCTS = [
   {
     "id": "bp_70202",
     "name": "Обприскувач акумуляторний Forte CL-12A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 13393151,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte CL-12A. Артикул: 70202",
@@ -59334,8 +59343,8 @@ var PRODUCTS = [
   {
     "id": "bp_121871",
     "name": "Обприскувач акумуляторний Forte KF-16",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 14095214,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний Forte KF-16. Артикул: 121871",
@@ -59353,8 +59362,8 @@ var PRODUCTS = [
   {
     "id": "bp_141017",
     "name": "Обприскувач акумуляторний - CF-8 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-8 PRO Forte. Артикул: 141017",
@@ -59372,8 +59381,8 @@ var PRODUCTS = [
   {
     "id": "bp_109229",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-12A. Артикул: 109229",
@@ -59391,8 +59400,8 @@ var PRODUCTS = [
   {
     "id": "bp_141013",
     "name": "Оприскувач акумуляторний CL-9R Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12637079,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-9R Forte. Артикул: 141013",
@@ -59410,8 +59419,8 @@ var PRODUCTS = [
   {
     "id": "bp_132022",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12403061,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-16В. Артикул: 132022",
@@ -59429,8 +59438,8 @@ var PRODUCTS = [
   {
     "id": "bp_141012",
     "name": "Оприскувач акумуляторний CL-6R Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 12115034,
     "oldPrice": null,
     "desc": "Оригінальний товар: Оприскувач акумуляторний CL-6R Forte. Артикул: 141012",
@@ -59448,8 +59457,8 @@ var PRODUCTS = [
   {
     "id": "bp_151467",
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 11881013,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний БУКОВИНА CL-10A 10 л. Артикул: 151467",
@@ -59467,8 +59476,8 @@ var PRODUCTS = [
   {
     "id": "bp_152870",
     "name": "Квадроцикл FORTE AU110 Червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Червоний. Артикул: 152870",
@@ -59486,8 +59495,8 @@ var PRODUCTS = [
   {
     "id": "bp_153615",
     "name": "Квадроцикл FORTE AX49 Зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 1565922987,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AX49 Зелений. Артикул: 153615",
@@ -59505,8 +59514,8 @@ var PRODUCTS = [
   {
     "id": "bp_152868",
     "name": "Квадроцикл FORTE AU110 Жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Жовтий. Артикул: 152868",
@@ -59524,8 +59533,8 @@ var PRODUCTS = [
   {
     "id": "bp_141016",
     "name": "Обприскувач акумуляторний - CF-5 PRO Forte",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 11881016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Обприскувач акумуляторний - CF-5 PRO Forte. Артикул: 141016",
@@ -59543,8 +59552,8 @@ var PRODUCTS = [
   {
     "id": "bp_152869",
     "name": "Квадроцикл FORTE AU110 Помаранчевий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3178018431,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AU110 Помаранчевий. Артикул: 152869",
@@ -59562,8 +59571,8 @@ var PRODUCTS = [
   {
     "id": "bp_148738",
     "name": "Квадроцикл FORTE AF125 Зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Зелений. Артикул: 148738",
@@ -59581,8 +59590,8 @@ var PRODUCTS = [
   {
     "id": "bp_148740",
     "name": "Квадроцикл FORTE AF125 червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 червоний. Артикул: 148740",
@@ -59600,8 +59609,8 @@ var PRODUCTS = [
   {
     "id": "bp_152877",
     "name": "Квадроцикл FORTE AFU110 Сіро-Жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Сіро-Жовтий. Артикул: 152877",
@@ -59619,8 +59628,8 @@ var PRODUCTS = [
   {
     "id": "bp_152876",
     "name": "Квадроцикл FORTE AFU110 Жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3203127900,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFU110 Жовтий. Артикул: 152876",
@@ -59638,8 +59647,8 @@ var PRODUCTS = [
   {
     "id": "bp_148739",
     "name": "Квадроцикл FORTE AF125 Помаранчевий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 3961022850,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AF125 Помаранчевий. Артикул: 148739",
@@ -59657,8 +59666,8 @@ var PRODUCTS = [
   {
     "id": "bp_145457",
     "name": "Квадроцикл FORTE AFP125 червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 червоний. Артикул: 145457",
@@ -59676,8 +59685,8 @@ var PRODUCTS = [
   {
     "id": "bp_145463",
     "name": "Квадроцикл FORTE AFF125 PRO червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO червоний. Артикул: 145463",
@@ -59695,8 +59704,8 @@ var PRODUCTS = [
   {
     "id": "bp_145458",
     "name": "Квадроцикл FORTE AFP125 чорно-зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 чорно-зелений. Артикул: 145458",
@@ -59714,8 +59723,8 @@ var PRODUCTS = [
   {
     "id": "bp_145776",
     "name": "Квадроцикл FORTE AFF125 PRO жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO жовтий. Артикул: 145776",
@@ -59733,8 +59742,8 @@ var PRODUCTS = [
   {
     "id": "bp_145456",
     "name": "Квадроцикл FORTE AFP125 синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 47439,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 синій. Артикул: 145456",
@@ -59752,8 +59761,8 @@ var PRODUCTS = [
   {
     "id": "bp_145777",
     "name": "Квадроцикл FORTE AFF125 PRO сіро-жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO сіро-жовтий. Артикул: 145777",
@@ -59771,8 +59780,8 @@ var PRODUCTS = [
   {
     "id": "bp_145778",
     "name": "Квадроцикл FORTE AFF125 PRO чорно-зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 4836096960,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFF125 PRO чорно-зелений. Артикул: 145778",
@@ -59790,8 +59799,8 @@ var PRODUCTS = [
   {
     "id": "bp_134949",
     "name": "Квадроцикл MIKILON HAMMER 125 Сірий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 48360,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл MIKILON HAMMER 125 Сірий. Артикул: 134949",
@@ -59809,8 +59818,8 @@ var PRODUCTS = [
   {
     "id": "bp_124595",
     "name": "Квадроцикл FORTE ATV125F біло-червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-червоний. Артикул: 124595",
@@ -59828,8 +59837,8 @@ var PRODUCTS = [
   {
     "id": "bp_124597",
     "name": "Квадроцикл FORTE ATV125F біло-синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 48406,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE ATV125F біло-синій. Артикул: 124597",
@@ -59847,8 +59856,8 @@ var PRODUCTS = [
   {
     "id": "bp_146149",
     "name": "Квадроцикл FORTE AFN125 PRO Зелений",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Зелений. Артикул: 146149",
@@ -59866,8 +59875,8 @@ var PRODUCTS = [
   {
     "id": "bp_146147",
     "name": "Квадроцикл FORTE AFN125 PRO Червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO Червоний. Артикул: 146147",
@@ -59885,8 +59894,8 @@ var PRODUCTS = [
   {
     "id": "bp_146208",
     "name": "Квадроцикл FORTE AFP125 PRO сіро-жовтий",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO сіро-жовтий. Артикул: 146208",
@@ -59904,8 +59913,8 @@ var PRODUCTS = [
   {
     "id": "bp_146210",
     "name": "Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO (алюмінієві диски) чорний. Артикул: 146210",
@@ -59923,8 +59932,8 @@ var PRODUCTS = [
   {
     "id": "bp_146209",
     "name": "Квадроцикл FORTE AFP125 PRO червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO червоний. Артикул: 146209",
@@ -59942,8 +59951,8 @@ var PRODUCTS = [
   {
     "id": "bp_146145",
     "name": "Квадроцикл FORTE AFN125 PRO синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158484100,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN125 PRO синій. Артикул: 146145",
@@ -59961,8 +59970,8 @@ var PRODUCTS = [
   {
     "id": "bp_145477",
     "name": "Квадроцикл FORTE AFN150 PRO Червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Червоний. Артикул: 145477",
@@ -59980,8 +59989,8 @@ var PRODUCTS = [
   {
     "id": "bp_145475",
     "name": "Квадроцикл FORTE AFN150 PRO Синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Синій. Артикул: 145475",
@@ -59999,8 +60008,8 @@ var PRODUCTS = [
   {
     "id": "bp_146207",
     "name": "Квадроцикл FORTE AFP125 PRO синій",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 5158485016,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFP125 PRO синій. Артикул: 146207",
@@ -60018,8 +60027,8 @@ var PRODUCTS = [
   {
     "id": "bp_119449",
     "name": "Квадроцикл FORTE Shark II  125 чорно-червоний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 51584,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE Shark II  125 чорно-червоний. Артикул: 119449",
@@ -60037,8 +60046,8 @@ var PRODUCTS = [
   {
     "id": "bp_145476",
     "name": "Квадроцикл FORTE AFN150 PRO Чорний",
-    "category": "ruchniy",
-    "subcategory": "all",
+    "category": "instrument",
+    "subcategory": "ruchniy",
     "price": 59414,
     "oldPrice": null,
     "desc": "Оригінальний товар: Квадроцикл FORTE AFN150 PRO Чорний. Артикул: 145476",
@@ -60169,7 +60178,7 @@ var PRODUCTS = [
   }
 ];
 
-// ===============================================
+// ==================================================
 //  HELPERS
 // ============================================
 function findProduct(id) { for (var i=0;i<PRODUCTS.length;i++) if (PRODUCTS[i].id===id) return PRODUCTS[i]; return null; }
