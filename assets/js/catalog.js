@@ -978,8 +978,8 @@ var PRODUCTS = [
     "name": "FORTE EW1200P Бетонозмішувач",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1711516626,
-    "oldPrice": null,
+    "price": 16626,
+    "oldPrice": 17115,
     "desc": "FORTE EW1200P Бетонозмішувач",
     "images": [
       "assets/images/products/bp_betonomeshalka.jpg"
@@ -997,8 +997,8 @@ var PRODUCTS = [
     "name": "FORTE EW1231 Бетонозмішувач",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2187921254,
-    "oldPrice": null,
+    "price": 21254,
+    "oldPrice": 21879,
     "desc": "FORTE EW1231 Бетонозмішувач",
     "images": [
       "assets/images/products/bp_230.jpg"
@@ -1016,8 +1016,8 @@ var PRODUCTS = [
     "name": "FORTE VCF-50 Компресор безмасляний",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1549713393,
-    "oldPrice": null,
+    "price": 13393,
+    "oldPrice": 15497,
     "desc": "FORTE VCF-50 Компресор безмасляний",
     "images": [
       "assets/images/products/bp_bezmasljanyj.jpg"
@@ -1073,8 +1073,8 @@ var PRODUCTS = [
     "name": "Forte 2,4 мм х +1031 м Жилка для мотокос зірка",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 31201367,
-    "oldPrice": null,
+    "price": 1367,
+    "oldPrice": 3120,
     "desc": "Forte 2,4 мм х +1031 м Жилка для мотокос зірка",
     "images": [
       "assets/images/products/bp_zvezda.jpg"
@@ -1168,8 +1168,8 @@ var PRODUCTS = [
     "name": "Forte AOB4-206 Робоча площадка",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 102496559,
-    "oldPrice": null,
+    "price": 6559,
+    "oldPrice": 10249,
     "desc": "Forte AOB4-206 Робоча площадка",
     "images": [
       "assets/images/products/bp_206.jpg"
@@ -1301,8 +1301,8 @@ var PRODUCTS = [
     "name": "Forte FL-2T24N Компресор",
     "category": "instrument",
     "subcategory": "all",
-    "price": 70556097,
-    "oldPrice": null,
+    "price": 6097,
+    "oldPrice": 7055,
     "desc": "Forte FL-2T24N Компресор",
     "images": [
       "assets/images/products/bp_kompressor.jpg"
@@ -1320,8 +1320,8 @@ var PRODUCTS = [
     "name": "Forte FL-50 Компресор",
     "category": "instrument",
     "subcategory": "all",
-    "price": 84497604,
-    "oldPrice": null,
+    "price": 7604,
+    "oldPrice": 8449,
     "desc": "Forte FL-50 Компресор",
     "images": [
       "assets/images/products/bp_50.jpg"
@@ -1415,8 +1415,8 @@ var PRODUCTS = [
     "name": "Forte FRM-12 (1/2) Фільтр-редуктор",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1062605,
-    "oldPrice": null,
+    "price": 605,
+    "oldPrice": 1062,
     "desc": "Forte FRM-12 (1/2) Фільтр-редуктор",
     "images": [
       "assets/images/products/bp_reduktor.jpg"
@@ -1491,8 +1491,8 @@ var PRODUCTS = [
     "name": "Forte IW-310 Пневмогайковерт",
     "category": "instrument",
     "subcategory": "all",
-    "price": 35362122,
-    "oldPrice": null,
+    "price": 2122,
+    "oldPrice": 3536,
     "desc": "Forte IW-310 Пневмогайковерт",
     "images": [
       "assets/images/products/bp_310.jpg"
@@ -1548,8 +1548,8 @@ var PRODUCTS = [
     "name": "Forte LFD84TB Драбина металева 2 ступені",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 15371093,
-    "oldPrice": null,
+    "price": 1093,
+    "oldPrice": 1537,
     "desc": "Forte LFD84TB Драбина металева 2 ступені",
     "images": [
       "assets/images/products/bp_84tb.jpg"
@@ -1833,8 +1833,8 @@ var PRODUCTS = [
     "name": "Forte TC 180 Плиткоріз",
     "category": "instrument",
     "subcategory": "all",
-    "price": 52754483,
-    "oldPrice": null,
+    "price": 4483,
+    "oldPrice": 5275,
     "desc": "Forte TC 180 Плиткоріз",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductforte_tc_180_kamnerez.jpg"
@@ -1852,8 +1852,8 @@ var PRODUCTS = [
     "name": "Forte TC 250 Плиткоріз",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3190527119,
-    "oldPrice": null,
+    "price": 27119,
+    "oldPrice": 31905,
     "desc": "Forte TC 250 Плиткоріз",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductforte_tc_250_kamnerez.jpg"
@@ -2004,8 +2004,8 @@ var PRODUCTS = [
     "name": "Forte WB6407A Тачка садова",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 14801257,
-    "oldPrice": null,
+    "price": 1257,
+    "oldPrice": 1480,
     "desc": "Forte WB6407A Тачка садова",
     "images": [
       "assets/images/products/bp_wb6407a.jpg"
@@ -2878,8 +2878,8 @@ var PRODUCTS = [
     "name": "Makita UC3551A Електропила ланцюгова",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1251710099,
-    "oldPrice": null,
+    "price": 10099,
+    "oldPrice": 12517,
     "desc": "Makita UC3551A Електропила ланцюгова",
     "images": [
       "assets/images/products/bp_cepna.jpg"
@@ -2897,8 +2897,8 @@ var PRODUCTS = [
     "name": "Makita UC4041A Електропила ланцюгова",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 96667799,
-    "oldPrice": null,
+    "price": 7799,
+    "oldPrice": 9666,
     "desc": "Makita UC4041A Електропила ланцюгова",
     "images": [
       "assets/images/products/bp_cepnaya.jpg"
@@ -2916,8 +2916,8 @@ var PRODUCTS = [
     "name": "Makita UD2500 Садовий подрібнювач гілок",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1915415999,
-    "oldPrice": null,
+    "price": 15999,
+    "oldPrice": 19154,
     "desc": "Makita UD2500 Садовий подрібнювач гілок",
     "images": [
       "assets/images/products/bp_vetok.jpg"
@@ -3120,8 +3120,8 @@ var PRODUCTS = [
     "name": "Metabo DB 10 Пневмодрель (604120000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 48863860,
-    "oldPrice": null,
+    "price": 3860,
+    "oldPrice": 4886,
     "desc": "Metabo DB 10 Пневмодрель (604120000)",
     "images": [
       "assets/images/products/bp_pnevmodrelj.jpg"
@@ -3158,8 +3158,8 @@ var PRODUCTS = [
     "name": "Metabo DSSW 360 SET Пневмогайковерт (604118500)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 52123997,
-    "oldPrice": null,
+    "price": 3997,
+    "oldPrice": 5212,
     "desc": "Metabo DSSW 360 SET Пневмогайковерт (604118500)",
     "images": [
       "assets/images/products/bp_pnevmogajkovert.jpg"
@@ -3177,8 +3177,8 @@ var PRODUCTS = [
     "name": "Metabo DSSW 930-1/2 Пневмогайковерт (601549000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 105938510,
-    "oldPrice": null,
+    "price": 8510,
+    "oldPrice": 10593,
     "desc": "Metabo DSSW 930-1/2 Пневмогайковерт (601549000)",
     "images": [
       "assets/images/products/bp_601549000.jpg"
@@ -3196,8 +3196,8 @@ var PRODUCTS = [
     "name": "Metabo DSX 150 пневмошліфмашіни (601558000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 105936078,
-    "oldPrice": null,
+    "price": 6078,
+    "oldPrice": 10593,
     "desc": "Metabo DSX 150 пневмошліфмашіни (601558000)",
     "images": [
       "assets/images/products/bp_pnevmoshlifmashina.jpg"
@@ -3337,8 +3337,8 @@ var PRODUCTS = [
     "name": "Orange СБ 2125П Бетономішалка 125л",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1137611051,
-    "oldPrice": null,
+    "price": 11051,
+    "oldPrice": 11376,
     "desc": "Orange СБ 2125П Бетономішалка 125л",
     "images": [
       "assets/images/products/bp_125l.jpg"
@@ -3356,8 +3356,8 @@ var PRODUCTS = [
     "name": "Orange СБ 6140П Бетономішалка 140л",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1241112056,
-    "oldPrice": null,
+    "price": 12056,
+    "oldPrice": 12411,
     "desc": "Orange СБ 6140П Бетономішалка 140л",
     "images": [
       "assets/images/products/bp_140l.jpg"
@@ -3375,8 +3375,8 @@ var PRODUCTS = [
     "name": "Orange СБ 8160П Бетономішалка 160л",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1340113018,
-    "oldPrice": null,
+    "price": 13018,
+    "oldPrice": 13401,
     "desc": "Orange СБ 8160П Бетономішалка 160л",
     "images": [
       "assets/images/products/bp_160l.jpg"
@@ -3394,8 +3394,8 @@ var PRODUCTS = [
     "name": "Orange СБ 9180П Бетономішалка 180л",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1387713480,
-    "oldPrice": null,
+    "price": 13480,
+    "oldPrice": 13877,
     "desc": "Orange СБ 9180П Бетономішалка 180л",
     "images": [
       "assets/images/products/bp_180l.jpg"
@@ -6316,8 +6316,8 @@ var PRODUCTS = [
     "name": "Акумуляторна газонокосарка Haisser HS LM2133B-Z",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 74324877,
-    "oldPrice": null,
+    "price": 4877,
+    "oldPrice": 7432,
     "desc": "Акумуляторна газонокосарка Haisser HS LM2133B-Z",
     "images": [
       "assets/images/products/bp_z.jpg"
@@ -6460,8 +6460,8 @@ var PRODUCTS = [
     "name": "Бак для душу 150л Litolan з лійкою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 19861589,
-    "oldPrice": null,
+    "price": 1589,
+    "oldPrice": 1986,
     "desc": "Бак для душу 150л Litolan з лійкою",
     "images": [
       "assets/images/products/bp_lejkoj.jpg"
@@ -6707,8 +6707,8 @@ var PRODUCTS = [
     "name": "Безмасляний компресор Forte COF-6",
     "category": "instrument",
     "subcategory": "all",
-    "price": 62155371,
-    "oldPrice": null,
+    "price": 5371,
+    "oldPrice": 6215,
     "desc": "Безмасляний компресор Forte COF-6",
     "images": [
       "assets/images/products/bp_6.jpg"
@@ -6745,8 +6745,8 @@ var PRODUCTS = [
     "name": "Бензинова мотокоса Grunhelm GR-41TS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 56874621,
-    "oldPrice": null,
+    "price": 4621,
+    "oldPrice": 5687,
     "desc": "Бензинова мотокоса Grunhelm GR-41TS",
     "images": [
       "assets/images/products/bp_41ts.jpg"
@@ -6878,8 +6878,8 @@ var PRODUCTS = [
     "name": "Бетонозмішувач Forte EW 7150",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1557715132,
-    "oldPrice": null,
+    "price": 15132,
+    "oldPrice": 15577,
     "desc": "Бетонозмішувач Forte EW 7150",
     "images": [
       "assets/images/products/bp_7150.jpg"
@@ -6897,8 +6897,8 @@ var PRODUCTS = [
     "name": "Бетонозмішувач Forte БП 120",
     "category": "instrument",
     "subcategory": "all",
-    "price": 102869991,
-    "oldPrice": null,
+    "price": 9991,
+    "oldPrice": 10286,
     "desc": "Бетонозмішувач Forte БП 120",
     "images": [
       "assets/images/products/bp_120.jpg"
@@ -6916,8 +6916,8 @@ var PRODUCTS = [
     "name": "Бетонозмішувач Forte БП 160",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1166011327,
-    "oldPrice": null,
+    "price": 11327,
+    "oldPrice": 11660,
     "desc": "Бетонозмішувач Forte БП 160",
     "images": [
       "assets/images/products/bp_160.jpg"
@@ -6935,8 +6935,8 @@ var PRODUCTS = [
     "name": "Бетонозмішувач Forte БП 180",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1236712013,
-    "oldPrice": null,
+    "price": 12013,
+    "oldPrice": 12367,
     "desc": "Бетонозмішувач Forte БП 180",
     "images": [
       "assets/images/products/bp_180.jpg"
@@ -6954,8 +6954,8 @@ var PRODUCTS = [
     "name": "Бетономішалка Сталь СБП-125 П",
     "category": "instrument",
     "subcategory": "all",
-    "price": 100759787,
-    "oldPrice": null,
+    "price": 9787,
+    "oldPrice": 10075,
     "desc": "Бетономішалка Сталь СБП-125 П",
     "images": [
       "assets/images/products/bp_p.jpg"
@@ -8944,8 +8944,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова Grunhelm GPG 3356 BF",
     "category": "technika",
     "subcategory": "all",
-    "price": 52293799,
-    "oldPrice": null,
+    "price": 3799,
+    "oldPrice": 5229,
     "desc": "Варильна поверхня газова Grunhelm GPG 3356 BF",
     "images": [
       "assets/images/products/bp_bf.jpg"
@@ -10543,8 +10543,8 @@ var PRODUCTS = [
     "name": "Вібронога - PMR68H Masterpac",
     "category": "instrument",
     "subcategory": "all",
-    "price": 11890563427,
-    "oldPrice": null,
+    "price": 63427,
+    "oldPrice": 118905,
     "desc": "Вібронога - PMR68H Masterpac",
     "images": [
       "assets/images/products/bp_masterpac.jpg"
@@ -10562,8 +10562,8 @@ var PRODUCTS = [
     "name": "Віброплита Forte PC51 TWP",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3803426613,
-    "oldPrice": null,
+    "price": 26613,
+    "oldPrice": 38034,
     "desc": "Віброплита Forte PC51 TWP",
     "images": [
       "assets/images/products/bp_twp.jpg"
@@ -10696,8 +10696,8 @@ var PRODUCTS = [
     "name": "Відпарювач ручний Grunhelm GHS-1006",
     "category": "technika",
     "subcategory": "all",
-    "price": 1369649,
-    "oldPrice": null,
+    "price": 649,
+    "oldPrice": 1369,
     "desc": "Відпарювач ручний Grunhelm GHS-1006",
     "images": [
       "assets/images/products/bp_1006.jpg"
@@ -11111,8 +11111,8 @@ var PRODUCTS = [
     "name": "Газонокосарка акумуляторна LM-B0218  Haisser",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 56555037,
-    "oldPrice": null,
+    "price": 5037,
+    "oldPrice": 5655,
     "desc": "Газонокосарка акумуляторна LM-B0218  Haisser",
     "images": [
       "assets/images/products/bp_haisser.jpg"
@@ -11735,8 +11735,8 @@ var PRODUCTS = [
     "name": "Генератор дизельний 4.8 кВт Форте FGD6500E",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 5826851927,
-    "oldPrice": null,
+    "price": 51927,
+    "oldPrice": 58268,
     "desc": "Генератор дизельний 4.8 кВт Форте FGD6500E",
     "images": [
       "assets/images/products/bp_fgd6500e.jpg"
@@ -12699,8 +12699,8 @@ var PRODUCTS = [
     "name": "Драбина Budfix 04 (4cx)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 25091740,
-    "oldPrice": null,
+    "price": 1740,
+    "oldPrice": 2509,
     "desc": "Драбина Budfix 04 (4cx)",
     "images": [
       "assets/images/products/bp_4cx.jpg"
@@ -13207,8 +13207,8 @@ var PRODUCTS = [
     "name": "Електричний тример Forte EMK-1600",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 53354535,
-    "oldPrice": null,
+    "price": 4535,
+    "oldPrice": 5335,
     "desc": "Електричний тример Forte EMK-1600",
     "images": [
       "assets/images/products/bp_1600.jpg"
@@ -13226,8 +13226,8 @@ var PRODUCTS = [
     "name": "Електричний тример Forte EMK-1600S",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 49754229,
-    "oldPrice": null,
+    "price": 4229,
+    "oldPrice": 4975,
     "desc": "Електричний тример Forte EMK-1600S",
     "images": [
       "assets/images/products/bp_1600s.jpg"
@@ -13245,8 +13245,8 @@ var PRODUCTS = [
     "name": "Електричний тример Forte ЕМК-360",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 27772361,
-    "oldPrice": null,
+    "price": 2361,
+    "oldPrice": 2777,
     "desc": "Електричний тример Forte ЕМК-360",
     "images": [
       "assets/images/products/bp_360.jpg"
@@ -13264,8 +13264,8 @@ var PRODUCTS = [
     "name": "Електричний тример Forte ЕМК-361",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 27772361,
-    "oldPrice": null,
+    "price": 2361,
+    "oldPrice": 2777,
     "desc": "Електричний тример Forte ЕМК-361",
     "images": [
       "assets/images/products/bp_361.jpg"
@@ -13283,8 +13283,8 @@ var PRODUCTS = [
     "name": "Електричний тример Grunhelm GR-2000",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 57194861,
-    "oldPrice": null,
+    "price": 4861,
+    "oldPrice": 5719,
     "desc": "Електричний тример Grunhelm GR-2000",
     "images": [
       "assets/images/products/bp_2000.jpg"
@@ -13302,8 +13302,8 @@ var PRODUCTS = [
     "name": "Електричний тример Grunhelm GR-380",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 31852707,
-    "oldPrice": null,
+    "price": 2707,
+    "oldPrice": 3185,
     "desc": "Електричний тример Grunhelm GR-380",
     "images": [
       "assets/images/products/bp_380.jpg"
@@ -13321,8 +13321,8 @@ var PRODUCTS = [
     "name": "Електричний тример Grunhelm GR-42S",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 42633624,
-    "oldPrice": null,
+    "price": 3624,
+    "oldPrice": 4263,
     "desc": "Електричний тример Grunhelm GR-42S",
     "images": [
       "assets/images/products/bp_42s.jpg"
@@ -13340,8 +13340,8 @@ var PRODUCTS = [
     "name": "Електричний тример Werk EPT-25",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1037881,
-    "oldPrice": null,
+    "price": 881,
+    "oldPrice": 1037,
     "desc": "Електричний тример Werk EPT-25",
     "images": [
       "assets/images/products/bp_25.jpg"
@@ -13563,8 +13563,8 @@ var PRODUCTS = [
     "name": "Елетричний тример Forte ЕМК-420М",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 45023827,
-    "oldPrice": null,
+    "price": 3827,
+    "oldPrice": 4502,
     "desc": "Елетричний тример Forte ЕМК-420М",
     "images": [
       "assets/images/products/bp_420m.jpg"
@@ -20376,8 +20376,8 @@ var PRODUCTS = [
     "name": "Компресор FORTE V-0.4 / 101",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3470529991,
-    "oldPrice": null,
+    "price": 29991,
+    "oldPrice": 34705,
     "desc": "Компресор FORTE V-0.4 / 101",
     "images": [
       "assets/images/products/bp_0i4101.jpg"
@@ -21745,8 +21745,8 @@ var PRODUCTS = [
     "name": "Ланцюгова акумуляторна пила Haisser HS CS 2130В",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 67135979,
-    "oldPrice": null,
+    "price": 5979,
+    "oldPrice": 6713,
     "desc": "Ланцюгова акумуляторна пила Haisser HS CS 2130В",
     "images": [
       "assets/images/products/bp_2130v.jpg"
@@ -21764,8 +21764,8 @@ var PRODUCTS = [
     "name": "Ланцюгова акумуляторна пила Haisser HS CS 4040В",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 97288664,
-    "oldPrice": null,
+    "price": 8664,
+    "oldPrice": 9728,
     "desc": "Ланцюгова акумуляторна пила Haisser HS CS 4040В",
     "images": [
       "assets/images/products/bp_4040v.jpg"
@@ -21783,8 +21783,8 @@ var PRODUCTS = [
     "name": "Ланцюгова акумуляторна пила Haisser HS CS 4040В (з 2 ак. і зарядним пристроєм)",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1702215161,
-    "oldPrice": null,
+    "price": 15161,
+    "oldPrice": 17022,
     "desc": "Ланцюгова акумуляторна пила Haisser HS CS 4040В (з 2 ак. і зарядним пристроєм)",
     "images": [
       "assets/images/products/bp_prystroyem.jpg"
@@ -22202,8 +22202,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2.5 без Т / З, 25 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1667559,
-    "oldPrice": null,
+    "price": 559,
+    "oldPrice": 1667,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2.5 без Т / З, 25 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h2_5_bez_t_z_25_m.jpg"
@@ -23227,8 +23227,8 @@ var PRODUCTS = [
     "name": "Ліска до мотокоси 2,4мм x 548 м  TWIST X-TREME",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1092681,
-    "oldPrice": null,
+    "price": 681,
+    "oldPrice": 1092,
     "desc": "Ліска до мотокоси 2,4мм x 548 м  TWIST X-TREME",
     "images": [
       "assets/images/products/bp_312m.jpg"
@@ -23956,8 +23956,8 @@ var PRODUCTS = [
     "name": "Модуль WIFI для WFBLE.RTU.BAR-02 Eybond",
     "category": "instrument",
     "subcategory": "all",
-    "price": 20221213,
-    "oldPrice": null,
+    "price": 1213,
+    "oldPrice": 2022,
     "desc": "Модуль WIFI для WFBLE.RTU.BAR-02 Eybond",
     "images": [
       "assets/images/products/bp_eybond.jpg"
@@ -24428,8 +24428,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte MK-143",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 47393851,
-    "oldPrice": null,
+    "price": 3851,
+    "oldPrice": 4739,
     "desc": "Мотокоса Forte MK-143",
     "images": [
       "assets/images/products/bp_143.jpg"
@@ -24447,8 +24447,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte MK-152",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 57994712,
-    "oldPrice": null,
+    "price": 4712,
+    "oldPrice": 5799,
     "desc": "Мотокоса Forte MK-152",
     "images": [
       "assets/images/products/bp_u.jpg"
@@ -24504,8 +24504,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte MK-415 PRO",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 48104259,
-    "oldPrice": null,
+    "price": 4259,
+    "oldPrice": 4810,
     "desc": "Мотокоса Forte MK-415 PRO",
     "images": [
       "assets/images/products/bp_pro.jpg"
@@ -24561,8 +24561,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte БMK-1943М",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 32342628,
-    "oldPrice": null,
+    "price": 2628,
+    "oldPrice": 3234,
     "desc": "Мотокоса Forte БMK-1943М",
     "images": [
       "assets/images/products/bp_1943m_1.jpg"
@@ -24580,8 +24580,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte БMK-2553М",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 34012764,
-    "oldPrice": null,
+    "price": 2764,
+    "oldPrice": 3401,
     "desc": "Мотокоса Forte БMK-2553М",
     "images": [
       "assets/images/products/bp_2553m.jpg"
@@ -24599,8 +24599,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte БMK-3100М",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 35682899,
-    "oldPrice": null,
+    "price": 2899,
+    "oldPrice": 3568,
     "desc": "Мотокоса Forte БMK-3100М",
     "images": [
       "assets/images/products/bp_3100m.jpg"
@@ -24637,8 +24637,8 @@ var PRODUCTS = [
     "name": "Мотокоса Grunhelm GR-31T",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 60214893,
-    "oldPrice": null,
+    "price": 4893,
+    "oldPrice": 6021,
     "desc": "Мотокоса Grunhelm GR-31T",
     "images": [
       "assets/images/products/bp_31t.jpg"
@@ -24656,8 +24656,8 @@ var PRODUCTS = [
     "name": "Мотокоса Grunhelm GR-3200M",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 52974304,
-    "oldPrice": null,
+    "price": 4304,
+    "oldPrice": 5297,
     "desc": "Мотокоса Grunhelm GR-3200M",
     "images": [
       "assets/images/products/bp_3200m.jpg"
@@ -24675,8 +24675,8 @@ var PRODUCTS = [
     "name": "Мотокоса Grunhelm GR-3200MS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 45723715,
-    "oldPrice": null,
+    "price": 3715,
+    "oldPrice": 4572,
     "desc": "Мотокоса Grunhelm GR-3200MS",
     "images": [
       "assets/images/products/bp_3200ms.jpg"
@@ -24694,8 +24694,8 @@ var PRODUCTS = [
     "name": "Мотокоса Grunhelm GR-43M",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 47393851,
-    "oldPrice": null,
+    "price": 3851,
+    "oldPrice": 4739,
     "desc": "Мотокоса Grunhelm GR-43M",
     "images": [
       "assets/images/products/bp_43m.jpg"
@@ -24713,8 +24713,8 @@ var PRODUCTS = [
     "name": "Мотокоса Grunhelm GR-5200M",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 47953896,
-    "oldPrice": null,
+    "price": 3896,
+    "oldPrice": 4795,
     "desc": "Мотокоса Grunhelm GR-5200M",
     "images": [
       "assets/images/products/bp_5200m.jpg"
@@ -24732,8 +24732,8 @@ var PRODUCTS = [
     "name": "Мотокоса Grunhelm GR-53M",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 51294168,
-    "oldPrice": null,
+    "price": 4168,
+    "oldPrice": 5129,
     "desc": "Мотокоса Grunhelm GR-53M",
     "images": [
       "assets/images/products/bp_53m.jpg"
@@ -24751,8 +24751,8 @@ var PRODUCTS = [
     "name": "Мотокоса WERK WB-5300S",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 39032132,
-    "oldPrice": null,
+    "price": 2132,
+    "oldPrice": 3903,
     "desc": "Мотокоса WERK WB-5300S",
     "images": [
       "assets/images/products/bp_5300s.jpg"
@@ -24770,8 +24770,8 @@ var PRODUCTS = [
     "name": "Мотокоса Werk WB-4500",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 37913169,
-    "oldPrice": null,
+    "price": 3169,
+    "oldPrice": 3791,
     "desc": "Мотокоса Werk WB-4500",
     "images": [
       "assets/images/products/bp_4500.jpg"
@@ -24789,8 +24789,8 @@ var PRODUCTS = [
     "name": "Мотокоса Світязь БТ-430",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 28432310,
-    "oldPrice": null,
+    "price": 2310,
+    "oldPrice": 2843,
     "desc": "Мотокоса Світязь БТ-430",
     "images": [
       "assets/images/products/bp_430.jpg"
@@ -24808,8 +24808,8 @@ var PRODUCTS = [
     "name": "Мотокоса Світязь БТ-430 PLUS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 29552401,
-    "oldPrice": null,
+    "price": 2401,
+    "oldPrice": 2955,
     "desc": "Мотокоса Світязь БТ-430 PLUS",
     "images": [
       "assets/images/products/bp_plus.jpg"
@@ -24827,8 +24827,8 @@ var PRODUCTS = [
     "name": "Мотокоса бензинова Forte MK-152S",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 49624032,
-    "oldPrice": null,
+    "price": 4032,
+    "oldPrice": 4962,
     "desc": "Мотокоса бензинова Forte MK-152S",
     "images": [
       "assets/images/products/bp_152s.jpg"
@@ -24846,8 +24846,8 @@ var PRODUCTS = [
     "name": "Мотокоса бензинова Grunhelm GR-31TS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 55754349,
-    "oldPrice": null,
+    "price": 4349,
+    "oldPrice": 5575,
     "desc": "Мотокоса бензинова Grunhelm GR-31TS",
     "images": [
       "assets/images/products/bp_31ts.jpg"
@@ -24865,8 +24865,8 @@ var PRODUCTS = [
     "name": "Мотокоса бензинова Grunhelm GR-41T",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 62445074,
-    "oldPrice": null,
+    "price": 5074,
+    "oldPrice": 6244,
     "desc": "Мотокоса бензинова Grunhelm GR-41T",
     "images": [
       "assets/images/products/bp_41t.jpg"
@@ -24884,8 +24884,8 @@ var PRODUCTS = [
     "name": "Мотокоса бензинова Grunhelm GR-53MS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 41813398,
-    "oldPrice": null,
+    "price": 3398,
+    "oldPrice": 4181,
     "desc": "Мотокоса бензинова Grunhelm GR-53MS",
     "images": [
       "assets/images/products/bp_53ms.jpg"
@@ -24903,8 +24903,8 @@ var PRODUCTS = [
     "name": "Мотокоса бензинова М-430 Буковина",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 28432310,
-    "oldPrice": null,
+    "price": 2310,
+    "oldPrice": 2843,
     "desc": "Мотокоса бензинова М-430 Буковина",
     "images": [
       "assets/images/products/bp_bukovina.jpg"
@@ -24941,8 +24941,8 @@ var PRODUCTS = [
     "name": "Мотообприскувач Forte 3WF-3",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 67575766,
-    "oldPrice": null,
+    "price": 5766,
+    "oldPrice": 6757,
     "desc": "Мотообприскувач Forte 3WF-3",
     "images": [
       "assets/images/products/bp_3.jpg"
@@ -28743,8 +28743,8 @@ var PRODUCTS = [
     "name": "Набір ящиків для інструментів Dark 55+40N (360х193х186 + 548х273х260) Haisser 90141",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1190854,
-    "oldPrice": null,
+    "price": 854,
+    "oldPrice": 1190,
     "desc": "Набір ящиків для інструментів Dark 55+40N (360х193х186 + 548х273х260) Haisser 90141",
     "images": [
       "assets/images/products/bp_90141.jpg"
@@ -29125,8 +29125,8 @@ var PRODUCTS = [
     "name": "Наколінники захисні 1680D WERK 20085",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1276770,
-    "oldPrice": null,
+    "price": 770,
+    "oldPrice": 1276,
     "desc": "Наколінники захисні 1680D WERK 20085",
     "images": [
       "assets/images/products/bp_20085.jpg"
@@ -30290,8 +30290,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 14881279,
-    "oldPrice": null,
+    "price": 1279,
+    "oldPrice": 1488,
     "desc": "Обприскувач акумуляторний 12л  Grunhelm GHS -12",
     "images": [
       "assets/images/products/bp_12.jpg"
@@ -30309,8 +30309,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 16501399,
-    "oldPrice": null,
+    "price": 1399,
+    "oldPrice": 1650,
     "desc": "Обприскувач акумуляторний 16 л 2 в 1 Grunhelm GHS -16-2",
     "images": [
       "assets/images/products/bp_2.jpg"
@@ -30328,8 +30328,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний 16л Grunhelm GHS -16PRO",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 15661349,
-    "oldPrice": null,
+    "price": 1349,
+    "oldPrice": 1566,
     "desc": "Обприскувач акумуляторний 16л Grunhelm GHS -16PRO",
     "images": [
       "assets/images/products/bp_16pro.jpg"
@@ -30347,8 +30347,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний 5 л Grunhelm GHS-5",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1126969,
-    "oldPrice": null,
+    "price": 969,
+    "oldPrice": 1126,
     "desc": "Обприскувач акумуляторний 5 л Grunhelm GHS-5",
     "images": [
       "assets/images/products/bp_5.jpg"
@@ -30366,8 +30366,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Forte CL-12A",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 14881279,
-    "oldPrice": null,
+    "price": 1279,
+    "oldPrice": 1488,
     "desc": "Обприскувач акумуляторний Forte CL-12A",
     "images": [
       "assets/images/products/bp_l.jpg"
@@ -30385,8 +30385,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Forte CL-16A",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 15981365,
-    "oldPrice": null,
+    "price": 1365,
+    "oldPrice": 1598,
     "desc": "Обприскувач акумуляторний Forte CL-16A",
     "images": [
       "assets/images/products/bp_16a.jpg"
@@ -30423,8 +30423,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Forte KF-16",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 15661349,
-    "oldPrice": null,
+    "price": 1349,
+    "oldPrice": 1566,
     "desc": "Обприскувач акумуляторний Forte KF-16",
     "images": [
       "assets/images/products/bp_16.jpg"
@@ -30442,8 +30442,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Grunhelm GHS-10",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 15191299,
-    "oldPrice": null,
+    "price": 1299,
+    "oldPrice": 1519,
     "desc": "Обприскувач акумуляторний Grunhelm GHS-10",
     "images": [
       "assets/images/products/bp_10.jpg"
@@ -30461,8 +30461,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Grunhelm GHS-16M",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 15661349,
-    "oldPrice": null,
+    "price": 1349,
+    "oldPrice": 1566,
     "desc": "Обприскувач акумуляторний Grunhelm GHS-16M",
     "images": [
       "assets/images/products/bp_16m.jpg"
@@ -30499,8 +30499,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 13201126,
-    "oldPrice": null,
+    "price": 1126,
+    "oldPrice": 1320,
     "desc": "Обприскувач акумуляторний БУКОВИНА CL-10A 10 л",
     "images": [
       "assets/images/products/bp_10a10l.jpg"
@@ -30518,8 +30518,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний БУКОВИНА CL-12A",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 13461149,
-    "oldPrice": null,
+    "price": 1149,
+    "oldPrice": 1346,
     "desc": "Обприскувач акумуляторний БУКОВИНА CL-12A",
     "images": [
       "assets/images/products/bp_12a.jpg"
@@ -30537,8 +30537,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний БУКОВИНА CL-16В",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 13781179,
-    "oldPrice": null,
+    "price": 1179,
+    "oldPrice": 1378,
     "desc": "Обприскувач акумуляторний БУКОВИНА CL-16В",
     "images": [
       "assets/images/products/bp_16v.jpg"
@@ -31464,8 +31464,8 @@ var PRODUCTS = [
     "name": "Пила ланцюгова акумуляторна FORTE CS-10BLS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 19531660,
-    "oldPrice": null,
+    "price": 1660,
+    "oldPrice": 1953,
     "desc": "Пила ланцюгова акумуляторна FORTE CS-10BLS",
     "images": [
       "assets/images/products/bp_10bls.jpg"
@@ -31483,8 +31483,8 @@ var PRODUCTS = [
     "name": "Пила ланцюгова акумуляторна FORTE CS-15B",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 28692438,
-    "oldPrice": null,
+    "price": 2438,
+    "oldPrice": 2869,
     "desc": "Пила ланцюгова акумуляторна FORTE CS-15B",
     "images": [
       "assets/images/products/bp_15b.jpg"
@@ -34249,8 +34249,8 @@ var PRODUCTS = [
     "name": "Повітряний компресор FORTE V-0.4-51",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2858024699,
-    "oldPrice": null,
+    "price": 24699,
+    "oldPrice": 28580,
     "desc": "Повітряний компресор FORTE V-0.4-51",
     "images": [
       "assets/images/products/bp_51.jpg"
@@ -37825,8 +37825,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HCB-2T",
     "category": "instrument",
     "subcategory": "all",
-    "price": 36702494,
-    "oldPrice": null,
+    "price": 2494,
+    "oldPrice": 3670,
     "desc": "Ручна лебідка Forte HCB-2T",
     "images": [
       "assets/images/products/bp_2t.jpg"
@@ -37882,8 +37882,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HWC-1200B",
     "category": "instrument",
     "subcategory": "all",
-    "price": 21791480,
-    "oldPrice": null,
+    "price": 1480,
+    "oldPrice": 2179,
     "desc": "Ручна лебідка Forte HWC-1200B",
     "images": [
       "assets/images/products/bp_1200b.jpg"
@@ -40034,8 +40034,8 @@ var PRODUCTS = [
     "name": "Рюкзак для інструментів 10 кишень 36х25х54 см  Haisser 90307",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 23851610,
-    "oldPrice": null,
+    "price": 1610,
+    "oldPrice": 2385,
     "desc": "Рюкзак для інструментів 10 кишень 36х25х54 см  Haisser 90307",
     "images": [
       "assets/images/products/bp_90307.jpg"
@@ -42361,8 +42361,8 @@ var PRODUCTS = [
     "name": "Скарифікатор бензиновий Grunhelm TS-40S",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 2224718599,
-    "oldPrice": null,
+    "price": 18599,
+    "oldPrice": 22247,
     "desc": "Скарифікатор бензиновий Grunhelm TS-40S",
     "images": [
       "assets/images/products/bp_40s.jpg"
@@ -44317,8 +44317,8 @@ var PRODUCTS = [
     "name": "Скутер  Forte BWS-R 150CC білий",
     "category": "technika",
     "subcategory": "transport",
-    "price": 4877044675,
-    "oldPrice": null,
+    "price": 44675,
+    "oldPrice": 48770,
     "desc": "Скутер  Forte BWS-R 150CC білий",
     "images": [
       "assets/images/products/bp_belyy.jpg"
@@ -44336,8 +44336,8 @@ var PRODUCTS = [
     "name": "Скутер FORTE R9 Сіро-блакитний",
     "category": "technika",
     "subcategory": "transport",
-    "price": 6059152000,
-    "oldPrice": null,
+    "price": 52000,
+    "oldPrice": 60591,
     "desc": "Скутер FORTE R9 Сіро-блакитний",
     "images": [
       "assets/images/products/bp_blakytnyj.jpg"
@@ -44355,8 +44355,8 @@ var PRODUCTS = [
     "name": "Скутер Forte BWS-R 150CC червоний",
     "category": "technika",
     "subcategory": "transport",
-    "price": 4877044675,
-    "oldPrice": null,
+    "price": 44675,
+    "oldPrice": 48770,
     "desc": "Скутер Forte BWS-R 150CC червоний",
     "images": [
       "assets/images/products/bp_krasnyy.jpg"
@@ -45468,8 +45468,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 24 кишені 43х26х28см Haisser 90310",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 21581470,
-    "oldPrice": null,
+    "price": 1470,
+    "oldPrice": 2158,
     "desc": "Сумка для інструментів 24 кишені 43х26х28см Haisser 90310",
     "images": [
       "assets/images/products/bp_90310.jpg"
@@ -59250,8 +59250,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Evo 50  476х260х256 Haisser 90103",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1053749,
-    "oldPrice": null,
+    "price": 749,
+    "oldPrice": 1053,
     "desc": "Ящик для інструментів Evo 50  476х260х256 Haisser 90103",
     "images": [
       "assets/images/products/bp_90103.jpg"
@@ -59497,8 +59497,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 55 Mtl 90120",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 19191372,
-    "oldPrice": null,
+    "price": 1372,
+    "oldPrice": 1919,
     "desc": "Ящик для інструментів Haisser Optima 55 Mtl 90120",
     "images": [
       "assets/images/products/bp_90120.jpg"
@@ -59535,8 +59535,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Smart IML 50 90107",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1107777,
-    "oldPrice": null,
+    "price": 777,
+    "oldPrice": 1107,
     "desc": "Ящик для інструментів Haisser Smart IML 50 90107",
     "images": [
       "assets/images/products/bp_90107.jpg"
@@ -59554,8 +59554,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Titan Plus 50 90109",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 14651050,
-    "oldPrice": null,
+    "price": 1050,
+    "oldPrice": 1465,
     "desc": "Ящик для інструментів Haisser Titan Plus 50 90109",
     "images": [
       "assets/images/products/bp_90109.jpg"
@@ -59573,8 +59573,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Titan Plus 55 90110",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 18691330,
-    "oldPrice": null,
+    "price": 1330,
+    "oldPrice": 1869,
     "desc": "Ящик для інструментів Haisser Titan Plus 55 90110",
     "images": [
       "assets/images/products/bp_90110.jpg"
@@ -59630,8 +59630,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів з висувними шухлядами 3 System PRO Expert Haisser 90134",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 46733192,
-    "oldPrice": null,
+    "price": 3192,
+    "oldPrice": 4673,
     "desc": "Ящик для інструментів з висувними шухлядами 3 System PRO Expert Haisser 90134",
     "images": [
       "assets/images/products/bp_90134.jpg"
@@ -59722,7 +59722,7 @@ var PRODUCTS = [
   }
 ];
 
-// ==============================================================
+// =================================================================
 //  HELPERS
 // ============================================
 function findProduct(id) { for (var i=0;i<PRODUCTS.length;i++) if (PRODUCTS[i].id===id) return PRODUCTS[i]; return null; }
@@ -59830,10 +59830,13 @@ function productCardHtml(p, showCategory) {
       '<a href="'+detailLink+'"><h3 class="product-title">'+p.name+'</h3></a>'+
       '<p class="product-desc">'+p.desc.substring(0,75)+'\u2026</p>'+
       '<div class="product-footer">'+
-        '<div class="product-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>'+
-        '<button class="btn btn-cta btn-sm btn-add-cart" aria-label="В кошик" data-id="'+p.id+'">'+
-        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
-        '<span class="add-cart-text" style="margin-left:6px;">\u0412 \u043a\u043e\u0448\u0438\u043a</span></button>'+
+        (p.price > 0 ? 
+          '<div class="product-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>'+
+          '<button class="btn btn-cta btn-sm btn-add-cart" aria-label="В кошик" data-id="'+p.id+'">'+
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
+          '<span class="add-cart-text" style="margin-left:6px;">\u0412 \u043a\u043e\u0448\u0438\u043a</span></button>'
+        : '<div class="product-price" style="font-size:1rem;color:#888;">Немає в наявності</div>'
+        )+
       '</div>'+
     '</div>'+
   '</div>';
@@ -60089,13 +60092,20 @@ function renderProductPage(p) {
   html += '<div class="product-detail-cat">'+catInfo.name+'</div>';
   html += '<h1 class="product-detail-title">'+p.name+'</h1>';
   html += availBadge(p.available)+' ';
-  html += '<div class="product-detail-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>';
-  html += '<p class="product-detail-desc">'+p.desc+'</p>';
-  html += specsHtml;
-  html += '<div class="product-detail-actions">';
-  html += '<button class="btn btn-cta btn-lg btn-add-cart-detail" data-id="'+p.id+'">'+
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right:8px"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
-    '\u0414\u043e\u0434\u0430\u0442\u0438 \u0432 \u043a\u043e\u0448\u0438\u043a</button>';
+  if (p.price > 0) {
+    html += '<div class="product-detail-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>';
+    html += '<p class="product-detail-desc">'+p.desc+'</p>';
+    html += specsHtml;
+    html += '<div class="product-detail-actions">';
+    html += '<button class="btn btn-cta btn-lg btn-add-cart-detail" data-id="'+p.id+'">'+
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right:8px"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
+      '\u0414\u043e\u0434\u0430\u0442\u0438 \u0432 \u043a\u043e\u0448\u0438\u043a</button>';
+  } else {
+    html += '<div class="product-detail-price" style="font-size:1.5rem;color:#888;">Немає в наявності</div>';
+    html += '<p class="product-detail-desc">'+p.desc+'</p>';
+    html += specsHtml;
+    html += '<div class="product-detail-actions">';
+  }
   html += '<a href="tel:+380978973207" class="btn btn-outline btn-lg">'+
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right:6px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>'+
     '\u0417\u0430\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443\u0432\u0430\u0442\u0438</a>';
