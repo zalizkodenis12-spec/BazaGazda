@@ -679,8 +679,8 @@ var PRODUCTS = [
     "name": "Blue Dolphin 020146 Стрічка малярська самоклеюча паперова 25мм х 20м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 12,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 12,
     "desc": "Blue Dolphin 020146 Стрічка малярська самоклеюча паперова 25мм х 20м",
     "images": [
       "assets/images/products/bp_bumazhnaja.jpg"
@@ -698,8 +698,8 @@ var PRODUCTS = [
     "name": "Bosch AXT 25D Садовий подрібнювач (0600803100)",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 21552,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 21552,
     "desc": "Bosch AXT 25D Садовий подрібнювач (0600803100)",
     "images": [
       "assets/images/products/bp_izmelchitel.jpg"
@@ -755,8 +755,8 @@ var PRODUCTS = [
     "name": "Budfix WB6404D Тачка будівельна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2221,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2221,
     "desc": "Budfix WB6404D Тачка будівельна",
     "images": [
       "assets/images/products/bp_stroiteljnaja.jpg"
@@ -774,8 +774,8 @@ var PRODUCTS = [
     "name": "Budfix WB6404W Тачка будівельна (двоколісний)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2733,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2733,
     "desc": "Budfix WB6404W Тачка будівельна (двоколісний)",
     "images": [
       "assets/images/products/bp_dvuhkolesnaja.jpg"
@@ -793,8 +793,8 @@ var PRODUCTS = [
     "name": "Budfix WB6405 Тачка будівельна одноколісна 160 кг",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2824,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2824,
     "desc": "Budfix WB6405 Тачка будівельна одноколісна 160 кг",
     "images": [
       "assets/images/products/bp_kg.jpg"
@@ -812,8 +812,8 @@ var PRODUCTS = [
     "name": "Budfix WB6407В Тачка садова",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1423,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1423,
     "desc": "Budfix WB6407В Тачка садова",
     "images": [
       "assets/images/products/bp_sadovaja.jpg"
@@ -883,8 +883,8 @@ var PRODUCTS = [
     "name": "Cтрічка малярна рисова фіолетова Сталь 48ммх20Мx95 мкм 36125",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 110,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 110,
     "desc": "Cтрічка малярна рисова фіолетова Сталь 48ммх20Мx95 мкм 36125",
     "images": [
       "assets/images/products/bp_36125.jpg"
@@ -921,8 +921,8 @@ var PRODUCTS = [
     "name": "Duracell LR03 MN2400 1х2 шт (відривні 2х6) Батарейки",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 342,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 342,
     "desc": "Duracell LR03 MN2400 1х2 шт (відривні 2х6) Батарейки",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductduracell_lr03_mn2400_1h2_sht_otryvnye_2h6_batarejki.jpg"
@@ -940,8 +940,8 @@ var PRODUCTS = [
     "name": "Duracell LR06 MN1500 1х2 шт (відривні 2х6) Батарейки",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 342,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 342,
     "desc": "Duracell LR06 MN1500 1х2 шт (відривні 2х6) Батарейки",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductduracell_lr06_mn1500_1h2_sht_otryvnye_2h6_batarejki.jpg"
@@ -959,8 +959,8 @@ var PRODUCTS = [
     "name": "Evci Plastik Джутовий шпагат 250 гр",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 46,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 46,
     "desc": "Evci Plastik Джутовий шпагат 250 гр",
     "images": [
       "assets/images/products/bp_gr.jpg"
@@ -1035,8 +1035,8 @@ var PRODUCTS = [
     "name": "Forte 1-0950 Ящик органайзер",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 60,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 60,
     "desc": "Forte 1-0950 Ящик органайзер",
     "images": [
       "assets/images/products/bp_0950.jpg"
@@ -1054,8 +1054,8 @@ var PRODUCTS = [
     "name": "Forte 2 мм х 15 м Жилка для мотокос кручений квадрат",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 41,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 41,
     "desc": "Forte 2 мм х 15 м Жилка для мотокос кручений квадрат",
     "images": [
       "assets/images/products/bp_kvadrat.jpg"
@@ -1092,8 +1092,8 @@ var PRODUCTS = [
     "name": "Forte 2.4 мм х 15 м Жилка для мотокос метал сердечник",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 64,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 64,
     "desc": "Forte 2.4 мм х 15 м Жилка для мотокос метал сердечник",
     "images": [
       "assets/images/products/bp_serdechnik.jpg"
@@ -1111,8 +1111,8 @@ var PRODUCTS = [
     "name": "Forte 3 мм х 472 м Жилка для мотокос з сердечником",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3396,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3396,
     "desc": "Forte 3 мм х 472 м Жилка для мотокос з сердечником",
     "images": [
       "assets/images/products/bp_serdechnikom.jpg"
@@ -1130,8 +1130,8 @@ var PRODUCTS = [
     "name": "Forte ACDR-5kVA Стабілізатор напруги",
     "category": "instrument",
     "subcategory": "all",
-    "price": 11957,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 11957,
     "desc": "Forte ACDR-5kVA Стабілізатор напруги",
     "images": [
       "assets/images/products/bp_5kva.jpg"
@@ -1149,8 +1149,8 @@ var PRODUCTS = [
     "name": "Forte AG-16KIT Пневмопістолет",
     "category": "instrument",
     "subcategory": "all",
-    "price": 314,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 314,
     "desc": "Forte AG-16KIT Пневмопістолет",
     "images": [
       "assets/images/products/bp_kit.jpg"
@@ -1187,8 +1187,8 @@ var PRODUCTS = [
     "name": "Forte AT KIT-5G Набір пневмоинструментов",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1782,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1782,
     "desc": "Forte AT KIT-5G Набір пневмоинструментов",
     "images": [
       "assets/images/products/bp_gravity.jpg"
@@ -1206,8 +1206,8 @@ var PRODUCTS = [
     "name": "Forte DG-2236 пневмошліфмашіни",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1251,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1251,
     "desc": "Forte DG-2236 пневмошліфмашіни",
     "images": [
       "assets/images/products/bp_2236.jpg"
@@ -1225,8 +1225,8 @@ var PRODUCTS = [
     "name": "Forte FE4 * 3 Драбина шарнірна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 8720,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 8720,
     "desc": "Forte FE4 * 3 Драбина шарнірна",
     "images": [
       "assets/images/products/bp_fe4h3.jpg"
@@ -1244,8 +1244,8 @@ var PRODUCTS = [
     "name": "Forte FES24-40 Електропила ланцюгова",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 5438,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5438,
     "desc": "Forte FES24-40 Електропила ланцюгова",
     "images": [
       "assets/images/products/bp_45.jpg"
@@ -1263,8 +1263,8 @@ var PRODUCTS = [
     "name": "Forte FGS41-16 Бензопила ланцюгова",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3772,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3772,
     "desc": "Forte FGS41-16 Бензопила ланцюгова",
     "images": [
       "assets/images/products/bp_cepnaja.jpg"
@@ -1282,8 +1282,8 @@ var PRODUCTS = [
     "name": "Forte FL-24 Компресор",
     "category": "instrument",
     "subcategory": "all",
-    "price": 6865,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6865,
     "desc": "Forte FL-24 Компресор",
     "images": [
       "assets/images/products/bp_24.jpg"
@@ -1339,8 +1339,8 @@ var PRODUCTS = [
     "name": "Forte FPA 1000 Тельфер",
     "category": "instrument",
     "subcategory": "all",
-    "price": 13549,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 13549,
     "desc": "Forte FPA 1000 Тельфер",
     "images": [
       "assets/images/products/bp_500_py.jpg"
@@ -1358,8 +1358,8 @@ var PRODUCTS = [
     "name": "Forte FPA 250 Тельфер",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5689,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5689,
     "desc": "Forte FPA 250 Тельфер",
     "images": [
       "assets/images/products/bp_250.jpg"
@@ -1377,8 +1377,8 @@ var PRODUCTS = [
     "name": "Forte FPA 500 Тельфер",
     "category": "instrument",
     "subcategory": "all",
-    "price": 7999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 7999,
     "desc": "Forte FPA 500 Тельфер",
     "images": [
       "assets/images/products/bp_500.jpg"
@@ -1396,8 +1396,8 @@ var PRODUCTS = [
     "name": "Forte FPA 800 Тельфер",
     "category": "instrument",
     "subcategory": "all",
-    "price": 8839,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 8839,
     "desc": "Forte FPA 800 Тельфер",
     "images": [
       "assets/images/products/bp_800.jpg"
@@ -1434,8 +1434,8 @@ var PRODUCTS = [
     "name": "Forte H-3500 Зажим маси 500A",
     "category": "instrument",
     "subcategory": "all",
-    "price": 185148,
-    "oldPrice": null,
+    "price": 148,
+    "oldPrice": 185,
     "desc": "Forte H-3500 Зажим маси 500A",
     "images": [
       "assets/images/products/bp_massy.jpg"
@@ -1453,8 +1453,8 @@ var PRODUCTS = [
     "name": "Forte HG-4685 Пневмопістолет (хопер)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1404,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1404,
     "desc": "Forte HG-4685 Пневмопістолет (хопер)",
     "images": [
       "assets/images/products/bp_hopper.jpg"
@@ -1472,8 +1472,8 @@ var PRODUCTS = [
     "name": "Forte HVLP SG-200 Пневмокраскопульти",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1459,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1459,
     "desc": "Forte HVLP SG-200 Пневмокраскопульти",
     "images": [
       "assets/images/products/bp_200.jpg"
@@ -1510,8 +1510,8 @@ var PRODUCTS = [
     "name": "Forte LFD106TB Драбина металева 3 ступені",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1837,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1837,
     "desc": "Forte LFD106TB Драбина металева 3 ступені",
     "images": [
       "assets/images/products/bp_106tb.jpg"
@@ -1529,8 +1529,8 @@ var PRODUCTS = [
     "name": "Forte LFD131TB Драбина металева 4 ступені",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2350,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2350,
     "desc": "Forte LFD131TB Драбина металева 4 ступені",
     "images": [
       "assets/images/products/bp_131tb.jpg"
@@ -1567,8 +1567,8 @@ var PRODUCTS = [
     "name": "Forte LVLP SG-160 PROFI Пневмокраскопульти",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2076,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2076,
     "desc": "Forte LVLP SG-160 PROFI Пневмокраскопульти",
     "images": [
       "assets/images/products/bp_160_profi_pnevmokraskopuljt.jpg"
@@ -1586,8 +1586,8 @@ var PRODUCTS = [
     "name": "Forte MF-14 (1/4) Міні фільтр для фарбопульта",
     "category": "instrument",
     "subcategory": "all",
-    "price": 262,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 262,
     "desc": "Forte MF-14 (1/4) Міні фільтр для фарбопульта",
     "images": [
       "assets/images/products/bp_14_14_mini_filjtr_dlja_kraskopuljta.jpg"
@@ -1605,8 +1605,8 @@ var PRODUCTS = [
     "name": "Forte PR-14 (1/4) Редуктор з манометром і запобіжним кільцем",
     "category": "instrument",
     "subcategory": "all",
-    "price": 439,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 439,
     "desc": "Forte PR-14 (1/4) Редуктор з манометром і запобіжним кільцем",
     "images": [
       "assets/images/products/bp_14_14_reduktor_s_manometrom_i_fiksirujushtim_koljcom.jpg"
@@ -1624,8 +1624,8 @@ var PRODUCTS = [
     "name": "Forte PTIG-6340 Пневмопістолет (манометр)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 702,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 702,
     "desc": "Forte PTIG-6340 Пневмопістолет (манометр)",
     "images": [
       "assets/images/products/bp_6340_pnevmopistolet_manometr.jpg"
@@ -1643,8 +1643,8 @@ var PRODUCTS = [
     "name": "Forte RH-10N Шланг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 956,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 956,
     "desc": "Forte RH-10N Шланг",
     "images": [
       "assets/images/products/bp_shlang.jpg"
@@ -1662,8 +1662,8 @@ var PRODUCTS = [
     "name": "Forte S-6160 Пневмостеплер",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2158,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2158,
     "desc": "Forte S-6160 Пневмостеплер",
     "images": [
       "assets/images/products/bp_6160.jpg"
@@ -1681,8 +1681,8 @@ var PRODUCTS = [
     "name": "Forte SBG-586P Піскоструминний пневмопистолет",
     "category": "instrument",
     "subcategory": "all",
-    "price": 972584,
-    "oldPrice": null,
+    "price": 584,
+    "oldPrice": 972,
     "desc": "Forte SBG-586P Піскоструминний пневмопистолет",
     "images": [
       "assets/images/products/bp_586p.jpg"
@@ -1700,8 +1700,8 @@ var PRODUCTS = [
     "name": "Forte SG-1120G Пневмокраскопульти",
     "category": "instrument",
     "subcategory": "all",
-    "price": 688,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 688,
     "desc": "Forte SG-1120G Пневмокраскопульти",
     "images": [
       "assets/images/products/bp_1120g.jpg"
@@ -1719,8 +1719,8 @@ var PRODUCTS = [
     "name": "Forte SG-1120SN Пневмокраскопульт",
     "category": "instrument",
     "subcategory": "all",
-    "price": 903,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 903,
     "desc": "Forte SG-1120SN Пневмокраскопульт",
     "images": [
       "assets/images/products/bp_pnevmokraskopuljt.jpg"
@@ -1738,8 +1738,8 @@ var PRODUCTS = [
     "name": "Forte SG-1222G Пневмокраскопульти",
     "category": "instrument",
     "subcategory": "all",
-    "price": 829,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 829,
     "desc": "Forte SG-1222G Пневмокраскопульти",
     "images": [
       "assets/images/products/bp_1222g.jpg"
@@ -1757,8 +1757,8 @@ var PRODUCTS = [
     "name": "Forte SGCS-11 Набір для чистки фарбопультів",
     "category": "instrument",
     "subcategory": "all",
-    "price": 231,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 231,
     "desc": "Forte SGCS-11 Набір для чистки фарбопультів",
     "images": [
       "assets/images/products/bp_11_nabor_dlja_chistki_kraskopuljtov.jpg"
@@ -1776,8 +1776,8 @@ var PRODUCTS = [
     "name": "Forte SHC-10PE Шланг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 370,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 370,
     "desc": "Forte SHC-10PE Шланг",
     "images": [
       "assets/images/products/bp_10pe_shlang.jpg"
@@ -1795,8 +1795,8 @@ var PRODUCTS = [
     "name": "Forte SHC-20PE Шланг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 558,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 558,
     "desc": "Forte SHC-20PE Шланг",
     "images": [
       "assets/images/products/bp_20pe_shlang.jpg"
@@ -1814,8 +1814,8 @@ var PRODUCTS = [
     "name": "Forte SHC-20PU Шланг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1339,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1339,
     "desc": "Forte SHC-20PU Шланг",
     "images": [
       "assets/images/products/bp_20pu_shlang.jpg"
@@ -1871,8 +1871,8 @@ var PRODUCTS = [
     "name": "Forte TIG-6316 Пневмопістолет (манометр)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 518,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 518,
     "desc": "Forte TIG-6316 Пневмопістолет (манометр)",
     "images": [
       "assets/images/products/bp_6316.jpg"
@@ -1890,8 +1890,8 @@ var PRODUCTS = [
     "name": "Forte TTIG-5340 Пневмопістолет (манометр)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 789,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 789,
     "desc": "Forte TTIG-5340 Пневмопістолет (манометр)",
     "images": [
       "assets/images/products/bp_5340_pnevmopistolet_manometr.jpg"
@@ -1909,8 +1909,8 @@ var PRODUCTS = [
     "name": "Forte TVR-1000VA Стабілізатор напруги",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3727,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3727,
     "desc": "Forte TVR-1000VA Стабілізатор напруги",
     "images": [
       "assets/images/products/bp_naprugy.jpg"
@@ -1928,8 +1928,8 @@ var PRODUCTS = [
     "name": "Forte TVR-5000VA Стабілізатор напруги",
     "category": "instrument",
     "subcategory": "all",
-    "price": 8930,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 8930,
     "desc": "Forte TVR-5000VA Стабілізатор напруги",
     "images": [
       "assets/images/products/bp_5000va.jpg"
@@ -1947,8 +1947,8 @@ var PRODUCTS = [
     "name": "Forte TVR-500VA Стабілізатор напруги",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3045,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3045,
     "desc": "Forte TVR-500VA Стабілізатор напруги",
     "images": [
       "assets/images/products/bp_500va.jpg"
@@ -2023,8 +2023,8 @@ var PRODUCTS = [
     "name": "Forte WB6414T Тачка будівельна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2414,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2414,
     "desc": "Forte WB6414T Тачка будівельна",
     "images": [
       "assets/images/products/bp_wb6414t.jpg"
@@ -2042,8 +2042,8 @@ var PRODUCTS = [
     "name": "Forte WB6418-1S Тачка будівельна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3143,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3143,
     "desc": "Forte WB6418-1S Тачка будівельна",
     "images": [
       "assets/images/products/bp_1s.jpg"
@@ -2061,8 +2061,8 @@ var PRODUCTS = [
     "name": "Forte WB9618 Тачка будівельна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2676,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2676,
     "desc": "Forte WB9618 Тачка будівельна",
     "images": [
       "assets/images/products/bp_wb9618.jpg"
@@ -2080,8 +2080,8 @@ var PRODUCTS = [
     "name": "Forte АО52-404 Драбина шарнірна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 10062,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 10062,
     "desc": "Forte АО52-404 Драбина шарнірна",
     "images": [
       "assets/images/products/bp_fe4h4.jpg"
@@ -2099,8 +2099,8 @@ var PRODUCTS = [
     "name": "Forte МО-14 (1/4) Міні-маслянка",
     "category": "instrument",
     "subcategory": "all",
-    "price": 167,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 167,
     "desc": "Forte МО-14 (1/4) Міні-маслянка",
     "images": [
       "assets/images/products/bp_maslenka.jpg"
@@ -2118,8 +2118,8 @@ var PRODUCTS = [
     "name": "Forte Мастило для бурів Dolot 80 мл",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 72,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 72,
     "desc": "Forte Мастило для бурів Dolot 80 мл",
     "images": [
       "assets/images/products/bp_ml.jpg"
@@ -2137,8 +2137,8 @@ var PRODUCTS = [
     "name": "GRUNHELM GS-4500MG Бензопила ланцюгова",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3826,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3826,
     "desc": "GRUNHELM GS-4500MG Бензопила ланцюгова",
     "images": [
       "assets/images/products/bp_4500mg.jpg"
@@ -2156,8 +2156,8 @@ var PRODUCTS = [
     "name": "GRUNHELM VB-28 Пилосос садовий",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3139,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3139,
     "desc": "GRUNHELM VB-28 Пилосос садовий",
     "images": [
       "assets/images/products/bp_28_pylesos_sadovyj.jpg"
@@ -2175,8 +2175,8 @@ var PRODUCTS = [
     "name": "Grunhelm 2-TAKT SEMISYNT CLASSIC (0,5 л) Олива моторна",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 180,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 180,
     "desc": "Grunhelm 2-TAKT SEMISYNT CLASSIC (0,5 л) Олива моторна",
     "images": [
       "assets/images/products/bp_motornoe.jpg"
@@ -2194,8 +2194,8 @@ var PRODUCTS = [
     "name": "Grunhelm COMPRESSOR SEMISYNT (1л) Олива компресорна",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 222,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 222,
     "desc": "Grunhelm COMPRESSOR SEMISYNT (1л) Олива компресорна",
     "images": [
       "assets/images/products/bp_kompressornoe.jpg"
@@ -2213,8 +2213,8 @@ var PRODUCTS = [
     "name": "Grunhelm ES-24 Садовий подрібнювач",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 11041,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 11041,
     "desc": "Grunhelm ES-24 Садовий подрібнювач",
     "images": [
       "assets/images/products/bp_24_sadovyj_izmeljchitelj.jpg"
@@ -2232,8 +2232,8 @@ var PRODUCTS = [
     "name": "Grunhelm Комплект для монтажу радіаторів 1/2 (2 кронштейна)",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 147118,
-    "oldPrice": null,
+    "price": 118,
+    "oldPrice": 147,
     "desc": "Grunhelm Комплект для монтажу радіаторів 1/2 (2 кронштейна)",
     "images": [
       "assets/images/products/bp_kronshtejna.jpg"
@@ -2251,8 +2251,8 @@ var PRODUCTS = [
     "name": "HAISSER Біта - PH1 х 50мм, 20x1",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 21,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 21,
     "desc": "HAISSER Біта - PH1 х 50мм, 20x1",
     "images": [
       "assets/images/products/bp_20x1.jpg"
@@ -2270,8 +2270,8 @@ var PRODUCTS = [
     "name": "HAISSER Біта - PH2 х 90мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 39,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 39,
     "desc": "HAISSER Біта - PH2 х 90мм",
     "images": [
       "assets/images/products/bp_90mm.jpg"
@@ -2289,8 +2289,8 @@ var PRODUCTS = [
     "name": "HAISSER Біта вставка з шестигранником - 8х45мм, 1х1",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 109,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 109,
     "desc": "HAISSER Біта вставка з шестигранником - 8х45мм, 1х1",
     "images": [
       "assets/images/products/bp_1h1.jpg"
@@ -2308,8 +2308,8 @@ var PRODUCTS = [
     "name": "HAISSER Бітотримач 1/4 \"х 60мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 109,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 109,
     "desc": "HAISSER Бітотримач 1/4 \"х 60мм",
     "images": [
       "assets/images/products/bp_60mm.jpg"
@@ -2327,8 +2327,8 @@ var PRODUCTS = [
     "name": "HAISSER Ящик для інструментів SYSTEM PRO TOOLCASE",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1167,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1167,
     "desc": "HAISSER Ящик для інструментів SYSTEM PRO TOOLCASE",
     "images": [
       "assets/images/products/bp_toolcase.jpg"
@@ -2346,8 +2346,8 @@ var PRODUCTS = [
     "name": "Haisser 20FCH72 Ланцюг для бензопили 0.325",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 458,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 458,
     "desc": "Haisser 20FCH72 Ланцюг для бензопили 0.325",
     "images": [
       "assets/images/products/bp_0i325.jpg"
@@ -2365,8 +2365,8 @@ var PRODUCTS = [
     "name": "Haisser 91FCH50 Ланцюг для бензопили 3/8 \"L",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 290,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 290,
     "desc": "Haisser 91FCH50 Ланцюг для бензопили 3/8 \"L",
     "images": [
       "assets/images/products/bp_38l.jpg"
@@ -2384,8 +2384,8 @@ var PRODUCTS = [
     "name": "Haisser Classic 300 Органайзер пластиковий 10 відділень (90000)",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 237,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 237,
     "desc": "Haisser Classic 300 Органайзер пластиковий 10 відділень (90000)",
     "images": [
       "assets/images/products/bp_otdelenij.jpg"
@@ -2403,8 +2403,8 @@ var PRODUCTS = [
     "name": "Haisser Біта PH2х25 мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 12,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 12,
     "desc": "Haisser Біта PH2х25 мм",
     "images": [
       "assets/images/products/bp_mm_1.jpg"
@@ -2422,8 +2422,8 @@ var PRODUCTS = [
     "name": "Haisser Біта шестигранна HEX4х25 мм, 20х1 (125H040A)",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 13,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 13,
     "desc": "Haisser Біта шестигранна HEX4х25 мм, 20х1 (125H040A)",
     "images": [
       "assets/images/products/bp_125h040a.jpg"
@@ -2441,8 +2441,8 @@ var PRODUCTS = [
     "name": "Haisser Набір біт 10 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 45,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 45,
     "desc": "Haisser Набір біт 10 шт",
     "images": [
       "assets/images/products/bp_sht_3.jpg"
@@ -2460,8 +2460,8 @@ var PRODUCTS = [
     "name": "ITOSS 7107 Драбина приставна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3356,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3356,
     "desc": "ITOSS 7107 Драбина приставна",
     "images": [
       "assets/images/products/bp_stupenchataja.jpg"
@@ -2479,8 +2479,8 @@ var PRODUCTS = [
     "name": "ITOSS 7111 Драбина приставна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4475,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4475,
     "desc": "ITOSS 7111 Драбина приставна",
     "images": [
       "assets/images/products/bp_stupenchataja1.jpg"
@@ -2498,8 +2498,8 @@ var PRODUCTS = [
     "name": "ITOSS 7507 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 7459,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 7459,
     "desc": "ITOSS 7507 Драбина універсальна",
     "images": [
       "assets/images/products/bp_2h7.jpg"
@@ -2517,8 +2517,8 @@ var PRODUCTS = [
     "name": "ITOSS 7607 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 11863,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 11863,
     "desc": "ITOSS 7607 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h7.jpg"
@@ -2536,8 +2536,8 @@ var PRODUCTS = [
     "name": "ITOSS 7608 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 13426,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 13426,
     "desc": "ITOSS 7608 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h8.jpg"
@@ -2555,8 +2555,8 @@ var PRODUCTS = [
     "name": "ITOSS 7609 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 14917,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 14917,
     "desc": "ITOSS 7609 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h9.jpg"
@@ -2574,8 +2574,8 @@ var PRODUCTS = [
     "name": "ITOSS 7610 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 16906,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 16906,
     "desc": "ITOSS 7610 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h10.jpg"
@@ -2593,8 +2593,8 @@ var PRODUCTS = [
     "name": "ITOSS 7611 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 19180,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 19180,
     "desc": "ITOSS 7611 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h11.jpg"
@@ -2612,8 +2612,8 @@ var PRODUCTS = [
     "name": "ITOSS 7612 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 21311,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 21311,
     "desc": "ITOSS 7612 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h12.jpg"
@@ -2631,8 +2631,8 @@ var PRODUCTS = [
     "name": "ITOSS 7614 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 24010,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 24010,
     "desc": "ITOSS 7614 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h14.jpg"
@@ -2650,8 +2650,8 @@ var PRODUCTS = [
     "name": "ITOSS 8615 Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 39070,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 39070,
     "desc": "ITOSS 8615 Драбина універсальна",
     "images": [
       "assets/images/products/bp_3h15.jpg"
@@ -2669,8 +2669,8 @@ var PRODUCTS = [
     "name": "ITOSS 918 Драбина алюмінієва 8 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5476,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5476,
     "desc": "ITOSS 918 Драбина алюмінієва 8 ступенів",
     "images": [
       "assets/images/products/bp_stupenchataja2.jpg"
@@ -2688,8 +2688,8 @@ var PRODUCTS = [
     "name": "METABO LPZ 4 Set Набір пневмоинструментов (601585000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3257,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3257,
     "desc": "METABO LPZ 4 Set Набір пневмоинструментов (601585000)",
     "images": [
       "assets/images/products/bp_601585000.jpg"
@@ -2840,8 +2840,8 @@ var PRODUCTS = [
     "name": "Makita ELM3320 Електрична газонокосарка",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 10481,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 10481,
     "desc": "Makita ELM3320 Електрична газонокосарка",
     "images": [
       "assets/images/products/bp_gazonokosilka.jpg"
@@ -2859,8 +2859,8 @@ var PRODUCTS = [
     "name": "Makita P-06111 Pozidriv Набір біт з шестигранним хвостовиком PZ2 (10 шт.)",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 498,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 498,
     "desc": "Makita P-06111 Pozidriv Набір біт з шестигранним хвостовиком PZ2 (10 шт.)",
     "images": [
       "assets/images/products/bp_pz2.jpg"
@@ -2992,8 +2992,8 @@ var PRODUCTS = [
     "name": "Makita UR3000 Електротример",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 6652,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6652,
     "desc": "Makita UR3000 Електротример",
     "images": [
       "assets/images/products/bp_elektrotrimmer.jpg"
@@ -3011,8 +3011,8 @@ var PRODUCTS = [
     "name": "Makita UV3200 Аератор електричний",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 14335,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 14335,
     "desc": "Makita UV3200 Аератор електричний",
     "images": [
       "assets/images/products/bp_elektricheskij.jpg"
@@ -3082,8 +3082,8 @@ var PRODUCTS = [
     "name": "Metabo ASC 30-36 V EU, 14,4-36 Зарядний пристрій (627044000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2314,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2314,
     "desc": "Metabo ASC 30-36 V EU, 14,4-36 Зарядний пристрій (627044000)",
     "images": [
       "assets/images/products/bp_ustrojstvo.jpg"
@@ -3101,8 +3101,8 @@ var PRODUCTS = [
     "name": "Metabo BP 200 пневмоінструмент (601581000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 630525,
-    "oldPrice": null,
+    "price": 525,
+    "oldPrice": 630,
     "desc": "Metabo BP 200 пневмоінструмент (601581000)",
     "images": [
       "assets/images/products/bp_601581000.jpg"
@@ -3215,8 +3215,8 @@ var PRODUCTS = [
     "name": "Metabo Promotion Набір біт і трещеток 26шт. 626701000",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1210,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1210,
     "desc": "Metabo Promotion Набір біт і трещеток 26шт. 626701000",
     "images": [
       "assets/images/products/bp_26shti.jpg"
@@ -3234,8 +3234,8 @@ var PRODUCTS = [
     "name": "Metabo Захисний кожух полірувального хутряного кола 180 ММ (623265000)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 610,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 610,
     "desc": "Metabo Захисний кожух полірувального хутряного кола 180 ММ (623265000)",
     "images": [
       "assets/images/products/bp_623265000.jpg"
@@ -3253,8 +3253,8 @@ var PRODUCTS = [
     "name": "Metabo Набір біт PZ 2 SP 25 штук 626 711 000",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 462,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 462,
     "desc": "Metabo Набір біт PZ 2 SP 25 штук 626 711 000",
     "images": [
       "assets/images/products/bp_shtuk.jpg"
@@ -3413,8 +3413,8 @@ var PRODUCTS = [
     "name": "Oregon +522852 Шнур стартера 3мм х 30.5м",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 593,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 593,
     "desc": "Oregon +522852 Шнур стартера 3мм х 30.5м",
     "images": [
       "assets/images/products/bp_30i5m.jpg"
@@ -3432,8 +3432,8 @@ var PRODUCTS = [
     "name": "Oregon 140SDEA074 Шина для бензопили 3/8",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 935,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 935,
     "desc": "Oregon 140SDEA074 Шина для бензопили 3/8",
     "images": [
       "assets/images/products/bp_duima.jpg"
@@ -3451,8 +3451,8 @@ var PRODUCTS = [
     "name": "Oregon 70503 Напилок круглий 4.8 мм",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 124,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 124,
     "desc": "Oregon 70503 Напилок круглий 4.8 мм",
     "images": [
       "assets/images/products/bp_mm.jpg"
@@ -3470,8 +3470,8 @@ var PRODUCTS = [
     "name": "Oregon 75LPX060Е Ланцюг для бензопили 3/8",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 787,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 787,
     "desc": "Oregon 75LPX060Е Ланцюг для бензопили 3/8",
     "images": [
       "assets/images/products/bp_3i8.jpg"
@@ -3489,8 +3489,8 @@ var PRODUCTS = [
     "name": "Oregon 77-307-1 Свічка запалювання",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 146,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 146,
     "desc": "Oregon 77-307-1 Свічка запалювання",
     "images": [
       "assets/images/products/bp_zazhiganija.jpg"
@@ -3508,8 +3508,8 @@ var PRODUCTS = [
     "name": "Oregon 91VXL056E Ланцюг для бензопили 3/8",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 545,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 545,
     "desc": "Oregon 91VXL056E Ланцюг для бензопили 3/8",
     "images": [
       "assets/images/products/bp_38.jpg"
@@ -3527,8 +3527,8 @@ var PRODUCTS = [
     "name": "Oregon M91VXL052E Ланцюг для бензопили 3/8",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 515,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 515,
     "desc": "Oregon M91VXL052E Ланцюг для бензопили 3/8",
     "images": [
       "assets/images/products/bp_8.jpg"
@@ -3546,8 +3546,8 @@ var PRODUCTS = [
     "name": "Oregon Верстат расклепочний",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 8039,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 8039,
     "desc": "Oregon Верстат расклепочний",
     "images": [
       "assets/images/products/bp_rasklepochnyj.jpg"
@@ -3565,8 +3565,8 @@ var PRODUCTS = [
     "name": "Oregon М21LPX072E Ланцюг для бензопили 0,325 \"",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 847,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 847,
     "desc": "Oregon М21LPX072E Ланцюг для бензопили 0,325 \"",
     "images": [
       "assets/images/products/bp_0325.jpg"
@@ -3772,8 +3772,8 @@ var PRODUCTS = [
     "name": "VIRASTAR VST +201261 ​​Вишка-тур 6 + 1",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 43215,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 43215,
     "desc": "VIRASTAR VST +201261 ​​Вишка-тур 6 + 1",
     "images": [
       "assets/images/products/bp_61.jpg"
@@ -3791,8 +3791,8 @@ var PRODUCTS = [
     "name": "VIRASTAR VST 201 281 Вишка-тур 8 + 1",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 52381,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 52381,
     "desc": "VIRASTAR VST 201 281 Вишка-тур 8 + 1",
     "images": [
       "assets/images/products/bp_81.jpg"
@@ -3810,8 +3810,8 @@ var PRODUCTS = [
     "name": "VIRASTAR VST180604 Міні М1 риштовання",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 6796,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6796,
     "desc": "VIRASTAR VST180604 Міні М1 риштовання",
     "images": [
       "assets/images/products/bp_podmost.jpg"
@@ -3829,8 +3829,8 @@ var PRODUCTS = [
     "name": "WERK COMPRESSOR VDL ISO100 Олива компресорна 1 л",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 372,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 372,
     "desc": "WERK COMPRESSOR VDL ISO100 Олива компресорна 1 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_compressor_vdl_iso100_maslo_kompressornoe_1_l.jpg"
@@ -3848,8 +3848,8 @@ var PRODUCTS = [
     "name": "Werk 2-TAKT MIXMOTO API TC SAE 40 Олива моторна 1 л",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 306,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 306,
     "desc": "Werk 2-TAKT MIXMOTO API TC SAE 40 Олива моторна 1 л",
     "images": [
       "assets/images/products/bp_litr.jpg"
@@ -3981,8 +3981,8 @@ var PRODUCTS = [
     "name": "Werk ADG-10 Пневмопістоліт",
     "category": "instrument",
     "subcategory": "all",
-    "price": 183,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 183,
     "desc": "Werk ADG-10 Пневмопістоліт",
     "images": [
       "assets/images/products/bp_10_pnevmopistolet.jpg"
@@ -4000,8 +4000,8 @@ var PRODUCTS = [
     "name": "Werk AH-5PE Шланг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 266,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 266,
     "desc": "Werk AH-5PE Шланг",
     "images": [
       "assets/images/products/bp_5pe_shlang.jpg"
@@ -4019,8 +4019,8 @@ var PRODUCTS = [
     "name": "Werk ARH-20 Шланг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1584,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1584,
     "desc": "Werk ARH-20 Шланг",
     "images": [
       "assets/images/products/bp_shlan.jpg"
@@ -4038,8 +4038,8 @@ var PRODUCTS = [
     "name": "Werk ASB-1010 Піскоструминний пістолет з алюмінієвим бачком",
     "category": "instrument",
     "subcategory": "all",
-    "price": 834,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 834,
     "desc": "Werk ASB-1010 Піскоструминний пістолет з алюмінієвим бачком",
     "images": [
       "assets/images/products/bp_1010_peskostrujnyj_pistolet_s_aljuminievym_bachkom.jpg"
@@ -4057,8 +4057,8 @@ var PRODUCTS = [
     "name": "Werk ASG-0517GR Пневмокраскопульти",
     "category": "instrument",
     "subcategory": "all",
-    "price": 713406,
-    "oldPrice": null,
+    "price": 406,
+    "oldPrice": 713,
     "desc": "Werk ASG-0517GR Пневмокраскопульти",
     "images": [
       "assets/images/products/bp_0517gr_pnevmokraskopuljt.jpg"
@@ -4076,8 +4076,8 @@ var PRODUCTS = [
     "name": "Werk ASG-1535PS Пневмокраскопульти",
     "category": "instrument",
     "subcategory": "all",
-    "price": 663,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 663,
     "desc": "Werk ASG-1535PS Пневмокраскопульти",
     "images": [
       "assets/images/products/bp_1535ps_pnevmokraskopuljt.jpg"
@@ -4095,8 +4095,8 @@ var PRODUCTS = [
     "name": "Werk ATIG-6317 Пневмопістоліт",
     "category": "instrument",
     "subcategory": "all",
-    "price": 507,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 507,
     "desc": "Werk ATIG-6317 Пневмопістоліт",
     "images": [
       "assets/images/products/bp_pnevmopistolet.jpg"
@@ -4114,8 +4114,8 @@ var PRODUCTS = [
     "name": "Werk AUG-14 Пневмопістоліт",
     "category": "instrument",
     "subcategory": "all",
-    "price": 639264,
-    "oldPrice": null,
+    "price": 264,
+    "oldPrice": 639,
     "desc": "Werk AUG-14 Пневмопістоліт",
     "images": [
       "assets/images/products/bp_14_pnevmopistolet.jpg"
@@ -4133,8 +4133,8 @@ var PRODUCTS = [
     "name": "Werk KIT-4G Набір пневмоинструментов",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1511,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1511,
     "desc": "Werk KIT-4G Набір пневмоинструментов",
     "images": [
       "assets/images/products/bp_4g_nabor_pnevmoinstrumentov.jpg"
@@ -4152,8 +4152,8 @@ var PRODUCTS = [
     "name": "Werk KIT-5G Gravity Набір пневмоинструментов",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1746,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1746,
     "desc": "Werk KIT-5G Gravity Набір пневмоинструментов",
     "images": [
       "assets/images/products/bp_pnevmoinstrumentov.jpg"
@@ -4171,8 +4171,8 @@ var PRODUCTS = [
     "name": "Werk KIT-5PG Набір пневмоинструментов",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1578,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1578,
     "desc": "Werk KIT-5PG Набір пневмоинструментов",
     "images": [
       "assets/images/products/bp_5pg_nabor_pnevmoinstrumentov.jpg"
@@ -4190,8 +4190,8 @@ var PRODUCTS = [
     "name": "Werk LB403 Драбина алюмінієва",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1708,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1708,
     "desc": "Werk LB403 Драбина алюмінієва",
     "images": [
       "assets/images/products/bp_aljuminievaja.jpg"
@@ -4209,8 +4209,8 @@ var PRODUCTS = [
     "name": "Werk LC2412Q Драбина шарнірна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5701,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5701,
     "desc": "Werk LC2412Q Драбина шарнірна",
     "images": [
       "assets/images/products/bp_4h3.jpg"
@@ -4228,8 +4228,8 @@ var PRODUCTS = [
     "name": "Werk LC2416Q Драбина шарнірна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 6894,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6894,
     "desc": "Werk LC2416Q Драбина шарнірна",
     "images": [
       "assets/images/products/bp_4h4.jpg"
@@ -4247,8 +4247,8 @@ var PRODUCTS = [
     "name": "Werk LC5412B Драбина шарнірна комбінована (метал + алюміній)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4481,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4481,
     "desc": "Werk LC5412B Драбина шарнірна комбінована (метал + алюміній)",
     "images": [
       "assets/images/products/bp_kombinirovannaya.jpg"
@@ -4266,8 +4266,8 @@ var PRODUCTS = [
     "name": "Werk LC5416B Драбина шарнірна комбінована (метал + алюміній)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5502,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5502,
     "desc": "Werk LC5416B Драбина шарнірна комбінована (метал + алюміній)",
     "images": [
       "assets/images/products/bp_metallalyuminiy.jpg"
@@ -4285,8 +4285,8 @@ var PRODUCTS = [
     "name": "Werk LZ1111 Приставна драбина",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3132,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3132,
     "desc": "Werk LZ1111 Приставна драбина",
     "images": [
       "assets/images/products/bp_lestnica.jpg"
@@ -4304,8 +4304,8 @@ var PRODUCTS = [
     "name": "Werk LZ1114 Драбина приставна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3986,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3986,
     "desc": "Werk LZ1114 Драбина приставна",
     "images": [
       "assets/images/products/bp_pristavnaja.jpg"
@@ -4323,8 +4323,8 @@ var PRODUCTS = [
     "name": "Werk LZ2108Q Драбина універсальна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5181,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5181,
     "desc": "Werk LZ2108Q Драбина універсальна",
     "images": [
       "assets/images/products/bp_universalnaya.jpg"
@@ -4342,8 +4342,8 @@ var PRODUCTS = [
     "name": "Werk RM-14 (1/4) Редуктор",
     "category": "instrument",
     "subcategory": "all",
-    "price": 407,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 407,
     "desc": "Werk RM-14 (1/4) Редуктор",
     "images": [
       "assets/images/products/bp_14_14_reduktor.jpg"
@@ -4361,8 +4361,8 @@ var PRODUCTS = [
     "name": "Werk TIG-5 Пневмопістолет",
     "category": "instrument",
     "subcategory": "all",
-    "price": 507,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 507,
     "desc": "Werk TIG-5 Пневмопістолет",
     "images": [
       "assets/images/products/bp_5_pnevmopistolet.jpg"
@@ -4380,8 +4380,8 @@ var PRODUCTS = [
     "name": "Werk WB-5300 Мотокоса",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3903,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3903,
     "desc": "Werk WB-5300 Мотокоса",
     "images": [
       "assets/images/products/bp_5300_motokosa.jpg"
@@ -4399,8 +4399,8 @@ var PRODUCTS = [
     "name": "Werk WE2102 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 20,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 20,
     "desc": "Werk WE2102 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2102_perchatki_rabochie.jpg"
@@ -4418,8 +4418,8 @@ var PRODUCTS = [
     "name": "Werk WE2103 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 25,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 25,
     "desc": "Werk WE2103 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2103_perchatki_rabochie.jpg"
@@ -4437,8 +4437,8 @@ var PRODUCTS = [
     "name": "Werk WE2105 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 27,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 27,
     "desc": "Werk WE2105 Рукавички робочі",
     "images": [
       "assets/images/products/bp_rabochie.jpg"
@@ -4456,8 +4456,8 @@ var PRODUCTS = [
     "name": "Werk WE2107 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 17,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 17,
     "desc": "Werk WE2107 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2107_perchatki_rabochie.jpg"
@@ -4475,8 +4475,8 @@ var PRODUCTS = [
     "name": "Werk WE2109 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 34,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 34,
     "desc": "Werk WE2109 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2109_perchatki_rabochie.jpg"
@@ -4494,8 +4494,8 @@ var PRODUCTS = [
     "name": "Werk WE2110 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 37,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 37,
     "desc": "Werk WE2110 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2110_perchatki_rabochie.jpg"
@@ -4513,8 +4513,8 @@ var PRODUCTS = [
     "name": "Werk WE2117 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 206,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 206,
     "desc": "Werk WE2117 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2117_perchatki_rabochie.jpg"
@@ -4532,8 +4532,8 @@ var PRODUCTS = [
     "name": "Werk WE2119 Рукавички робочі",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 33,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 33,
     "desc": "Werk WE2119 Рукавички робочі",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductwerk_we2119_perchatki_rabochie.jpg"
@@ -4551,8 +4551,8 @@ var PRODUCTS = [
     "name": "Werk WE2124 Рукавички садові",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 36,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 36,
     "desc": "Werk WE2124 Рукавички садові",
     "images": [
       "assets/images/products/bp_sadovye.jpg"
@@ -4570,8 +4570,8 @@ var PRODUCTS = [
     "name": "Werk WE2127 Рукавички замшеві (краги) чорні",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 309,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 309,
     "desc": "Werk WE2127 Рукавички замшеві (краги) чорні",
     "images": [
       "assets/images/products/bp_chernye.jpg"
@@ -4589,8 +4589,8 @@ var PRODUCTS = [
     "name": "Werk WE2127H Рукавички замшеві (краги) чорні з підвіскою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 314,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 314,
     "desc": "Werk WE2127H Рукавички замшеві (краги) чорні з підвіскою",
     "images": [
       "assets/images/products/bp_podveskoj.jpg"
@@ -4608,8 +4608,8 @@ var PRODUCTS = [
     "name": "Werk WE2128 Рукавички замшеві (краги) червоні",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 294,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 294,
     "desc": "Werk WE2128 Рукавички замшеві (краги) червоні",
     "images": [
       "assets/images/products/bp_krasnye.jpg"
@@ -4627,8 +4627,8 @@ var PRODUCTS = [
     "name": "Werk WE2130 Рукавички комбіновані шкіра + тканина",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 141,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 141,
     "desc": "Werk WE2130 Рукавички комбіновані шкіра + тканина",
     "images": [
       "assets/images/products/bp_kombinirovannye.jpg"
@@ -4646,8 +4646,8 @@ var PRODUCTS = [
     "name": "Werk WE2138H Рукавички з латексним покриттям",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 74,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 74,
     "desc": "Werk WE2138H Рукавички з латексним покриттям",
     "images": [
       "assets/images/products/bp_pokrytiem.jpg"
@@ -4665,8 +4665,8 @@ var PRODUCTS = [
     "name": "Werk WE2139 Рукавички з латексним покриттям посилені",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 54,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 54,
     "desc": "Werk WE2139 Рукавички з латексним покриттям посилені",
     "images": [
       "assets/images/products/bp_usilennye.jpg"
@@ -4798,8 +4798,8 @@ var PRODUCTS = [
     "name": "Werk Запаска \"локшина\" WRFS01 для швабри WF02A",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 135,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 135,
     "desc": "Werk Запаска \"локшина\" WRFS01 для швабри WF02A",
     "images": [
       "assets/images/products/bp_wf02a.jpg"
@@ -4817,8 +4817,8 @@ var PRODUCTS = [
     "name": "Werk Запаска з мікрофібри WRFS10 до WF02B",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 101,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 101,
     "desc": "Werk Запаска з мікрофібри WRFS10 до WF02B",
     "images": [
       "assets/images/products/bp_wf02b.jpg"
@@ -4836,8 +4836,8 @@ var PRODUCTS = [
     "name": "Works 403 Драбина металева 3 ступені",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1179,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1179,
     "desc": "Works 403 Драбина металева 3 ступені",
     "images": [
       "assets/images/products/bp_supeni.jpg"
@@ -4855,8 +4855,8 @@ var PRODUCTS = [
     "name": "Works 404 Драбина металева 4 ступені",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1297,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1297,
     "desc": "Works 404 Драбина металева 4 ступені",
     "images": [
       "assets/images/products/bp_stupeni.jpg"
@@ -4874,8 +4874,8 @@ var PRODUCTS = [
     "name": "Works 405 Драбина металева 5 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1474,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1474,
     "desc": "Works 405 Драбина металева 5 ступенів",
     "images": [
       "assets/images/products/bp_stupenej.jpg"
@@ -4893,8 +4893,8 @@ var PRODUCTS = [
     "name": "Works Набір біт 2 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 68,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 97,
     "desc": "Works Набір біт 2 шт",
     "images": [
       "assets/images/products/bp_sht_1.jpg"
@@ -4912,8 +4912,8 @@ var PRODUCTS = [
     "name": "Works Набір біт 2 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 97,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 97,
     "desc": "Works Набір біт 2 шт",
     "images": [
       "assets/images/products/bp_sht_2.jpg"
@@ -4931,8 +4931,8 @@ var PRODUCTS = [
     "name": "Works Набір біт 3 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 97,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Works Набір біт 3 шт",
     "images": [
       "assets/images/products/bp_sht_4.jpg"
@@ -4950,8 +4950,8 @@ var PRODUCTS = [
     "name": "Works Набір біт 3 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 48,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Works Набір біт 3 шт",
     "images": [
       "assets/images/products/bp_sht_6.jpg"
@@ -4969,8 +4969,8 @@ var PRODUCTS = [
     "name": "Works Набір біт 3 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 97,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Works Набір біт 3 шт",
     "images": [
       "assets/images/products/bp_3sht_1.jpg"
@@ -4988,8 +4988,8 @@ var PRODUCTS = [
     "name": "Works Набір біт 3шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 48,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Works Набір біт 3шт",
     "images": [
       "assets/images/products/bp_3sht.jpg"
@@ -5007,8 +5007,8 @@ var PRODUCTS = [
     "name": "X-TREME 10003 Сітка склотканинна фасадна 160г/м2 оранжева",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 1029,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1029,
     "desc": "X-TREME 10003 Сітка склотканинна фасадна 160г/м2 оранжева",
     "images": [
       "assets/images/products/bp_oranzhevaya.jpg"
@@ -5026,8 +5026,8 @@ var PRODUCTS = [
     "name": "X-Treme 3.0мм x 368м волосінь для мотокос",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1031,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1031,
     "desc": "X-Treme 3.0мм x 368м волосінь для мотокос",
     "images": [
       "assets/images/products/bp_motokos.jpg"
@@ -5045,8 +5045,8 @@ var PRODUCTS = [
     "name": "X-Treme Гидробарьер жовтий армований мікро перфорований 75 м2",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 839,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 839,
     "desc": "X-Treme Гидробарьер жовтий армований мікро перфорований 75 м2",
     "images": [
       "assets/images/products/bp_75m2.jpg"
@@ -5064,8 +5064,8 @@ var PRODUCTS = [
     "name": "X-Treme Зварювальний дріт обміднений ER 70S-6, 0.8 мм",
     "category": "instrument",
     "subcategory": "all",
-    "price": 826,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 826,
     "desc": "X-Treme Зварювальний дріт обміднений ER 70S-6, 0.8 мм",
     "images": [
       "assets/images/products/bp_6_svarochnaja_provoloka_omednennaja.jpg"
@@ -5083,8 +5083,8 @@ var PRODUCTS = [
     "name": "X-Treme Зварювальний електрод МД6013 2х350 мм, 1 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 72,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 72,
     "desc": "X-Treme Зварювальний електрод МД6013 2х350 мм, 1 кг",
     "images": [
       "assets/images/products/bp_treme_svarochnyj_elektrod_md6013_3h350_mm_1_kg.jpg"
@@ -5102,8 +5102,8 @@ var PRODUCTS = [
     "name": "X-Treme Паробар'єр сірий без перфорації 75 м2",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 633482,
-    "oldPrice": null,
+    "price": 482,
+    "oldPrice": 633,
     "desc": "X-Treme Паробар'єр сірий без перфорації 75 м2",
     "images": [
       "assets/images/products/bp_m2.jpg"
@@ -5121,8 +5121,8 @@ var PRODUCTS = [
     "name": "Євроканістра Litolan 20 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 254,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 254,
     "desc": "Євроканістра Litolan 20 л",
     "images": [
       "assets/images/products/bp_harchova.jpg"
@@ -5140,8 +5140,8 @@ var PRODUCTS = [
     "name": "Ємність будівельна кругла 60л  560х560х340 Gerrard 90125",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 382,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 382,
     "desc": "Ємність будівельна кругла 60л  560х560х340 Gerrard 90125",
     "images": [
       "assets/images/products/bp_90125.jpg"
@@ -5159,8 +5159,8 @@ var PRODUCTS = [
     "name": "Ємність будівельна кругла 90 л 630х630х370  Gerrard 90126",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 551,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 551,
     "desc": "Ємність будівельна кругла 90 л 630х630х370  Gerrard 90126",
     "images": [
       "assets/images/products/bp_90126.jpg"
@@ -5178,8 +5178,8 @@ var PRODUCTS = [
     "name": "Ємність будівельна прямокутна 60л. 750х380х300 Gerrard 90127",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 405,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 405,
     "desc": "Ємність будівельна прямокутна 60л. 750х380х300 Gerrard 90127",
     "images": [
       "assets/images/products/bp_90127.jpg"
@@ -5197,8 +5197,8 @@ var PRODUCTS = [
     "name": "Ємність будівельна прямокутна 65 л Haisser 90114",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 533,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 533,
     "desc": "Ємність будівельна прямокутна 65 л Haisser 90114",
     "images": [
       "assets/images/products/bp_90114.jpg"
@@ -5216,8 +5216,8 @@ var PRODUCTS = [
     "name": "Ємність будівельна прямокутна 90 л 780х500х300 Gerrard 90128",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 495,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 495,
     "desc": "Ємність будівельна прямокутна 90 л 780х500х300 Gerrard 90128",
     "images": [
       "assets/images/products/bp_90128.jpg"
@@ -5259,8 +5259,8 @@ var PRODUCTS = [
     "name": "Ємність для металевих предметів 160х100х85 мм Світязь 90055",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 36,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 36,
     "desc": "Ємність для металевих предметів 160х100х85 мм Світязь 90055",
     "images": [
       "assets/images/products/bp_90055.jpg"
@@ -6043,8 +6043,8 @@ var PRODUCTS = [
     "name": "Інвертор Forte FPI-0612Pro 600 ВТ",
     "category": "instrument",
     "subcategory": "all",
-    "price": 10987,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 10987,
     "desc": "Інвертор Forte FPI-0612Pro 600 ВТ",
     "images": [
       "assets/images/products/bp_vt.jpg"
@@ -6062,8 +6062,8 @@ var PRODUCTS = [
     "name": "Інвертор PH 18-5248PRO Must",
     "category": "instrument",
     "subcategory": "all",
-    "price": 26182,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 26182,
     "desc": "Інвертор PH 18-5248PRO Must",
     "images": [
       "assets/images/products/bp_must.jpg"
@@ -6081,8 +6081,8 @@ var PRODUCTS = [
     "name": "Інвертор гібридний - HF11048-B WITSLOR",
     "category": "instrument",
     "subcategory": "all",
-    "price": 55917,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 55917,
     "desc": "Інвертор гібридний - HF11048-B WITSLOR",
     "images": [
       "assets/images/products/bp_witslor.jpg"
@@ -6100,8 +6100,8 @@ var PRODUCTS = [
     "name": "Інструмент для вкладання СВП Адванта",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 168,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 168,
     "desc": "Інструмент для вкладання СВП Адванта",
     "images": [
       "assets/images/products/bp_advanta.jpg"
@@ -6132,8 +6132,8 @@ var PRODUCTS = [
     "name": "Адаптер DELTA Pro to Smart Generator",
     "category": "instrument",
     "subcategory": "all",
-    "price": 4272,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4272,
     "desc": "Адаптер DELTA Pro to Smart Generator",
     "images": [
       "assets/images/products/bp_generator.jpg"
@@ -6151,8 +6151,8 @@ var PRODUCTS = [
     "name": "Адаптер EcoFlow Car Battery Charging",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3456,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3456,
     "desc": "Адаптер EcoFlow Car Battery Charging",
     "images": [
       "assets/images/products/bp_charging.jpg"
@@ -6170,8 +6170,8 @@ var PRODUCTS = [
     "name": "Адаптер EcoFlow EV X-Stream Adapter",
     "category": "instrument",
     "subcategory": "all",
-    "price": 4752,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4752,
     "desc": "Адаптер EcoFlow EV X-Stream Adapter",
     "images": [
       "assets/images/products/bp_adapter.jpg"
@@ -6189,8 +6189,8 @@ var PRODUCTS = [
     "name": "Адаптер трійник Grunhelm Z-1-3A",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 93,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 93,
     "desc": "Адаптер трійник Grunhelm Z-1-3A",
     "images": [
       "assets/images/products/bp_3a.jpg"
@@ -6208,8 +6208,8 @@ var PRODUCTS = [
     "name": "Аерозольна фарба жовта Універсальна BUDFIX RAL 1018 400мл",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 119,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 119,
     "desc": "Аерозольна фарба жовта Універсальна BUDFIX RAL 1018 400мл",
     "images": [
       "assets/images/products/bp_400ml.jpg"
@@ -6240,8 +6240,8 @@ var PRODUCTS = [
     "name": "Акумулятор LFP12.8V100AH G3 RITAR",
     "category": "instrument",
     "subcategory": "all",
-    "price": 20006,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 20006,
     "desc": "Акумулятор LFP12.8V100AH G3 RITAR",
     "images": [
       "assets/images/products/bp_ritar.jpg"
@@ -6259,8 +6259,8 @@ var PRODUCTS = [
     "name": "Акумулятор LiFePo4 - WB10000-51A 51.2V 200Ah LUTIAN",
     "category": "instrument",
     "subcategory": "all",
-    "price": 117464,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 117464,
     "desc": "Акумулятор LiFePo4 - WB10000-51A 51.2V 200Ah LUTIAN",
     "images": [
       "assets/images/products/bp_lutian.jpg"
@@ -6278,8 +6278,8 @@ var PRODUCTS = [
     "name": "Акумулятор тяговий гелевий TNE12-15 TIANNENG",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1312,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1312,
     "desc": "Акумулятор тяговий гелевий TNE12-15 TIANNENG",
     "images": [
       "assets/images/products/bp_tianneng.jpg"
@@ -6297,8 +6297,8 @@ var PRODUCTS = [
     "name": "Акумуляторна батарея EcoFLow Power Kit 2 kWh",
     "category": "instrument",
     "subcategory": "all",
-    "price": 68999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 68999,
     "desc": "Акумуляторна батарея EcoFLow Power Kit 2 kWh",
     "images": [
       "assets/images/products/bp_kwh.jpg"
@@ -6365,8 +6365,8 @@ var PRODUCTS = [
     "name": "Арма Бак оцинкований конусний 25 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 188,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 188,
     "desc": "Арма Бак оцинкований конусний 25 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductarma_bak_ocinkovannyj_konusnyj_25_l.jpg"
@@ -6384,8 +6384,8 @@ var PRODUCTS = [
     "name": "Арма Бак оцинкований конусний 32 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 209,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 209,
     "desc": "Арма Бак оцинкований конусний 32 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductarma_bak_ocinkovannyj_konusnyj_32_l.jpg"
@@ -6403,8 +6403,8 @@ var PRODUCTS = [
     "name": "Арма Ванна оцинкована овальна 75 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 272,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 272,
     "desc": "Арма Ванна оцинкована овальна 75 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductarma_vanna_ocinkovannaja_ovaljnaja_75_l.jpg"
@@ -6422,8 +6422,8 @@ var PRODUCTS = [
     "name": "Бак для душа 100л синій без лійки Litolan",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 949,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 949,
     "desc": "Бак для душа 100л синій без лійки Litolan",
     "images": [
       "assets/images/products/bp_litolan.jpg"
@@ -6441,8 +6441,8 @@ var PRODUCTS = [
     "name": "Бак для душу 100л Litolan з лійкою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1518,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1518,
     "desc": "Бак для душу 100л Litolan з лійкою",
     "images": [
       "assets/images/products/bp_leykoy.jpg"
@@ -6479,8 +6479,8 @@ var PRODUCTS = [
     "name": "Батарейка Work's Alkaline 6LR61W-1B 1шт",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 139,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 139,
     "desc": "Батарейка Work's Alkaline 6LR61W-1B 1шт",
     "images": [
       "assets/images/products/bp_1sht.jpg"
@@ -6498,8 +6498,8 @@ var PRODUCTS = [
     "name": "Батарейка акум - Li-ion WRB-AA600 AA type-c, 2 шт Works",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 299199,
-    "oldPrice": null,
+    "price": 199,
+    "oldPrice": 299,
     "desc": "Батарейка акум - Li-ion WRB-AA600 AA type-c, 2 шт Works",
     "images": [
       "assets/images/products/bp_works.jpg"
@@ -6517,8 +6517,8 @@ var PRODUCTS = [
     "name": "Батарейки ALKALINE LR6W-4S/AA  (4x15 уп) WORK'S",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 99,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 99,
     "desc": "Батарейки ALKALINE LR6W-4S/AA  (4x15 уп) WORK'S",
     "images": [
       "assets/images/products/bp_s.jpg"
@@ -6536,8 +6536,8 @@ var PRODUCTS = [
     "name": "Батарейки Duracell AAA 2400 мАч 20 шт (відривні 2х10)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1140,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1140,
     "desc": "Батарейки Duracell AAA 2400 мАч 20 шт (відривні 2х10)",
     "images": [
       "assets/images/products/bp_2h10.jpg"
@@ -6555,8 +6555,8 @@ var PRODUCTS = [
     "name": "Батарейки Duracell АА 20 шт (відривні 2х10)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1140,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1140,
     "desc": "Батарейки Duracell АА 20 шт (відривні 2х10)",
     "images": [
       "assets/images/products/bp_2kh10.jpg"
@@ -6574,8 +6574,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's Alkaline LR03W-2B AAA 2шт",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 49,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 49,
     "desc": "Батарейки Work's Alkaline LR03W-2B AAA 2шт",
     "images": [
       "assets/images/products/bp_2sht.jpg"
@@ -6593,8 +6593,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's Alkaline LR626W-10B AG4 10шт",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 49,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 49,
     "desc": "Батарейки Work's Alkaline LR626W-10B AG4 10шт",
     "images": [
       "assets/images/products/bp_10sht.jpg"
@@ -6612,8 +6612,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's HEAVY DUTY R03W-4S/AAA/4шт",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2919,
-    "oldPrice": null,
+    "price": 19,
+    "oldPrice": 29,
     "desc": "Батарейки Work's HEAVY DUTY R03W-4S/AAA/4шт",
     "images": [
       "assets/images/products/bp_4sht.jpg"
@@ -6631,8 +6631,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's HEAVY DUTY R03W-4S/AAA/4шт плівка (4x15 уп)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 9,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 9,
     "desc": "Батарейки Work's HEAVY DUTY R03W-4S/AAA/4шт плівка (4x15 уп)",
     "images": [
       "assets/images/products/bp_up.jpg"
@@ -6650,8 +6650,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's HEAVY DUTY R03W-4S/AAA/4шт плівка (4x15 уп) D.BOX",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 39,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 39,
     "desc": "Батарейки Work's HEAVY DUTY R03W-4S/AAA/4шт плівка (4x15 уп) D.BOX",
     "images": [
       "assets/images/products/bp_box.jpg"
@@ -6669,8 +6669,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's HEAVY DUTY R6W-4S/AA/4шт плівка (15 уп в коробкі)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 31,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 31,
     "desc": "Батарейки Work's HEAVY DUTY R6W-4S/AA/4шт плівка (15 уп в коробкі)",
     "images": [
       "assets/images/products/bp_korobki.jpg"
@@ -6688,8 +6688,8 @@ var PRODUCTS = [
     "name": "Батарейки Work's Lithium CR2025W-5B 5шт",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 7229,
-    "oldPrice": null,
+    "price": 29,
+    "oldPrice": 72,
     "desc": "Батарейки Work's Lithium CR2025W-5B 5шт",
     "images": [
       "assets/images/products/bp_5sht.jpg"
@@ -6726,8 +6726,8 @@ var PRODUCTS = [
     "name": "Бензинова ланцюгова пила Forte FGS59-18MG",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 4154,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4154,
     "desc": "Бензинова ланцюгова пила Forte FGS59-18MG",
     "images": [
       "assets/images/products/bp_18mg.jpg"
@@ -6764,8 +6764,8 @@ var PRODUCTS = [
     "name": "Бензопила ланцюгова Forte FGS - 125",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 5193,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5193,
     "desc": "Бензопила ланцюгова Forte FGS - 125",
     "images": [
       "assets/images/products/bp_125.jpg"
@@ -6783,8 +6783,8 @@ var PRODUCTS = [
     "name": "Бензопила ланцюгова Forte FGS-140",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 5903,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5903,
     "desc": "Бензопила ланцюгова Forte FGS-140",
     "images": [
       "assets/images/products/bp_140.jpg"
@@ -6802,8 +6802,8 @@ var PRODUCTS = [
     "name": "Бензопила ланцюгова Forte FGS-145",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 6231,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6231,
     "desc": "Бензопила ланцюгова Forte FGS-145",
     "images": [
       "assets/images/products/bp_145.jpg"
@@ -6821,8 +6821,8 @@ var PRODUCTS = [
     "name": "Бензопила ланцюгова Grunhelm GS-2500",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 4209,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4209,
     "desc": "Бензопила ланцюгова Grunhelm GS-2500",
     "images": [
       "assets/images/products/bp_2500.jpg"
@@ -6840,8 +6840,8 @@ var PRODUCTS = [
     "name": "Бензопила ланцюгова Grunhelm GS-4000MG",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3826,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3826,
     "desc": "Бензопила ланцюгова Grunhelm GS-4000MG",
     "images": [
       "assets/images/products/bp_4000mg.jpg"
@@ -6859,8 +6859,8 @@ var PRODUCTS = [
     "name": "Бензопила ланцюгова БП-45-16PRO Світязь",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3061,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3061,
     "desc": "Бензопила ланцюгова БП-45-16PRO Світязь",
     "images": [
       "assets/images/products/bp_svityaz.jpg"
@@ -6973,8 +6973,8 @@ var PRODUCTS = [
     "name": "Блендер Grunhelm EBS-1000MG",
     "category": "technika",
     "subcategory": "all",
-    "price": 2869,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2869,
     "desc": "Блендер Grunhelm EBS-1000MG",
     "images": [
       "assets/images/products/bp_1000mg.jpg"
@@ -6992,8 +6992,8 @@ var PRODUCTS = [
     "name": "Блендерний набір  Grunhelm EBS-1102SS",
     "category": "technika",
     "subcategory": "all",
-    "price": 1739,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1739,
     "desc": "Блендерний набір  Grunhelm EBS-1102SS",
     "images": [
       "assets/images/products/bp_1102ss.jpg"
@@ -7011,8 +7011,8 @@ var PRODUCTS = [
     "name": "Блендерний набір  Grunhelm EBS-1228SSB",
     "category": "technika",
     "subcategory": "all",
-    "price": 2499,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2499,
     "desc": "Блендерний набір  Grunhelm EBS-1228SSB",
     "images": [
       "assets/images/products/bp_1228ssb.jpg"
@@ -7030,8 +7030,8 @@ var PRODUCTS = [
     "name": "Блендерний набір  Grunhelm EBS-1280SB",
     "category": "technika",
     "subcategory": "all",
-    "price": 1989,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1989,
     "desc": "Блендерний набір  Grunhelm EBS-1280SB",
     "images": [
       "assets/images/products/bp_1280sb.jpg"
@@ -7049,8 +7049,8 @@ var PRODUCTS = [
     "name": "Блендерний набір  Grunhelm EBS-1280SW",
     "category": "technika",
     "subcategory": "all",
-    "price": 1989,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1989,
     "desc": "Блендерний набір  Grunhelm EBS-1280SW",
     "images": [
       "assets/images/products/bp_1280sw.jpg"
@@ -7068,8 +7068,8 @@ var PRODUCTS = [
     "name": "Блендерний набір  Grunhelm EBS-819BEP",
     "category": "technika",
     "subcategory": "all",
-    "price": 2259,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2259,
     "desc": "Блендерний набір  Grunhelm EBS-819BEP",
     "images": [
       "assets/images/products/bp_819bep.jpg"
@@ -7087,8 +7087,8 @@ var PRODUCTS = [
     "name": "Блендерний набір  Grunhelm EBS-819MIP",
     "category": "technika",
     "subcategory": "all",
-    "price": 2259,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2259,
     "desc": "Блендерний набір  Grunhelm EBS-819MIP",
     "images": [
       "assets/images/products/bp_819mip.jpg"
@@ -7106,8 +7106,8 @@ var PRODUCTS = [
     "name": "Блендерний набір Grunhelm EBS-1150SB",
     "category": "technika",
     "subcategory": "all",
-    "price": 1689,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1689,
     "desc": "Блендерний набір Grunhelm EBS-1150SB",
     "images": [
       "assets/images/products/bp_1150sb.jpg"
@@ -7125,8 +7125,8 @@ var PRODUCTS = [
     "name": "Блендерний набір Grunhelm EBS-850SPP",
     "category": "technika",
     "subcategory": "all",
-    "price": 2989,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2989,
     "desc": "Блендерний набір Grunhelm EBS-850SPP",
     "images": [
       "assets/images/products/bp_nabor.jpg"
@@ -7231,8 +7231,8 @@ var PRODUCTS = [
     "name": "Бочка харчова Litolan 65 л (37 см) /3-х шар./ з пластиковим хомутом + засувка, синя",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 870,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 870,
     "desc": "Бочка харчова Litolan 65 л (37 см) /3-х шар./ з пластиковим хомутом + засувка, синя",
     "images": [
       "assets/images/products/bp_synya.jpg"
@@ -7250,8 +7250,8 @@ var PRODUCTS = [
     "name": "Брандспойт Forte УД-10",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 118,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 118,
     "desc": "Брандспойт Forte УД-10",
     "images": [
       "assets/images/products/bp_brandspojt.jpg"
@@ -7269,8 +7269,8 @@ var PRODUCTS = [
     "name": "Брандспойт Forte УД-23",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 337,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 337,
     "desc": "Брандспойт Forte УД-23",
     "images": [
       "assets/images/products/bp_23.jpg"
@@ -7288,8 +7288,8 @@ var PRODUCTS = [
     "name": "Будівельна тачка Forte WB9618K",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2847,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2847,
     "desc": "Будівельна тачка Forte WB9618K",
     "images": [
       "assets/images/products/bp_wb9618k.jpg"
@@ -7650,8 +7650,8 @@ var PRODUCTS = [
     "name": "Вiдро W-1007 пластикове господарське 12 л WERK",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 214,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 214,
     "desc": "Вiдро W-1007 пластикове господарське 12 л WERK",
     "images": [
       "assets/images/products/bp_werk.jpg"
@@ -8811,8 +8811,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm  GPG 6356 BEF",
     "category": "technika",
     "subcategory": "all",
-    "price": 6299,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6299,
     "desc": "Варильна поверхня газова  Grunhelm  GPG 6356 BEF",
     "images": [
       "assets/images/products/bp_bef.jpg"
@@ -8830,8 +8830,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm GPG 3211 GF",
     "category": "technika",
     "subcategory": "all",
-    "price": 6999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6999,
     "desc": "Варильна поверхня газова  Grunhelm GPG 3211 GF",
     "images": [
       "assets/images/products/bp_gf.jpg"
@@ -8849,8 +8849,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm GPG 3211 WF",
     "category": "technika",
     "subcategory": "all",
-    "price": 7699,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 7699,
     "desc": "Варильна поверхня газова  Grunhelm GPG 3211 WF",
     "images": [
       "assets/images/products/bp_wf.jpg"
@@ -8868,8 +8868,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm GPG V4001 XIS",
     "category": "technika",
     "subcategory": "all",
-    "price": 5449,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5449,
     "desc": "Варильна поверхня газова  Grunhelm GPG V4001 XIS",
     "images": [
       "assets/images/products/bp_xis.jpg"
@@ -8887,8 +8887,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm GPG V4002 BEF",
     "category": "technika",
     "subcategory": "all",
-    "price": 5149,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5149,
     "desc": "Варильна поверхня газова  Grunhelm GPG V4002 BEF",
     "images": [
       "assets/images/products/bp_xif.jpg"
@@ -8906,8 +8906,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm GPG V4002 WEF",
     "category": "technika",
     "subcategory": "all",
-    "price": 4299,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4299,
     "desc": "Варильна поверхня газова  Grunhelm GPG V4002 WEF",
     "images": [
       "assets/images/products/bp_wef.jpg"
@@ -8925,8 +8925,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова  Grunhelm GPG-V4001-BES",
     "category": "technika",
     "subcategory": "all",
-    "price": 4999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4999,
     "desc": "Варильна поверхня газова  Grunhelm GPG-V4001-BES",
     "images": [
       "assets/images/products/bp_bes.jpg"
@@ -8963,8 +8963,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня газова Grunhelm GPG 6325 IF",
     "category": "technika",
     "subcategory": "all",
-    "price": 7759,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 7759,
     "desc": "Варильна поверхня газова Grunhelm GPG 6325 IF",
     "images": [
       "assets/images/products/bp_if.jpg"
@@ -8982,8 +8982,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня керамічна Grunhelm GPC310BE",
     "category": "technika",
     "subcategory": "all",
-    "price": 4529,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4529,
     "desc": "Варильна поверхня керамічна Grunhelm GPC310BE",
     "images": [
       "assets/images/products/bp_gpc310be.jpg"
@@ -9001,8 +9001,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня керамічна Grunhelm GPC3203BE",
     "category": "technika",
     "subcategory": "all",
-    "price": 5599,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5599,
     "desc": "Варильна поверхня керамічна Grunhelm GPC3203BE",
     "images": [
       "assets/images/products/bp_gpc3203be.jpg"
@@ -9020,8 +9020,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня керамічна RECA Weser 60",
     "category": "technika",
     "subcategory": "all",
-    "price": 5949,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5949,
     "desc": "Варильна поверхня керамічна RECA Weser 60",
     "images": [
       "assets/images/products/bp_60.jpg"
@@ -9039,8 +9039,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня склокерамічна Grunhelm GPC623BE",
     "category": "technika",
     "subcategory": "all",
-    "price": 4729,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4729,
     "desc": "Варильна поверхня склокерамічна Grunhelm GPC623BE",
     "images": [
       "assets/images/products/bp_gpc623be.jpg"
@@ -9058,8 +9058,8 @@ var PRODUCTS = [
     "name": "Варильна поверхня індукційна  Grunhelm GPI 523 B",
     "category": "technika",
     "subcategory": "all",
-    "price": 5779,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5779,
     "desc": "Варильна поверхня індукційна  Grunhelm GPI 523 B",
     "images": [
       "assets/images/products/bp_b.jpg"
@@ -9077,8 +9077,8 @@ var PRODUCTS = [
     "name": "Велоскутер акумуляторний Forte GLORY Cиній",
     "category": "technika",
     "subcategory": "transport",
-    "price": 27404,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 27404,
     "desc": "Велоскутер акумуляторний Forte GLORY Cиній",
     "images": [
       "assets/images/products/bp_cynij.jpg"
@@ -9390,8 +9390,8 @@ var PRODUCTS = [
     "name": "Вистек Зварювальний електрод АНО-21 д. 2 мм, 1 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 124,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 124,
     "desc": "Вистек Зварювальний електрод АНО-21 д. 2 мм, 1 кг",
     "images": [
       "assets/images/products/bp_21_d_2_mm_1_kg.jpg"
@@ -9409,8 +9409,8 @@ var PRODUCTS = [
     "name": "Вистек Зварювальний електрод АНО-21 д. 2.5 мм, 1 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 118,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 118,
     "desc": "Вистек Зварювальний електрод АНО-21 д. 2.5 мм, 1 кг",
     "images": [
       "assets/images/products/bp_21_d_25_mm_1_kg.jpg"
@@ -9428,8 +9428,8 @@ var PRODUCTS = [
     "name": "Вистек Зварювальний електрод АНО-21 д. 3 мм, 1 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 116,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 116,
     "desc": "Вистек Зварювальний електрод АНО-21 д. 3 мм, 1 кг",
     "images": [
       "assets/images/products/bp_21_d_3_mm_1_kg.jpg"
@@ -9447,8 +9447,8 @@ var PRODUCTS = [
     "name": "Вистек Зварювальний електрод АНО-21 д. 3 мм, 2.5 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 262,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 262,
     "desc": "Вистек Зварювальний електрод АНО-21 д. 3 мм, 2.5 кг",
     "images": [
       "assets/images/products/bp_21_d_3_mm_25_kg.jpg"
@@ -9466,8 +9466,8 @@ var PRODUCTS = [
     "name": "Вистек Зварювальний електрод АНО-21 д. 3 мм, 5 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 496,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 496,
     "desc": "Вистек Зварювальний електрод АНО-21 д. 3 мм, 5 кг",
     "images": [
       "assets/images/products/bp_21_d_3_mm_5_kg.jpg"
@@ -9485,8 +9485,8 @@ var PRODUCTS = [
     "name": "Вистек Зварювальний електрод АНО-21 д. 4 мм, 5 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 481,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 481,
     "desc": "Вистек Зварювальний електрод АНО-21 д. 4 мм, 5 кг",
     "images": [
       "assets/images/products/bp_21_d_4_mm_5_kg.jpg"
@@ -10467,8 +10467,8 @@ var PRODUCTS = [
     "name": "Волосінь для мотокос зірка X-Treme 2.7мм x 456м",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 976,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 976,
     "desc": "Волосінь для мотокос зірка X-Treme 2.7мм x 456м",
     "images": [
       "assets/images/products/bp_456m.jpg"
@@ -10486,8 +10486,8 @@ var PRODUCTS = [
     "name": "Волосінь для мотокос зірка X-Treme 3.0мм x 374м",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1092,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1092,
     "desc": "Волосінь для мотокос зірка X-Treme 3.0мм x 374м",
     "images": [
       "assets/images/products/bp_374m.jpg"
@@ -10505,8 +10505,8 @@ var PRODUCTS = [
     "name": "Волосінь для мотокос кручений квадрат X-Treme 2.7мм x 441м",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1092,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1092,
     "desc": "Волосінь для мотокос кручений квадрат X-Treme 2.7мм x 441м",
     "images": [
       "assets/images/products/bp_441m.jpg"
@@ -10524,8 +10524,8 @@ var PRODUCTS = [
     "name": "Вставка для наколінників EVA-піна Werk 20083",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 276160,
-    "oldPrice": null,
+    "price": 160,
+    "oldPrice": 276,
     "desc": "Вставка для наколінників EVA-піна Werk 20083",
     "images": [
       "assets/images/products/bp_20083.jpg"
@@ -10620,8 +10620,8 @@ var PRODUCTS = [
     "name": "Відпарювальна станція 1600 Вт Grunhelm GS620",
     "category": "technika",
     "subcategory": "all",
-    "price": 3149,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3149,
     "desc": "Відпарювальна станція 1600 Вт Grunhelm GS620",
     "images": [
       "assets/images/products/bp_gs620.jpg"
@@ -10639,8 +10639,8 @@ var PRODUCTS = [
     "name": "Відпарювальна станція Grunhelm GS670",
     "category": "technika",
     "subcategory": "all",
-    "price": 4089,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4089,
     "desc": "Відпарювальна станція Grunhelm GS670",
     "images": [
       "assets/images/products/bp_gs670.jpg"
@@ -10658,8 +10658,8 @@ var PRODUCTS = [
     "name": "Відпарювач для одягу + вішалка Grunhelm GS609",
     "category": "technika",
     "subcategory": "all",
-    "price": 2519,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2519,
     "desc": "Відпарювач для одягу + вішалка Grunhelm GS609",
     "images": [
       "assets/images/products/bp_odezhdy.jpg"
@@ -10677,8 +10677,8 @@ var PRODUCTS = [
     "name": "Відпарювач для одягу RS501A Reca",
     "category": "technika",
     "subcategory": "all",
-    "price": 1899,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1899,
     "desc": "Відпарювач для одягу RS501A Reca",
     "images": [
       "assets/images/products/bp_reca.jpg"
@@ -10715,8 +10715,8 @@ var PRODUCTS = [
     "name": "Відпарювач ручний Grunhelm GHS-1113",
     "category": "technika",
     "subcategory": "all",
-    "price": 1199,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1199,
     "desc": "Відпарювач ручний Grunhelm GHS-1113",
     "images": [
       "assets/images/products/bp_1113.jpg"
@@ -10734,8 +10734,8 @@ var PRODUCTS = [
     "name": "Відро 695 пластикове 10 л ZAMBAK",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 265,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 265,
     "desc": "Відро 695 пластикове 10 л ZAMBAK",
     "images": [
       "assets/images/products/bp_zambak.jpg"
@@ -10753,8 +10753,8 @@ var PRODUCTS = [
     "name": "Відро пластикове будівельне кольорове 17 л Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 74,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 74,
     "desc": "Відро пластикове будівельне кольорове 17 л Укрпром",
     "images": [
       "assets/images/products/bp_ukrprom.jpg"
@@ -10809,8 +10809,8 @@ var PRODUCTS = [
     "name": "Віник WR400 малий 60*25 УМАНЬ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 135,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 135,
     "desc": "Віник WR400 малий 60*25 УМАНЬ",
     "images": [
       "assets/images/products/bp_uman.jpg"
@@ -10828,8 +10828,8 @@ var PRODUCTS = [
     "name": "Віник ЛЮКС",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 168,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 168,
     "desc": "Віник ЛЮКС",
     "images": [
       "assets/images/products/bp_lyuks.jpg"
@@ -10899,8 +10899,8 @@ var PRODUCTS = [
     "name": "Віник молдавський",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 184,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 184,
     "desc": "Віник молдавський",
     "images": [
       "assets/images/products/bp_moldavskyj.jpg"
@@ -10944,8 +10944,8 @@ var PRODUCTS = [
     "name": "Віник трьохпучковий",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 170,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 170,
     "desc": "Віник трьохпучковий",
     "images": [
       "assets/images/products/bp_trohpuchkovyj.jpg"
@@ -10976,8 +10976,8 @@ var PRODUCTS = [
     "name": "Віник із совком та ручкою Zambak 128",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 356,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 356,
     "desc": "Віник із совком та ручкою Zambak 128",
     "images": [
       "assets/images/products/bp_128.jpg"
@@ -11047,8 +11047,8 @@ var PRODUCTS = [
     "name": "Віялові граблі Werk WR-004",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 320,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 320,
     "desc": "Віялові граблі Werk WR-004",
     "images": [
       "assets/images/products/bp_004.jpg"
@@ -11092,8 +11092,8 @@ var PRODUCTS = [
     "name": "Газонокосарка акумуляторна DLM330SM Makita",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 23790,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 23790,
     "desc": "Газонокосарка акумуляторна DLM330SM Makita",
     "images": [
       "assets/images/products/bp_makita.jpg"
@@ -11130,8 +11130,8 @@ var PRODUCTS = [
     "name": "Газонокосарка акумуляторна LMO 18-33 Battery Karcher",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 9999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 9999,
     "desc": "Газонокосарка акумуляторна LMO 18-33 Battery Karcher",
     "images": [
       "assets/images/products/bp_karcher.jpg"
@@ -11149,8 +11149,8 @@ var PRODUCTS = [
     "name": "Газонокосарка бензинова Grunhelm A-400",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 9347,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 9347,
     "desc": "Газонокосарка бензинова Grunhelm A-400",
     "images": [
       "assets/images/products/bp_400.jpg"
@@ -11168,8 +11168,8 @@ var PRODUCTS = [
     "name": "Газонокосарка бензинова Grunhelm S461VHY самохідна",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 14048,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 14048,
     "desc": "Газонокосарка бензинова Grunhelm S461VHY самохідна",
     "images": [
       "assets/images/products/bp_samohidna.jpg"
@@ -11187,8 +11187,8 @@ var PRODUCTS = [
     "name": "Газонокосарка бензинова Grunhelm S463",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 9839,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 9839,
     "desc": "Газонокосарка бензинова Grunhelm S463",
     "images": [
       "assets/images/products/bp_s463.jpg"
@@ -11206,8 +11206,8 @@ var PRODUCTS = [
     "name": "Газонокосарка електрична EM-6200A Grunhelm",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 7270,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 7270,
     "desc": "Газонокосарка електрична EM-6200A Grunhelm",
     "images": [
       "assets/images/products/bp_grunhelm.jpg"
@@ -11583,8 +11583,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 2.5 кВт Werk WPG3600",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 10877,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 10877,
     "desc": "Генератор бензиновий 2.5 кВт Werk WPG3600",
     "images": [
       "assets/images/products/bp_wpg3600.jpg"
@@ -11602,8 +11602,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 2.8 кВт Werk WPG3800",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 11588,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 11588,
     "desc": "Генератор бензиновий 2.8 кВт Werk WPG3800",
     "images": [
       "assets/images/products/bp_wpg3800.jpg"
@@ -11621,8 +11621,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 2.8 кВт Форте FG3500",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 13373,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 13373,
     "desc": "Генератор бензиновий 2.8 кВт Форте FG3500",
     "images": [
       "assets/images/products/bp_fg3500.jpg"
@@ -11640,8 +11640,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 3 кВт Форте FG3800",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 14463,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 14463,
     "desc": "Генератор бензиновий 3 кВт Форте FG3800",
     "images": [
       "assets/images/products/bp_fg3800.jpg"
@@ -11659,8 +11659,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 29672,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 29672,
     "desc": "Генератор бензиновий 5.5 кВт Форте FG6500",
     "images": [
       "assets/images/products/bp_fg6500.jpg"
@@ -11678,8 +11678,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 5.5 кВт Форте FG6500E",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 33345,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 33345,
     "desc": "Генератор бензиновий 5.5 кВт Форте FG6500E",
     "images": [
       "assets/images/products/bp_fg6500e.jpg"
@@ -11697,8 +11697,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 6 кВт Форте FG8000E",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 36294,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 36294,
     "desc": "Генератор бензиновий 6 кВт Форте FG8000E",
     "images": [
       "assets/images/products/bp_fg8000e.jpg"
@@ -11716,8 +11716,8 @@ var PRODUCTS = [
     "name": "Генератор бензиновий 8.3 кВт Форте FG10000E",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 62329,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 62329,
     "desc": "Генератор бензиновий 8.3 кВт Форте FG10000E",
     "images": [
       "assets/images/products/bp_fg10000e.jpg"
@@ -11754,8 +11754,8 @@ var PRODUCTS = [
     "name": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 59033,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 59033,
     "desc": "Генератор дизельний 5.5 кВт Forte FGD6500E3",
     "images": [
       "assets/images/products/bp_fgd6500e3.jpg"
@@ -11773,8 +11773,8 @@ var PRODUCTS = [
     "name": "Герметик силіконовий універсальний білий 280 мл X-Treme 10544",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 100,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 100,
     "desc": "Герметик силіконовий універсальний білий 280 мл X-Treme 10544",
     "images": [
       "assets/images/products/bp_10544.jpg"
@@ -11792,8 +11792,8 @@ var PRODUCTS = [
     "name": "Герметик силіконовий універсальний прозорий 280мл X-Treme 10543",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 100,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 100,
     "desc": "Герметик силіконовий універсальний прозорий 280мл X-Treme 10543",
     "images": [
       "assets/images/products/bp_10543.jpg"
@@ -11811,8 +11811,8 @@ var PRODUCTS = [
     "name": "Герметик силіконовий, універсальний, нейтральний X-Treme, (прозорий, 300мл)",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 176,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 176,
     "desc": "Герметик силіконовий, універсальний, нейтральний X-Treme, (прозорий, 300мл)",
     "images": [
       "assets/images/products/bp_300ml.jpg"
@@ -12080,8 +12080,8 @@ var PRODUCTS = [
     "name": "Граблі віялові дротові Молот",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 45,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 45,
     "desc": "Граблі віялові дротові Молот",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductgrabli_veernye_provolochnye_molot.jpg"
@@ -12229,8 +12229,8 @@ var PRODUCTS = [
     "name": "Держак для граблів 1.5 м. Д. 30 мм (дерево 1 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 39,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 39,
     "desc": "Держак для граблів 1.5 м. Д. 30 мм (дерево 1 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_grablej_1_5_m_d_30_mm_derevo_1_sort_ukrprom.jpg"
@@ -12248,8 +12248,8 @@ var PRODUCTS = [
     "name": "Держак для граблів 1.5 м. Д. 30 мм (дерево 2 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 30,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 30,
     "desc": "Держак для граблів 1.5 м. Д. 30 мм (дерево 2 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_grablej_1_5_m_d_30_mm_derevo_2_sort_ukrprom.jpg"
@@ -12267,8 +12267,8 @@ var PRODUCTS = [
     "name": "Держак для граблів 1.5 м. Д. 30 мм (дерево 3 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 20,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 20,
     "desc": "Держак для граблів 1.5 м. Д. 30 мм (дерево 3 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_grablej_1_5_m_d_30_mm_derevo_3_sort_ukrprom.jpg"
@@ -12286,8 +12286,8 @@ var PRODUCTS = [
     "name": "Держак для лопати 1.2 м. Д. 40 мм (дерево 1 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 62,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 62,
     "desc": "Держак для лопати 1.2 м. Д. 40 мм (дерево 1 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_lopaty_1_2_m_d_40_mm_derevo_1_sort_ukrprom.jpg"
@@ -12305,8 +12305,8 @@ var PRODUCTS = [
     "name": "Держак для лопати 1.2 м. Д. 40 мм (дерево 2 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 29,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 29,
     "desc": "Держак для лопати 1.2 м. Д. 40 мм (дерево 2 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_lopaty_1_2_m_d_40_mm_derevo_2_sort_ukrprom.jpg"
@@ -12324,8 +12324,8 @@ var PRODUCTS = [
     "name": "Держак для лопати 1.2 м. Д. 40 мм (дерево 3 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 20,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 20,
     "desc": "Держак для лопати 1.2 м. Д. 40 мм (дерево 3 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_lopaty_1_2_m_d_40_mm_derevo_3_sort_ukrprom.jpg"
@@ -12343,8 +12343,8 @@ var PRODUCTS = [
     "name": "Держак для сапи 1.2 м. Д. 30 мм (дерево 1 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 22,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 22,
     "desc": "Держак для сапи 1.2 м. Д. 30 мм (дерево 1 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_sapy_1_2_m_d_30_mm_derevo_1_sort_ukrprom.jpg"
@@ -12362,8 +12362,8 @@ var PRODUCTS = [
     "name": "Держак для сапи 1.2 м. Д. 30 мм (дерево 2 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 22,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 22,
     "desc": "Держак для сапи 1.2 м. Д. 30 мм (дерево 2 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_sapy_1_2_m_d_30_mm_derevo_2_sort_ukrprom.jpg"
@@ -12381,8 +12381,8 @@ var PRODUCTS = [
     "name": "Держак для сапи 1.2 м. Д. 30 мм (дерево 3 сорт) УКРПРОМ",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 15,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 15,
     "desc": "Держак для сапи 1.2 м. Д. 30 мм (дерево 3 сорт) УКРПРОМ",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductcherenok_dlja_sapy_1_2_m_d_30_mm_derevo_3_sort_ukrprom.jpg"
@@ -12718,8 +12718,8 @@ var PRODUCTS = [
     "name": "Драбина Budfix 05 (5cx)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2915,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2915,
     "desc": "Драбина Budfix 05 (5cx)",
     "images": [
       "assets/images/products/bp_5cx.jpg"
@@ -12737,8 +12737,8 @@ var PRODUCTS = [
     "name": "Драбина Budfix 06 (6cx)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3534,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3534,
     "desc": "Драбина Budfix 06 (6cx)",
     "images": [
       "assets/images/products/bp_6cx.jpg"
@@ -12756,8 +12756,8 @@ var PRODUCTS = [
     "name": "Драбина Budfix 07 (7cx)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4211,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4211,
     "desc": "Драбина Budfix 07 (7cx)",
     "images": [
       "assets/images/products/bp_7cx.jpg"
@@ -12775,8 +12775,8 @@ var PRODUCTS = [
     "name": "Драбина Budfix 08 (8cx)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4538,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4538,
     "desc": "Драбина Budfix 08 (8cx)",
     "images": [
       "assets/images/products/bp_8cx.jpg"
@@ -12794,8 +12794,8 @@ var PRODUCTS = [
     "name": "Драбина Forte LFD156TB 5 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2570,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2570,
     "desc": "Драбина Forte LFD156TB 5 ступенів",
     "images": [
       "assets/images/products/bp_stupeney.jpg"
@@ -12813,8 +12813,8 @@ var PRODUCTS = [
     "name": "Драбина універсальна з двох частин 7511 ITOSS",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 11224,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 11224,
     "desc": "Драбина універсальна з двох частин 7511 ITOSS",
     "images": [
       "assets/images/products/bp_itoss.jpg"
@@ -12845,8 +12845,8 @@ var PRODUCTS = [
     "name": "Дріт зварювальний омідненний ER 70S-6; 0.8мм х 4.5 кг NONAME",
     "category": "instrument",
     "subcategory": "all",
-    "price": 556,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 556,
     "desc": "Дріт зварювальний омідненний ER 70S-6; 0.8мм х 4.5 кг NONAME",
     "images": [
       "assets/images/products/bp_noname.jpg"
@@ -13188,8 +13188,8 @@ var PRODUCTS = [
     "name": "Електрична варильна поверхня GPC 723 BE",
     "category": "technika",
     "subcategory": "all",
-    "price": 6599,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6599,
     "desc": "Електрична варильна поверхня GPC 723 BE",
     "images": [
       "assets/images/products/bp_be.jpg"
@@ -13359,8 +13359,8 @@ var PRODUCTS = [
     "name": "Електропила ланцюгова Forte FES26-40",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 5691,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5691,
     "desc": "Електропила ланцюгова Forte FES26-40",
     "images": [
       "assets/images/products/bp_40.jpg"
@@ -13378,8 +13378,8 @@ var PRODUCTS = [
     "name": "Електропила ланцюгова Forte FES30-45P",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 8796,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 8796,
     "desc": "Електропила ланцюгова Forte FES30-45P",
     "images": [
       "assets/images/products/bp_45p.jpg"
@@ -13449,8 +13449,8 @@ var PRODUCTS = [
     "name": "Електроскутер Forte V15",
     "category": "technika",
     "subcategory": "transport",
-    "price": 83518,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 83518,
     "desc": "Електроскутер Forte V15",
     "images": [
       "assets/images/products/bp_v15.jpg"
@@ -13468,8 +13468,8 @@ var PRODUCTS = [
     "name": "Електроскутер YADEA LUNA чорний",
     "category": "technika",
     "subcategory": "transport",
-    "price": 48104,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48104,
     "desc": "Електроскутер YADEA LUNA чорний",
     "images": [
       "assets/images/products/bp_chernyj.jpg"
@@ -13487,8 +13487,8 @@ var PRODUCTS = [
     "name": "Електроскутер YADEA RUIBIN Cірий",
     "category": "technika",
     "subcategory": "transport",
-    "price": 50152,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50152,
     "desc": "Електроскутер YADEA RUIBIN Cірий",
     "images": [
       "assets/images/products/bp_ciryj.jpg"
@@ -13506,8 +13506,8 @@ var PRODUCTS = [
     "name": "Електроскутер YADEA RUIBIN Білий",
     "category": "technika",
     "subcategory": "transport",
-    "price": 50152,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50152,
     "desc": "Електроскутер YADEA RUIBIN Білий",
     "images": [
       "assets/images/products/bp_bilyj.jpg"
@@ -13525,8 +13525,8 @@ var PRODUCTS = [
     "name": "Електроізоляційна стрічка 0,15ммx17ммx10м чорна Haisser 38101",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 3521,
-    "oldPrice": null,
+    "price": 21,
+    "oldPrice": 35,
     "desc": "Електроізоляційна стрічка 0,15ммx17ммx10м чорна Haisser 38101",
     "images": [
       "assets/images/products/bp_38101.jpg"
@@ -13544,8 +13544,8 @@ var PRODUCTS = [
     "name": "Електроізоляційна стрічка 0,15ммx17ммx20м чорна Haisser 38102",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 58,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 58,
     "desc": "Електроізоляційна стрічка 0,15ммx17ммx20м чорна Haisser 38102",
     "images": [
       "assets/images/products/bp_38102.jpg"
@@ -13660,8 +13660,8 @@ var PRODUCTS = [
     "name": "Жилет сигнальний 60 г/м2 (70х64 см) XXXL помаранчевий Werk 50010",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 128,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 128,
     "desc": "Жилет сигнальний 60 г/м2 (70х64 см) XXXL помаранчевий Werk 50010",
     "images": [
       "assets/images/products/bp_50010.jpg"
@@ -13679,8 +13679,8 @@ var PRODUCTS = [
     "name": "Занурювальний блендер Grunhelm EBS-300P",
     "category": "technika",
     "subcategory": "all",
-    "price": 939549,
-    "oldPrice": null,
+    "price": 549,
+    "oldPrice": 939,
     "desc": "Занурювальний блендер Grunhelm EBS-300P",
     "images": [
       "assets/images/products/bp_blender.jpg"
@@ -13867,8 +13867,8 @@ var PRODUCTS = [
     "name": "Зарядна станція EcoFlow DELTA 2 Max",
     "category": "instrument",
     "subcategory": "all",
-    "price": 100999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 100999,
     "desc": "Зарядна станція EcoFlow DELTA 2 Max",
     "images": [
       "assets/images/products/bp_max.jpg"
@@ -13886,8 +13886,8 @@ var PRODUCTS = [
     "name": "Зарядна станція EcoFlow DELTA Max 2000 (2016 Вт·год)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 62999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 62999,
     "desc": "Зарядна станція EcoFlow DELTA Max 2000 (2016 Вт·год)",
     "images": [
       "assets/images/products/bp_god.jpg"
@@ -13905,8 +13905,8 @@ var PRODUCTS = [
     "name": "Затискач маси FORTE H-1027",
     "category": "instrument",
     "subcategory": "all",
-    "price": 265212,
-    "oldPrice": null,
+    "price": 212,
+    "oldPrice": 265,
     "desc": "Затискач маси FORTE H-1027",
     "images": [
       "assets/images/products/bp_1027.jpg"
@@ -13924,8 +13924,8 @@ var PRODUCTS = [
     "name": "Захисна П/Е плівка Werk 37300, 4х5 м, 7 мкм",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "Захисна П/Е плівка Werk 37300, 4х5 м, 7 мкм",
     "images": [
       "assets/images/products/bp_mkm.jpg"
@@ -13943,8 +13943,8 @@ var PRODUCTS = [
     "name": "Захисна П/Е плівка Werk 37302, 4х5 м, 12 мкм, чорна",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 93,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 93,
     "desc": "Захисна П/Е плівка Werk 37302, 4х5 м, 12 мкм, чорна",
     "images": [
       "assets/images/products/bp_chorna.jpg"
@@ -13962,8 +13962,8 @@ var PRODUCTS = [
     "name": "Захисний сітчатий щиток Haisser 20100",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 352,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 352,
     "desc": "Захисний сітчатий щиток Haisser 20100",
     "images": [
       "assets/images/products/bp_20100.jpg"
@@ -13981,8 +13981,8 @@ var PRODUCTS = [
     "name": "Захисний сітчатий щиток Werk 20010",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 274,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 274,
     "desc": "Захисний сітчатий щиток Werk 20010",
     "images": [
       "assets/images/products/bp_20010.jpg"
@@ -14000,8 +14000,8 @@ var PRODUCTS = [
     "name": "Захисний щиток Werk 20016",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 273161,
-    "oldPrice": null,
+    "price": 161,
+    "oldPrice": 273,
     "desc": "Захисний щиток Werk 20016",
     "images": [
       "assets/images/products/bp_20016_1.jpg"
@@ -14019,8 +14019,8 @@ var PRODUCTS = [
     "name": "Захисний щиток Світязь 20006",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 276161,
-    "oldPrice": null,
+    "price": 161,
+    "oldPrice": 276,
     "desc": "Захисний щиток Світязь 20006",
     "images": [
       "assets/images/products/bp_20006_1.jpg"
@@ -14038,8 +14038,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Werk 20002",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 60,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 60,
     "desc": "Захисні окуляри Werk 20002",
     "images": [
       "assets/images/products/bp_20002.jpg"
@@ -14057,8 +14057,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Werk 20003",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 69,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 69,
     "desc": "Захисні окуляри Werk 20003",
     "images": [
       "assets/images/products/bp_20003.jpg"
@@ -14076,8 +14076,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Werk 20004",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 8147,
-    "oldPrice": null,
+    "price": 47,
+    "oldPrice": 81,
     "desc": "Захисні окуляри Werk 20004",
     "images": [
       "assets/images/products/bp_20004.jpg"
@@ -14095,8 +14095,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Werk 20012",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 62,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 62,
     "desc": "Захисні окуляри Werk 20012",
     "images": [
       "assets/images/products/bp_20012.jpg"
@@ -14114,8 +14114,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Werk 20015",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 64,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 64,
     "desc": "Захисні окуляри Werk 20015",
     "images": [
       "assets/images/products/bp_20015.jpg"
@@ -14133,8 +14133,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Werk 20017",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 67,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 67,
     "desc": "Захисні окуляри Werk 20017",
     "images": [
       "assets/images/products/bp_20017.jpg"
@@ -14152,8 +14152,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Світязь 20013",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "Захисні окуляри Світязь 20013",
     "images": [
       "assets/images/products/bp_20013.jpg"
@@ -14171,8 +14171,8 @@ var PRODUCTS = [
     "name": "Захисні окуляри Світязь SG-002",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 48,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Захисні окуляри Світязь SG-002",
     "images": [
       "assets/images/products/bp_002.jpg"
@@ -14190,8 +14190,8 @@ var PRODUCTS = [
     "name": "Захисні прозорі окуляри Comfort Werk 20024",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 106,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 106,
     "desc": "Захисні прозорі окуляри Comfort Werk 20024",
     "images": [
       "assets/images/products/bp_20024.jpg"
@@ -14209,8 +14209,8 @@ var PRODUCTS = [
     "name": "Захисні прозорі окуляри Fashion Werk 20025",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 108,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 108,
     "desc": "Захисні прозорі окуляри Fashion Werk 20025",
     "images": [
       "assets/images/products/bp_20025.jpg"
@@ -14228,8 +14228,8 @@ var PRODUCTS = [
     "name": "Зварювальні електроди Haisser E6013 2.0 мм (1 кг)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 138,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 138,
     "desc": "Зварювальні електроди Haisser E6013 2.0 мм (1 кг)",
     "images": [
       "assets/images/products/bp_1kg.jpg"
@@ -14247,8 +14247,8 @@ var PRODUCTS = [
     "name": "Змінний фільтр для респіратора Werk 20057",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 67,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 67,
     "desc": "Змінний фільтр для респіратора Werk 20057",
     "images": [
       "assets/images/products/bp_20057.jpg"
@@ -14461,8 +14461,8 @@ var PRODUCTS = [
     "name": "Кабель EcoFlow Car Charge XT60 Cable",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1872,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1872,
     "desc": "Кабель EcoFlow Car Charge XT60 Cable",
     "images": [
       "assets/images/products/bp_cable.jpg"
@@ -14480,8 +14480,8 @@ var PRODUCTS = [
     "name": "Кабель EcoFlow DELTA Pro-4-8 Double handle connection 0.75m",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5232,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5232,
     "desc": "Кабель EcoFlow DELTA Pro-4-8 Double handle connection 0.75m",
     "images": [
       "assets/images/products/bp_75m.jpg"
@@ -14499,8 +14499,8 @@ var PRODUCTS = [
     "name": "Кабель EcoFlow MH200-WAVE-XT150-connectioing 5m",
     "category": "instrument",
     "subcategory": "all",
-    "price": 8112,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 8112,
     "desc": "Кабель EcoFlow MH200-WAVE-XT150-connectioing 5m",
     "images": [
       "assets/images/products/bp_5m.jpg"
@@ -14518,8 +14518,8 @@ var PRODUCTS = [
     "name": "Кабель Infinity - Smart Home Panel",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5712,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5712,
     "desc": "Кабель Infinity - Smart Home Panel",
     "images": [
       "assets/images/products/bp_panel.jpg"
@@ -14537,8 +14537,8 @@ var PRODUCTS = [
     "name": "Кабель Power Hub Solar Charge Cable (6 metres/20 feet/10AWG)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 4272,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4272,
     "desc": "Кабель Power Hub Solar Charge Cable (6 metres/20 feet/10AWG)",
     "images": [
       "assets/images/products/bp_10awg.jpg"
@@ -14617,8 +14617,8 @@ var PRODUCTS = [
     "name": "Каска захисна ABS біла Werk 24112",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 453,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 453,
     "desc": "Каска захисна ABS біла Werk 24112",
     "images": [
       "assets/images/products/bp_24112.jpg"
@@ -14636,8 +14636,8 @@ var PRODUCTS = [
     "name": "Каска захисна жовта Werk 24110",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 285167,
-    "oldPrice": null,
+    "price": 167,
+    "oldPrice": 285,
     "desc": "Каска захисна жовта Werk 24110",
     "images": [
       "assets/images/products/bp_24110.jpg"
@@ -14655,8 +14655,8 @@ var PRODUCTS = [
     "name": "Каска захисна помаранчева Werk 24111",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 285,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 285,
     "desc": "Каска захисна помаранчева Werk 24111",
     "images": [
       "assets/images/products/bp_24111.jpg"
@@ -17861,8 +17861,8 @@ var PRODUCTS = [
     "name": "Клевер Сітка пластикова 'пташка' яч. 12х14 мм, рул. 1х50 м (зелена)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 407,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 407,
     "desc": "Клевер Сітка пластикова 'пташка' яч. 12х14 мм, рул. 1х50 м (зелена)",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductklever_setka_plastikovaja_ptichka_jach_12h14_mm_rul_1h50_m_zelenaja.jpg"
@@ -17880,8 +17880,8 @@ var PRODUCTS = [
     "name": "Клейка прозора стрічка Werk 36052 38 мкм х 48 мм х 100 м, коричнева",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 57,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 57,
     "desc": "Клейка прозора стрічка Werk 36052 38 мкм х 48 мм х 100 м, коричнева",
     "images": [
       "assets/images/products/bp_korychneva.jpg"
@@ -17977,8 +17977,8 @@ var PRODUCTS = [
     "name": "Комбіновані рукавички Werk WE2160",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 16398,
-    "oldPrice": null,
+    "price": 98,
+    "oldPrice": 163,
     "desc": "Комбіновані рукавички Werk WE2160",
     "images": [
       "assets/images/products/bp_we2160.jpg"
@@ -18063,8 +18063,8 @@ var PRODUCTS = [
     "name": "Комплект енергонезалежності Ecoflow Power Get Set Kit (Без Батарей)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 88999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 88999,
     "desc": "Комплект енергонезалежності Ecoflow Power Get Set Kit (Без Батарей)",
     "images": [
       "assets/images/products/bp_batarej.jpg"
@@ -18082,8 +18082,8 @@ var PRODUCTS = [
     "name": "Комплект енергонезалежності Ecoflow Power Independence Kit (Без Батарей та генератора)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 120999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 120999,
     "desc": "Комплект енергонезалежності Ecoflow Power Independence Kit (Без Батарей та генератора)",
     "images": [
       "assets/images/products/bp_generatora.jpg"
@@ -18101,8 +18101,8 @@ var PRODUCTS = [
     "name": "Комплект енергонезалежності Ecoflow Power Independence Kit 2 kWh (з генератором)",
     "category": "instrument",
     "subcategory": "all",
-    "price": 231999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 231999,
     "desc": "Комплект енергонезалежності Ecoflow Power Independence Kit 2 kWh (з генератором)",
     "images": [
       "assets/images/products/bp_generatorom.jpg"
@@ -21016,8 +21016,8 @@ var PRODUCTS = [
     "name": "Контроллер EcoFlow DELTA Pro Remote Control",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5232,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5232,
     "desc": "Контроллер EcoFlow DELTA Pro Remote Control",
     "images": [
       "assets/images/products/bp_control.jpg"
@@ -21358,8 +21358,8 @@ var PRODUCTS = [
     "name": "Кріплення для штукатурних маяків (100 шт/пач)",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 82,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 82,
     "desc": "Кріплення для штукатурних маяків (100 шт/пач)",
     "images": [
       "assets/images/products/bp_pach.jpg"
@@ -21669,8 +21669,8 @@ var PRODUCTS = [
     "name": "Ланцюг - 20FCH64 64 лан, 1,3'' 0,50'', крок 0,325'' Haisser Блістер",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 421,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 421,
     "desc": "Ланцюг - 20FCH64 64 лан, 1,3'' 0,50'', крок 0,325'' Haisser Блістер",
     "images": [
       "assets/images/products/bp_blister.jpg"
@@ -21688,8 +21688,8 @@ var PRODUCTS = [
     "name": "Ланцюг HAISSER 21FCH100 1848 ланки, паз 1,5мм 0,58\", крок 0,325''",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 10180,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 10180,
     "desc": "Ланцюг HAISSER 21FCH100 1848 ланки, паз 1,5мм 0,58\", крок 0,325''",
     "images": [
       "assets/images/products/bp_325.jpg"
@@ -21707,8 +21707,8 @@ var PRODUCTS = [
     "name": "Ланцюг в бухті 91VXL100R Oregon",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 12326,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 12326,
     "desc": "Ланцюг в бухті 91VXL100R Oregon",
     "images": [
       "assets/images/products/bp_oregon.jpg"
@@ -21726,8 +21726,8 @@ var PRODUCTS = [
     "name": "Ланцюг для бензопили Oregon 20LPX066E",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 666,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 666,
     "desc": "Ланцюг для бензопили Oregon 20LPX066E",
     "images": [
       "assets/images/products/bp_20lpx066e.jpg"
@@ -21802,8 +21802,8 @@ var PRODUCTS = [
     "name": "Ланцюгова бензинова пила Forte FGS-1520",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 3334,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3334,
     "desc": "Ланцюгова бензинова пила Forte FGS-1520",
     "images": [
       "assets/images/products/bp_1520.jpg"
@@ -21860,8 +21860,8 @@ var PRODUCTS = [
     "name": "Леза до електричного рубанка HAISSER PL-82",
     "category": "instrument",
     "subcategory": "all",
-    "price": 300180,
-    "oldPrice": null,
+    "price": 180,
+    "oldPrice": 300,
     "desc": "Леза до електричного рубанка HAISSER PL-82",
     "images": [
       "assets/images/products/bp_82.jpg"
@@ -21879,8 +21879,8 @@ var PRODUCTS = [
     "name": "Леміра Бочка пластмасова харчова 30 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 509352,
-    "oldPrice": null,
+    "price": 352,
+    "oldPrice": 509,
     "desc": "Леміра Бочка пластмасова харчова 30 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductbochka_plastmassovaja_pishtevaja_30_l_lemira.jpg"
@@ -21898,8 +21898,8 @@ var PRODUCTS = [
     "name": "Леміра Бочка пластмасова харчова 40 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 544,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 544,
     "desc": "Леміра Бочка пластмасова харчова 40 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductbochka_plastmassovaja_pishtevaja_40_l_lemira.jpg"
@@ -21917,8 +21917,8 @@ var PRODUCTS = [
     "name": "Леміра Бочка пластмасова харчова 50 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 579,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 579,
     "desc": "Леміра Бочка пластмасова харчова 50 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductbochka_plastmassovaja_pishtevaja_50_l_lemira.jpg"
@@ -21936,8 +21936,8 @@ var PRODUCTS = [
     "name": "Леміра Бочка пластмасова харчова 60 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 614,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 614,
     "desc": "Леміра Бочка пластмасова харчова 60 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductbochka_plastmassovaja_pishtevaja_60_l_lemira.jpg"
@@ -21955,8 +21955,8 @@ var PRODUCTS = [
     "name": "Леміра Бочка пластмасова харчова 60 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 614,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 614,
     "desc": "Леміра Бочка пластмасова харчова 60 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlemira_bochka_plastmassovaja_pishtevaja_60_l_lemira.jpg"
@@ -21974,8 +21974,8 @@ var PRODUCTS = [
     "name": "Леміра Відро пластмасове 10 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 49,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 49,
     "desc": "Леміра Відро пластмасове 10 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlemira_vedro_plastmassovoe_10_l.jpg"
@@ -21993,8 +21993,8 @@ var PRODUCTS = [
     "name": "Леміра Мітла пластикова з дерев'яним держаком",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 12152,
-    "oldPrice": null,
+    "price": 52,
+    "oldPrice": 121,
     "desc": "Леміра Мітла пластикова з дерев'яним держаком",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlemira_metla_plastikovaja_s_derevjannym_cherenkom.jpg"
@@ -22012,8 +22012,8 @@ var PRODUCTS = [
     "name": "Леміра Мітла пластикова з пластиковим держаком",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 15867,
-    "oldPrice": null,
+    "price": 67,
+    "oldPrice": 158,
     "desc": "Леміра Мітла пластикова з пластиковим держаком",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlemira_metla_plastikovaja_s_plastikovym_cherenkom.jpg"
@@ -22031,8 +22031,8 @@ var PRODUCTS = [
     "name": "Леміра Мітла пластмасова плоска (з пластмасовим черешком)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 166,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 166,
     "desc": "Леміра Мітла пластмасова плоска (з пластмасовим черешком)",
     "images": [
       "assets/images/products/bp_cherenkom.jpg"
@@ -22050,8 +22050,8 @@ var PRODUCTS = [
     "name": "Леміра ОГ-302 Обприскувач гідравлічний",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 48,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Леміра ОГ-302 Обприскувач гідравлічний",
     "images": [
       "assets/images/products/bp_302_opryskivatelj_gidravlicheskij.jpg"
@@ -22088,8 +22088,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1,5 без Т / З, 40 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1754,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1754,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1,5 без Т / З, 40 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h15_bez_tz_40_m.jpg"
@@ -22107,8 +22107,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 20 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1184,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1184,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 20 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h1_5_bez_t_z_20_m.jpg"
@@ -22126,8 +22126,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 25 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1307,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1307,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 25 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h1_5_bez_t_z_25_m.jpg"
@@ -22145,8 +22145,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 30 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1465,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1465,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 30 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h1_5_bez_t_z_30_m.jpg"
@@ -22164,8 +22164,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 50 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2053,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2053,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х1.5 без Т / З, 50 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h1_5_bez_t_z_50_m.jpg"
@@ -22183,8 +22183,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2,5 без Т / З, 30 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1886,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1886,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2,5 без Т / З, 30 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h25_bez_tz_30_m.jpg"
@@ -22221,8 +22221,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2.5 без Т / З, 40 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2360,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2360,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2.5 без Т / З, 40 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_2h2_5_bez_t_z_40_m.jpg"
@@ -22240,8 +22240,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2.5, без Т / З, 20 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1447,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1447,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 2х2.5, без Т / З, 20 м)",
     "images": [
       "assets/images/products/bp_20m.jpg"
@@ -22259,8 +22259,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 3х1,5 з К / З і Т / З, 20 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1181,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1181,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 3х1,5 з К / З і Т / З, 20 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_3h15_s_kz_i_tz_20_m.jpg"
@@ -22278,8 +22278,8 @@ var PRODUCTS = [
     "name": "Леміра У16-01 Подовжувач на котушці (ПВС 3х1.5 З К / З і Т / З, 25 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1347,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1347,
     "desc": "Леміра У16-01 Подовжувач на котушці (ПВС 3х1.5 З К / З і Т / З, 25 м)",
     "images": [
       "assets/images/products/bp_01_udlinitelj_na_katushke_pvs_3h1_5_s_k_z_i_t_z_25_m.jpg"
@@ -22297,8 +22297,8 @@ var PRODUCTS = [
     "name": "Леміра У16-02 Подовжувач на котушці (ПВС 2х0.75 з Т / З, 15 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 324,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 324,
     "desc": "Леміра У16-02 Подовжувач на котушці (ПВС 2х0.75 з Т / З, 15 м)",
     "images": [
       "assets/images/products/bp_02_udlinitelj_na_katushke_pvs_2h0_75_s_t_z_15_m.jpg"
@@ -22316,8 +22316,8 @@ var PRODUCTS = [
     "name": "Леміра У16-02 Подовжувач на котушці (ПВС 2х1 з Т / З, 10 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 208,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 208,
     "desc": "Леміра У16-02 Подовжувач на котушці (ПВС 2х1 з Т / З, 10 м)",
     "images": [
       "assets/images/products/bp_02_udlinitelj_na_katushke_pvs_2h1_s_t_z_10_m.jpg"
@@ -22335,8 +22335,8 @@ var PRODUCTS = [
     "name": "Леміра У16-03 Подовжувач на котушці (ПВС 2х1.5 з В / Р, без Т / З, 30 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1272,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1272,
     "desc": "Леміра У16-03 Подовжувач на котушці (ПВС 2х1.5 з В / Р, без Т / З, 30 м)",
     "images": [
       "assets/images/products/bp_03_udlinitelj_na_katushke_pvs_2h1_5_s_v_r_bez_t_z_30_m.jpg"
@@ -22354,8 +22354,8 @@ var PRODUCTS = [
     "name": "Леміра У16-03 Подовжувач на котушці (ПВС 2х2.5 з В / Р, без Т / З, 40 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2000,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2000,
     "desc": "Леміра У16-03 Подовжувач на котушці (ПВС 2х2.5 з В / Р, без Т / З, 40 м)",
     "images": [
       "assets/images/products/bp_03_udlinitelj_na_katushke_pvs_2h2_5_s_v_r_bez_t_z_40_m.jpg"
@@ -22373,8 +22373,8 @@ var PRODUCTS = [
     "name": "Леміра У6-001 Подовжувач одномісний (ПВС 2х1, 10 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 377,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 377,
     "desc": "Леміра У6-001 Подовжувач одномісний (ПВС 2х1, 10 м)",
     "images": [
       "assets/images/products/bp_001_udlinitelj_odnomestnyj_pvs_2h1_10_m.jpg"
@@ -22392,8 +22392,8 @@ var PRODUCTS = [
     "name": "Леміра У6-001 Подовжувач одномісний (ПВС 2х1, 15 м)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 465,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 465,
     "desc": "Леміра У6-001 Подовжувач одномісний (ПВС 2х1, 15 м)",
     "images": [
       "assets/images/products/bp_001_udlinitelj_odnomestnyj_pvs_2h1_15_m.jpg"
@@ -22411,8 +22411,8 @@ var PRODUCTS = [
     "name": "Леміра Фляга пластмасова харчова 10 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 164,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 164,
     "desc": "Леміра Фляга пластмасова харчова 10 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductfljaga_plastmassovaja_pishtevaja_10_l_lemira.jpg"
@@ -22430,8 +22430,8 @@ var PRODUCTS = [
     "name": "Леміра Фляга пластмасова харчова 20 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 254,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 254,
     "desc": "Леміра Фляга пластмасова харчова 20 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductfljaga_plastmassovaja_pishtevaja_20_l_lemira.jpg"
@@ -22683,8 +22683,8 @@ var PRODUCTS = [
     "name": "Лопата американка Werk WS-001",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 274,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 274,
     "desc": "Лопата американка Werk WS-001",
     "images": [
       "assets/images/products/bp_001.jpg"
@@ -22702,8 +22702,8 @@ var PRODUCTS = [
     "name": "Лопата американка Арма Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 147,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 147,
     "desc": "Лопата американка Арма Укрпром",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlopata_amerikanka_arma.jpg"
@@ -22721,8 +22721,8 @@ var PRODUCTS = [
     "name": "Лопата американка молоткова Арма Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 151,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 151,
     "desc": "Лопата американка молоткова Арма Укрпром",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlopata_amerikanka_molotkovaja_arma.jpg"
@@ -22740,8 +22740,8 @@ var PRODUCTS = [
     "name": "Лопата снігоприбиральна АВС 395х395 кольор. (В комп. Держак, креплен, ручка)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 109,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 109,
     "desc": "Лопата снігоприбиральна АВС 395х395 кольор. (В комп. Держак, креплен, ручка)",
     "images": [
       "assets/images/products/bp_ruchka.jpg"
@@ -22759,8 +22759,8 @@ var PRODUCTS = [
     "name": "Лопата совкова з ребром Арма Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 110,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 110,
     "desc": "Лопата совкова з ребром Арма Укрпром",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlopata_sovkovaja_s_rebrom_arma.jpg"
@@ -22778,8 +22778,8 @@ var PRODUCTS = [
     "name": "Лопата штикова Арма Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 147,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 147,
     "desc": "Лопата штикова Арма Укрпром",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlopata_shtykovaja_arma.jpg"
@@ -22797,8 +22797,8 @@ var PRODUCTS = [
     "name": "Лопата штикова мала Арма Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 90,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 90,
     "desc": "Лопата штикова мала Арма Укрпром",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlopata_shtykovaja_malaja_arma.jpg"
@@ -22816,8 +22816,8 @@ var PRODUCTS = [
     "name": "Лопата штикова молоткова Арма Укрпром",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 178,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 178,
     "desc": "Лопата штикова молоткова Арма Укрпром",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlopata_shtykovaja_molotkovaja_arma.jpg"
@@ -23030,8 +23030,8 @@ var PRODUCTS = [
     "name": "Лоток модульний System PRO Haisser 90135",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 2053,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2053,
     "desc": "Лоток модульний System PRO Haisser 90135",
     "images": [
       "assets/images/products/bp_90135.jpg"
@@ -23049,8 +23049,8 @@ var PRODUCTS = [
     "name": "Лійка садова Леміра 10 л",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 171,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 171,
     "desc": "Лійка садова Леміра 10 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlemira_lejka_sadovaja_10_l.jpg"
@@ -23068,8 +23068,8 @@ var PRODUCTS = [
     "name": "Лійка садова Леміра 5 л",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 151,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 151,
     "desc": "Лійка садова Леміра 5 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductlemira_lejka_sadovaja_5_l.jpg"
@@ -23113,8 +23113,8 @@ var PRODUCTS = [
     "name": "Ліска для мотокос ЗІРКА - 2.7мм x 480м X-Treme",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 976,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 976,
     "desc": "Ліска для мотокос ЗІРКА - 2.7мм x 480м X-Treme",
     "images": [
       "assets/images/products/bp_treme.jpg"
@@ -23132,8 +23132,8 @@ var PRODUCTS = [
     "name": "Ліска для мотокоси X-TREME 1,6 мм х 15 м, жовта",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 25,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 25,
     "desc": "Ліска для мотокоси X-TREME 1,6 мм х 15 м, жовта",
     "images": [
       "assets/images/products/bp_zhovta.jpg"
@@ -23151,8 +23151,8 @@ var PRODUCTS = [
     "name": "Ліска для мотокоси X-TREME 2,0 мм х 15 м, зелена",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 35,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 35,
     "desc": "Ліска для мотокоси X-TREME 2,0 мм х 15 м, зелена",
     "images": [
       "assets/images/products/bp_zelena.jpg"
@@ -23170,8 +23170,8 @@ var PRODUCTS = [
     "name": "Ліска для мотокоси X-TREME 2,7 мм х 322 м",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1031,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1031,
     "desc": "Ліска для мотокоси X-TREME 2,7 мм х 322 м",
     "images": [
       "assets/images/products/bp_m.jpg"
@@ -23189,8 +23189,8 @@ var PRODUCTS = [
     "name": "Ліска для мотокоси X-TREME 3,0 мм х 15 м, сіра",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 75,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 75,
     "desc": "Ліска для мотокоси X-TREME 3,0 мм х 15 м, сіра",
     "images": [
       "assets/images/products/bp_sira.jpg"
@@ -23208,8 +23208,8 @@ var PRODUCTS = [
     "name": "Ліска до мотокоси  X-TREME 2,7мм x 15м  SHARK зубчата сіро-червона",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 143,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 143,
     "desc": "Ліска до мотокоси  X-TREME 2,7мм x 15м  SHARK зубчата сіро-червона",
     "images": [
       "assets/images/products/bp_chervona.jpg"
@@ -23246,8 +23246,8 @@ var PRODUCTS = [
     "name": "МАЙГАЛ А02-052 Щітка з вкладкою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 25,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 25,
     "desc": "МАЙГАЛ А02-052 Щітка з вкладкою",
     "images": [
       "assets/images/products/bp_052_shtetka_s_vkladkoj.jpg"
@@ -23265,8 +23265,8 @@ var PRODUCTS = [
     "name": "МАЙГАЛ А08-102 Щітка 370х40 мм",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 20,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 20,
     "desc": "МАЙГАЛ А08-102 Щітка 370х40 мм",
     "images": [
       "assets/images/products/bp_102_shtetka_370h40_mm.jpg"
@@ -23284,8 +23284,8 @@ var PRODUCTS = [
     "name": "МАЙГАЛ А09-202 Мітла без ручки MAXI",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 65,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 65,
     "desc": "МАЙГАЛ А09-202 Мітла без ручки MAXI",
     "images": [
       "assets/images/products/bp_202_metla_bez_ruchki_maxi.jpg"
@@ -23303,8 +23303,8 @@ var PRODUCTS = [
     "name": "МАЙГАЛ А10-112 Щітка для вулиці 30 см",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 33,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 33,
     "desc": "МАЙГАЛ А10-112 Щітка для вулиці 30 см",
     "images": [
       "assets/images/products/bp_112_shtetka_dlja_ulicy_30_sm.jpg"
@@ -23322,8 +23322,8 @@ var PRODUCTS = [
     "name": "МАЙГАЛ А10-212 Щітка для вулиці 40 см",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 39,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 39,
     "desc": "МАЙГАЛ А10-212 Щітка для вулиці 40 см",
     "images": [
       "assets/images/products/bp_212_shtetka_dlja_ulicy_40_sm.jpg"
@@ -23502,8 +23502,8 @@ var PRODUCTS = [
     "name": "Магнітний контакт HК-6021 Kaiser",
     "category": "instrument",
     "subcategory": "all",
-    "price": 184105,
-    "oldPrice": null,
+    "price": 105,
+    "oldPrice": 184,
     "desc": "Магнітний контакт HК-6021 Kaiser",
     "images": [
       "assets/images/products/bp_kaiser.jpg"
@@ -23937,8 +23937,8 @@ var PRODUCTS = [
     "name": "Модуль EcoFlow Relay Module",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1872,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1872,
     "desc": "Модуль EcoFlow Relay Module",
     "images": [
       "assets/images/products/bp_module.jpg"
@@ -23975,8 +23975,8 @@ var PRODUCTS = [
     "name": "Молот Мітла пластикова",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 52,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 52,
     "desc": "Молот Мітла пластикова",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductmolot_metla_plastikovaja.jpg"
@@ -23994,8 +23994,8 @@ var PRODUCTS = [
     "name": "Молот Сапа без дужки 200 мм",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 18,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 18,
     "desc": "Молот Сапа без дужки 200 мм",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductmolot_sapa_bez_duzhki_200_mm.jpg"
@@ -24026,8 +24026,8 @@ var PRODUCTS = [
     "name": "Монтажна піна Haisser М 50W",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 344,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 344,
     "desc": "Монтажна піна Haisser М 50W",
     "images": [
       "assets/images/products/bp_50w.jpg"
@@ -24045,8 +24045,8 @@ var PRODUCTS = [
     "name": "Монтажна піна зимова Haisser PRO 65 W",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 337,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 337,
     "desc": "Монтажна піна зимова Haisser PRO 65 W",
     "images": [
       "assets/images/products/bp_w.jpg"
@@ -24466,8 +24466,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte MK-330BS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 6188,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6188,
     "desc": "Мотокоса Forte MK-330BS",
     "images": [
       "assets/images/products/bp_330bs_1.jpg"
@@ -24523,8 +24523,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte MK-620",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 6021,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6021,
     "desc": "Мотокоса Forte MK-620",
     "images": [
       "assets/images/products/bp_620_1.jpg"
@@ -24542,8 +24542,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte MK-843HS",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 9088,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 9088,
     "desc": "Мотокоса Forte MK-843HS",
     "images": [
       "assets/images/products/bp_843hs.jpg"
@@ -24618,8 +24618,8 @@ var PRODUCTS = [
     "name": "Мотокоса Forte БMK-520Т",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 5297,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5297,
     "desc": "Мотокоса Forte БMK-520Т",
     "images": [
       "assets/images/products/bp_520t.jpg"
@@ -24922,8 +24922,8 @@ var PRODUCTS = [
     "name": "Мотообприскувач Forte 3W-650",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 7438,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 7438,
     "desc": "Мотообприскувач Forte 3W-650",
     "images": [
       "assets/images/products/bp_650.jpg"
@@ -24960,8 +24960,8 @@ var PRODUCTS = [
     "name": "Мотообприскувач Forte 3WF-767",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 6076,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6076,
     "desc": "Мотообприскувач Forte 3WF-767",
     "images": [
       "assets/images/products/bp_litrov.jpg"
@@ -25044,8 +25044,8 @@ var PRODUCTS = [
     "name": "Міні граблі 270 мм епоксидне покриття Werk 81068",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 193104,
-    "oldPrice": null,
+    "price": 104,
+    "oldPrice": 193,
     "desc": "Міні граблі 270 мм епоксидне покриття Werk 81068",
     "images": [
       "assets/images/products/bp_81068.jpg"
@@ -25063,8 +25063,8 @@ var PRODUCTS = [
     "name": "Міні граблі 280 мм епоксидне покриття Werk 81109",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 15081,
-    "oldPrice": null,
+    "price": 81,
+    "oldPrice": 150,
     "desc": "Міні граблі 280 мм епоксидне покриття Werk 81109",
     "images": [
       "assets/images/products/bp_81109.jpg"
@@ -25082,8 +25082,8 @@ var PRODUCTS = [
     "name": "Міні граблі 320 мм дзеркальне покриття HAISSER 81116",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 299161,
-    "oldPrice": null,
+    "price": 161,
+    "oldPrice": 299,
     "desc": "Міні граблі 320 мм дзеркальне покриття HAISSER 81116",
     "images": [
       "assets/images/products/bp_81116.jpg"
@@ -25101,8 +25101,8 @@ var PRODUCTS = [
     "name": "Міні граблі віялові 390 мм епоксидне покриття Werk 81071",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 16690,
-    "oldPrice": null,
+    "price": 90,
+    "oldPrice": 166,
     "desc": "Міні граблі віялові 390 мм епоксидне покриття Werk 81071",
     "images": [
       "assets/images/products/bp_81071.jpg"
@@ -25120,8 +25120,8 @@ var PRODUCTS = [
     "name": "Міні граблі віялові 390 мм епоксидне покриття Werk 81112",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 14277,
-    "oldPrice": null,
+    "price": 77,
+    "oldPrice": 142,
     "desc": "Міні граблі віялові 390 мм епоксидне покриття Werk 81112",
     "images": [
       "assets/images/products/bp_81112.jpg"
@@ -25139,8 +25139,8 @@ var PRODUCTS = [
     "name": "Міні лопатка 295 мм епоксидне покриття   Werk 81066",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 152,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 152,
     "desc": "Міні лопатка 295 мм епоксидне покриття   Werk 81066",
     "images": [
       "assets/images/products/bp_81066.jpg"
@@ -25158,8 +25158,8 @@ var PRODUCTS = [
     "name": "Міні лопатка 305 мм пластикова  Werk 81075",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 12366,
-    "oldPrice": null,
+    "price": 66,
+    "oldPrice": 123,
     "desc": "Міні лопатка 305 мм пластикова  Werk 81075",
     "images": [
       "assets/images/products/bp_81075.jpg"
@@ -25177,8 +25177,8 @@ var PRODUCTS = [
     "name": "Міні лопатка 305 мм пластикова Werk 81073",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 11562,
-    "oldPrice": null,
+    "price": 62,
+    "oldPrice": 115,
     "desc": "Міні лопатка 305 мм пластикова Werk 81073",
     "images": [
       "assets/images/products/bp_81073.jpg"
@@ -25196,8 +25196,8 @@ var PRODUCTS = [
     "name": "Міні лопатка 330 мм дзеркальне покриття HAISSER 81114",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 276,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 276,
     "desc": "Міні лопатка 330 мм дзеркальне покриття HAISSER 81114",
     "images": [
       "assets/images/products/bp_81114.jpg"
@@ -25215,8 +25215,8 @@ var PRODUCTS = [
     "name": "Міні лопатка 330 мм епоксидне покриття Werk 81107",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 13975,
-    "oldPrice": null,
+    "price": 75,
+    "oldPrice": 139,
     "desc": "Міні лопатка 330 мм епоксидне покриття Werk 81107",
     "images": [
       "assets/images/products/bp_81107.jpg"
@@ -25234,8 +25234,8 @@ var PRODUCTS = [
     "name": "Міні лопатка садова вузька 310 мм епоксидне покриття  Werk 81108",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 13975,
-    "oldPrice": null,
+    "price": 75,
+    "oldPrice": 139,
     "desc": "Міні лопатка садова вузька 310 мм епоксидне покриття  Werk 81108",
     "images": [
       "assets/images/products/bp_81108.jpg"
@@ -25253,8 +25253,8 @@ var PRODUCTS = [
     "name": "Міні лопатка садова вузька 330мм епоксидне покриття Werk 81067",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 139,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 139,
     "desc": "Міні лопатка садова вузька 330мм епоксидне покриття Werk 81067",
     "images": [
       "assets/images/products/bp_81067.jpg"
@@ -25272,8 +25272,8 @@ var PRODUCTS = [
     "name": "Міні лопатка садова вузька 340 мм дзеркальне покриття HAISSER 81115",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 276,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 276,
     "desc": "Міні лопатка садова вузька 340 мм дзеркальне покриття HAISSER 81115",
     "images": [
       "assets/images/products/bp_81115.jpg"
@@ -25291,8 +25291,8 @@ var PRODUCTS = [
     "name": "Міні мотика двостороння 273 мм епоксидне покриття Werk 81069",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 207,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 207,
     "desc": "Міні мотика двостороння 273 мм епоксидне покриття Werk 81069",
     "images": [
       "assets/images/products/bp_81069.jpg"
@@ -25310,8 +25310,8 @@ var PRODUCTS = [
     "name": "Міні мотика двостороння 280 мм епоксидне покриття Werk 81110",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 17997,
-    "oldPrice": null,
+    "price": 97,
+    "oldPrice": 179,
     "desc": "Міні мотика двостороння 280 мм епоксидне покриття Werk 81110",
     "images": [
       "assets/images/products/bp_81110.jpg"
@@ -25329,8 +25329,8 @@ var PRODUCTS = [
     "name": "Міні основа СВП Адванта , 9 х 70 мм (250шт.)",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 130,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 130,
     "desc": "Міні основа СВП Адванта , 9 х 70 мм (250шт.)",
     "images": [
       "assets/images/products/bp_250sht.jpg"
@@ -25348,8 +25348,8 @@ var PRODUCTS = [
     "name": "Міні розпушувач 290мм пластиковий  Werk 81076",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 12366,
-    "oldPrice": null,
+    "price": 66,
+    "oldPrice": 123,
     "desc": "Міні розпушувач 290мм пластиковий  Werk 81076",
     "images": [
       "assets/images/products/bp_81076.jpg"
@@ -25367,8 +25367,8 @@ var PRODUCTS = [
     "name": "Міні розпушувач садовий 320 мм епоксидне покриття  Werk 81111",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 15081,
-    "oldPrice": null,
+    "price": 81,
+    "oldPrice": 150,
     "desc": "Міні розпушувач садовий 320 мм епоксидне покриття  Werk 81111",
     "images": [
       "assets/images/products/bp_81111.jpg"
@@ -25386,8 +25386,8 @@ var PRODUCTS = [
     "name": "Міні розпушувач садовий 320 мм епоксидне покриття Werk 81070",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 16690,
-    "oldPrice": null,
+    "price": 90,
+    "oldPrice": 166,
     "desc": "Міні розпушувач садовий 320 мм епоксидне покриття Werk 81070",
     "images": [
       "assets/images/products/bp_81070.jpg"
@@ -25483,8 +25483,8 @@ var PRODUCTS = [
     "name": "Мішок поліпропіленовий 45 кг 100х55 см",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 12,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 12,
     "desc": "Мішок поліпропіленовий 45 кг 100х55 см",
     "images": [
       "assets/images/products/bp_sm.jpg"
@@ -25502,8 +25502,8 @@ var PRODUCTS = [
     "name": "Мішок поліпропіленовий 50 кг (105х55 см)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 12,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 12,
     "desc": "Мішок поліпропіленовий 50 кг (105х55 см)",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductmeshok_polipropilenovyj_50_kg_105h55_sm.jpg"
@@ -25553,8 +25553,8 @@ var PRODUCTS = [
     "name": "Набір 3 пар рукавиць Werk WE2151H з підвіскою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 88,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 88,
     "desc": "Набір 3 пар рукавиць Werk WE2151H з підвіскою",
     "images": [
       "assets/images/products/bp_we2151h.jpg"
@@ -25598,8 +25598,8 @@ var PRODUCTS = [
     "name": "Набір EcoFlow Smart Home Panel Combo",
     "category": "instrument",
     "subcategory": "all",
-    "price": 71999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 71999,
     "desc": "Набір EcoFlow Smart Home Panel Combo",
     "images": [
       "assets/images/products/bp_combo.jpg"
@@ -26781,8 +26781,8 @@ var PRODUCTS = [
     "name": "Набір міні інструментів садових 3 шт. 280-303 мм пластиковий Werk 81077",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 310167,
-    "oldPrice": null,
+    "price": 167,
+    "oldPrice": 310,
     "desc": "Набір міні інструментів садових 3 шт. 280-303 мм пластиковий Werk 81077",
     "images": [
       "assets/images/products/bp_81077.jpg"
@@ -27371,8 +27371,8 @@ var PRODUCTS = [
     "name": "Набір рукавиць Werk WE2152H з підвіскою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 74,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 74,
     "desc": "Набір рукавиць Werk WE2152H з підвіскою",
     "images": [
       "assets/images/products/bp_we2152h.jpg"
@@ -27943,8 +27943,8 @@ var PRODUCTS = [
     "name": "Набір скриньок для інструменту 4-3-131619 Forte 3 шт PSSET 13 \"+16\" +19 \"",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 528,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 528,
     "desc": "Набір скриньок для інструменту 4-3-131619 Forte 3 шт PSSET 13 \"+16\" +19 \"",
     "images": [
       "assets/images/products/bp_131619.jpg"
@@ -27962,8 +27962,8 @@ var PRODUCTS = [
     "name": "Набір скриньок для інструменту Forte 13\"+16\"",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 350,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 350,
     "desc": "Набір скриньок для інструменту Forte 13\"+16\"",
     "images": [
       "assets/images/products/bp_1316.jpg"
@@ -28724,8 +28724,8 @@ var PRODUCTS = [
     "name": "Набір ящиків для інструментів  3 в 1 R-BOX Haisser 90115",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1822,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1822,
     "desc": "Набір ящиків для інструментів  3 в 1 R-BOX Haisser 90115",
     "images": [
       "assets/images/products/bp_90115.jpg"
@@ -28840,8 +28840,8 @@ var PRODUCTS = [
     "name": "Навушники протишумні Haisser 20111",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 802,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 802,
     "desc": "Навушники протишумні Haisser 20111",
     "images": [
       "assets/images/products/bp_20111.jpg"
@@ -28859,8 +28859,8 @@ var PRODUCTS = [
     "name": "Навушники протишумні Werk 20011",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 200,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 200,
     "desc": "Навушники протишумні Werk 20011",
     "images": [
       "assets/images/products/bp_20011_1.jpg"
@@ -28878,8 +28878,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IP-2938W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 139,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 139,
     "desc": "Навісний замок Werk IP-2938W",
     "images": [
       "assets/images/products/bp_2938w.jpg"
@@ -28897,8 +28897,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IP-2950W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 199,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 199,
     "desc": "Навісний замок Werk IP-2950W",
     "images": [
       "assets/images/products/bp_2950w.jpg"
@@ -28916,8 +28916,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IP-2960W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 269,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 269,
     "desc": "Навісний замок Werk IP-2960W",
     "images": [
       "assets/images/products/bp_2960w.jpg"
@@ -28935,8 +28935,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IP-2970W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 359,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 359,
     "desc": "Навісний замок Werk IP-2970W",
     "images": [
       "assets/images/products/bp_2970w.jpg"
@@ -28954,8 +28954,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IPW-5755W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 359,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 359,
     "desc": "Навісний замок Werk IPW-5755W",
     "images": [
       "assets/images/products/bp_5755w.jpg"
@@ -28973,8 +28973,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IPW-LS5745W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 269,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 269,
     "desc": "Навісний замок Werk IPW-LS5745W",
     "images": [
       "assets/images/products/bp_ls5745w.jpg"
@@ -28992,8 +28992,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk IPW-LS5755W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 399,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 399,
     "desc": "Навісний замок Werk IPW-LS5755W",
     "images": [
       "assets/images/products/bp_ls5755w.jpg"
@@ -29011,8 +29011,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk PVC-IP-0140W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 169,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 169,
     "desc": "Навісний замок Werk PVC-IP-0140W",
     "images": [
       "assets/images/products/bp_0140w.jpg"
@@ -29030,8 +29030,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk PVC-IP-0150W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 239,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 239,
     "desc": "Навісний замок Werk PVC-IP-0150W",
     "images": [
       "assets/images/products/bp_0150w.jpg"
@@ -29049,8 +29049,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk PVC-IP-0160W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 349,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 349,
     "desc": "Навісний замок Werk PVC-IP-0160W",
     "images": [
       "assets/images/products/bp_0160w.jpg"
@@ -29068,8 +29068,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk PVC-IP-0170W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 459,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 459,
     "desc": "Навісний замок Werk PVC-IP-0170W",
     "images": [
       "assets/images/products/bp_0170w.jpg"
@@ -29087,8 +29087,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk PVC-IPW-0550W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 599279,
-    "oldPrice": null,
+    "price": 279,
+    "oldPrice": 599,
     "desc": "Навісний замок Werk PVC-IPW-0550W",
     "images": [
       "assets/images/products/bp_0550w.jpg"
@@ -29106,8 +29106,8 @@ var PRODUCTS = [
     "name": "Навісний замок Werk PVC-IPW-0560W",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 799,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 799,
     "desc": "Навісний замок Werk PVC-IPW-0560W",
     "images": [
       "assets/images/products/bp_0560w.jpg"
@@ -29144,8 +29144,8 @@ var PRODUCTS = [
     "name": "Наколінники захисні EVA-піна  Werk 20080",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 614371,
-    "oldPrice": null,
+    "price": 371,
+    "oldPrice": 614,
     "desc": "Наколінники захисні EVA-піна  Werk 20080",
     "images": [
       "assets/images/products/bp_20080.jpg"
@@ -29163,8 +29163,8 @@ var PRODUCTS = [
     "name": "Наколінники захисні EVA-піна 200х150х15 Werk 20086",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 401245,
-    "oldPrice": null,
+    "price": 245,
+    "oldPrice": 401,
     "desc": "Наколінники захисні EVA-піна 200х150х15 Werk 20086",
     "images": [
       "assets/images/products/bp_20086.jpg"
@@ -29182,8 +29182,8 @@ var PRODUCTS = [
     "name": "Наколінники захисні TPR-чашка, EVA-піна, гелева подушка Werk 20082",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 960588,
-    "oldPrice": null,
+    "price": 588,
+    "oldPrice": 960,
     "desc": "Наколінники захисні TPR-чашка, EVA-піна, гелева подушка Werk 20082",
     "images": [
       "assets/images/products/bp_20082.jpg"
@@ -29201,8 +29201,8 @@ var PRODUCTS = [
     "name": "Наколінники захисні ПВХ-чашка  Werk 20081",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 381,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 381,
     "desc": "Наколінники захисні ПВХ-чашка  Werk 20081",
     "images": [
       "assets/images/products/bp_20081.jpg"
@@ -29220,8 +29220,8 @@ var PRODUCTS = [
     "name": "Наколінники захисні збільшена ПВХ-чашка Werk 20084",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 614364,
-    "oldPrice": null,
+    "price": 364,
+    "oldPrice": 614,
     "desc": "Наколінники захисні збільшена ПВХ-чашка Werk 20084",
     "images": [
       "assets/images/products/bp_20084.jpg"
@@ -29277,8 +29277,8 @@ var PRODUCTS = [
     "name": "Насадка для обприскувача акумуляторного Grunhelm CF-107E",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 906777,
-    "oldPrice": null,
+    "price": 777,
+    "oldPrice": 906,
     "desc": "Насадка для обприскувача акумуляторного Grunhelm CF-107E",
     "images": [
       "assets/images/products/bp_107e.jpg"
@@ -30271,8 +30271,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний - CF-16 PRO Forte",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 2006,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2006,
     "desc": "Обприскувач акумуляторний - CF-16 PRO Forte",
     "images": [
       "assets/images/products/bp_forte.jpg"
@@ -30404,8 +30404,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Forte CL-18A",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1417,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1417,
     "desc": "Обприскувач акумуляторний Forte CL-18A",
     "images": [
       "assets/images/products/bp_18a.jpg"
@@ -30480,8 +30480,8 @@ var PRODUCTS = [
     "name": "Обприскувач акумуляторний Grunhelm GHS-20",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1377,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1377,
     "desc": "Обприскувач акумуляторний Grunhelm GHS-20",
     "images": [
       "assets/images/products/bp_20.jpg"
@@ -30556,8 +30556,8 @@ var PRODUCTS = [
     "name": "Обприскувач гідравлічний Леміра ОГ-101",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 880,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 880,
     "desc": "Обприскувач гідравлічний Леміра ОГ-101",
     "images": [
       "assets/images/products/bp__101_opryskivatelj_gidravlicheskij_12_l.jpg"
@@ -30575,8 +30575,8 @@ var PRODUCTS = [
     "name": "Обприскувач гідравлічний Леміра ОГ-101-01",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 902,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 902,
     "desc": "Обприскувач гідравлічний Леміра ОГ-101-01",
     "images": [
       "assets/images/products/bp_01_opryskivatelj_gidravlicheskij_15_l.jpg"
@@ -30594,8 +30594,8 @@ var PRODUCTS = [
     "name": "Обприскувач пневматичний Forte ОП-10",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 749625,
-    "oldPrice": null,
+    "price": 625,
+    "oldPrice": 749,
     "desc": "Обприскувач пневматичний Forte ОП-10",
     "images": [
       "assets/images/products/bp_10_opryskivatelj_sadovyj.jpg"
@@ -30613,8 +30613,8 @@ var PRODUCTS = [
     "name": "Обприскувач пневматичний Forte ОР-1.2",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 186164,
-    "oldPrice": null,
+    "price": 164,
+    "oldPrice": 186,
     "desc": "Обприскувач пневматичний Forte ОР-1.2",
     "images": [
       "assets/images/products/bp_1i2l.jpg"
@@ -30632,8 +30632,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний - KF-6 Forte 6л.",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 849709,
-    "oldPrice": null,
+    "price": 709,
+    "oldPrice": 849,
     "desc": "Обприскувач ручний - KF-6 Forte 6л.",
     "images": [
       "assets/images/products/bp_6l.jpg"
@@ -30651,8 +30651,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний - KF-9 Forte 9л.",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 943,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 943,
     "desc": "Обприскувач ручний - KF-9 Forte 9л.",
     "images": [
       "assets/images/products/bp_9l.jpg"
@@ -30670,8 +30670,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний Forte ОГ-12",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 898753,
-    "oldPrice": null,
+    "price": 753,
+    "oldPrice": 898,
     "desc": "Обприскувач ручний Forte ОГ-12",
     "images": [
       "assets/images/products/bp_ruchnoy.jpg"
@@ -30689,8 +30689,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний Forte ОП-8М",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 854713,
-    "oldPrice": null,
+    "price": 713,
+    "oldPrice": 854,
     "desc": "Обприскувач ручний Forte ОП-8М",
     "images": [
       "assets/images/products/bp_ruchnoj.jpg"
@@ -30708,8 +30708,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний садовий Forte SP-1,5 LUX",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 312274,
-    "oldPrice": null,
+    "price": 274,
+    "oldPrice": 312,
     "desc": "Обприскувач ручний садовий Forte SP-1,5 LUX",
     "images": [
       "assets/images/products/bp_lux.jpg"
@@ -30727,8 +30727,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний садовий Forte SP-2,0 LUX",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 327287,
-    "oldPrice": null,
+    "price": 287,
+    "oldPrice": 327,
     "desc": "Обприскувач ручний садовий Forte SP-2,0 LUX",
     "images": [
       "assets/images/products/bp_8424813000.jpg"
@@ -30746,8 +30746,8 @@ var PRODUCTS = [
     "name": "Обприскувач ручний садовий KF-1.5 LE Forte 1.5л",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 274,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 274,
     "desc": "Обприскувач ручний садовий KF-1.5 LE Forte 1.5л",
     "images": [
       "assets/images/products/bp_5l.jpg"
@@ -30856,8 +30856,8 @@ var PRODUCTS = [
     "name": "Органайзер Haisser Nors 30 90088",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 270,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 270,
     "desc": "Органайзер Haisser Nors 30 90088",
     "images": [
       "assets/images/products/bp_90088.jpg"
@@ -30875,8 +30875,8 @@ var PRODUCTS = [
     "name": "Органайзер Haisser Nors 35 90089",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 369,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 369,
     "desc": "Органайзер Haisser Nors 35 90089",
     "images": [
       "assets/images/products/bp_90089.jpg"
@@ -30894,8 +30894,8 @@ var PRODUCTS = [
     "name": "Органайзер Haisser Nors 40 90090",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 491,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 491,
     "desc": "Органайзер Haisser Nors 40 90090",
     "images": [
       "assets/images/products/bp_90090.jpg"
@@ -30913,8 +30913,8 @@ var PRODUCTS = [
     "name": "Органайзер Haisser Nors 50 90091",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 783,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 783,
     "desc": "Органайзер Haisser Nors 50 90091",
     "images": [
       "assets/images/products/bp_90091.jpg"
@@ -30932,8 +30932,8 @@ var PRODUCTS = [
     "name": "Органайзер Haisser Nun 25 90082",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 168,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 168,
     "desc": "Органайзер Haisser Nun 25 90082",
     "images": [
       "assets/images/products/bp_90082.jpg"
@@ -30951,8 +30951,8 @@ var PRODUCTS = [
     "name": "Органайзер Haisser Nun 30 90083",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 246,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 246,
     "desc": "Органайзер Haisser Nun 30 90083",
     "images": [
       "assets/images/products/bp_90083.jpg"
@@ -30970,8 +30970,8 @@ var PRODUCTS = [
     "name": "Органайзер для інструменту 580х410 мм Укрпром MFV 21306",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 135,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 135,
     "desc": "Органайзер для інструменту 580х410 мм Укрпром MFV 21306",
     "images": [
       "assets/images/products/bp_21306.jpg"
@@ -30989,8 +30989,8 @@ var PRODUCTS = [
     "name": "Органайзер для інструментів Multicase Cargo 30 400х200х260 (9 секцій) Haisser 90142",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1213,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1213,
     "desc": "Органайзер для інструментів Multicase Cargo 30 400х200х260 (9 секцій) Haisser 90142",
     "images": [
       "assets/images/products/bp_90142.jpg"
@@ -31008,8 +31008,8 @@ var PRODUCTS = [
     "name": "Органайзер з роздільниками 300х255х54 мм Сталь 1-1654",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 169,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 169,
     "desc": "Органайзер з роздільниками 300х255х54 мм Сталь 1-1654",
     "images": [
       "assets/images/products/bp_1654.jpg"
@@ -31038,8 +31038,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий 165х140х35 мм Сталь 1-0835",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 45,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 45,
     "desc": "Органайзер пластиковий 165х140х35 мм Сталь 1-0835",
     "images": [
       "assets/images/products/bp_0835.jpg"
@@ -31057,8 +31057,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий 265х155х40 мм Сталь 1-1240",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 73,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 73,
     "desc": "Органайзер пластиковий 265х155х40 мм Сталь 1-1240",
     "images": [
       "assets/images/products/bp_1240.jpg"
@@ -31076,8 +31076,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий 303х180х50 мм Сталь 1-0850",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 108,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 108,
     "desc": "Органайзер пластиковий 303х180х50 мм Сталь 1-0850",
     "images": [
       "assets/images/products/bp_0850.jpg"
@@ -31095,8 +31095,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Modular Solution 294х194х60 мм Haisser 90092",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 590420,
-    "oldPrice": null,
+    "price": 420,
+    "oldPrice": 590,
     "desc": "Органайзер пластиковий Modular Solution 294х194х60 мм Haisser 90092",
     "images": [
       "assets/images/products/bp_90092.jpg"
@@ -31114,8 +31114,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Nort 20  195х155х35 мм Haisser 90085",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 217146,
-    "oldPrice": null,
+    "price": 146,
+    "oldPrice": 217,
     "desc": "Органайзер пластиковий Nort 20  195х155х35 мм Haisser 90085",
     "images": [
       "assets/images/products/bp_90085.jpg"
@@ -31133,8 +31133,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Nort 30  290х195х35 мм Haisser 90086",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 342,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 342,
     "desc": "Органайзер пластиковий Nort 30  290х195х35 мм Haisser 90086",
     "images": [
       "assets/images/products/bp_90086.jpg"
@@ -31152,8 +31152,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий System PRO 200 Haisser 90124",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1709,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1709,
     "desc": "Органайзер пластиковий System PRO 200 Haisser 90124",
     "images": [
       "assets/images/products/bp_90124.jpg"
@@ -31171,8 +31171,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Tager 20 195х142х40 Haisser 90077",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 10972,
-    "oldPrice": null,
+    "price": 72,
+    "oldPrice": 109,
     "desc": "Органайзер пластиковий Tager 20 195х142х40 Haisser 90077",
     "images": [
       "assets/images/products/bp_90077.jpg"
@@ -31190,8 +31190,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Tager 25 243х142х40 Haisser 90078",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 12985,
-    "oldPrice": null,
+    "price": 85,
+    "oldPrice": 129,
     "desc": "Органайзер пластиковий Tager 25 243х142х40 Haisser 90078",
     "images": [
       "assets/images/products/bp_90078.jpg"
@@ -31209,8 +31209,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Tager 30 284х243х40 Haisser 90080",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 268,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 268,
     "desc": "Органайзер пластиковий Tager 30 284х243х40 Haisser 90080",
     "images": [
       "assets/images/products/bp_90080.jpg"
@@ -31228,8 +31228,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий Tager 30 Low 284х195х40 Haisser 90079",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 211,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 211,
     "desc": "Органайзер пластиковий Tager 30 Low 284х195х40 Haisser 90079",
     "images": [
       "assets/images/products/bp_90079.jpg"
@@ -31247,8 +31247,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий з регульованими секціями  Norb 35  344х249х50  Haisser 90094",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 432,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 432,
     "desc": "Органайзер пластиковий з регульованими секціями  Norb 35  344х249х50  Haisser 90094",
     "images": [
       "assets/images/products/bp_90094.jpg"
@@ -31266,8 +31266,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий з регульованими секціями 15 відділень Haisser Tandem C400",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 399,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 399,
     "desc": "Органайзер пластиковий з регульованими секціями 15 відділень Haisser Tandem C400",
     "images": [
       "assets/images/products/bp_c400.jpg"
@@ -31285,8 +31285,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий з регульованими секціями 22 відділення Haisser Domino 32 (90002)",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 320,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 320,
     "desc": "Органайзер пластиковий з регульованими секціями 22 відділення Haisser Domino 32 (90002)",
     "images": [
       "assets/images/products/bp_90002.jpg"
@@ -31304,8 +31304,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий з регульованими секціями 22 відділення Haisser Domino 36 (90003)",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 375,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 375,
     "desc": "Органайзер пластиковий з регульованими секціями 22 відділення Haisser Domino 36 (90003)",
     "images": [
       "assets/images/products/bp_90003.jpg"
@@ -31323,8 +31323,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий з регульованими секціями 26 відділень (90004) Haisser XL",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 550,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 550,
     "desc": "Органайзер пластиковий з регульованими секціями 26 відділень (90004) Haisser XL",
     "images": [
       "assets/images/products/bp_xl.jpg"
@@ -31342,8 +31342,8 @@ var PRODUCTS = [
     "name": "Органайзер пластиковий з регульованими секціями Norb 30  287х186х50 Haisser 90093",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 320,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 320,
     "desc": "Органайзер пластиковий з регульованими секціями Norb 30  287х186х50 Haisser 90093",
     "images": [
       "assets/images/products/bp_90093.jpg"
@@ -31387,8 +31387,8 @@ var PRODUCTS = [
     "name": "Очищувач монтажної піни Haisser 500FC",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 122,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 122,
     "desc": "Очищувач монтажної піни Haisser 500FC",
     "images": [
       "assets/images/products/bp_500fc.jpg"
@@ -31502,8 +31502,8 @@ var PRODUCTS = [
     "name": "Пила ланцюгова бензинова - П-5200  БУКОВИНА",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 2678,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2678,
     "desc": "Пила ланцюгова бензинова - П-5200  БУКОВИНА",
     "images": [
       "assets/images/products/bp_bukovyna.jpg"
@@ -31534,8 +31534,8 @@ var PRODUCTS = [
     "name": "Платформа на колесах для ящиків System PRO Haisser 90133",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1964,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1964,
     "desc": "Платформа на колесах для ящиків System PRO Haisser 90133",
     "images": [
       "assets/images/products/bp_90133.jpg"
@@ -33983,8 +33983,8 @@ var PRODUCTS = [
     "name": "Пневматичний відбійний молоток (набір) DMH 30 Metabo",
     "category": "instrument",
     "subcategory": "all",
-    "price": 5259,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5259,
     "desc": "Пневматичний відбійний молоток (набір) DMH 30 Metabo",
     "images": [
       "assets/images/products/bp_metabo.jpg"
@@ -34002,8 +34002,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Forte ОР-0.2 LUX",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 274240,
-    "oldPrice": null,
+    "price": 240,
+    "oldPrice": 274,
     "desc": "Пневматичний обприскувач Forte ОР-0.2 LUX",
     "images": [
       "assets/images/products/bp_sadovyj.jpg"
@@ -34021,8 +34021,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Forte ОР-1.5",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 200175,
-    "oldPrice": null,
+    "price": 175,
+    "oldPrice": 200,
     "desc": "Пневматичний обприскувач Forte ОР-1.5",
     "images": [
       "assets/images/products/bp_15.jpg"
@@ -34040,8 +34040,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Forte ОР-2.0",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 212186,
-    "oldPrice": null,
+    "price": 186,
+    "oldPrice": 212,
     "desc": "Пневматичний обприскувач Forte ОР-2.0",
     "images": [
       "assets/images/products/bp_20_opryskivatelj_sadovyj.jpg"
@@ -34059,8 +34059,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Forte ОР-2.5",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 237208,
-    "oldPrice": null,
+    "price": 208,
+    "oldPrice": 237,
     "desc": "Пневматичний обприскувач Forte ОР-2.5",
     "images": [
       "assets/images/products/bp_25_opryskivatelj_sadovyj.jpg"
@@ -34078,8 +34078,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Forte ОР-3.0",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 252222,
-    "oldPrice": null,
+    "price": 222,
+    "oldPrice": 252,
     "desc": "Пневматичний обприскувач Forte ОР-3.0",
     "images": [
       "assets/images/products/bp_litra.jpg"
@@ -34097,8 +34097,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Grunhelm SP-12",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 812678,
-    "oldPrice": null,
+    "price": 678,
+    "oldPrice": 812,
     "desc": "Пневматичний обприскувач Grunhelm SP-12",
     "images": [
       "assets/images/products/bp_pnevmaticheskij.jpg"
@@ -34116,8 +34116,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-202",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 667,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 667,
     "desc": "Пневматичний обприскувач Леміра ОП-202",
     "images": [
       "assets/images/products/bp_202_opryskivatelj_pnevmaticheskij_8_l.jpg"
@@ -34135,8 +34135,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-202-01",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 677,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 677,
     "desc": "Пневматичний обприскувач Леміра ОП-202-01",
     "images": [
       "assets/images/products/bp_01_opryskivatelj_pnevmaticheskij_10_l.jpg"
@@ -34154,8 +34154,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-202-02",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 656,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 656,
     "desc": "Пневматичний обприскувач Леміра ОП-202-02",
     "images": [
       "assets/images/products/bp_02_opryskivatelj_pnevmaticheskij_6_l.jpg"
@@ -34173,8 +34173,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-301",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 235,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 235,
     "desc": "Пневматичний обприскувач Леміра ОП-301",
     "images": [
       "assets/images/products/bp_301_opryskivatelj_pnevmaticheskij_2_l_.jpg"
@@ -34192,8 +34192,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-301-01",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 228,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 228,
     "desc": "Пневматичний обприскувач Леміра ОП-301-01",
     "images": [
       "assets/images/products/bp_01_opryskivatelj_pnevmaticheskij_12_l.jpg"
@@ -34211,8 +34211,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-301-02",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 239,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 239,
     "desc": "Пневматичний обприскувач Леміра ОП-301-02",
     "images": [
       "assets/images/products/bp_02_opryskivatelj_pnevmaticheskij_25_l.jpg"
@@ -34230,8 +34230,8 @@ var PRODUCTS = [
     "name": "Пневматичний обприскувач Леміра ОП-301-04",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 259,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 259,
     "desc": "Пневматичний обприскувач Леміра ОП-301-04",
     "images": [
       "assets/images/products/bp_04.jpg"
@@ -34281,8 +34281,8 @@ var PRODUCTS = [
     "name": "Подовжувач алюмінієвий FORTE УД-100",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 172,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 172,
     "desc": "Подовжувач алюмінієвий FORTE УД-100",
     "images": [
       "assets/images/products/bp_100.jpg"
@@ -34300,8 +34300,8 @@ var PRODUCTS = [
     "name": "Подовжувач одномісний SNG30M, 30м",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 998,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 998,
     "desc": "Подовжувач одномісний SNG30M, 30м",
     "images": [
       "assets/images/products/bp_30m.jpg"
@@ -34567,8 +34567,8 @@ var PRODUCTS = [
     "name": "Поліуретанова піна Haisser M50",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 278,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 278,
     "desc": "Поліуретанова піна Haisser M50",
     "images": [
       "assets/images/products/bp_m50.jpg"
@@ -35464,8 +35464,8 @@ var PRODUCTS = [
     "name": "Приставна драбина Budfix 1107",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2255,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2255,
     "desc": "Приставна драбина Budfix 1107",
     "images": [
       "assets/images/products/bp_1107.jpg"
@@ -35483,8 +35483,8 @@ var PRODUCTS = [
     "name": "Приставна драбина Budfix 1109",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2732,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2732,
     "desc": "Приставна драбина Budfix 1109",
     "images": [
       "assets/images/products/bp_1109.jpg"
@@ -35502,8 +35502,8 @@ var PRODUCTS = [
     "name": "Приставна драбина Budfix 1110",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2938,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2938,
     "desc": "Приставна драбина Budfix 1110",
     "images": [
       "assets/images/products/bp_1110.jpg"
@@ -35521,8 +35521,8 @@ var PRODUCTS = [
     "name": "Приставна драбина Budfix 1111",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3252,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3252,
     "desc": "Приставна драбина Budfix 1111",
     "images": [
       "assets/images/products/bp_1111.jpg"
@@ -35540,8 +35540,8 @@ var PRODUCTS = [
     "name": "Приставна драбина Budfix 1114",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4542,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4542,
     "desc": "Приставна драбина Budfix 1114",
     "images": [
       "assets/images/products/bp_1114.jpg"
@@ -35559,8 +35559,8 @@ var PRODUCTS = [
     "name": "Пристрій для посадки 230мм епоксидне покриття Werk 81113",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 18197,
-    "oldPrice": null,
+    "price": 97,
+    "oldPrice": 181,
     "desc": "Пристрій для посадки 230мм епоксидне покриття Werk 81113",
     "images": [
       "assets/images/products/bp_81113.jpg"
@@ -35578,8 +35578,8 @@ var PRODUCTS = [
     "name": "Пристрій для посадки 235 мм епоксидне покриття Werk 81072",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 232125,
-    "oldPrice": null,
+    "price": 125,
+    "oldPrice": 232,
     "desc": "Пристрій для посадки 235 мм епоксидне покриття Werk 81072",
     "images": [
       "assets/images/products/bp_81072.jpg"
@@ -35699,8 +35699,8 @@ var PRODUCTS = [
     "name": "Піна монтажна Проф пістолетна - PRO 65 (815 мл) Haisser",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 353,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 353,
     "desc": "Піна монтажна Проф пістолетна - PRO 65 (815 мл) Haisser",
     "images": [
       "assets/images/products/bp_65.jpg"
@@ -35718,8 +35718,8 @@ var PRODUCTS = [
     "name": "Піна-клей Haisser FIX FOAM",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 339,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 339,
     "desc": "Піна-клей Haisser FIX FOAM",
     "images": [
       "assets/images/products/bp_foam.jpg"
@@ -35737,8 +35737,8 @@ var PRODUCTS = [
     "name": "Респіратор з двома змінними фільтрами Werk 20056",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 282,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 282,
     "desc": "Респіратор з двома змінними фільтрами Werk 20056",
     "images": [
       "assets/images/products/bp_20056.jpg"
@@ -35756,8 +35756,8 @@ var PRODUCTS = [
     "name": "Респіратор з одним змінним фільтром Werk 20055",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 249,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 249,
     "desc": "Респіратор з одним змінним фільтром Werk 20055",
     "images": [
       "assets/images/products/bp_20055.jpg"
@@ -35775,8 +35775,8 @@ var PRODUCTS = [
     "name": "Респіратор захисний Werk 20007",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 46,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 46,
     "desc": "Респіратор захисний Werk 20007",
     "images": [
       "assets/images/products/bp_20007_1.jpg"
@@ -35911,8 +35911,8 @@ var PRODUCTS = [
     "name": "Робочі рукавички (сад-город) Werk WE2146",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 34,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 34,
     "desc": "Робочі рукавички (сад-город) Werk WE2146",
     "images": [
       "assets/images/products/bp_we2146.jpg"
@@ -35930,8 +35930,8 @@ var PRODUCTS = [
     "name": "Робочі рукавички (сад-город) Werk WE2146H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 32,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 32,
     "desc": "Робочі рукавички (сад-город) Werk WE2146H",
     "images": [
       "assets/images/products/bp_we2146h.jpg"
@@ -35949,8 +35949,8 @@ var PRODUCTS = [
     "name": "Робочі рукавички Werk WE2147",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 34,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 34,
     "desc": "Робочі рукавички Werk WE2147",
     "images": [
       "assets/images/products/bp_we2147.jpg"
@@ -35968,8 +35968,8 @@ var PRODUCTS = [
     "name": "Робочі рукавички Werk WE2147H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 32,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 32,
     "desc": "Робочі рукавички Werk WE2147H",
     "images": [
       "assets/images/products/bp_we2147h.jpg"
@@ -35987,8 +35987,8 @@ var PRODUCTS = [
     "name": "Рукавички (сад-город) Werk WE2158, розмір 9",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3622,
-    "oldPrice": null,
+    "price": 22,
+    "oldPrice": 36,
     "desc": "Рукавички (сад-город) Werk WE2158, розмір 9",
     "images": [
       "assets/images/products/bp_9.jpg"
@@ -36006,8 +36006,8 @@ var PRODUCTS = [
     "name": "Рукавички WERK WE2119H (білі з чорними цятками)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "Рукавички WERK WE2119H (білі з чорними цятками)",
     "images": [
       "assets/images/products/bp_tochkami.jpg"
@@ -36025,8 +36025,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2113H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 97,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 97,
     "desc": "Рукавички Werk WE2113H",
     "images": [
       "assets/images/products/bp_we2113h_1.jpg"
@@ -36044,8 +36044,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2126H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 80,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 80,
     "desc": "Рукавички Werk WE2126H",
     "images": [
       "assets/images/products/bp_we2126h.jpg"
@@ -36063,8 +36063,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2136",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 34,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 34,
     "desc": "Рукавички Werk WE2136",
     "images": [
       "assets/images/products/bp_we2136.jpg"
@@ -36082,8 +36082,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2139H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 6337,
-    "oldPrice": null,
+    "price": 37,
+    "oldPrice": 63,
     "desc": "Рукавички Werk WE2139H",
     "images": [
       "assets/images/products/bp_we2139h.jpg"
@@ -36101,8 +36101,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2144",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 28,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 28,
     "desc": "Рукавички Werk WE2144",
     "images": [
       "assets/images/products/bp_we2144.jpg"
@@ -36120,8 +36120,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2144H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 31,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 31,
     "desc": "Рукавички Werk WE2144H",
     "images": [
       "assets/images/products/bp_we2144h.jpg"
@@ -36139,8 +36139,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2145",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 32,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 32,
     "desc": "Рукавички Werk WE2145",
     "images": [
       "assets/images/products/bp_we2145.jpg"
@@ -36158,8 +36158,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2145H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 30,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 30,
     "desc": "Рукавички Werk WE2145H",
     "images": [
       "assets/images/products/bp_we2145h.jpg"
@@ -36177,8 +36177,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2148H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 57,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 57,
     "desc": "Рукавички Werk WE2148H",
     "images": [
       "assets/images/products/bp_we2148.jpg"
@@ -36196,8 +36196,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2149H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 93,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 93,
     "desc": "Рукавички Werk WE2149H",
     "images": [
       "assets/images/products/bp_we2149h.jpg"
@@ -36215,8 +36215,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2154",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3922,
-    "oldPrice": null,
+    "price": 22,
+    "oldPrice": 39,
     "desc": "Рукавички Werk WE2154",
     "images": [
       "assets/images/products/bp_we2154.jpg"
@@ -36234,8 +36234,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2155H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 80,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 80,
     "desc": "Рукавички Werk WE2155H",
     "images": [
       "assets/images/products/bp_we2155h.jpg"
@@ -36253,8 +36253,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2156",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4226,
-    "oldPrice": null,
+    "price": 26,
+    "oldPrice": 42,
     "desc": "Рукавички Werk WE2156",
     "images": [
       "assets/images/products/bp_we2156.jpg"
@@ -36272,8 +36272,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2157",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 55,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 55,
     "desc": "Рукавички Werk WE2157",
     "images": [
       "assets/images/products/bp_we2157.jpg"
@@ -36291,8 +36291,8 @@ var PRODUCTS = [
     "name": "Рукавички Werk WE2159",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 31,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 31,
     "desc": "Рукавички Werk WE2159",
     "images": [
       "assets/images/products/bp_we2159.jpg"
@@ -36310,8 +36310,8 @@ var PRODUCTS = [
     "name": "Рукавички ПЕ з подвійним нітриловим покриттям  Haisser 211438",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 115,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 115,
     "desc": "Рукавички ПЕ з подвійним нітриловим покриттям  Haisser 211438",
     "images": [
       "assets/images/products/bp_211438.jpg"
@@ -36329,8 +36329,8 @@ var PRODUCTS = [
     "name": "Рукавички ПЕ латексне покриття утеплені Werk WE2170",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 7143,
-    "oldPrice": null,
+    "price": 43,
+    "oldPrice": 71,
     "desc": "Рукавички ПЕ латексне покриття утеплені Werk WE2170",
     "images": [
       "assets/images/products/bp_we2170.jpg"
@@ -36348,8 +36348,8 @@ var PRODUCTS = [
     "name": "Рукавички ПЕ сині з латексним покриттям Werk WE2163",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 36,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 36,
     "desc": "Рукавички ПЕ сині з латексним покриттям Werk WE2163",
     "images": [
       "assets/images/products/bp_we2163.jpg"
@@ -36367,8 +36367,8 @@ var PRODUCTS = [
     "name": "Рукавички ПЕ, синє латексне покриття, посилена долоня утеплені Werk WE2175H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 9155,
-    "oldPrice": null,
+    "price": 55,
+    "oldPrice": 91,
     "desc": "Рукавички ПЕ, синє латексне покриття, посилена долоня утеплені Werk WE2175H",
     "images": [
       "assets/images/products/bp_we2175h.jpg"
@@ -36386,8 +36386,8 @@ var PRODUCTS = [
     "name": "Рукавички ПЕ, синє латексне покриття, посилені пальці утеплені Werk WE2174",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 6739,
-    "oldPrice": null,
+    "price": 39,
+    "oldPrice": 67,
     "desc": "Рукавички ПЕ, синє латексне покриття, посилені пальці утеплені Werk WE2174",
     "images": [
       "assets/images/products/bp_we2174.jpg"
@@ -36405,8 +36405,8 @@ var PRODUCTS = [
     "name": "Рукавички ПЕ, синє латексне покриття, посилені пальці утеплені з підвіскою  Werk WE2174H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 7445,
-    "oldPrice": null,
+    "price": 45,
+    "oldPrice": 74,
     "desc": "Рукавички ПЕ, синє латексне покриття, посилені пальці утеплені з підвіскою  Werk WE2174H",
     "images": [
       "assets/images/products/bp_we2174h.jpg"
@@ -36424,8 +36424,8 @@ var PRODUCTS = [
     "name": "Рукавички Сталь 21104 без підвіски",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 30,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 30,
     "desc": "Рукавички Сталь 21104 без підвіски",
     "images": [
       "assets/images/products/bp_pidvisky.jpg"
@@ -36443,8 +36443,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ Werk WE2132H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 8350,
-    "oldPrice": null,
+    "price": 50,
+    "oldPrice": 83,
     "desc": "Рукавички ХБ Werk WE2132H",
     "images": [
       "assets/images/products/bp_we2132h_1.jpg"
@@ -36462,8 +36462,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ помаранч, синій ПВХ Werk WE2164",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4526,
-    "oldPrice": null,
+    "price": 26,
+    "oldPrice": 45,
     "desc": "Рукавички ХБ помаранч, синій ПВХ Werk WE2164",
     "images": [
       "assets/images/products/bp_we2164.jpg"
@@ -36481,8 +36481,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ помаранч, синій ПВХ з підв  Werk WE2164H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5130,
-    "oldPrice": null,
+    "price": 30,
+    "oldPrice": 51,
     "desc": "Рукавички ХБ помаранч, синій ПВХ з підв  Werk WE2164H",
     "images": [
       "assets/images/products/bp_we2164h.jpg"
@@ -36500,8 +36500,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ сірі, синій ПВХ утеплені Werk WE2168",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3319,
-    "oldPrice": null,
+    "price": 19,
+    "oldPrice": 33,
     "desc": "Рукавички ХБ сірі, синій ПВХ утеплені Werk WE2168",
     "images": [
       "assets/images/products/bp_we2168.jpg"
@@ -36519,8 +36519,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні  Werk WE2120",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 26,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 26,
     "desc": "Рукавички ХБ чорні  Werk WE2120",
     "images": [
       "assets/images/products/bp_we2120.jpg"
@@ -36538,8 +36538,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні \"ЗИМА\" 21102 Сталь",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 39,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 39,
     "desc": "Рукавички ХБ чорні \"ЗИМА\" 21102 Сталь",
     "images": [
       "assets/images/products/bp_stal.jpg"
@@ -36557,8 +36557,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, жовтий ПВХ Werk WE2165",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4326,
-    "oldPrice": null,
+    "price": 26,
+    "oldPrice": 43,
     "desc": "Рукавички ХБ чорні, жовтий ПВХ Werk WE2165",
     "images": [
       "assets/images/products/bp_we2165.jpg"
@@ -36576,8 +36576,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, жовтий ПВХ Werk WE2165H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5029,
-    "oldPrice": null,
+    "price": 29,
+    "oldPrice": 50,
     "desc": "Рукавички ХБ чорні, жовтий ПВХ Werk WE2165H",
     "images": [
       "assets/images/products/bp_we2165h.jpg"
@@ -36595,8 +36595,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, синій ПВХ  Werk WE2166Н",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 50,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50,
     "desc": "Рукавички ХБ чорні, синій ПВХ  Werk WE2166Н",
     "images": [
       "assets/images/products/bp_we2166n.jpg"
@@ -36614,8 +36614,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, синій ПВХ Werk WE2166",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 43,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 43,
     "desc": "Рукавички ХБ чорні, синій ПВХ Werk WE2166",
     "images": [
       "assets/images/products/bp_we2166.jpg"
@@ -36633,8 +36633,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, синій ПВХ утеплені  з підвіскою Werk WE2169H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3923,
-    "oldPrice": null,
+    "price": 23,
+    "oldPrice": 39,
     "desc": "Рукавички ХБ чорні, синій ПВХ утеплені  з підвіскою Werk WE2169H",
     "images": [
       "assets/images/products/bp_we2169h.jpg"
@@ -36652,8 +36652,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, червоний ПВХ   Werk WE2167",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3421,
-    "oldPrice": null,
+    "price": 21,
+    "oldPrice": 34,
     "desc": "Рукавички ХБ чорні, червоний ПВХ   Werk WE2167",
     "images": [
       "assets/images/products/bp_we2167.jpg"
@@ -36671,8 +36671,8 @@ var PRODUCTS = [
     "name": "Рукавички ХБ чорні, червоний ПВХ Werk WE2167Н",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4024,
-    "oldPrice": null,
+    "price": 24,
+    "oldPrice": 40,
     "desc": "Рукавички ХБ чорні, червоний ПВХ Werk WE2167Н",
     "images": [
       "assets/images/products/bp_we2167n.jpg"
@@ -36690,8 +36690,8 @@ var PRODUCTS = [
     "name": "Рукавички білі з синім латексним покриттям Werk WE2162",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 69,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 69,
     "desc": "Рукавички білі з синім латексним покриттям Werk WE2162",
     "images": [
       "assets/images/products/bp_we2162.jpg"
@@ -36709,8 +36709,8 @@ var PRODUCTS = [
     "name": "Рукавички білі з синім латексним покриттям Werk WE2162H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 74,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 74,
     "desc": "Рукавички білі з синім латексним покриттям Werk WE2162H",
     "images": [
       "assets/images/products/bp_we2162h.jpg"
@@ -36728,8 +36728,8 @@ var PRODUCTS = [
     "name": "Рукавички господарські WERK WVG-100S",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 304,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 304,
     "desc": "Рукавички господарські WERK WVG-100S",
     "images": [
       "assets/images/products/bp_100s.jpg"
@@ -36819,8 +36819,8 @@ var PRODUCTS = [
     "name": "Рукавички з ПВХ покриттям Werk WE2150",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 199,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 199,
     "desc": "Рукавички з ПВХ покриттям Werk WE2150",
     "images": [
       "assets/images/products/bp_we2150.jpg"
@@ -36838,8 +36838,8 @@ var PRODUCTS = [
     "name": "Рукавички з латексним покриттям WERK WE2133H (чорно-помаранчеві)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 8451,
-    "oldPrice": null,
+    "price": 51,
+    "oldPrice": 84,
     "desc": "Рукавички з латексним покриттям WERK WE2133H (чорно-помаранчеві)",
     "images": [
       "assets/images/products/bp_oranzhevye.jpg"
@@ -36857,8 +36857,8 @@ var PRODUCTS = [
     "name": "Рукавички з синім латексним покриттям Werk WE2138",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 69,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 69,
     "desc": "Рукавички з синім латексним покриттям Werk WE2138",
     "images": [
       "assets/images/products/bp_we2138.jpg"
@@ -36876,8 +36876,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні замшеві сині Haisser 211523",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 571,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 571,
     "desc": "Рукавички захисні замшеві сині Haisser 211523",
     "images": [
       "assets/images/products/bp_211523.jpg"
@@ -36895,8 +36895,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні замшеві червоні Haisser 211522",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 468,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 468,
     "desc": "Рукавички захисні замшеві червоні Haisser 211522",
     "images": [
       "assets/images/products/bp_211522.jpg"
@@ -36914,8 +36914,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні комбіновані синтетича шкіра+силікон+червоний спандекс Haisser 211526",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 681,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 681,
     "desc": "Рукавички захисні комбіновані синтетича шкіра+силікон+червоний спандекс Haisser 211526",
     "images": [
       "assets/images/products/bp_211526.jpg"
@@ -36933,8 +36933,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні комбіновані синтетичі шкіра+спандекс Haisser 211525",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 430,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 430,
     "desc": "Рукавички захисні комбіновані синтетичі шкіра+спандекс Haisser 211525",
     "images": [
       "assets/images/products/bp_211525.jpg"
@@ -36952,8 +36952,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні комбіновані шкіра+тканина Haisser 211524",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 249,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 249,
     "desc": "Рукавички захисні комбіновані шкіра+тканина Haisser 211524",
     "images": [
       "assets/images/products/bp_211524.jpg"
@@ -36971,8 +36971,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні сірі з нітриловим покриттям Haisser 211121",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 235,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 235,
     "desc": "Рукавички захисні сірі з нітриловим покриттям Haisser 211121",
     "images": [
       "assets/images/products/bp_211121.jpg"
@@ -36990,8 +36990,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні сірі з поліуретановим покриттям Haisser 211424",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 194,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 194,
     "desc": "Рукавички захисні сірі з поліуретановим покриттям Haisser 211424",
     "images": [
       "assets/images/products/bp_211424.jpg"
@@ -37009,8 +37009,8 @@ var PRODUCTS = [
     "name": "Рукавички захисні сірі з пінонітриловим покриттям Haisser 211222",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 235,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 235,
     "desc": "Рукавички захисні сірі з пінонітриловим покриттям Haisser 211222",
     "images": [
       "assets/images/products/bp_211222.jpg"
@@ -37028,8 +37028,8 @@ var PRODUCTS = [
     "name": "Рукавички комбіновані козяча шкіра Haisser 211527",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 249151,
-    "oldPrice": null,
+    "price": 151,
+    "oldPrice": 249,
     "desc": "Рукавички комбіновані козяча шкіра Haisser 211527",
     "images": [
       "assets/images/products/bp_211527.jpg"
@@ -37047,8 +37047,8 @@ var PRODUCTS = [
     "name": "Рукавички комбіновані козяча шкіра Haisser 211528",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 213,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 213,
     "desc": "Рукавички комбіновані козяча шкіра Haisser 211528",
     "images": [
       "assets/images/products/bp_211528.jpg"
@@ -37066,8 +37066,8 @@ var PRODUCTS = [
     "name": "Рукавички комбіновані козяча шкіра Haisser 211529",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 311,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 311,
     "desc": "Рукавички комбіновані козяча шкіра Haisser 211529",
     "images": [
       "assets/images/products/bp_211529.jpg"
@@ -37085,8 +37085,8 @@ var PRODUCTS = [
     "name": "Рукавички комбіновані шкіра+тканина р.10.5 Haisser 211521",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 194,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 141,
     "desc": "Рукавички комбіновані шкіра+тканина р.10.5 Haisser 211521",
     "images": [
       "assets/images/products/bp_211521.jpg"
@@ -37104,8 +37104,8 @@ var PRODUCTS = [
     "name": "Рукавички нейлон з подвійним нітриловим покриттям Haisser 211425",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 146,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 146,
     "desc": "Рукавички нейлон з подвійним нітриловим покриттям Haisser 211425",
     "images": [
       "assets/images/products/bp_211425.jpg"
@@ -37123,8 +37123,8 @@ var PRODUCTS = [
     "name": "Рукавички полібавовна блакитні з синім латексним покриттям Haisser 211431",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 86,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 86,
     "desc": "Рукавички полібавовна блакитні з синім латексним покриттям Haisser 211431",
     "images": [
       "assets/images/products/bp_211431.jpg"
@@ -37142,8 +37142,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер жовті з синім латексним покриттям Haisser 211435",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 101,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 101,
     "desc": "Рукавички поліестер жовті з синім латексним покриттям Haisser 211435",
     "images": [
       "assets/images/products/bp_211435.jpg"
@@ -37161,8 +37161,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер з латексним спіненим покриттям Haisser 211428",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 62,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 62,
     "desc": "Рукавички поліестер з латексним спіненим покриттям Haisser 211428",
     "images": [
       "assets/images/products/bp_211428.jpg"
@@ -37180,8 +37180,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер з нітриловим покриттям Haisser 211323",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 84,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 84,
     "desc": "Рукавички поліестер з нітриловим покриттям Haisser 211323",
     "images": [
       "assets/images/products/bp_211323.jpg"
@@ -37199,8 +37199,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер з нітриловим покриттям Haisser 211426",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 59,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 59,
     "desc": "Рукавички поліестер з нітриловим покриттям Haisser 211426",
     "images": [
       "assets/images/products/bp_211426.jpg"
@@ -37218,8 +37218,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер з нітриловим покриттям Haisser 211436",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 100,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 100,
     "desc": "Рукавички поліестер з нітриловим покриттям Haisser 211436",
     "images": [
       "assets/images/products/bp_211436.jpg"
@@ -37237,8 +37237,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер з нітриловим покриттям Haisser 211437",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 107,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 107,
     "desc": "Рукавички поліестер з нітриловим покриттям Haisser 211437",
     "images": [
       "assets/images/products/bp_211437.jpg"
@@ -37256,8 +37256,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер з подвійним латексним спіненим покриттям Haisser 211429",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 122,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 122,
     "desc": "Рукавички поліестер з подвійним латексним спіненим покриттям Haisser 211429",
     "images": [
       "assets/images/products/bp_211429.jpg"
@@ -37275,8 +37275,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер зелені з латексним покриттям Haisser 211434",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 56,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 56,
     "desc": "Рукавички поліестер зелені з латексним покриттям Haisser 211434",
     "images": [
       "assets/images/products/bp_211434.jpg"
@@ -37294,8 +37294,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер сині з зеленим латексним покриттям Haisser 211433",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 53,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 53,
     "desc": "Рукавички поліестер сині з зеленим латексним покриттям Haisser 211433",
     "images": [
       "assets/images/products/bp_211433.jpg"
@@ -37313,8 +37313,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер фіолетові з зеленим латексним покриттям Haisser 211432",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 53,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 53,
     "desc": "Рукавички поліестер фіолетові з зеленим латексним покриттям Haisser 211432",
     "images": [
       "assets/images/products/bp_211432.jpg"
@@ -37332,8 +37332,8 @@ var PRODUCTS = [
     "name": "Рукавички поліестер-бавовна з латексним покриттям Haisser 211427",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 55,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 55,
     "desc": "Рукавички поліестер-бавовна з латексним покриттям Haisser 211427",
     "images": [
       "assets/images/products/bp_211427.jpg"
@@ -37351,8 +37351,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2109H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "Рукавички робочі Werk WE2109H",
     "images": [
       "assets/images/products/bp_we2109h_1.jpg"
@@ -37370,8 +37370,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2111H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 10766,
-    "oldPrice": null,
+    "price": 66,
+    "oldPrice": 107,
     "desc": "Рукавички робочі Werk WE2111H",
     "images": [
       "assets/images/products/bp_we2111h_1.jpg"
@@ -37389,8 +37389,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2123H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 40,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 40,
     "desc": "Рукавички робочі Werk WE2123H",
     "images": [
       "assets/images/products/bp_we2123h_1.jpg"
@@ -37408,8 +37408,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2124H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 40,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 40,
     "desc": "Рукавички робочі Werk WE2124H",
     "images": [
       "assets/images/products/bp_we2124h_1.jpg"
@@ -37427,8 +37427,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2125H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 42,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 42,
     "desc": "Рукавички робочі Werk WE2125H",
     "images": [
       "assets/images/products/bp_we2125h_1.jpg"
@@ -37446,8 +37446,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2131",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 159,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 159,
     "desc": "Рукавички робочі Werk WE2131",
     "images": [
       "assets/images/products/bp_we2131_1.jpg"
@@ -37465,8 +37465,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2134",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 45,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 45,
     "desc": "Рукавички робочі Werk WE2134",
     "images": [
       "assets/images/products/bp_we2134_1.jpg"
@@ -37484,8 +37484,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Werk WE2134H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 49,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 49,
     "desc": "Рукавички робочі Werk WE2134H",
     "images": [
       "assets/images/products/bp_we2134h_1.jpg"
@@ -37503,8 +37503,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі Сталь 21107",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 14,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 14,
     "desc": "Рукавички робочі Сталь 21107",
     "images": [
       "assets/images/products/bp_21107.jpg"
@@ -37522,8 +37522,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі з нітрилові покриттям WERK WE2140 (хакі)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 36,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 36,
     "desc": "Рукавички робочі з нітрилові покриттям WERK WE2140 (хакі)",
     "images": [
       "assets/images/products/bp_haki.jpg"
@@ -37541,8 +37541,8 @@ var PRODUCTS = [
     "name": "Рукавички робочі помаранчеві з нітриловим покриттям Werk WE2171",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "Рукавички робочі помаранчеві з нітриловим покриттям Werk WE2171",
     "images": [
       "assets/images/products/bp_we2171.jpg"
@@ -37560,8 +37560,8 @@ var PRODUCTS = [
     "name": "Рукавички спандекс з нітриловим покриттям Haisser 211440",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 112,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 112,
     "desc": "Рукавички спандекс з нітриловим покриттям Haisser 211440",
     "images": [
       "assets/images/products/bp_211440.jpg"
@@ -37579,8 +37579,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні WERK WE2103H (білі)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 29,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 29,
     "desc": "Рукавички трикотажні WERK WE2103H (білі)",
     "images": [
       "assets/images/products/bp_belye.jpg"
@@ -37598,8 +37598,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні WERK WE2108H (біло-сірі)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "Рукавички трикотажні WERK WE2108H (біло-сірі)",
     "images": [
       "assets/images/products/bp_serye.jpg"
@@ -37617,8 +37617,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні WERK WE2112H",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 10764,
-    "oldPrice": null,
+    "price": 64,
+    "oldPrice": 107,
     "desc": "Рукавички трикотажні WERK WE2112H",
     "images": [
       "assets/images/products/bp_we2112h.jpg"
@@ -37636,8 +37636,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні WERK WE2121H (біло-сині)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 29,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 29,
     "desc": "Рукавички трикотажні WERK WE2121H (біло-сині)",
     "images": [
       "assets/images/products/bp_sinie.jpg"
@@ -37655,8 +37655,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні WERK WE2135",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 50,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50,
     "desc": "Рукавички трикотажні WERK WE2135",
     "images": [
       "assets/images/products/bp_we2135_1.jpg"
@@ -37674,8 +37674,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні WERK WE2135",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 39,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50,
     "desc": "Рукавички трикотажні WERK WE2135",
     "images": [
       "assets/images/products/bp_we2135.jpg"
@@ -37693,8 +37693,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні Werk 211430",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 146,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 146,
     "desc": "Рукавички трикотажні Werk 211430",
     "images": [
       "assets/images/products/bp_211430.jpg"
@@ -37712,8 +37712,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні Сталь 21104 (чорно-жовті з логотипом)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 32,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 32,
     "desc": "Рукавички трикотажні Сталь 21104 (чорно-жовті з логотипом)",
     "images": [
       "assets/images/products/bp_logotipom.jpg"
@@ -37731,8 +37731,8 @@ var PRODUCTS = [
     "name": "Рукавички трикотажні Сталь 21106",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 24,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 24,
     "desc": "Рукавички трикотажні Сталь 21106",
     "images": [
       "assets/images/products/bp_21106.jpg"
@@ -37750,8 +37750,8 @@ var PRODUCTS = [
     "name": "Рукавички утеплені Werk WE2133",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 7848,
-    "oldPrice": null,
+    "price": 48,
+    "oldPrice": 78,
     "desc": "Рукавички утеплені Werk WE2133",
     "images": [
       "assets/images/products/bp_we2133.jpg"
@@ -37806,8 +37806,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HCB-1T",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2876,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2876,
     "desc": "Ручна лебідка Forte HCB-1T",
     "images": [
       "assets/images/products/bp_1t.jpg"
@@ -37844,8 +37844,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HCB-3T",
     "category": "instrument",
     "subcategory": "all",
-    "price": 6203,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6203,
     "desc": "Ручна лебідка Forte HCB-3T",
     "images": [
       "assets/images/products/bp_3t.jpg"
@@ -37863,8 +37863,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HP-4T",
     "category": "instrument",
     "subcategory": "all",
-    "price": 2273,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2273,
     "desc": "Ручна лебідка Forte HP-4T",
     "images": [
       "assets/images/products/bp_4t.jpg"
@@ -37901,8 +37901,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HWC-1800B",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3117,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3117,
     "desc": "Ручна лебідка Forte HWC-1800B",
     "images": [
       "assets/images/products/bp_1800b.jpg"
@@ -37920,8 +37920,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HWC-2600B",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3695,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3695,
     "desc": "Ручна лебідка Forte HWC-2600B",
     "images": [
       "assets/images/products/bp_2600b.jpg"
@@ -37939,8 +37939,8 @@ var PRODUCTS = [
     "name": "Ручна лебідка Forte HWT-1200",
     "category": "instrument",
     "subcategory": "all",
-    "price": 1748,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1748,
     "desc": "Ручна лебідка Forte HWT-1200",
     "images": [
       "assets/images/products/bp_1200.jpg"
@@ -40053,8 +40053,8 @@ var PRODUCTS = [
     "name": "Садова тачка Forte WB6211",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2391,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2391,
     "desc": "Садова тачка Forte WB6211",
     "images": [
       "assets/images/products/bp_wb6211.jpg"
@@ -41819,8 +41819,8 @@ var PRODUCTS = [
     "name": "Світязь 21119 Рукавички робочі трикотажні (без підвіски)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2416,
-    "oldPrice": null,
+    "price": 16,
+    "oldPrice": 24,
     "desc": "Світязь 21119 Рукавички робочі трикотажні (без підвіски)",
     "images": [
       "assets/images/products/bp_podveski.jpg"
@@ -41838,8 +41838,8 @@ var PRODUCTS = [
     "name": "Світязь 36119 Стрічка малярська 35мм х 40м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 77,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 77,
     "desc": "Світязь 36119 Стрічка малярська 35мм х 40м",
     "images": [
       "assets/images/products/bp_40m.jpg"
@@ -41857,8 +41857,8 @@ var PRODUCTS = [
     "name": "Свічка запалювання Oregon 77-324-1",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 146,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 146,
     "desc": "Свічка запалювання Oregon 77-324-1",
     "images": [
       "assets/images/products/bp_1.jpg"
@@ -42043,8 +42043,8 @@ var PRODUCTS = [
     "name": "Сигнальна стрічка-наклейка Сталь 36036, 50 мм х 200 м, червоно-біла",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 280,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 280,
     "desc": "Сигнальна стрічка-наклейка Сталь 36036, 50 мм х 200 м, червоно-біла",
     "images": [
       "assets/images/products/bp_bila.jpg"
@@ -42536,8 +42536,8 @@ var PRODUCTS = [
     "name": "Склоочисник 22 см Zambak 168 із губкою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 141,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 141,
     "desc": "Склоочисник 22 см Zambak 168 із губкою",
     "images": [
       "assets/images/products/bp_gubkoj.jpg"
@@ -42555,8 +42555,8 @@ var PRODUCTS = [
     "name": "Склоочисник 22 см Zambak 170 зі щіткою",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 215,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 215,
     "desc": "Склоочисник 22 см Zambak 170 зі щіткою",
     "images": [
       "assets/images/products/bp_shhetkoj.jpg"
@@ -44374,8 +44374,8 @@ var PRODUCTS = [
     "name": "Скутер Forte CRUISE 150CC",
     "category": "technika",
     "subcategory": "transport",
-    "price": 46979,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 46979,
     "desc": "Скутер Forte CRUISE 150CC",
     "images": [
       "assets/images/products/bp_150cc.jpg"
@@ -44393,8 +44393,8 @@ var PRODUCTS = [
     "name": "Скутер Forte FANTASY 125CC помаранчевий",
     "category": "technika",
     "subcategory": "transport",
-    "price": 56293,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 56293,
     "desc": "Скутер Forte FANTASY 125CC помаранчевий",
     "images": [
       "assets/images/products/bp_oranzhevyy.jpg"
@@ -44412,8 +44412,8 @@ var PRODUCTS = [
     "name": "Скутер Forte JOG 80CC синій",
     "category": "technika",
     "subcategory": "transport",
-    "price": 42015,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 42015,
     "desc": "Скутер Forte JOG 80CC синій",
     "images": [
       "assets/images/products/bp_siniy.jpg"
@@ -44431,8 +44431,8 @@ var PRODUCTS = [
     "name": "Скутер Forte JOG 80CC сірий",
     "category": "technika",
     "subcategory": "transport",
-    "price": 42015,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 42015,
     "desc": "Скутер Forte JOG 80CC сірий",
     "images": [
       "assets/images/products/bp_seryy.jpg"
@@ -44450,8 +44450,8 @@ var PRODUCTS = [
     "name": "Скутер NEW JOG 80CC, Forte чорний",
     "category": "technika",
     "subcategory": "transport",
-    "price": 42015,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 42015,
     "desc": "Скутер NEW JOG 80CC, Forte чорний",
     "images": [
       "assets/images/products/bp_chernyy.jpg"
@@ -44469,8 +44469,8 @@ var PRODUCTS = [
     "name": "Скутер акумуляторний FORTE UNICORN EV коричневий",
     "category": "technika",
     "subcategory": "transport",
-    "price": 77786,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 77786,
     "desc": "Скутер акумуляторний FORTE UNICORN EV коричневий",
     "images": [
       "assets/images/products/bp_korychnevyj.jpg"
@@ -44660,8 +44660,8 @@ var PRODUCTS = [
     "name": "Сталь 3-131619 Набір скриньок інструментальних 3 шт",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 600,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 600,
     "desc": "Сталь 3-131619 Набір скриньок інструментальних 3 шт",
     "images": [
       "assets/images/products/bp_instrumentaljnyh.jpg"
@@ -44679,8 +44679,8 @@ var PRODUCTS = [
     "name": "Сталь 36012 Стрічка клейка армована 50мм х 10м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 57,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 57,
     "desc": "Сталь 36012 Стрічка клейка армована 50мм х 10м",
     "images": [
       "assets/images/products/bp_armirovannaja.jpg"
@@ -44698,8 +44698,8 @@ var PRODUCTS = [
     "name": "Сталь 36015 Стрічка клейка алюмінієва 50мм х 25м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 158,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 158,
     "desc": "Сталь 36015 Стрічка клейка алюмінієва 50мм х 25м",
     "images": [
       "assets/images/products/bp_25m.jpg"
@@ -44717,8 +44717,8 @@ var PRODUCTS = [
     "name": "Сталь 36020 Стрічка сигнальна (огороджувальна) 50мм х 50м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 92,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 92,
     "desc": "Сталь 36020 Стрічка сигнальна (огороджувальна) 50мм х 50м",
     "images": [
       "assets/images/products/bp_signaljnaja.jpg"
@@ -44736,8 +44736,8 @@ var PRODUCTS = [
     "name": "Сталь 36023 Стрічка клейка монтажна двостороння на пінній основі 12мм х 5м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 31,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 31,
     "desc": "Сталь 36023 Стрічка клейка монтажна двостороння на пінній основі 12мм х 5м",
     "images": [
       "assets/images/products/bp_dvuhstoronnjaja.jpg"
@@ -44755,8 +44755,8 @@ var PRODUCTS = [
     "name": "Сталь 36043 Скотч пакувальний посилений 48мм х 200м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 11673,
-    "oldPrice": null,
+    "price": 73,
+    "oldPrice": 116,
     "desc": "Сталь 36043 Скотч пакувальний посилений 48мм х 200м",
     "images": [
       "assets/images/products/bp_200m.jpg"
@@ -44774,8 +44774,8 @@ var PRODUCTS = [
     "name": "Сталь 36101 Стрічка малярська 19мм х 40м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 48,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Сталь 36101 Стрічка малярська 19мм х 40м",
     "images": [
       "assets/images/products/bp_malyarnaya.jpg"
@@ -44793,8 +44793,8 @@ var PRODUCTS = [
     "name": "Сталь 41020 Бокорізи 160 мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 208,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 208,
     "desc": "Сталь 41020 Бокорізи 160 мм",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductstalj_41020_bokorezy.jpg"
@@ -44812,8 +44812,8 @@ var PRODUCTS = [
     "name": "Сталь 41028 Міні бокорізи",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 65,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 65,
     "desc": "Сталь 41028 Міні бокорізи",
     "images": [
       "assets/images/products/bp_mini.jpg"
@@ -44831,8 +44831,8 @@ var PRODUCTS = [
     "name": "Сталь Анкер (болт-гайка) 10х150/0.050-0.300",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 41,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 41,
     "desc": "Сталь Анкер (болт-гайка) 10х150/0.050-0.300",
     "images": [
       "assets/images/products/bp_0i300.jpg"
@@ -44850,8 +44850,8 @@ var PRODUCTS = [
     "name": "Сталь Рукавички робочі (21108)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 14,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 14,
     "desc": "Сталь Рукавички робочі (21108)",
     "images": [
       "assets/images/products/bp_21108.jpg"
@@ -44869,8 +44869,8 @@ var PRODUCTS = [
     "name": "Станція EcoFlow Power Hub",
     "category": "instrument",
     "subcategory": "all",
-    "price": 88999,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 88999,
     "desc": "Станція EcoFlow Power Hub",
     "images": [
       "assets/images/products/bp_hub.jpg"
@@ -44888,8 +44888,8 @@ var PRODUCTS = [
     "name": "Стаціонарний блендер Grunhelm EBS-1000MC",
     "category": "technika",
     "subcategory": "all",
-    "price": 3749,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3749,
     "desc": "Стаціонарний блендер Grunhelm EBS-1000MC",
     "images": [
       "assets/images/products/bp_1000mc.jpg"
@@ -44907,8 +44907,8 @@ var PRODUCTS = [
     "name": "Стаціонарний блендер Grunhelm EBS-800SG",
     "category": "technika",
     "subcategory": "all",
-    "price": 1629,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1629,
     "desc": "Стаціонарний блендер Grunhelm EBS-800SG",
     "images": [
       "assets/images/products/bp_800sg.jpg"
@@ -44926,8 +44926,8 @@ var PRODUCTS = [
     "name": "Стаціонарний блендер Grunhelm EBS-800SR",
     "category": "technika",
     "subcategory": "all",
-    "price": 1629,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1629,
     "desc": "Стаціонарний блендер Grunhelm EBS-800SR",
     "images": [
       "assets/images/products/bp_800sr.jpg"
@@ -44945,8 +44945,8 @@ var PRODUCTS = [
     "name": "Стрем'янка металева - BF603 (3 сх.) Budfix",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 2175,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2175,
     "desc": "Стрем'янка металева - BF603 (3 сх.) Budfix",
     "images": [
       "assets/images/products/bp_budfix.jpg"
@@ -44964,8 +44964,8 @@ var PRODUCTS = [
     "name": "Стретч-плівка Світязь 36002",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 795,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 795,
     "desc": "Стретч-плівка Світязь 36002",
     "images": [
       "assets/images/products/bp_36002.jpg"
@@ -44983,8 +44983,8 @@ var PRODUCTS = [
     "name": "Стріч-плівка 17 мкм х 500 мм Світязь",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 735,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 735,
     "desc": "Стріч-плівка 17 мкм х 500 мм Світязь",
     "images": [
       "assets/images/products/bp_svitjazj.jpg"
@@ -45002,8 +45002,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка армована 50ммx25м СВІТЯЗЬ 120мкм 36078",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 116,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 116,
     "desc": "Стрічка клейка армована 50ммx25м СВІТЯЗЬ 120мкм 36078",
     "images": [
       "assets/images/products/bp_36078.jpg"
@@ -45021,8 +45021,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка армована 50ммx40м СВІТЯЗЬ 120мкм 36079",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 185,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 185,
     "desc": "Стрічка клейка армована 50ммx40м СВІТЯЗЬ 120мкм 36079",
     "images": [
       "assets/images/products/bp_36079.jpg"
@@ -45040,8 +45040,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка армована посилена помаранчева 50ммx40м (170-180мкм) Сталь 36056",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 289,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 289,
     "desc": "Стрічка клейка армована посилена помаранчева 50ммx40м (170-180мкм) Сталь 36056",
     "images": [
       "assets/images/products/bp_36056.jpg"
@@ -45059,8 +45059,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка армована посилена чорна 50ммx40м (170-180мкм) Сталь 36055",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 289,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 289,
     "desc": "Стрічка клейка армована посилена чорна 50ммx40м (170-180мкм) Сталь 36055",
     "images": [
       "assets/images/products/bp_36055.jpg"
@@ -45078,8 +45078,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка армована скловолокном 48ммx10м Сталь 36087",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 67,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 67,
     "desc": "Стрічка клейка армована скловолокном 48ммx10м Сталь 36087",
     "images": [
       "assets/images/products/bp_36087.jpg"
@@ -45097,8 +45097,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка армована скловолокном 48ммx20м Сталь 36088",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 144,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 144,
     "desc": "Стрічка клейка армована скловолокном 48ммx20м Сталь 36088",
     "images": [
       "assets/images/products/bp_36088.jpg"
@@ -45116,8 +45116,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка крафтова коричнева 48ммx50м Сталь 36059",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 15898,
-    "oldPrice": null,
+    "price": 98,
+    "oldPrice": 158,
     "desc": "Стрічка клейка крафтова коричнева 48ммx50м Сталь 36059",
     "images": [
       "assets/images/products/bp_36059.jpg"
@@ -45135,8 +45135,8 @@ var PRODUCTS = [
     "name": "Стрічка клейка піноакрилова прозора 12ммx2м Сталь 36086",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 48,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 48,
     "desc": "Стрічка клейка піноакрилова прозора 12ммx2м Сталь 36086",
     "images": [
       "assets/images/products/bp_36086.jpg"
@@ -45154,8 +45154,8 @@ var PRODUCTS = [
     "name": "Стрічка малярна рисова фіолетова Сталь 25ммх20Мx95 мкм 36126",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 58,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 58,
     "desc": "Стрічка малярна рисова фіолетова Сталь 25ммх20Мx95 мкм 36126",
     "images": [
       "assets/images/products/bp_36126.jpg"
@@ -45173,8 +45173,8 @@ var PRODUCTS = [
     "name": "Стрічка малярна фасадна синя 38ммх40Мx150 мкм Сталь 36123",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 176,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 176,
     "desc": "Стрічка малярна фасадна синя 38ммх40Мx150 мкм Сталь 36123",
     "images": [
       "assets/images/products/bp_36123.jpg"
@@ -45192,8 +45192,8 @@ var PRODUCTS = [
     "name": "Стрічка малярна фасадна синя 48ммх40Мx150 мкм Сталь 36124",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 218,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 218,
     "desc": "Стрічка малярна фасадна синя 48ммх40Мx150 мкм Сталь 36124",
     "images": [
       "assets/images/products/bp_36124.jpg"
@@ -45354,8 +45354,8 @@ var PRODUCTS = [
     "name": "Сумка EcoFlow DELTA 2 Bag",
     "category": "instrument",
     "subcategory": "all",
-    "price": 3312,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3312,
     "desc": "Сумка EcoFlow DELTA 2 Bag",
     "images": [
       "assets/images/products/bp_bag.jpg"
@@ -45373,8 +45373,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 10 кишень 405х23х30 см  Haisser 90304",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1045,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1045,
     "desc": "Сумка для інструментів 10 кишень 405х23х30 см  Haisser 90304",
     "images": [
       "assets/images/products/bp_90304.jpg"
@@ -45392,8 +45392,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 16 кишень 40х23х30 см Haisser 90300",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 735,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 735,
     "desc": "Сумка для інструментів 16 кишень 40х23х30 см Haisser 90300",
     "images": [
       "assets/images/products/bp_90300.jpg"
@@ -45411,8 +45411,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 17 кишень 41х21х25 см  Haisser 90301",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 979,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 979,
     "desc": "Сумка для інструментів 17 кишень 41х21х25 см  Haisser 90301",
     "images": [
       "assets/images/products/bp_90301.jpg"
@@ -45430,8 +45430,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 22 кишені 40,5х23х29 см Haisser 90306",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1508,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1508,
     "desc": "Сумка для інструментів 22 кишені 40,5х23х29 см Haisser 90306",
     "images": [
       "assets/images/products/bp_90306.jpg"
@@ -45449,8 +45449,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 22 кишені 44,5х22х29 см   Haisser 90302",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1021,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1021,
     "desc": "Сумка для інструментів 22 кишені 44,5х22х29 см   Haisser 90302",
     "images": [
       "assets/images/products/bp_90302.jpg"
@@ -45487,8 +45487,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 26 кишень 44х25х24 см Haisser 90308",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1328,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1328,
     "desc": "Сумка для інструментів 26 кишень 44х25х24 см Haisser 90308",
     "images": [
       "assets/images/products/bp_90308.jpg"
@@ -45506,8 +45506,8 @@ var PRODUCTS = [
     "name": "Сумка для інструментів 27 кишень 42х22х25.5см Haisser 90303",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1045,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1045,
     "desc": "Сумка для інструментів 27 кишень 42х22х25.5см Haisser 90303",
     "images": [
       "assets/images/products/bp_90303.jpg"
@@ -45525,8 +45525,8 @@ var PRODUCTS = [
     "name": "Сумка-стілець для інструментів 8 кишень 40х29х31см Haisser 90309",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 954637,
-    "oldPrice": null,
+    "price": 637,
+    "oldPrice": 954,
     "desc": "Сумка-стілець для інструментів 8 кишень 40х29х31см Haisser 90309",
     "images": [
       "assets/images/products/bp_90309.jpg"
@@ -45664,8 +45664,8 @@ var PRODUCTS = [
     "name": "Сітка склотканина біла WORKS 75 г/м2",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 839,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 839,
     "desc": "Сітка склотканина біла WORKS 75 г/м2",
     "images": [
       "assets/images/products/bp_gm2.jpg"
@@ -45683,8 +45683,8 @@ var PRODUCTS = [
     "name": "Сітка склотканина, помаранчева 160 г/м² FASAD LUX 10341",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 1049,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1049,
     "desc": "Сітка склотканина, помаранчева 160 г/м² FASAD LUX 10341",
     "images": [
       "assets/images/products/bp_10341.jpg"
@@ -45702,8 +45702,8 @@ var PRODUCTS = [
     "name": "Сітка склотканина, помаранчева 160 г/м² Works 10339",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 1073,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1073,
     "desc": "Сітка склотканина, помаранчева 160 г/м² Works 10339",
     "images": [
       "assets/images/products/bp_10339.jpg"
@@ -45721,8 +45721,8 @@ var PRODUCTS = [
     "name": "ТАРЛЕВ 110CIAL Ручка для швабри",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 22,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 22,
     "desc": "ТАРЛЕВ 110CIAL Ручка для швабри",
     "images": [
       "assets/images/products/bp_shvabry.jpg"
@@ -45740,8 +45740,8 @@ var PRODUCTS = [
     "name": "ТАРЛЕВ Насадка МОП мотузкова C160",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 21,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 21,
     "desc": "ТАРЛЕВ Насадка МОП мотузкова C160",
     "images": [
       "assets/images/products/bp_c160.jpg"
@@ -45759,8 +45759,8 @@ var PRODUCTS = [
     "name": "ТАРЛЕВ Насадка МОП мотузкова C200",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 24,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 24,
     "desc": "ТАРЛЕВ Насадка МОП мотузкова C200",
     "images": [
       "assets/images/products/bp_c200.jpg"
@@ -45778,8 +45778,8 @@ var PRODUCTS = [
     "name": "ТАРЛЕВ Швабра-натирач",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 72,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 72,
     "desc": "ТАРЛЕВ Швабра-натирач",
     "images": [
       "assets/images/products/bp_uborki.jpg"
@@ -45849,8 +45849,8 @@ var PRODUCTS = [
     "name": "Таз будівельний 45 л Haisser 90113",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 495,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 495,
     "desc": "Таз будівельний 45 л Haisser 90113",
     "images": [
       "assets/images/products/bp_90113.jpg"
@@ -48057,8 +48057,8 @@ var PRODUCTS = [
     "name": "Тачка будівельна двоколісна зелена WB6418-1SP Gerrard",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 3416,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3416,
     "desc": "Тачка будівельна двоколісна зелена WB6418-1SP Gerrard",
     "images": [
       "assets/images/products/bp_gerrard.jpg"
@@ -50197,8 +50197,8 @@ var PRODUCTS = [
     "name": "Технолог Драбина приставна 10 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1754,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1754,
     "desc": "Технолог Драбина приставна 10 ступенів",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproducttehnolog_lestnica_pristavnaja_10_stupenej.jpg"
@@ -50216,8 +50216,8 @@ var PRODUCTS = [
     "name": "Технолог Драбина приставна 7 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1417,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1417,
     "desc": "Технолог Драбина приставна 7 ступенів",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproducttehnolog_lestnica_pristavnaja_7_stupenej.jpg"
@@ -50235,8 +50235,8 @@ var PRODUCTS = [
     "name": "Технолог Драбина приставна 8 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1498,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1498,
     "desc": "Технолог Драбина приставна 8 ступенів",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproducttehnolog_lestnica_pristavnaja_8_stupenej.jpg"
@@ -50254,8 +50254,8 @@ var PRODUCTS = [
     "name": "Технолог Драбина приставна 9 ступенів",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 1640,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1640,
     "desc": "Технолог Драбина приставна 9 ступенів",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproducttehnolog_lestnica_pristavnaja_9_stupenej.jpg"
@@ -50273,8 +50273,8 @@ var PRODUCTS = [
     "name": "Технолог Драбина шарнірна «Трансформер» 4х3",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4217,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4217,
     "desc": "Технолог Драбина шарнірна «Трансформер» 4х3",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproducttehnolog_lestnica_sharnirnaja_transformer_4h3.jpg"
@@ -50292,8 +50292,8 @@ var PRODUCTS = [
     "name": "Технолог Драбина шарнірна «Трансформер» 4х4",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 4588,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 4588,
     "desc": "Технолог Драбина шарнірна «Трансформер» 4х4",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproducttehnolog_lestnica_sharnirnaja_transformer_4h4.jpg"
@@ -50376,8 +50376,8 @@ var PRODUCTS = [
     "name": "Тримач до брандспойту FORTE ТР-01",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 50,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50,
     "desc": "Тримач до брандспойту FORTE ТР-01",
     "images": [
       "assets/images/products/bp_01.jpg"
@@ -50395,8 +50395,8 @@ var PRODUCTS = [
     "name": "Тримач до брандспойту FORTE ТР-02",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 50,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 50,
     "desc": "Тримач до брандспойту FORTE ТР-02",
     "images": [
       "assets/images/products/bp_02.jpg"
@@ -50414,8 +50414,8 @@ var PRODUCTS = [
     "name": "Тримач електродів FORTE H-1017",
     "category": "instrument",
     "subcategory": "all",
-    "price": 222177,
-    "oldPrice": null,
+    "price": 177,
+    "oldPrice": 222,
     "desc": "Тримач електродів FORTE H-1017",
     "images": [
       "assets/images/products/bp_1017.jpg"
@@ -50433,8 +50433,8 @@ var PRODUCTS = [
     "name": "Тримач електродів Forte H-1013 GERMAN TYPE",
     "category": "instrument",
     "subcategory": "all",
-    "price": 200160,
-    "oldPrice": null,
+    "price": 160,
+    "oldPrice": 200,
     "desc": "Тримач електродів Forte H-1013 GERMAN TYPE",
     "images": [
       "assets/images/products/bp_type.jpg"
@@ -50452,8 +50452,8 @@ var PRODUCTS = [
     "name": "Тримач електродів Forte H-1015",
     "category": "instrument",
     "subcategory": "all",
-    "price": 226181,
-    "oldPrice": null,
+    "price": 181,
+    "oldPrice": 226,
     "desc": "Тримач електродів Forte H-1015",
     "images": [
       "assets/images/products/bp_1015.jpg"
@@ -50471,8 +50471,8 @@ var PRODUCTS = [
     "name": "Тримач електродів Forte H-1019 PREMIUM",
     "category": "instrument",
     "subcategory": "all",
-    "price": 522417,
-    "oldPrice": null,
+    "price": 417,
+    "oldPrice": 522,
     "desc": "Тримач електродів Forte H-1019 PREMIUM",
     "images": [
       "assets/images/products/bp_premium.jpg"
@@ -50490,8 +50490,8 @@ var PRODUCTS = [
     "name": "Тримач електродів Forte H-1038",
     "category": "instrument",
     "subcategory": "all",
-    "price": 144115,
-    "oldPrice": null,
+    "price": 115,
+    "oldPrice": 144,
     "desc": "Тримач електродів Forte H-1038",
     "images": [
       "assets/images/products/bp_1038.jpg"
@@ -50509,8 +50509,8 @@ var PRODUCTS = [
     "name": "Тримач електродів Forte H-2500",
     "category": "instrument",
     "subcategory": "all",
-    "price": 169135,
-    "oldPrice": null,
+    "price": 135,
+    "oldPrice": 169,
     "desc": "Тримач електродів Forte H-2500",
     "images": [
       "assets/images/products/bp_elektrodov.jpg"
@@ -50606,8 +50606,8 @@ var PRODUCTS = [
     "name": "УКРПРОМ GR-02051 Мітла кругла",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 42,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 42,
     "desc": "УКРПРОМ GR-02051 Мітла кругла",
     "images": [
       "assets/images/products/bp_kruglaya.jpg"
@@ -50625,8 +50625,8 @@ var PRODUCTS = [
     "name": "УКРПРОМ Віник закарпатський з ручкою (Іспас)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 38,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 38,
     "desc": "УКРПРОМ Віник закарпатський з ручкою (Іспас)",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukrprom_venik_zakarpatskij_ispas.jpg"
@@ -50644,8 +50644,8 @@ var PRODUCTS = [
     "name": "УКРПРОМ Кий дерев'яний з дерев'яним різьбленням",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 5,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 5,
     "desc": "УКРПРОМ Кий дерев'яний з дерев'яним різьбленням",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukrprom_kij_derevjannyj_s_rezjboj.jpg"
@@ -50663,8 +50663,8 @@ var PRODUCTS = [
     "name": "УКРПРОМ Кий дерев'яний з пластикової різьбленням",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 6,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 6,
     "desc": "УКРПРОМ Кий дерев'яний з пластикової різьбленням",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukprom_kij_derevjannyj_s_plastikovoj_rezjboj.jpg"
@@ -50682,8 +50682,8 @@ var PRODUCTS = [
     "name": "УКРПРОМ Лопата совкова Молоткова фарбування",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 151,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 151,
     "desc": "УКРПРОМ Лопата совкова Молоткова фарбування",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukrprom_lopata_sovkovaja_molotkovaja_pokraska.jpg"
@@ -50701,8 +50701,8 @@ var PRODUCTS = [
     "name": "Укрпром 36004 Скотч пакувальний прозорий 48 мм х 50 м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 32,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 32,
     "desc": "Укрпром 36004 Скотч пакувальний прозорий 48 мм х 50 м",
     "images": [
       "assets/images/products/bp_prozrachnyj.jpg"
@@ -50720,8 +50720,8 @@ var PRODUCTS = [
     "name": "Укрпром 36005 Скотч пакувальний прозорий 48мм х 66м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 4528,
-    "oldPrice": null,
+    "price": 28,
+    "oldPrice": 45,
     "desc": "Укрпром 36005 Скотч пакувальний прозорий 48мм х 66м",
     "images": [
       "assets/images/products/bp_prozrachnyy.jpg"
@@ -50739,8 +50739,8 @@ var PRODUCTS = [
     "name": "Укрпром 36008 Скотч двосторонній на спіненої основі 19мм х 5м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 31,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 31,
     "desc": "Укрпром 36008 Скотч двосторонній на спіненої основі 19мм х 5м",
     "images": [
       "assets/images/products/bp_osnove.jpg"
@@ -50758,8 +50758,8 @@ var PRODUCTS = [
     "name": "Укрпром 36011 Скотч пакувальний прозорий 48мм х 300м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 141,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 141,
     "desc": "Укрпром 36011 Скотч пакувальний прозорий 48мм х 300м",
     "images": [
       "assets/images/products/bp_300m.jpg"
@@ -50777,8 +50777,8 @@ var PRODUCTS = [
     "name": "Укрпром 36021 Скотч пакувальний прозорий 48мм х 500м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 211,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 211,
     "desc": "Укрпром 36021 Скотч пакувальний прозорий 48мм х 500м",
     "images": [
       "assets/images/products/bp_500m.jpg"
@@ -50796,8 +50796,8 @@ var PRODUCTS = [
     "name": "Укрпром 36041 Скотч пакувальний прозорий 48мм х 700м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 295186,
-    "oldPrice": null,
+    "price": 186,
+    "oldPrice": 295,
     "desc": "Укрпром 36041 Скотч пакувальний прозорий 48мм х 700м",
     "images": [
       "assets/images/products/bp_700m.jpg"
@@ -50815,8 +50815,8 @@ var PRODUCTS = [
     "name": "Укрпром 36042 Скотч пакувальний прозорий 48мм х 1000м",
     "category": "budmaterialy",
     "subcategory": "all",
-    "price": 414261,
-    "oldPrice": null,
+    "price": 261,
+    "oldPrice": 414,
     "desc": "Укрпром 36042 Скотч пакувальний прозорий 48мм х 1000м",
     "images": [
       "assets/images/products/bp_1000m.jpg"
@@ -50834,8 +50834,8 @@ var PRODUCTS = [
     "name": "Укрпром 50001 Рукавиці х / б з подвійним брезентовим надолонником",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 20,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 20,
     "desc": "Укрпром 50001 Рукавиці х / б з подвійним брезентовим надолонником",
     "images": [
       "assets/images/products/bp_naladonnikom.jpg"
@@ -50853,8 +50853,8 @@ var PRODUCTS = [
     "name": "Укрпром MFV 18016 Карман для інструментів 320х270 мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 93,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 93,
     "desc": "Укрпром MFV 18016 Карман для інструментів 320х270 мм",
     "images": [
       "assets/images/products/bp_instrumentov.jpg"
@@ -50872,8 +50872,8 @@ var PRODUCTS = [
     "name": "Укрпром MFV 31510 Сумка для інструментів велика 260х400х240 мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 415,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 415,
     "desc": "Укрпром MFV 31510 Сумка для інструментів велика 260х400х240 мм",
     "images": [
       "assets/images/products/bp_boljshaja.jpg"
@@ -50891,8 +50891,8 @@ var PRODUCTS = [
     "name": "Укрпром MFV 323149 Пояс для інструмента 3 кишені 110 см",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 395,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 395,
     "desc": "Укрпром MFV 323149 Пояс для інструмента 3 кишені 110 см",
     "images": [
       "assets/images/products/bp_instrumenta.jpg"
@@ -50910,8 +50910,8 @@ var PRODUCTS = [
     "name": "Укрпром MFV 50016 Кобура для шуруповерта 290х170 мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 110,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 110,
     "desc": "Укрпром MFV 50016 Кобура для шуруповерта 290х170 мм",
     "images": [
       "assets/images/products/bp_shurupoverta.jpg"
@@ -50929,8 +50929,8 @@ var PRODUCTS = [
     "name": "Укрпром MFV 55141 Сумка для інструментів маленька 200х350х180 мм",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 234,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 234,
     "desc": "Укрпром MFV 55141 Сумка для інструментів маленька 200х350х180 мм",
     "images": [
       "assets/images/products/bp_malenjkaja.jpg"
@@ -50967,8 +50967,8 @@ var PRODUCTS = [
     "name": "Укрпром Арма ЛУ-1 Лопата вугільна совкова",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 196,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 196,
     "desc": "Укрпром Арма ЛУ-1 Лопата вугільна совкова",
     "images": [
       "assets/images/products/bp_sovkovaja.jpg"
@@ -50986,8 +50986,8 @@ var PRODUCTS = [
     "name": "Укрпром Відро оцинковане 10 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 137,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 137,
     "desc": "Укрпром Відро оцинковане 10 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukprom_vedro_ocinkovannoe_10_l.jpg"
@@ -51005,8 +51005,8 @@ var PRODUCTS = [
     "name": "Укрпром Відро оцинковане 12 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 144,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 144,
     "desc": "Укрпром Відро оцинковане 12 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukprom_vedro_ocinkovannoe_12_l.jpg"
@@ -51024,8 +51024,8 @@ var PRODUCTS = [
     "name": "Укрпром Відро оцинковане 15 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 167,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 167,
     "desc": "Укрпром Відро оцинковане 15 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukprom_vedro_ocinkovannoe_15_l.jpg"
@@ -51043,8 +51043,8 @@ var PRODUCTS = [
     "name": "Укрпром Відро пластикове будівельне 12 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 54,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 54,
     "desc": "Укрпром Відро пластикове будівельне 12 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukrprom_vedro_plastikovoe_stroiteljnoe_12_l.jpg"
@@ -51062,8 +51062,8 @@ var PRODUCTS = [
     "name": "Укрпром Відро пластикове будівельне 16 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 58,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 58,
     "desc": "Укрпром Відро пластикове будівельне 16 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukrprom_vedro_plastikovoe_stroiteljnoe_16_l.jpg"
@@ -51081,8 +51081,8 @@ var PRODUCTS = [
     "name": "Укрпром Відро пластикове будівельне 20 л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 81,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 81,
     "desc": "Укрпром Відро пластикове будівельне 20 л",
     "images": [
       "assets/images/products/bp_https:budpostach.uaproductukrprom_vedro_plastikovoe_stroiteljnoe_20_l.jpg"
@@ -51100,8 +51100,8 @@ var PRODUCTS = [
     "name": "Укрпром Кошик для збору ягід (ГОРИЗОНТ)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 35,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 35,
     "desc": "Укрпром Кошик для збору ягід (ГОРИЗОНТ)",
     "images": [
       "assets/images/products/bp_gorizont.jpg"
@@ -51157,8 +51157,8 @@ var PRODUCTS = [
     "name": "Укрпром Лопата совкова Арма",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 173,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 173,
     "desc": "Укрпром Лопата совкова Арма",
     "images": [
       "assets/images/products/bp_arma.jpg"
@@ -51176,8 +51176,8 @@ var PRODUCTS = [
     "name": "Укрпром Лопата совкова зелена",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 55,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 55,
     "desc": "Укрпром Лопата совкова зелена",
     "images": [
       "assets/images/products/bp_zelenaja.jpg"
@@ -51195,8 +51195,8 @@ var PRODUCTS = [
     "name": "Укрпром Лопата совкова №3 нова молоткова покраска",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 148,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 148,
     "desc": "Укрпром Лопата совкова №3 нова молоткова покраска",
     "images": [
       "assets/images/products/bp_pokraska.jpg"
@@ -51214,8 +51214,8 @@ var PRODUCTS = [
     "name": "Укрпром Пульверизатор",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 9,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 9,
     "desc": "Укрпром Пульверизатор",
     "images": [
       "assets/images/products/bp_pulverizator.jpg"
@@ -51259,8 +51259,8 @@ var PRODUCTS = [
     "name": "Універсальний тент з металевими люверсами X-Treme 6 х 10 м, синій",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 867,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 867,
     "desc": "Універсальний тент з металевими люверсами X-Treme 6 х 10 м, синій",
     "images": [
       "assets/images/products/bp_10m.jpg"
@@ -51291,8 +51291,8 @@ var PRODUCTS = [
     "name": "Флюсовий зварювальний дріт Forte Е71Т-11, 0.9 х 0.4 кг",
     "category": "instrument",
     "subcategory": "all",
-    "price": 254,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 254,
     "desc": "Флюсовий зварювальний дріт Forte Е71Т-11, 0.9 х 0.4 кг",
     "images": [
       "assets/images/products/bp_11.jpg"
@@ -52218,8 +52218,8 @@ var PRODUCTS = [
     "name": "Харчовий бідон Litolan, 10 л (ручка-дуга)",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 234,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 234,
     "desc": "Харчовий бідон Litolan, 10 л (ручка-дуга)",
     "images": [
       "assets/images/products/bp_duga.jpg"
@@ -52237,8 +52237,8 @@ var PRODUCTS = [
     "name": "Харчовий бідон Litolan, 55л",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 618,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 618,
     "desc": "Харчовий бідон Litolan, 55л",
     "images": [
       "assets/images/products/bp_55l.jpg"
@@ -57926,8 +57926,8 @@ var PRODUCTS = [
     "name": "Шина HAISSER 14EST52 35см 14'' , паз 1,3мм(0,50''), крок 3/8''L, 52 ланки",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 346,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 346,
     "desc": "Шина HAISSER 14EST52 35см 14'' , паз 1,3мм(0,50''), крок 3/8''L, 52 ланки",
     "images": [
       "assets/images/products/bp_lanky.jpg"
@@ -57945,8 +57945,8 @@ var PRODUCTS = [
     "name": "Шина HAISSER 14SST50 35см 14'' , паз 1,3мм(0,50''), крок 3/8''L, 50 ланок",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 327,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 327,
     "desc": "Шина HAISSER 14SST50 35см 14'' , паз 1,3мм(0,50''), крок 3/8''L, 50 ланок",
     "images": [
       "assets/images/products/bp_lanok.jpg"
@@ -57964,8 +57964,8 @@ var PRODUCTS = [
     "name": "Шина для бензопили 3/8  Oregon 140SDEA041 DOUBLEGUARD",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 935,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 935,
     "desc": "Шина для бензопили 3/8  Oregon 140SDEA041 DOUBLEGUARD",
     "images": [
       "assets/images/products/bp_doubleguard.jpg"
@@ -57983,8 +57983,8 @@ var PRODUCTS = [
     "name": "Шина для бензопили 3/8 Oregon 183SFHD025 PRO-AM",
     "category": "instrument",
     "subcategory": "sadovatehnika",
-    "price": 1308,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1308,
     "desc": "Шина для бензопили 3/8 Oregon 183SFHD025 PRO-AM",
     "images": [
       "assets/images/products/bp_am.jpg"
@@ -58041,8 +58041,8 @@ var PRODUCTS = [
     "name": "Шнур капроновий плетений 2 мм КАНАТ-ТЕКС",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 55,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 55,
     "desc": "Шнур капроновий плетений 2 мм КАНАТ-ТЕКС",
     "images": [
       "assets/images/products/bp_teks.jpg"
@@ -58125,8 +58125,8 @@ var PRODUCTS = [
     "name": "Штикова лопата Werk WS-003",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 213,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 213,
     "desc": "Штикова лопата Werk WS-003",
     "images": [
       "assets/images/products/bp_003.jpg"
@@ -58651,8 +58651,8 @@ var PRODUCTS = [
     "name": "Щиток захисний 400х200 мм Werk 20005",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 329196,
-    "oldPrice": null,
+    "price": 196,
+    "oldPrice": 329,
     "desc": "Щиток захисний 400х200 мм Werk 20005",
     "images": [
       "assets/images/products/bp_20005.jpg"
@@ -58670,8 +58670,8 @@ var PRODUCTS = [
     "name": "Щиток захисний комбінований сітка, пластик Werk 20029",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 292,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 292,
     "desc": "Щиток захисний комбінований сітка, пластик Werk 20029",
     "images": [
       "assets/images/products/bp_20029.jpg"
@@ -58689,8 +58689,8 @@ var PRODUCTS = [
     "name": "Щиток захисний лицьовий Werk 20026",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 179105,
-    "oldPrice": null,
+    "price": 105,
+    "oldPrice": 179,
     "desc": "Щиток захисний лицьовий Werk 20026",
     "images": [
       "assets/images/products/bp_20026.jpg"
@@ -58708,8 +58708,8 @@ var PRODUCTS = [
     "name": "Щиток захисний сітчастий спрощений Werk 20027",
     "category": "dlyadomu",
     "subcategory": "gospodarchi",
-    "price": 236132,
-    "oldPrice": null,
+    "price": 132,
+    "oldPrice": 236,
     "desc": "Щиток захисний сітчастий спрощений Werk 20027",
     "images": [
       "assets/images/products/bp_20027.jpg"
@@ -59117,8 +59117,8 @@ var PRODUCTS = [
     "name": "Ящик для ручного інструменту Haisser HD Compact 1 18 \"90019",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1440,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1440,
     "desc": "Ящик для ручного інструменту Haisser HD Compact 1 18 \"90019",
     "images": [
       "assets/images/products/bp_90019.jpg"
@@ -59136,8 +59136,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів 15.5\" 375х155х165 Світязь 90132",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 263168,
-    "oldPrice": null,
+    "price": 168,
+    "oldPrice": 263,
     "desc": "Ящик для інструментів 15.5\" 375х155х165 Світязь 90132",
     "images": [
       "assets/images/products/bp_90132.jpg"
@@ -59155,8 +59155,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Caliber 40 400х200х186 Haisser 90098",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 397,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 397,
     "desc": "Ящик для інструментів Caliber 40 400х200х186 Haisser 90098",
     "images": [
       "assets/images/products/bp_90098.jpg"
@@ -59174,8 +59174,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Caliber 50 460х257х227  Haisser 90099",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 583416,
-    "oldPrice": null,
+    "price": 416,
+    "oldPrice": 583,
     "desc": "Ящик для інструментів Caliber 50 460х257х227  Haisser 90099",
     "images": [
       "assets/images/products/bp_90099.jpg"
@@ -59193,8 +59193,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Dark 50  476х258х226 Haisser 90139",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 756,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 756,
     "desc": "Ящик для інструментів Dark 50  476х258х226 Haisser 90139",
     "images": [
       "assets/images/products/bp_90139.jpg"
@@ -59212,8 +59212,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Dark 55  548х273х260  Haisser 90140",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 994,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 994,
     "desc": "Ящик для інструментів Dark 55  548х273х260  Haisser 90140",
     "images": [
       "assets/images/products/bp_90140.jpg"
@@ -59231,8 +59231,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Evo 40 360х193х186 Haisser 90102",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 452322,
-    "oldPrice": null,
+    "price": 322,
+    "oldPrice": 452,
     "desc": "Ящик для інструментів Evo 40 360х193х186 Haisser 90102",
     "images": [
       "assets/images/products/bp_90102.jpg"
@@ -59269,8 +59269,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Evo 50 Alu 476х260х256 Haisser 90105",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1154,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1154,
     "desc": "Ящик для інструментів Evo 50 Alu 476х260х256 Haisser 90105",
     "images": [
       "assets/images/products/bp_90105.jpg"
@@ -59288,8 +59288,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser 15\" Ergo Expert",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 298201,
-    "oldPrice": null,
+    "price": 201,
+    "oldPrice": 298,
     "desc": "Ящик для інструментів Haisser 15\" Ergo Expert",
     "images": [
       "assets/images/products/bp_expert.jpg"
@@ -59307,8 +59307,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser 16\" Stuff Basic",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 505,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 505,
     "desc": "Ящик для інструментів Haisser 16\" Stuff Basic",
     "images": [
       "assets/images/products/bp_basic.jpg"
@@ -59326,8 +59326,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser 19.5\" Ergo Basic 480x260x225",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 401,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 401,
     "desc": "Ящик для інструментів Haisser 19.5\" Ergo Basic 480x260x225",
     "images": [
       "assets/images/products/bp_480260225.jpg"
@@ -59345,8 +59345,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Evo 55 90104",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1214,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1214,
     "desc": "Ящик для інструментів Haisser Evo 55 90104",
     "images": [
       "assets/images/products/bp_90104.jpg"
@@ -59364,8 +59364,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Formula A 600",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 686461,
-    "oldPrice": null,
+    "price": 461,
+    "oldPrice": 686,
     "desc": "Ящик для інструментів Haisser Formula A 600",
     "images": [
       "assets/images/products/bp_600.jpg"
@@ -59383,8 +59383,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 30N 90116",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 310205,
-    "oldPrice": null,
+    "price": 205,
+    "oldPrice": 310,
     "desc": "Ящик для інструментів Haisser Optima 30N 90116",
     "images": [
       "assets/images/products/bp_90116.jpg"
@@ -59402,8 +59402,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 40 90100",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 470,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 470,
     "desc": "Ящик для інструментів Haisser Optima 40 90100",
     "images": [
       "assets/images/products/bp_90100.jpg"
@@ -59421,8 +59421,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 40N 90117",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 412,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 412,
     "desc": "Ящик для інструментів Haisser Optima 40N 90117",
     "images": [
       "assets/images/products/bp_90117.jpg"
@@ -59440,8 +59440,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 50 90101",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1166,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1166,
     "desc": "Ящик для інструментів Haisser Optima 50 90101",
     "images": [
       "assets/images/products/bp_90101.jpg"
@@ -59459,8 +59459,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 50 Mtl 90119",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1675,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1675,
     "desc": "Ящик для інструментів Haisser Optima 50 Mtl 90119",
     "images": [
       "assets/images/products/bp_90119.jpg"
@@ -59478,8 +59478,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Optima 55 90118",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1579,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1579,
     "desc": "Ящик для інструментів Haisser Optima 55 90118",
     "images": [
       "assets/images/products/bp_90118.jpg"
@@ -59516,8 +59516,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів Haisser Smart IML 32 90108",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 394265,
-    "oldPrice": null,
+    "price": 265,
+    "oldPrice": 394,
     "desc": "Ящик для інструментів Haisser Smart IML 32 90108",
     "images": [
       "assets/images/products/bp_90108.jpg"
@@ -59592,8 +59592,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів SYSTEM PRO 700  650x270x272 Haisser 90039",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 2510,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2510,
     "desc": "Ящик для інструментів SYSTEM PRO 700  650x270x272 Haisser 90039",
     "images": [
       "assets/images/products/bp_90039.jpg"
@@ -59611,8 +59611,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів System Two Plus Vario Haisser 90122",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 1565,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 1565,
     "desc": "Ящик для інструментів System Two Plus Vario Haisser 90122",
     "images": [
       "assets/images/products/bp_90122.jpg"
@@ -59649,8 +59649,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів з висувними шухлядами System PRO Basic Haisser 90123",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 3570,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3570,
     "desc": "Ящик для інструментів з висувними шухлядами System PRO Basic Haisser 90123",
     "images": [
       "assets/images/products/bp_90123.jpg"
@@ -59668,8 +59668,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів на колесах Heavy 450х360х640 Haisser 90112",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 2786,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 2786,
     "desc": "Ящик для інструментів на колесах Heavy 450х360х640 Haisser 90112",
     "images": [
       "assets/images/products/bp_90112.jpg"
@@ -59687,8 +59687,8 @@ var PRODUCTS = [
     "name": "Ящик для інструментів на колесах System Two Plus Vario Haisser 90121",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 3990,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 3990,
     "desc": "Ящик для інструментів на колесах System Two Plus Vario Haisser 90121",
     "images": [
       "assets/images/products/bp_90121.jpg"
@@ -59706,8 +59706,8 @@ var PRODUCTS = [
     "name": "Ящик-органайзер пластиковий з регульованими секціями 36 відділень Haisser А 400/В 400 Twin",
     "category": "instrument",
     "subcategory": "ruchniy",
-    "price": 599,
-    "oldPrice": null,
+    "price": 0,
+    "oldPrice": 599,
     "desc": "Ящик-органайзер пластиковий з регульованими секціями 36 відділень Haisser А 400/В 400 Twin",
     "images": [
       "assets/images/products/bp_twin.jpg"
@@ -59722,7 +59722,7 @@ var PRODUCTS = [
   }
 ];
 
-// =================================================================
+// ====================================================================
 //  HELPERS
 // ============================================
 function findProduct(id) { for (var i=0;i<PRODUCTS.length;i++) if (PRODUCTS[i].id===id) return PRODUCTS[i]; return null; }
@@ -59830,12 +59830,12 @@ function productCardHtml(p, showCategory) {
       '<a href="'+detailLink+'"><h3 class="product-title">'+p.name+'</h3></a>'+
       '<p class="product-desc">'+p.desc.substring(0,75)+'\u2026</p>'+
       '<div class="product-footer">'+
-        (p.price > 0 ? 
+        (p.price > 0 && p.available !== false ? 
           '<div class="product-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>'+
           '<button class="btn btn-cta btn-sm btn-add-cart" aria-label="В кошик" data-id="'+p.id+'">'+
           '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
           '<span class="add-cart-text" style="margin-left:6px;">\u0412 \u043a\u043e\u0448\u0438\u043a</span></button>'
-        : '<div class="product-price" style="font-size:1rem;color:#888;">Немає в наявності</div>'
+        : '<div class="product-price" style="font-size:1rem;color:#888;">\u041d\u0435\u043c\u0430\u0454 \u0432 \u043d\u0430\u044f\u0432\u043d\u043e\u0441\u0442\u0456</div>'
         )+
       '</div>'+
     '</div>'+
@@ -60091,8 +60091,8 @@ function renderProductPage(p) {
   html += '<div class="product-detail-info">';
   html += '<div class="product-detail-cat">'+catInfo.name+'</div>';
   html += '<h1 class="product-detail-title">'+p.name+'</h1>';
-  html += availBadge(p.available)+' ';
-  if (p.price > 0) {
+  html += availBadge(p.available && p.price > 0)+' ';
+  if (p.price > 0 && p.available !== false) {
     html += '<div class="product-detail-price">'+p.price.toLocaleString('uk-UA')+' \u20b4</div>';
     html += '<p class="product-detail-desc">'+p.desc+'</p>';
     html += specsHtml;
@@ -60100,16 +60100,15 @@ function renderProductPage(p) {
     html += '<button class="btn btn-cta btn-lg btn-add-cart-detail" data-id="'+p.id+'">'+
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right:8px"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>'+
       '\u0414\u043e\u0434\u0430\u0442\u0438 \u0432 \u043a\u043e\u0448\u0438\u043a</button>';
+    html += '<a href="tel:+380978973207" class="btn btn-outline btn-lg">'+
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right:6px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>'+
+      '\u0417\u0430\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443\u0432\u0430\u0442\u0438</a>';
+    html += '</div>';
   } else {
-    html += '<div class="product-detail-price" style="font-size:1.5rem;color:#888;">Немає в наявності</div>';
+    html += '<div class="product-detail-price" style="font-size:1.5rem;color:#888;">\u041d\u0435\u043c\u0430\u0454 \u0432 \u043d\u0430\u044f\u0432\u043d\u043e\u0441\u0442\u0456</div>';
     html += '<p class="product-detail-desc">'+p.desc+'</p>';
     html += specsHtml;
-    html += '<div class="product-detail-actions">';
   }
-  html += '<a href="tel:+380978973207" class="btn btn-outline btn-lg">'+
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right:6px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>'+
-    '\u0417\u0430\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443\u0432\u0430\u0442\u0438</a>';
-  html += '</div>';
   html += '<a href="'+catLink+'" class="product-back-link">'+
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>'+
     ' \u041d\u0430\u0437\u0430\u0434 \u0434\u043e \xab'+catInfo.name+'\xbb</a>';
