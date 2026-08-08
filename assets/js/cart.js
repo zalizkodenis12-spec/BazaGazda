@@ -20,7 +20,8 @@ function gcAdd(product) {
   for (var i=0; i<cart.length; i++) {
     if (cart[i].id === product.id) { cart[i].qty++; found=true; break; }
   }
-  if (!found) cart.push({ id:product.id, name:product.name, price:product.price, img:product.img||'', qty:1 });
+  var imgUrl = (product.images && product.images.length > 0) ? product.images[0] : (product.img || '');
+  if (!found) cart.push({ id:product.id, name:product.name, price:product.price, img:imgUrl, qty:1 });
   gcSaveCart(cart);
   gcRefreshBadge();
   gcToast(product.name);
