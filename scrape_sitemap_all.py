@@ -4,6 +4,7 @@ import json
 import re
 import os
 import sys
+import hashlib
 from concurrent.futures import ThreadPoolExecutor
 
 sys.stdout.reconfigure(line_buffering=True)
@@ -12,57 +13,36 @@ SITEMAP_URL = 'https://budpostach.ua/fx-sitemap/'
 OUTPUT_JSON = 'scraped_products_sitemap.json'
 IMG_DIR = 'assets/images/products'
 
-def get_technika_sub(url_lower):
-    if 'velyka' in url_lower or 'krupnaya' in url_lower or 'kholodil' in url_lower or 'pralni' in url_lower:
-        return 'velyka'
-    if 'dribna' in url_lower or 'melkaya' in url_lower or 'kuhonnaya' in url_lower or 'pylososy' in url_lower:
-        return 'dribna'
-    if 'klimat' in url_lower or 'konditsioner' in url_lower or 'obigrivachi' in url_lower:
-        return 'klimat'
-    if 'vbudovana' in url_lower or 'vstraivaemaya' in url_lower or 'varochni' in url_lower:
-        return 'vbudovana'
-    return 'all'
-
 def map_category(breadcrumbs):
-    # breadcrumbs is a list of strings
-    if not breadcrumbs:
-        return None
+    if not breadcrumbs: return None
     
     cats_str = [c.lower() for c in breadcrumbs]
     full_str = " | ".join(cats_str)
     
-    # "Садова техніка" -> instrument / sadovatehnika
-    if 'садова техніка' in full_str:
-        return ('instrument', 'sadovatehnika')
-        
-    # "Побутова техніка" -> technika / ...
-    if 'побутова техніка' in full_str:
-        return ('technika', get_technika_sub(full_str))
-        
-    # "Господарчі товари" -> dlyadomu / gospodarchi
-    if 'господарчі товари' in full_str:
-        if 'сівалк' in full_str or 'сеялк' in full_str:
-            return None
-        return ('dlyadomu', 'gospodarchi')
-        
-    # "Інструменти та обладнання" -> instrument / all
-    if 'інструменти та обладнання' in full_str or 'инструменты и оборудование' in full_str:
-        return ('instrument', 'all')
-        
-    # "Мото та вело електротранспорт" -> technika / transport
-    if 'транспорт' in full_str:
-        if 'скутер' in full_str or 'scooter' in full_str or 'шолом' in full_str or 'шлем' in full_str:
-            return ('technika', 'transport')
+    # Exact subcategory name from the site
+    sub_cat = breadcrumbs[-1]
+    if sub_cat.lower() == 'головна' or sub_cat.lower() == 'главная':
         return None
         
-    # "Будматеріали" -> budmaterialy / all
-    if 'будматеріали' in full_str or 'стройматериалы' in full_str:
-        return ('budmaterialy', 'all')
-        
-    # "Ручний та витратний інструмент" -> instrument / ruchniy
+    if 'посуд' in full_str or 'посуда' in full_str:
+        return ('posud', sub_cat)
+    if 'садова техніка' in full_str or 'садовая техника' in full_str:
+        return ('sadovatehnika', sub_cat)
+    if 'побутова техніка' in full_str or 'бытовая техника' in full_str:
+        return ('technika', sub_cat)
+    if 'господарчі товари' in full_str or 'хозяйственные товары' in full_str:
+        if 'сівалк' in full_str or 'сеялк' in full_str: return None
+        return ('gospodarchi', sub_cat)
     if 'ручний та витратний інструмент' in full_str or 'ручной инструмент' in full_str:
-        return ('instrument', 'ruchniy')
-        
+        return ('ruchniy', sub_cat)
+    if 'інструменти та обладнання' in full_str or 'инструменты и оборудование' in full_str:
+        return ('instrument', sub_cat)
+    if 'будматеріали' in full_str or 'стройматериалы' in full_str:
+        return ('budmaterialy', sub_cat)
+    if 'транспорт' in full_str:
+        if 'скутер' in full_str or 'scooter' in full_str or 'електроскутер' in full_str or 'шолом' in full_str or 'шлем' in full_str:
+            return ('transport', sub_cat)
+            
     return None
 
 def process_product(url):
@@ -73,7 +53,7 @@ def process_product(url):
             
         soup = BeautifulSoup(r.text, 'html.parser')
         
-        breadcrumbs = [a.text.strip() for a in soup.select('.breadcrumb a') if a.text.strip()]
+        breadcrumbs = [a.text.strip() for a in soup.select('.breadcrumb a, .breadcrumb span') if a.text.strip()]
         cat_mapping = map_category(breadcrumbs)
         
         if not cat_mapping:
@@ -88,7 +68,6 @@ def process_product(url):
         
         # Prices
         price_elem = soup.select_one('.product-page__price')
-        
         price = 0
         oldPrice = None
         if price_elem:
@@ -109,7 +88,6 @@ def process_product(url):
                 oldPrice = None
                     
         # ID
-        import hashlib
         pid = "bp_" + hashlib.md5(url.encode('utf-8')).hexdigest()[:8]
             
         # Desc
@@ -118,18 +96,24 @@ def process_product(url):
         if desc_elem:
             desc = desc_elem.text.strip()
             
-        # Specs
+        # Specs & Brand
         specs = []
+        brand = "Інший"
         spec_text = soup.select_one('.product-page__short-attribute')
         if spec_text:
             lines = [line.strip() for line in spec_text.text.split('\n') if line.strip()]
             for line in lines:
                 if ':' in line:
                     parts = line.split(':', 1)
-                    specs.append({'label': parts[0].strip(), 'value': parts[1].strip()})
+                    lbl = parts[0].strip()
+                    val = parts[1].strip()
+                    specs.append({'label': lbl, 'value': val})
+                    if 'Виробник' in lbl or 'Бренд' in lbl:
+                        brand = val
                 else:
-                    # sometimes it's just value, but we need a label
-                    specs.append({'label': 'Характеристика', 'value': line})
+                    specs.append({'label': '-', 'value': line})
+                    if 'Виробник' in line:
+                        brand = line.replace('Виробник', '').strip()
         
         # Image
         img_elem = soup.select_one('.product-page__image-main__image')
@@ -145,6 +129,7 @@ def process_product(url):
             'name': name,
             'category': main_cat,
             'subcategory': sub_cat,
+            'brand': brand,
             'price': price,
             'oldPrice': oldPrice,
             'desc': desc,
@@ -163,7 +148,6 @@ def main():
     urls = [loc.text for loc in soup.find_all('loc') if '/product/' in loc.text]
     print(f"Found {len(urls)} product URLs in sitemap.")
     
-    # We can test with a slice first, or just run all
     results = []
     
     print("Processing products...")
@@ -172,7 +156,6 @@ def main():
         count = 0
         for future in futures:
             try:
-                # 30 second timeout per future to prevent completely hanging
                 res = future.result(timeout=30)
             except Exception as e:
                 res = None
@@ -182,7 +165,6 @@ def main():
             if res:
                 results.append(res)
                 
-            # Incremental save every 1000 items
             if count % 1000 == 0:
                 with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
                     json.dump(results, f, ensure_ascii=False, indent=2)

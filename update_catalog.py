@@ -11,23 +11,63 @@ for p in products:
     if p.get('_src_img'):
         p['images'] = [p['_src_img']]
 
-print("Reading catalog.js...")
 with open('assets/js/catalog.js', 'r', encoding='utf-8') as f:
     content = f.read()
 
-# Replace the PRODUCTS array
-# It starts with "const PRODUCTS = [" and ends with the next line starting with "];" or similar.
-# Since it might be huge, we'll use a regex to find everything between 'const PRODUCTS = [' and '];'
-# Actually, the start is "const PRODUCTS = [" and it ends before "const CATEGORIES ="
-pattern = r'(const PRODUCTS = )\[.*?\];(.*?const CATEGORIES =)'
+idx = content.find('function findProduct(id)')
+if idx == -1:
+    print("Error: Could not find logic code in catalog.js")
+    exit(1)
 
-def replacer(match):
-    return match.group(1) + json.dumps(products, ensure_ascii=False, indent=2) + ";" + match.group(2)
+logic_code = content[idx:]
+
+header = """// ============================================
+//  CATALOG DATA
+// ============================================
+var CATEGORIES = [
+  { id:'technika',     name:'Побутова техніка',        desc:'Для дому та кухні', img:'assets/images/Побутова техніка.jpg' },
+  { id:'budmaterialy', name:'Будматеріали',   desc:'Все для ремонту', img:'assets/images/Будматеріали.jpg' },
+  { id:'instrument',   name:'Інструменти',      desc:'Електро та ручний', img:'assets/images/Інструменти.jpg' },
+  { id:'posud',        name:'Посуд',          desc:'Все для кухні', img:'assets/images/posud.jpg' },
+  { id:'dlyadomu',     name:'Господарчі товари',      desc:'Для саду і городу', img:'assets/images/Господарчі товари.jpg' }
+];
+
+var PRODUCTS = """ + json.dumps(products, ensure_ascii=False, indent=2) + """;
+
+var SUBCATEGORIES = {};
+var BRANDS = {};
+
+PRODUCTS.forEach(function(p) {
+    if (!SUBCATEGORIES[p.category]) SUBCATEGORIES[p.category] = new Set();
+    if (p.subcategory && p.subcategory !== 'all') {
+        SUBCATEGORIES[p.category].add(p.subcategory);
+    }
+    
+    if (!BRANDS[p.category]) BRANDS[p.category] = new Set();
+    if (p.brand && p.brand !== 'Інший' && p.brand !== '-') {
+        BRANDS[p.category].add(p.brand);
+    }
+});
+
+for (var cat in SUBCATEGORIES) {
+    var arr = [{ id: 'all', name: 'Усі товари' }];
+    Array.from(SUBCATEGORIES[cat]).sort().forEach(function(sub) {
+        arr.push({ id: sub, name: sub });
+    });
+    SUBCATEGORIES[cat] = arr;
+}
+for (var cat in BRANDS) {
+    var arr = [];
+    Array.from(BRANDS[cat]).sort().forEach(function(brand) {
+        arr.push({ id: brand, name: brand });
+    });
+    BRANDS[cat] = arr;
+}
+
+"""
 
 print("Replacing data in catalog.js...")
-new_content = re.sub(pattern, replacer, content, flags=re.DOTALL)
-
 with open('assets/js/catalog.js', 'w', encoding='utf-8') as f:
-    f.write(new_content)
+    f.write(header + "\n" + logic_code)
 
 print("catalog.js updated successfully.")
