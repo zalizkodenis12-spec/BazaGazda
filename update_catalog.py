@@ -29,7 +29,7 @@ var CATEGORIES = [
   { id:'budmaterialy', name:'Будматеріали',   desc:'Все для ремонту', img:'assets/images/Будматеріали.jpg' },
   { id:'instrument',   name:'Інструменти',      desc:'Електро та ручний', img:'assets/images/Інструменти.jpg' },
   { id:'posud',        name:'Посуд',          desc:'Все для кухні', img:'assets/images/posud.jpg' },
-  { id:'dlyadomu',     name:'Господарчі товари',      desc:'Для саду і городу', img:'assets/images/Господарчі товари.jpg' }
+  { id:'gospodarchi',  name:'Господарчі товари',      desc:'Для саду і городу', img:'assets/images/Господарчі товари.jpg' }
 ];
 
 var PRODUCTS = """ + json.dumps(products, ensure_ascii=False, indent=2) + """;
