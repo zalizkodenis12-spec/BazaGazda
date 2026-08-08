@@ -88,30 +88,29 @@ def process_product(url):
         
         # Prices
         price_elem = soup.select_one('.product-page__price')
-        old_price_elem = soup.select_one('.product-page__price-old')
         
         price = 0
-        if price_elem:
-            ptext = price_elem.text.replace(' ', '').replace('грн', '').replace('₴', '').replace(',', '.')
-            match = re.search(r'\d+(?:\.\d+)?', ptext)
-            if match:
-                price = float(match.group())
-                if price.is_integer():
-                    price = int(price)
-                    
         oldPrice = None
-        if old_price_elem:
-            ptext = old_price_elem.text.replace(' ', '').replace('грн', '').replace('₴', '').replace(',', '.')
-            match = re.search(r'\d+(?:\.\d+)?', ptext)
-            if match:
-                oldPrice = float(match.group())
-                if oldPrice.is_integer():
-                    oldPrice = int(oldPrice)
+        if price_elem:
+            d_price = price_elem.get('data-price', '0')
+            d_special = price_elem.get('data-special', '0')
+            
+            p_val = float(d_price) if d_price else 0
+            s_val = float(d_special) if d_special else 0
+            
+            p_val = int(p_val) if p_val.is_integer() else p_val
+            s_val = int(s_val) if s_val.is_integer() else s_val
+            
+            if s_val > 0:
+                price = s_val
+                oldPrice = p_val
+            else:
+                price = p_val
+                oldPrice = None
                     
         # ID
-        pid = "bp_" + re.sub(r'\D', '', url.split('-')[0].split('/')[-1])
-        if not pid or pid == "bp_":
-            pid = "bp_" + str(hash(url))[-8:]
+        import hashlib
+        pid = "bp_" + hashlib.md5(url.encode('utf-8')).hexdigest()[:8]
             
         # Desc
         desc = name
