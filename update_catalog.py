@@ -58,7 +58,21 @@ for (var cat in SUBCATEGORIES) {
 }
 for (var cat in BRANDS) {
     var arr = [];
-    Array.from(BRANDS[cat]).sort().forEach(function(brand) {
+    var brandsList = Array.from(BRANDS[cat]).sort(function(a, b) {
+        var getRank = function(brand) {
+            var bLower = brand.toLowerCase();
+            if (bLower.includes('procraft')) return 1;
+            if (bLower.includes('forte')) return 2;
+            if (bLower.includes('bosch')) return 998;
+            if (bLower.includes('makita')) return 999;
+            return 50;
+        };
+        var rankA = getRank(a);
+        var rankB = getRank(b);
+        if (rankA !== rankB) return rankA - rankB;
+        return a.localeCompare(b);
+    });
+    brandsList.forEach(function(brand) {
         arr.push({ id: brand, name: brand });
     });
     BRANDS[cat] = arr;
