@@ -58,7 +58,18 @@ for (var cat in SUBCATEGORIES) {
 }
 for (var cat in BRANDS) {
     var arr = [];
-    var brandsList = Array.from(BRANDS[cat]).sort(function(a, b) {
+    var rawBrands = Array.from(BRANDS[cat]);
+    if (cat === 'instrument') {
+        var allowedInst = ['forte', 'procraft', 'haisser', 'сталь', 'x-treme', 'світязь'];
+        rawBrands = rawBrands.filter(function(b) {
+            var bLower = b.toLowerCase();
+            return allowedInst.some(function(al) { return bLower.includes(al); });
+        });
+    } else if (cat === 'technika') {
+        rawBrands = rawBrands.filter(function(b) { return b.toLowerCase().includes('grunhelm'); });
+    }
+    
+    var brandsList = rawBrands.sort(function(a, b) {
         var getRank = function(brand) {
             var bLower = brand.toLowerCase();
             if (bLower.includes('procraft')) return 1;
